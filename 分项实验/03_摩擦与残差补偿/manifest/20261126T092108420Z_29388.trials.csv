@@ -1,0 +1,9 @@
+session_id,trial_id,phase,group,use,direction,target_mm,approach_mm,start_mm,speed_mm_s,hold_s,window_s,period_s,pos_tol_mm,vel_tol_mm_s,status,reason
+20261126T092108420Z_29388,1,AF,4,speed_validation,-1,5.5,31.5,31.502,14,0.25,1,0.005,0.01,0.05,completed,ok
+20261126T092108420Z_29388,2,AF,4,speed_validation,1,31.5,5.5,5.503,14,0.25,1,0.005,0.01,0.05,completed,ok
+20261126T092108420Z_29388,3,AF,4,development,-1,5.5,31.5,31.497,2,0.25,1,0.005,0.01,0.05,completed,ok
+20261126T092108420Z_29388,4,AF,4,development,1,31.5,5.5,5.497,2,0.25,1,0.005,0.01,0.05,completed,ok
+20261126T092108420Z_29388,5,AF,4,development,-1,5.5,31.5,31.503,40,0.25,1,0.005,0.01,0.05,completed,ok
+20261126T092108420Z_29388,6,AF,4,development,1,31.5,5.5,5.501,40,0.25,1,0.005,0.01,0.05,completed,ok
+20261126T092108420Z_29388,7,AF,4,development,1,31.5,5.5,5.498,3,0.25,1,0.005,0.01,0.05,completed,ok
+20261126T092108420Z_29388,8,AF,4,development,-1,5.5,31.5,31.501,3,0.25,1,0.005,0.01,0.05,completed,ok

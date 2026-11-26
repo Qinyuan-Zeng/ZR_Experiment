@@ -1,0 +1,9 @@
+session_id,trial_id,phase,group,use,direction,target_mm,approach_mm,speed_mm_s
+20261126T085020424Z_42452,1,AF,1,development,1,31.5,5.5,6
+20261126T085020424Z_42452,2,AF,1,development,-1,5.5,31.5,6
+20261126T085020424Z_42452,3,AF,1,development,1,31.5,5.5,24
+20261126T085020424Z_42452,4,AF,1,development,-1,5.5,31.5,24
+20261126T085020424Z_42452,5,AF,1,development,-1,5.5,31.5,8
+20261126T085020424Z_42452,6,AF,1,development,1,31.5,5.5,8
+20261126T085020424Z_42452,7,AF,1,development,-1,5.5,31.5,20
+20261126T085020424Z_42452,8,AF,1,development,1,31.5,5.5,20

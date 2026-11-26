@@ -1,0 +1,3 @@
+session_id,trial_id,phase,group,use,stage,segment,direction,target_mm,speed_mm_s,t_s,read_s,gap_s,x_mm,v_mm_s,current_fb_raw,status,enabled,alarm,mode,planner,limit_pos,limit_neg,temp_card_c,powered_s,rc_pos,rc_vel,rc_current,rc_status,rc_mode,rc_limit,rc_planner,rc_temp,valid
+20261126T083845536Z_2212,1,AF,1,development,before_trial,0,1,5.5,2,0.0061772,0.0004735,0,5.5,0,250,1073742336,1,0,2,0,0,0,nan,nan,0,0,0,0,0,0,0,-1,1
+20261126T083845536Z_2212,1,AF,1,development,approach_start,0,1,5.5,2,0.0123015,0.0003528,0.0061243,5.5,0,250,1073742336,1,0,2,0,0,0,nan,nan,0,0,0,0,0,0,0,-1,1

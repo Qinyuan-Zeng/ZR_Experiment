@@ -1,0 +1,31 @@
+{
+  "session": "20261126T072144345Z_18692",
+  "use": "development",
+  "current_unit": "raw",
+  "grid_pulse": [
+    3500,
+    22000,
+    250
+  ],
+  "policy": {
+    "gapPeriods": 2.5,
+    "speedFraction": 0.1,
+    "accelFraction": 0.1,
+    "accelFloor": 1,
+    "gridMm": 0.25,
+    "minApproachFraction": 0.95,
+    "scanDerivativeSpanS": 0.05
+  },
+  "alpha_sensitivity_only": 3.312125163540513e-05,
+  "alpha_unit": "raw/(pulse/s^2)",
+  "sha256": {
+    "分项实验\\01_位置相关空载电流辨识\\models\\position_B_primary_v1.json": "e854bcf3816a68e2b3a3952936c7fb1ef970fb2979cdd947c788e3a75e49e195",
+    "分项实验\\02_等效惯性电流辨识\\results\\b\\Z-BP_20261125-155725_864_47920_summary.json": "2261721bd473202466a932cdb2f61a8aad3a3c9e338743edd190a0db2fbbea71",
+    "分项实验\\03_摩擦与残差补偿\\manifest\\20261126T072144345Z_18692.txt": "c203a23739868f4ac49e665cd0a2adccdee2a0be20ce4dec11d94d604f638937",
+    "分项实验\\03_摩擦与残差补偿\\manifest\\20261126T072144345Z_18692.plan.csv": "88114423c3f9c35f4d9c94e458652cbc64541043d188d21a2d255d3ffe8cf727",
+    "分项实验\\03_摩擦与残差补偿\\manifest\\20261126T072144345Z_18692.trials.csv": "0088f6f41745feb798304cf8c292130ef4f7a678870fbccd2bef50f6a5ede5d6",
+    "分项实验\\03_摩擦与残差补偿\\scripts\\a0_replay.py": "602c9b7c7d545dd06b0386d54cb8632f5cd5de9cf4c82c847d5d12e7fe6c17b2",
+    "分项实验\\03_摩擦与残差补偿\\data\\raw\\20261126T072144345Z_18692.csv": "d495df5e15025588f9f32e146b003fa3db1b88a092c5de8815ab0e905e326a51"
+  },
+  "protocol_id": "Z-A0F-01"
+}

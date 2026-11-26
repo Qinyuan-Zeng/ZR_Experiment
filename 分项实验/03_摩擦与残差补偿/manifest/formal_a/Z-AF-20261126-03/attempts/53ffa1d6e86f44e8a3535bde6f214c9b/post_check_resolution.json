@@ -1,0 +1,10 @@
+{
+  "session": "20261126T085111629Z_9492",
+  "original_read": "post_initial_failed.txt",
+  "original_sha256": "c1635db7ff93b9b38d3f6fe03e22503c83d22582aebb3de5c416b46e910ff533",
+  "recheck": "post_recheck.txt",
+  "recheck_sha256": "56024da8d72821e3e69af1226e974273d30bd808bb79bce9ca6f285a938a98bc",
+  "elapsed_s": 28.946362733840942,
+  "recorded_utc": "2026-11-26T09:07:42.050589+00:00",
+  "decision": "Use the passed independent recheck. Retain the initial failed read. Acquisition completed and no later formal A motion was recorded."
+}

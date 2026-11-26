@@ -1,0 +1,13 @@
+{
+  "pairs": [
+    {
+      "round": 3,
+      "batch": 5,
+      "pair": "R3-V18000",
+      "speed": 18000,
+      "first": 1,
+      "split": "development"
+    }
+  ],
+  "field_session": "Z-AF-20261126-S01"
+}

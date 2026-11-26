@@ -1,0 +1,6 @@
+acc_pulse_ms2=0.396728515625
+dec_pulse_ms2=0.396728515625
+start_vel_pulse_ms=0
+smooth_ms=0
+target_pulse=31500
+target_velocity_pulse_ms=2.0

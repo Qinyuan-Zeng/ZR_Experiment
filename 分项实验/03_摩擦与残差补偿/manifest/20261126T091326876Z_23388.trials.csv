@@ -1,0 +1,8 @@
+session_id,trial_id,phase,group,use,direction,target_mm,approach_mm,start_mm,speed_mm_s,hold_s,window_s,period_s,pos_tol_mm,vel_tol_mm_s,status,reason
+20261126T091326876Z_23388,1,AF,3,development,-1,5.5,31.5,31.502,12,0.25,1,0.005,0.01,0.05,completed,ok
+20261126T091326876Z_23388,2,AF,3,development,1,31.5,5.5,5.503,12,0.25,1,0.005,0.01,0.05,completed,ok
+20261126T091326876Z_23388,3,AF,3,development,-1,5.5,31.5,31.497,16,0.25,1,0.005,0.01,0.05,completed,ok
+20261126T091326876Z_23388,4,AF,3,development,1,31.5,5.5,5.503,16,0.25,1,0.005,0.01,0.05,completed,ok
+20261126T091326876Z_23388,5,AF,3,speed_validation,1,31.5,5.5,5.498,14,0.25,1,0.005,0.01,0.05,completed,ok
+20261126T091326876Z_23388,6,AF,3,speed_validation,-1,5.5,31.5,31.497,14,0.25,1,0.005,0.01,0.05,completed,ok
+20261126T091326876Z_23388,7,AF,3,development,1,31.5,5.5,5.504,2,0.25,1,0.005,0.01,0.05,aborted,formal_A_idle_feedback_or_protection_invalid

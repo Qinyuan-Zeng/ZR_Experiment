@@ -1,0 +1,37 @@
+{
+  "pairs": [
+    {
+      "round": 4,
+      "batch": 3,
+      "pair": "R4-V10000",
+      "speed": 10000,
+      "first": -1,
+      "split": "development"
+    },
+    {
+      "round": 4,
+      "batch": 3,
+      "pair": "R4-V18000",
+      "speed": 18000,
+      "first": -1,
+      "split": "development"
+    },
+    {
+      "round": 4,
+      "batch": 3,
+      "pair": "R4-V12000",
+      "speed": 12000,
+      "first": 1,
+      "split": "development"
+    },
+    {
+      "round": 4,
+      "batch": 3,
+      "pair": "R4-V16000",
+      "speed": 16000,
+      "first": 1,
+      "split": "development"
+    }
+  ],
+  "field_session": "Z-AF-20261126-S01"
+}

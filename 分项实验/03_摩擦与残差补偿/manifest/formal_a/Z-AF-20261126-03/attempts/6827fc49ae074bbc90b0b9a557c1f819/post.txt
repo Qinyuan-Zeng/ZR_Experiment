@@ -1,0 +1,17 @@
+position_pulse=31497
+planned_pulse=31500
+velocity_pulse_s=0
+planned_velocity_pulse_s=0
+following_error_pulse=2
+status_word=1073742336
+enabled=1
+moving=0
+fault=0
+limit_plus=0
+limit_minus=0
+mode=2
+planner=0
+smooth_stop_dec_pulse_ms2=0.994873046875
+abrupt_stop_dec_pulse_ms2=999.51171875
+controller_follow_limit_pulse=0
+ready=1

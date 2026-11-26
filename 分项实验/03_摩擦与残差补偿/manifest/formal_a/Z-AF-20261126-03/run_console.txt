@@ -1,0 +1,684 @@
+Round 1, batch 1; 3/85 accepted; field session Z-AF-20261126-S01
+3/85 pairs accepted
+Round 1 batch 1: R1-V36000
+Actual field session ID: Z-AF-20261126-S01
+Confirm field state and batch authorization. Type READY: READY
+Independent pre-check passed. Transfer and scan stopping margins passed.
+
+AF | 2 trials | command range [0,32000] pulses
+AF endpoint arrival tolerance: +/-10 pulses; endpoint feedback allowance: 10 pulses
+Scan 36000 pulses/s | nominal plateau 22760 pulses | estimated usable [8920,28080] pulses, length 19160 pulses
+Analysis window 10000 to 22000 pulses
+trial 1 group 1 | development | 31500 -> 5500 pulses | direction -1 | 36000 pulses/s
+trial 2 group 1 | development | 5500 -> 31500 pulses | direction 1 | 36000 pulses/s
+Estimated 17.8794 s including holds, plus settling and read overhead.
+Confirm this authorized batch. Type START: START
+Session 20261126T084904150Z_34104
+Samples 2693, missing 0, late 0, mean read 0.000407081 s, mean period 0.00593763 s
+1/1 pairs accepted | 60c4cc380054409086dcdd08a063cfae
+Round 1, batch 2; 4/85 accepted; field session Z-AF-20261126-S01
+4/85 pairs accepted
+Round 1 batch 2: R1-V4000, R1-V32000, R1-V5000, R1-V28000
+Actual field session ID: Z-AF-20261126-S01
+Confirm field state and batch authorization. Type READY: READY
+Independent pre-check passed. Transfer and scan stopping margins passed.
+
+AF | 8 trials | command range [0,32000] pulses
+AF endpoint arrival tolerance: +/-10 pulses; endpoint feedback allowance: 10 pulses
+Scan 4000 pulses/s | nominal plateau 25960 pulses | estimated usable [5720,31280] pulses, length 25560 pulses
+Scan 32000 pulses/s | nominal plateau 23440 pulses | estimated usable [8380,28620] pulses, length 20240 pulses
+Scan 5000 pulses/s | nominal plateau 25937.5 pulses | estimated usable [5781.25,31218.8] pulses, length 25437.5 pulses
+Scan 28000 pulses/s | nominal plateau 24040 pulses | estimated usable [7880,29120] pulses, length 21240 pulses
+Analysis window 10000 to 22000 pulses
+trial 1 group 1 | speed_validation | 5500 -> 31500 pulses | direction 1 | 4000 pulses/s
+trial 2 group 1 | speed_validation | 31500 -> 5500 pulses | direction -1 | 4000 pulses/s
+trial 3 group 1 | speed_validation | 5500 -> 31500 pulses | direction 1 | 32000 pulses/s
+trial 4 group 1 | speed_validation | 31500 -> 5500 pulses | direction -1 | 32000 pulses/s
+trial 5 group 1 | development | 31500 -> 5500 pulses | direction -1 | 5000 pulses/s
+trial 6 group 1 | development | 5500 -> 31500 pulses | direction 1 | 5000 pulses/s
+trial 7 group 1 | development | 31500 -> 5500 pulses | direction -1 | 28000 pulses/s
+trial 8 group 1 | development | 5500 -> 31500 pulses | direction 1 | 28000 pulses/s
+Estimated 55.4871 s including holds, plus settling and read overhead.
+Confirm this authorized batch. Type START: START
+Session 20261126T084921850Z_16364
+Samples 9557, missing 0, late 1, mean read 0.000404397 s, mean period 0.00594106 s
+4/4 pairs accepted | 1fc4bce724c24b5b9eaa86eb3638214f
+Round 1, batch 3; 8/85 accepted; field session Z-AF-20261126-S01
+8/85 pairs accepted
+Round 1 batch 3: R1-V6000, R1-V24000, R1-V8000, R1-V20000
+Actual field session ID: Z-AF-20261126-S01
+Confirm field state and batch authorization. Type READY: READY
+Independent pre-check passed. Transfer and scan stopping margins passed.
+
+AF | 8 trials | command range [0,32000] pulses
+AF endpoint arrival tolerance: +/-10 pulses; endpoint feedback allowance: 10 pulses
+Scan 6000 pulses/s | nominal plateau 25910 pulses | estimated usable [5845,31155] pulses, length 25310 pulses
+Scan 24000 pulses/s | nominal plateau 24560 pulses | estimated usable [7420,29580] pulses, length 22160 pulses
+Scan 8000 pulses/s | nominal plateau 25840 pulses | estimated usable [5980,31020] pulses, length 25040 pulses
+Scan 20000 pulses/s | nominal plateau 25000 pulses | estimated usable [7000,30000] pulses, length 23000 pulses
+Analysis window 10000 to 22000 pulses
+trial 1 group 1 | development | 5500 -> 31500 pulses | direction 1 | 6000 pulses/s
+trial 2 group 1 | development | 31500 -> 5500 pulses | direction -1 | 6000 pulses/s
+trial 3 group 1 | development | 5500 -> 31500 pulses | direction 1 | 24000 pulses/s
+trial 4 group 1 | development | 31500 -> 5500 pulses | direction -1 | 24000 pulses/s
+trial 5 group 1 | development | 31500 -> 5500 pulses | direction -1 | 8000 pulses/s
+trial 6 group 1 | development | 5500 -> 31500 pulses | direction 1 | 8000 pulses/s
+trial 7 group 1 | development | 31500 -> 5500 pulses | direction -1 | 20000 pulses/s
+trial 8 group 1 | development | 5500 -> 31500 pulses | direction 1 | 20000 pulses/s
+Estimated 48.4833 s including holds, plus settling and read overhead.
+Confirm this authorized batch. Type START: START
+Session 20261126T085020424Z_42452
+Samples 8440, missing 0, late 1, mean read 0.000407001 s, mean period 0.00584841 s
+4/4 pairs accepted | 3ebd7d9e845c490a95de279797d7d0ee
+Round 1, batch 4; 12/85 accepted; field session Z-AF-20261126-S01
+12/85 pairs accepted
+Round 1 batch 4: R1-V10000, R1-V18000, R1-V12000, R1-V16000
+Actual field session ID: Z-AF-20261126-S01
+Confirm field state and batch authorization. Type READY: READY
+Independent pre-check passed. Transfer and scan stopping margins passed.
+
+AF | 8 trials | command range [0,32000] pulses
+AF endpoint arrival tolerance: +/-10 pulses; endpoint feedback allowance: 10 pulses
+Scan 10000 pulses/s | nominal plateau 25750 pulses | estimated usable [6125,30875] pulses, length 24750 pulses
+Scan 18000 pulses/s | nominal plateau 25190 pulses | estimated usable [6805,30195] pulses, length 23390 pulses
+Scan 12000 pulses/s | nominal plateau 25640 pulses | estimated usable [6280,30720] pulses, length 24440 pulses
+Scan 16000 pulses/s | nominal plateau 25360 pulses | estimated usable [6620,30380] pulses, length 23760 pulses
+Analysis window 10000 to 22000 pulses
+trial 1 group 1 | development | 5500 -> 31500 pulses | direction 1 | 10000 pulses/s
+trial 2 group 1 | development | 31500 -> 5500 pulses | direction -1 | 10000 pulses/s
+trial 3 group 1 | development | 5500 -> 31500 pulses | direction 1 | 18000 pulses/s
+trial 4 group 1 | development | 31500 -> 5500 pulses | direction -1 | 18000 pulses/s
+trial 5 group 1 | development | 31500 -> 5500 pulses | direction -1 | 12000 pulses/s
+trial 6 group 1 | development | 5500 -> 31500 pulses | direction 1 | 12000 pulses/s
+trial 7 group 1 | development | 31500 -> 5500 pulses | direction -1 | 16000 pulses/s
+trial 8 group 1 | development | 5500 -> 31500 pulses | direction 1 | 16000 pulses/s
+Estimated 44.2122 s including holds, plus settling and read overhead.
+Confirm this authorized batch. Type START: START
+Session 20261126T085111629Z_9492
+Samples 7916, missing 0, late 1, mean read 0.000408164 s, mean period 0.00571619 s
+Formal A: post read-only check failed: E:\A_ZQY\ZR_Experiment\分项实验\03_摩擦与残差补偿\manifest\formal_a\Z-AF-20261126-03\attempts\53ffa1d6e86f44e8a3535bde6f214c9b\post.txt
+Round 1, batch 5; 16/85 accepted; field session Z-AF-20261126-S01
+16/85 pairs accepted
+Round 1 batch 5: R1-V14000
+Actual field session ID: Z-AF-20261126-S01
+Confirm field state and batch authorization. Type READY: READY
+Independent pre-check passed. Transfer and scan stopping margins passed.
+
+AF | 2 trials | command range [0,32000] pulses
+AF endpoint arrival tolerance: +/-10 pulses; endpoint feedback allowance: 10 pulses
+Scan 14000 pulses/s | nominal plateau 25510 pulses | estimated usable [6445,30555] pulses, length 24110 pulses
+Analysis window 10000 to 22000 pulses
+trial 1 group 1 | speed_validation | 5500 -> 31500 pulses | direction 1 | 14000 pulses/s
+trial 2 group 1 | speed_validation | 31500 -> 5500 pulses | direction -1 | 14000 pulses/s
+Estimated 17.5393 s including holds, plus settling and read overhead.
+Confirm this authorized batch. Type START: START
+Session 20261126T090757578Z_20740
+Samples 780, missing 0, late 0, mean read 0.000408424 s, mean period 0.00594397 s
+1/1 pairs accepted | 45644e7026f842b1a8f1f0461048d9e8
+Round 2, batch 1; 17/85 accepted; field session Z-AF-20261126-S01
+17/85 pairs accepted
+Round 2 batch 1: R2-V28000, R2-V6000, R2-V24000, R2-V8000
+Actual field session ID: Z-AF-20261126-S01
+Confirm field state and batch authorization. Type READY: READY
+Independent pre-check passed. Transfer and scan stopping margins passed.
+
+AF | 8 trials | command range [0,32000] pulses
+AF endpoint arrival tolerance: +/-10 pulses; endpoint feedback allowance: 10 pulses
+Scan 28000 pulses/s | nominal plateau 24040 pulses | estimated usable [7880,29120] pulses, length 21240 pulses
+Scan 6000 pulses/s | nominal plateau 25910 pulses | estimated usable [5845,31155] pulses, length 25310 pulses
+Scan 24000 pulses/s | nominal plateau 24560 pulses | estimated usable [7420,29580] pulses, length 22160 pulses
+Scan 8000 pulses/s | nominal plateau 25840 pulses | estimated usable [5980,31020] pulses, length 25040 pulses
+Analysis window 10000 to 22000 pulses
+trial 1 group 2 | development | 5500 -> 31500 pulses | direction 1 | 28000 pulses/s
+trial 2 group 2 | development | 31500 -> 5500 pulses | direction -1 | 28000 pulses/s
+trial 3 group 2 | development | 31500 -> 5500 pulses | direction -1 | 6000 pulses/s
+trial 4 group 2 | development | 5500 -> 31500 pulses | direction 1 | 6000 pulses/s
+trial 5 group 2 | development | 31500 -> 5500 pulses | direction -1 | 24000 pulses/s
+trial 6 group 2 | development | 5500 -> 31500 pulses | direction 1 | 24000 pulses/s
+trial 7 group 2 | development | 5500 -> 31500 pulses | direction 1 | 8000 pulses/s
+trial 8 group 2 | development | 31500 -> 5500 pulses | direction -1 | 8000 pulses/s
+Estimated 60.7855 s including holds, plus settling and read overhead.
+Confirm this authorized batch. Type START: START
+Session 20261126T090803941Z_45624
+Samples 8234, missing 0, late 1, mean read 0.000406019 s, mean period 0.00593849 s
+4/4 pairs accepted | 8b9db2913c974f619508c7001b840d55
+Round 2, batch 2; 21/85 accepted; field session Z-AF-20261126-S01
+21/85 pairs accepted
+Round 2 batch 2: R2-V20000, R2-V10000, R2-V18000, R2-V12000
+Actual field session ID: Z-AF-20261126-S01
+Confirm field state and batch authorization. Type READY: READY
+Independent pre-check passed. Transfer and scan stopping margins passed.
+
+AF | 8 trials | command range [0,32000] pulses
+AF endpoint arrival tolerance: +/-10 pulses; endpoint feedback allowance: 10 pulses
+Scan 20000 pulses/s | nominal plateau 25000 pulses | estimated usable [7000,30000] pulses, length 23000 pulses
+Scan 10000 pulses/s | nominal plateau 25750 pulses | estimated usable [6125,30875] pulses, length 24750 pulses
+Scan 18000 pulses/s | nominal plateau 25190 pulses | estimated usable [6805,30195] pulses, length 23390 pulses
+Scan 12000 pulses/s | nominal plateau 25640 pulses | estimated usable [6280,30720] pulses, length 24440 pulses
+Analysis window 10000 to 22000 pulses
+trial 1 group 2 | development | 5500 -> 31500 pulses | direction 1 | 20000 pulses/s
+trial 2 group 2 | development | 31500 -> 5500 pulses | direction -1 | 20000 pulses/s
+trial 3 group 2 | development | 31500 -> 5500 pulses | direction -1 | 10000 pulses/s
+trial 4 group 2 | development | 5500 -> 31500 pulses | direction 1 | 10000 pulses/s
+trial 5 group 2 | development | 31500 -> 5500 pulses | direction -1 | 18000 pulses/s
+trial 6 group 2 | development | 5500 -> 31500 pulses | direction 1 | 18000 pulses/s
+trial 7 group 2 | development | 5500 -> 31500 pulses | direction 1 | 12000 pulses/s
+trial 8 group 2 | development | 31500 -> 5500 pulses | direction -1 | 12000 pulses/s
+Estimated 56.5872 s including holds, plus settling and read overhead.
+Confirm this authorized batch. Type START: START
+Session 20261126T090854610Z_46524
+Samples 7515, missing 0, late 0, mean read 0.000407745 s, mean period 0.00593694 s
+4/4 pairs accepted | 3d8bc65cb3104296915ce045270e6112
+Round 2, batch 3; 25/85 accepted; field session Z-AF-20261126-S01
+25/85 pairs accepted
+Round 2 batch 3: R2-V16000, R2-V14000, R2-V2000, R2-V40000
+Actual field session ID: Z-AF-20261126-S01
+Confirm field state and batch authorization. Type READY: READY
+Independent pre-check passed. Transfer and scan stopping margins passed.
+
+AF | 8 trials | command range [0,32000] pulses
+AF endpoint arrival tolerance: +/-10 pulses; endpoint feedback allowance: 10 pulses
+Scan 16000 pulses/s | nominal plateau 25360 pulses | estimated usable [6620,30380] pulses, length 23760 pulses
+Scan 14000 pulses/s | nominal plateau 25510 pulses | estimated usable [6445,30555] pulses, length 24110 pulses
+Scan 2000 pulses/s | nominal plateau 25990 pulses | estimated usable [5605,31395] pulses, length 25790 pulses
+Scan 40000 pulses/s | nominal plateau 22000 pulses | estimated usable [9500,27500] pulses, length 18000 pulses
+Analysis window 10000 to 22000 pulses
+trial 1 group 2 | development | 5500 -> 31500 pulses | direction 1 | 16000 pulses/s
+trial 2 group 2 | development | 31500 -> 5500 pulses | direction -1 | 16000 pulses/s
+trial 3 group 2 | speed_validation | 31500 -> 5500 pulses | direction -1 | 14000 pulses/s
+trial 4 group 2 | speed_validation | 5500 -> 31500 pulses | direction 1 | 14000 pulses/s
+trial 5 group 2 | development | 31500 -> 5500 pulses | direction -1 | 2000 pulses/s
+trial 6 group 2 | development | 5500 -> 31500 pulses | direction 1 | 2000 pulses/s
+trial 7 group 2 | development | 31500 -> 5500 pulses | direction -1 | 40000 pulses/s
+trial 8 group 2 | development | 5500 -> 31500 pulses | direction 1 | 40000 pulses/s
+Estimated 62.8843 s including holds, plus settling and read overhead.
+Confirm this authorized batch. Type START: START
+Session 20261126T090941025Z_32364
+Samples 8599, missing 0, late 0, mean read 0.000408793 s, mean period 0.00594547 s
+4/4 pairs accepted | ac2da7ac8ed045d99fddeb1bf489383b
+Round 2, batch 4; 29/85 accepted; field session Z-AF-20261126-S01
+29/85 pairs accepted
+Round 2 batch 4: R2-V3000, R2-V36000, R2-V4000, R2-V32000
+Actual field session ID: Z-AF-20261126-S01
+Confirm field state and batch authorization. Type READY: READY
+Formal A: pre read-only check failed: E:\A_ZQY\ZR_Experiment\分项实验\03_摩擦与残差补偿\manifest\formal_a\Z-AF-20261126-03\attempts\55687259cd2d4bb39c41f981866cf85a\pre.txt
+Round 2, batch 4; 29/85 accepted; field session Z-AF-20261126-S01
+29/85 pairs accepted
+Round 2 batch 4: R2-V3000, R2-V36000, R2-V4000, R2-V32000
+Actual field session ID: Z-AF-20261126-S01
+Confirm field state and batch authorization. Type READY: READY
+Independent pre-check passed. Transfer and scan stopping margins passed.
+
+AF | 8 trials | command range [0,32000] pulses
+AF endpoint arrival tolerance: +/-10 pulses; endpoint feedback allowance: 10 pulses
+Scan 3000 pulses/s | nominal plateau 25977.5 pulses | estimated usable [5661.25,31338.8] pulses, length 25677.5 pulses
+Scan 36000 pulses/s | nominal plateau 22760 pulses | estimated usable [8920,28080] pulses, length 19160 pulses
+Scan 4000 pulses/s | nominal plateau 25960 pulses | estimated usable [5720,31280] pulses, length 25560 pulses
+Scan 32000 pulses/s | nominal plateau 23440 pulses | estimated usable [8380,28620] pulses, length 20240 pulses
+Analysis window 10000 to 22000 pulses
+trial 1 group 2 | development | 5500 -> 31500 pulses | direction 1 | 3000 pulses/s
+trial 2 group 2 | development | 31500 -> 5500 pulses | direction -1 | 3000 pulses/s
+trial 3 group 2 | development | 5500 -> 31500 pulses | direction 1 | 36000 pulses/s
+trial 4 group 2 | development | 31500 -> 5500 pulses | direction -1 | 36000 pulses/s
+trial 5 group 2 | speed_validation | 31500 -> 5500 pulses | direction -1 | 4000 pulses/s
+trial 6 group 2 | speed_validation | 5500 -> 31500 pulses | direction 1 | 4000 pulses/s
+trial 7 group 2 | speed_validation | 31500 -> 5500 pulses | direction -1 | 32000 pulses/s
+trial 8 group 2 | speed_validation | 5500 -> 31500 pulses | direction 1 | 32000 pulses/s
+Estimated 62.0378 s including holds, plus settling and read overhead.
+Confirm this authorized batch. Type START: START
+Session 20261126T091155685Z_37372
+Samples 10698, missing 0, late 0, mean read 0.000404508 s, mean period 0.00593971 s
+4/4 pairs accepted | 71d1891845534d3280a9e4e2fe97788a
+Round 2, batch 5; 33/85 accepted; field session Z-AF-20261126-S01
+33/85 pairs accepted
+Round 2 batch 5: R2-V5000
+Actual field session ID: Z-AF-20261126-S01
+Confirm field state and batch authorization. Type READY: READY
+Independent pre-check passed. Transfer and scan stopping margins passed.
+
+AF | 2 trials | command range [0,32000] pulses
+AF endpoint arrival tolerance: +/-10 pulses; endpoint feedback allowance: 10 pulses
+Scan 5000 pulses/s | nominal plateau 25937.5 pulses | estimated usable [5781.25,31218.8] pulses, length 25437.5 pulses
+Analysis window 10000 to 22000 pulses
+trial 1 group 2 | development | 5500 -> 31500 pulses | direction 1 | 5000 pulses/s
+trial 2 group 2 | development | 31500 -> 5500 pulses | direction -1 | 5000 pulses/s
+Estimated 24.18 s including holds, plus settling and read overhead.
+Confirm this authorized batch. Type START: START
+Session 20261126T091301074Z_10664
+Samples 4044, missing 0, late 0, mean read 0.000404389 s, mean period 0.00593912 s
+1/1 pairs accepted | f91686bb8999453a8005f07f050b3bbf
+Round 3, batch 1; 34/85 accepted; field session Z-AF-20261126-S01
+34/85 pairs accepted
+Round 3 batch 1: R3-V12000, R3-V16000, R3-V14000, R3-V2000
+Actual field session ID: Z-AF-20261126-S01
+Confirm field state and batch authorization. Type READY: READY
+Independent pre-check passed. Transfer and scan stopping margins passed.
+
+AF | 8 trials | command range [0,32000] pulses
+AF endpoint arrival tolerance: +/-10 pulses; endpoint feedback allowance: 10 pulses
+Scan 12000 pulses/s | nominal plateau 25640 pulses | estimated usable [6280,30720] pulses, length 24440 pulses
+Scan 16000 pulses/s | nominal plateau 25360 pulses | estimated usable [6620,30380] pulses, length 23760 pulses
+Scan 14000 pulses/s | nominal plateau 25510 pulses | estimated usable [6445,30555] pulses, length 24110 pulses
+Scan 2000 pulses/s | nominal plateau 25990 pulses | estimated usable [5605,31395] pulses, length 25790 pulses
+Analysis window 10000 to 22000 pulses
+trial 1 group 3 | development | 31500 -> 5500 pulses | direction -1 | 12000 pulses/s
+trial 2 group 3 | development | 5500 -> 31500 pulses | direction 1 | 12000 pulses/s
+trial 3 group 3 | development | 31500 -> 5500 pulses | direction -1 | 16000 pulses/s
+trial 4 group 3 | development | 5500 -> 31500 pulses | direction 1 | 16000 pulses/s
+trial 5 group 3 | speed_validation | 5500 -> 31500 pulses | direction 1 | 14000 pulses/s
+trial 6 group 3 | speed_validation | 31500 -> 5500 pulses | direction -1 | 14000 pulses/s
+trial 7 group 3 | development | 5500 -> 31500 pulses | direction 1 | 2000 pulses/s
+trial 8 group 3 | development | 31500 -> 5500 pulses | direction -1 | 2000 pulses/s
+Estimated 68.2776 s including holds, plus settling and read overhead.
+Confirm this authorized batch. Type START: START
+Session 20261126T091326876Z_23388
+Samples 6655, missing 0, late 1, mean read 0.000408602 s, mean period 0.00593462 s
+formal_A_idle_feedback_or_protection_invalid
+Pending R3-V2000: Trial 7 missing, invalid or incomplete
+3/4 pairs accepted | bd3742f6d3064a0390d8c1db183dc497
+Round 3, batch 1; 37/85 accepted; field session Z-AF-20261126-S01
+37/85 pairs accepted
+Round 3 batch 1: R3-V2000
+Actual field session ID: Z-AF-20261126-S01
+Confirm field state and batch authorization. Type READY: READY
+Independent pre-check passed. Transfer and scan stopping margins passed.
+
+AF | 2 trials | command range [0,32000] pulses
+AF endpoint arrival tolerance: +/-10 pulses; endpoint feedback allowance: 10 pulses
+Scan 2000 pulses/s | nominal plateau 25990 pulses | estimated usable [5605,31395] pulses, length 25790 pulses
+Analysis window 10000 to 22000 pulses
+trial 1 group 3 | development | 5500 -> 31500 pulses | direction 1 | 2000 pulses/s
+trial 2 group 3 | development | 31500 -> 5500 pulses | direction -1 | 2000 pulses/s
+Estimated 39.765 s including holds, plus settling and read overhead.
+Confirm this authorized batch. Type START: START
+Session 20261126T091444469Z_16120
+Samples 4486, missing 0, late 0, mean read 0.000405914 s, mean period 0.00592646 s
+1/1 pairs accepted | 3dc033f430984b04937d250476f87c51
+Round 3, batch 2; 38/85 accepted; field session Z-AF-20261126-S01
+38/85 pairs accepted
+Round 3 batch 2: R3-V40000, R3-V3000, R3-V36000, R3-V4000
+Actual field session ID: Z-AF-20261126-S01
+Confirm field state and batch authorization. Type READY: READY
+Independent pre-check passed. Transfer and scan stopping margins passed.
+
+AF | 8 trials | command range [0,32000] pulses
+AF endpoint arrival tolerance: +/-10 pulses; endpoint feedback allowance: 10 pulses
+Scan 40000 pulses/s | nominal plateau 22000 pulses | estimated usable [9500,27500] pulses, length 18000 pulses
+Scan 3000 pulses/s | nominal plateau 25977.5 pulses | estimated usable [5661.25,31338.8] pulses, length 25677.5 pulses
+Scan 36000 pulses/s | nominal plateau 22760 pulses | estimated usable [8920,28080] pulses, length 19160 pulses
+Scan 4000 pulses/s | nominal plateau 25960 pulses | estimated usable [5720,31280] pulses, length 25560 pulses
+Analysis window 10000 to 22000 pulses
+trial 1 group 3 | development | 5500 -> 31500 pulses | direction 1 | 40000 pulses/s
+trial 2 group 3 | development | 31500 -> 5500 pulses | direction -1 | 40000 pulses/s
+trial 3 group 3 | development | 31500 -> 5500 pulses | direction -1 | 3000 pulses/s
+trial 4 group 3 | development | 5500 -> 31500 pulses | direction 1 | 3000 pulses/s
+trial 5 group 3 | development | 31500 -> 5500 pulses | direction -1 | 36000 pulses/s
+trial 6 group 3 | development | 5500 -> 31500 pulses | direction 1 | 36000 pulses/s
+trial 7 group 3 | speed_validation | 5500 -> 31500 pulses | direction 1 | 4000 pulses/s
+trial 8 group 3 | speed_validation | 31500 -> 5500 pulses | direction -1 | 4000 pulses/s
+Estimated 74.7578 s including holds, plus settling and read overhead.
+Confirm this authorized batch. Type START: START
+Session 20261126T091512878Z_46652
+Samples 10650, missing 0, late 2, mean read 0.000406686 s, mean period 0.00592475 s
+4/4 pairs accepted | 6d0a264777e24898a869f0d633179289
+Round 3, batch 3; 42/85 accepted; field session Z-AF-20261126-S01
+42/85 pairs accepted
+Round 3 batch 3: R3-V32000, R3-V5000, R3-V28000, R3-V6000
+Actual field session ID: Z-AF-20261126-S01
+Confirm field state and batch authorization. Type READY: READY
+Independent pre-check passed. Transfer and scan stopping margins passed.
+
+AF | 8 trials | command range [0,32000] pulses
+AF endpoint arrival tolerance: +/-10 pulses; endpoint feedback allowance: 10 pulses
+Scan 32000 pulses/s | nominal plateau 23440 pulses | estimated usable [8380,28620] pulses, length 20240 pulses
+Scan 5000 pulses/s | nominal plateau 25937.5 pulses | estimated usable [5781.25,31218.8] pulses, length 25437.5 pulses
+Scan 28000 pulses/s | nominal plateau 24040 pulses | estimated usable [7880,29120] pulses, length 21240 pulses
+Scan 6000 pulses/s | nominal plateau 25910 pulses | estimated usable [5845,31155] pulses, length 25310 pulses
+Analysis window 10000 to 22000 pulses
+trial 1 group 3 | speed_validation | 5500 -> 31500 pulses | direction 1 | 32000 pulses/s
+trial 2 group 3 | speed_validation | 31500 -> 5500 pulses | direction -1 | 32000 pulses/s
+trial 3 group 3 | development | 31500 -> 5500 pulses | direction -1 | 5000 pulses/s
+trial 4 group 3 | development | 5500 -> 31500 pulses | direction 1 | 5000 pulses/s
+trial 5 group 3 | development | 31500 -> 5500 pulses | direction -1 | 28000 pulses/s
+trial 6 group 3 | development | 5500 -> 31500 pulses | direction 1 | 28000 pulses/s
+trial 7 group 3 | development | 5500 -> 31500 pulses | direction 1 | 6000 pulses/s
+trial 8 group 3 | development | 31500 -> 5500 pulses | direction -1 | 6000 pulses/s
+Estimated 64.1688 s including holds, plus settling and read overhead.
+Confirm this authorized batch. Type START: START
+Session 20261126T091617982Z_40664
+Samples 8832, missing 0, late 0, mean read 0.000407069 s, mean period 0.00594065 s
+4/4 pairs accepted | 6e836f321eb349c5b41d128f37c8ffbc
+Round 3, batch 4; 46/85 accepted; field session Z-AF-20261126-S01
+46/85 pairs accepted
+Round 3 batch 4: R3-V24000, R3-V8000, R3-V20000, R3-V10000
+Actual field session ID: Z-AF-20261126-S01
+Confirm field state and batch authorization. Type READY: READY
+Formal A: pre read-only check failed: E:\A_ZQY\ZR_Experiment\分项实验\03_摩擦与残差补偿\manifest\formal_a\Z-AF-20261126-03\attempts\d83c0cd2fe0f44cca4232aec7e7e8959\pre.txt
+Round 3, batch 4; 46/85 accepted; field session Z-AF-20261126-S01
+46/85 pairs accepted
+Round 3 batch 4: R3-V24000, R3-V8000, R3-V20000, R3-V10000
+Actual field session ID: Z-AF-20261126-S01
+Confirm field state and batch authorization. Type READY: READY
+Independent pre-check passed. Transfer and scan stopping margins passed.
+
+AF | 8 trials | command range [0,32000] pulses
+AF endpoint arrival tolerance: +/-10 pulses; endpoint feedback allowance: 10 pulses
+Scan 24000 pulses/s | nominal plateau 24560 pulses | estimated usable [7420,29580] pulses, length 22160 pulses
+Scan 8000 pulses/s | nominal plateau 25840 pulses | estimated usable [5980,31020] pulses, length 25040 pulses
+Scan 20000 pulses/s | nominal plateau 25000 pulses | estimated usable [7000,30000] pulses, length 23000 pulses
+Scan 10000 pulses/s | nominal plateau 25750 pulses | estimated usable [6125,30875] pulses, length 24750 pulses
+Analysis window 10000 to 22000 pulses
+trial 1 group 3 | development | 5500 -> 31500 pulses | direction 1 | 24000 pulses/s
+trial 2 group 3 | development | 31500 -> 5500 pulses | direction -1 | 24000 pulses/s
+trial 3 group 3 | development | 31500 -> 5500 pulses | direction -1 | 8000 pulses/s
+trial 4 group 3 | development | 5500 -> 31500 pulses | direction 1 | 8000 pulses/s
+trial 5 group 3 | development | 31500 -> 5500 pulses | direction -1 | 20000 pulses/s
+trial 6 group 3 | development | 5500 -> 31500 pulses | direction 1 | 20000 pulses/s
+trial 7 group 3 | development | 5500 -> 31500 pulses | direction 1 | 10000 pulses/s
+trial 8 group 3 | development | 31500 -> 5500 pulses | direction -1 | 10000 pulses/s
+Estimated 58.0417 s including holds, plus settling and read overhead.
+Confirm this authorized batch. Type START: START
+Session 20261126T091737545Z_27956
+Samples 7793, missing 0, late 1, mean read 0.000404967 s, mean period 0.00593029 s
+4/4 pairs accepted | e7749e71e92c46c99c6cc2144457e3ff
+Round 3, batch 5; 50/85 accepted; field session Z-AF-20261126-S01
+50/85 pairs accepted
+Round 3 batch 5: R3-V18000
+Actual field session ID: Z-AF-20261126-S01
+Confirm field state and batch authorization. Type READY: READY
+Independent pre-check passed. Transfer and scan stopping margins passed.
+
+AF | 2 trials | command range [0,32000] pulses
+AF endpoint arrival tolerance: +/-10 pulses; endpoint feedback allowance: 10 pulses
+Scan 18000 pulses/s | nominal plateau 25190 pulses | estimated usable [6805,30195] pulses, length 23390 pulses
+Analysis window 10000 to 22000 pulses
+trial 1 group 3 | development | 5500 -> 31500 pulses | direction 1 | 18000 pulses/s
+trial 2 group 3 | development | 31500 -> 5500 pulses | direction -1 | 18000 pulses/s
+Estimated 16.7339 s including holds, plus settling and read overhead.
+Confirm this authorized batch. Type START: START
+Session 20261126T091825599Z_5540
+Samples 668, missing 0, late 0, mean read 0.000406918 s, mean period 0.00594556 s
+1/1 pairs accepted | f99faf4e17d04488a7efed5cceb364bc
+Round 4, batch 1; 51/85 accepted; field session Z-AF-20261126-S01
+51/85 pairs accepted
+Round 4 batch 1: R4-V4000, R4-V32000, R4-V5000, R4-V28000
+Actual field session ID: Z-AF-20261126-S01
+Confirm field state and batch authorization. Type READY: READY
+Independent pre-check passed. Transfer and scan stopping margins passed.
+
+AF | 8 trials | command range [0,32000] pulses
+AF endpoint arrival tolerance: +/-10 pulses; endpoint feedback allowance: 10 pulses
+Scan 4000 pulses/s | nominal plateau 25960 pulses | estimated usable [5720,31280] pulses, length 25560 pulses
+Scan 32000 pulses/s | nominal plateau 23440 pulses | estimated usable [8380,28620] pulses, length 20240 pulses
+Scan 5000 pulses/s | nominal plateau 25937.5 pulses | estimated usable [5781.25,31218.8] pulses, length 25437.5 pulses
+Scan 28000 pulses/s | nominal plateau 24040 pulses | estimated usable [7880,29120] pulses, length 21240 pulses
+Analysis window 10000 to 22000 pulses
+trial 1 group 4 | speed_validation | 31500 -> 5500 pulses | direction -1 | 4000 pulses/s
+trial 2 group 4 | speed_validation | 5500 -> 31500 pulses | direction 1 | 4000 pulses/s
+trial 3 group 4 | speed_validation | 31500 -> 5500 pulses | direction -1 | 32000 pulses/s
+trial 4 group 4 | speed_validation | 5500 -> 31500 pulses | direction 1 | 32000 pulses/s
+trial 5 group 4 | development | 5500 -> 31500 pulses | direction 1 | 5000 pulses/s
+trial 6 group 4 | development | 31500 -> 5500 pulses | direction -1 | 5000 pulses/s
+trial 7 group 4 | development | 5500 -> 31500 pulses | direction 1 | 28000 pulses/s
+trial 8 group 4 | development | 31500 -> 5500 pulses | direction -1 | 28000 pulses/s
+Estimated 57.9871 s including holds, plus settling and read overhead.
+Confirm this authorized batch. Type START: START
+Session 20261126T091831341Z_45476
+Samples 9521, missing 0, late 1, mean read 0.000404192 s, mean period 0.00593612 s
+4/4 pairs accepted | 51a37b7c401e493ca10284f559c951a2
+Round 4, batch 2; 55/85 accepted; field session Z-AF-20261126-S01
+55/85 pairs accepted
+Round 4 batch 2: R4-V6000, R4-V24000, R4-V8000, R4-V20000
+Actual field session ID: Z-AF-20261126-S01
+Confirm field state and batch authorization. Type READY: READY
+Independent pre-check passed. Transfer and scan stopping margins passed.
+
+AF | 8 trials | command range [0,32000] pulses
+AF endpoint arrival tolerance: +/-10 pulses; endpoint feedback allowance: 10 pulses
+Scan 6000 pulses/s | nominal plateau 25910 pulses | estimated usable [5845,31155] pulses, length 25310 pulses
+Scan 24000 pulses/s | nominal plateau 24560 pulses | estimated usable [7420,29580] pulses, length 22160 pulses
+Scan 8000 pulses/s | nominal plateau 25840 pulses | estimated usable [5980,31020] pulses, length 25040 pulses
+Scan 20000 pulses/s | nominal plateau 25000 pulses | estimated usable [7000,30000] pulses, length 23000 pulses
+Analysis window 10000 to 22000 pulses
+trial 1 group 4 | development | 31500 -> 5500 pulses | direction -1 | 6000 pulses/s
+trial 2 group 4 | development | 5500 -> 31500 pulses | direction 1 | 6000 pulses/s
+trial 3 group 4 | development | 31500 -> 5500 pulses | direction -1 | 24000 pulses/s
+trial 4 group 4 | development | 5500 -> 31500 pulses | direction 1 | 24000 pulses/s
+trial 5 group 4 | development | 5500 -> 31500 pulses | direction 1 | 8000 pulses/s
+trial 6 group 4 | development | 31500 -> 5500 pulses | direction -1 | 8000 pulses/s
+trial 7 group 4 | development | 5500 -> 31500 pulses | direction 1 | 20000 pulses/s
+trial 8 group 4 | development | 31500 -> 5500 pulses | direction -1 | 20000 pulses/s
+Estimated 50.9833 s including holds, plus settling and read overhead.
+Confirm this authorized batch. Type START: START
+Session 20261126T091929725Z_31572
+Samples 8577, missing 0, late 0, mean read 0.000403762 s, mean period 0.00577301 s
+4/4 pairs accepted | 8e706a8c1cf94c1db77773177abdafc0
+Round 4, batch 3; 59/85 accepted; field session Z-AF-20261126-S01
+59/85 pairs accepted
+Round 4 batch 3: R4-V10000, R4-V18000, R4-V12000, R4-V16000
+Actual field session ID: Z-AF-20261126-S01
+Confirm field state and batch authorization. Type READY: READY
+Independent pre-check passed. Transfer and scan stopping margins passed.
+
+AF | 8 trials | command range [0,32000] pulses
+AF endpoint arrival tolerance: +/-10 pulses; endpoint feedback allowance: 10 pulses
+Scan 10000 pulses/s | nominal plateau 25750 pulses | estimated usable [6125,30875] pulses, length 24750 pulses
+Scan 18000 pulses/s | nominal plateau 25190 pulses | estimated usable [6805,30195] pulses, length 23390 pulses
+Scan 12000 pulses/s | nominal plateau 25640 pulses | estimated usable [6280,30720] pulses, length 24440 pulses
+Scan 16000 pulses/s | nominal plateau 25360 pulses | estimated usable [6620,30380] pulses, length 23760 pulses
+Analysis window 10000 to 22000 pulses
+trial 1 group 4 | development | 31500 -> 5500 pulses | direction -1 | 10000 pulses/s
+trial 2 group 4 | development | 5500 -> 31500 pulses | direction 1 | 10000 pulses/s
+trial 3 group 4 | development | 31500 -> 5500 pulses | direction -1 | 18000 pulses/s
+trial 4 group 4 | development | 5500 -> 31500 pulses | direction 1 | 18000 pulses/s
+trial 5 group 4 | development | 5500 -> 31500 pulses | direction 1 | 12000 pulses/s
+trial 6 group 4 | development | 31500 -> 5500 pulses | direction -1 | 12000 pulses/s
+trial 7 group 4 | development | 5500 -> 31500 pulses | direction 1 | 16000 pulses/s
+trial 8 group 4 | development | 31500 -> 5500 pulses | direction -1 | 16000 pulses/s
+Estimated 46.7122 s including holds, plus settling and read overhead.
+Confirm this authorized batch. Type START: START
+Session 20261126T092021410Z_39592
+Samples 7888, missing 0, late 3, mean read 0.000410969 s, mean period 0.00572123 s
+4/4 pairs accepted | ca08c74bdc2048e1bcc6b5c1a2d8f011
+Round 4, batch 4; 63/85 accepted; field session Z-AF-20261126-S01
+63/85 pairs accepted
+Round 4 batch 4: R4-V14000, R4-V2000, R4-V40000, R4-V3000
+Actual field session ID: Z-AF-20261126-S01
+Confirm field state and batch authorization. Type READY: READY
+Independent pre-check passed. Transfer and scan stopping margins passed.
+
+AF | 8 trials | command range [0,32000] pulses
+AF endpoint arrival tolerance: +/-10 pulses; endpoint feedback allowance: 10 pulses
+Scan 14000 pulses/s | nominal plateau 25510 pulses | estimated usable [6445,30555] pulses, length 24110 pulses
+Scan 2000 pulses/s | nominal plateau 25990 pulses | estimated usable [5605,31395] pulses, length 25790 pulses
+Scan 40000 pulses/s | nominal plateau 22000 pulses | estimated usable [9500,27500] pulses, length 18000 pulses
+Scan 3000 pulses/s | nominal plateau 25977.5 pulses | estimated usable [5661.25,31338.8] pulses, length 25677.5 pulses
+Analysis window 10000 to 22000 pulses
+trial 1 group 4 | speed_validation | 31500 -> 5500 pulses | direction -1 | 14000 pulses/s
+trial 2 group 4 | speed_validation | 5500 -> 31500 pulses | direction 1 | 14000 pulses/s
+trial 3 group 4 | development | 31500 -> 5500 pulses | direction -1 | 2000 pulses/s
+trial 4 group 4 | development | 5500 -> 31500 pulses | direction 1 | 2000 pulses/s
+trial 5 group 4 | development | 31500 -> 5500 pulses | direction -1 | 40000 pulses/s
+trial 6 group 4 | development | 5500 -> 31500 pulses | direction 1 | 40000 pulses/s
+trial 7 group 4 | development | 5500 -> 31500 pulses | direction 1 | 3000 pulses/s
+trial 8 group 4 | development | 31500 -> 5500 pulses | direction -1 | 3000 pulses/s
+Estimated 79.4026 s including holds, plus settling and read overhead.
+Confirm this authorized batch. Type START: START
+Session 20261126T092108420Z_29388
+Samples 13596, missing 0, late 1, mean read 0.000405771 s, mean period 0.00573683 s
+4/4 pairs accepted | 65404297b90948faa82c3101e5cc9706
+Round 4, batch 5; 67/85 accepted; field session Z-AF-20261126-S01
+67/85 pairs accepted
+Round 4 batch 5: R4-V36000
+Actual field session ID: Z-AF-20261126-S01
+Confirm field state and batch authorization. Type READY: READY
+Independent pre-check passed. Transfer and scan stopping margins passed.
+
+AF | 2 trials | command range [0,32000] pulses
+AF endpoint arrival tolerance: +/-10 pulses; endpoint feedback allowance: 10 pulses
+Scan 36000 pulses/s | nominal plateau 22760 pulses | estimated usable [8920,28080] pulses, length 19160 pulses
+Analysis window 10000 to 22000 pulses
+trial 1 group 4 | development | 5500 -> 31500 pulses | direction 1 | 36000 pulses/s
+trial 2 group 4 | development | 31500 -> 5500 pulses | direction -1 | 36000 pulses/s
+Estimated 15.3794 s including holds, plus settling and read overhead.
+Confirm this authorized batch. Type START: START
+Session 20261126T092228481Z_2944
+Samples 475, missing 0, late 0, mean read 0.000419059 s, mean period 0.00585297 s
+1/1 pairs accepted | a3373351fd9b4e1a8ee8bca006213243
+Round 5, batch 1; 68/85 accepted; field session Z-AF-20261126-S02
+68/85 pairs accepted
+Round 5 batch 1: R5-V20000, R5-V10000, R5-V18000, R5-V12000
+Actual field session ID: Z-AF-20261126-S02
+Confirm field state and batch authorization. Type READY: READY
+Formal A: pre read-only check failed: E:\A_ZQY\ZR_Experiment\分项实验\03_摩擦与残差补偿\manifest\formal_a\Z-AF-20261126-03\attempts\9046b17dfc104a3584acac8524be145f\pre.txt
+Round 5, batch 1; 68/85 accepted; field session Z-AF-20261126-S02
+68/85 pairs accepted
+Round 5 batch 1: R5-V20000, R5-V10000, R5-V18000, R5-V12000
+Actual field session ID: Z-AF-20261126-S02
+Confirm field state and batch authorization. Type READY: READY
+Independent pre-check passed. Transfer and scan stopping margins passed.
+
+AF | 8 trials | command range [0,32000] pulses
+AF endpoint arrival tolerance: +/-10 pulses; endpoint feedback allowance: 10 pulses
+Scan 20000 pulses/s | nominal plateau 25000 pulses | estimated usable [7000,30000] pulses, length 23000 pulses
+Scan 10000 pulses/s | nominal plateau 25750 pulses | estimated usable [6125,30875] pulses, length 24750 pulses
+Scan 18000 pulses/s | nominal plateau 25190 pulses | estimated usable [6805,30195] pulses, length 23390 pulses
+Scan 12000 pulses/s | nominal plateau 25640 pulses | estimated usable [6280,30720] pulses, length 24440 pulses
+Analysis window 10000 to 22000 pulses
+trial 1 group 5 | independent_session | 31500 -> 5500 pulses | direction -1 | 20000 pulses/s
+trial 2 group 5 | independent_session | 5500 -> 31500 pulses | direction 1 | 20000 pulses/s
+trial 3 group 5 | independent_session | 5500 -> 31500 pulses | direction 1 | 10000 pulses/s
+trial 4 group 5 | independent_session | 31500 -> 5500 pulses | direction -1 | 10000 pulses/s
+trial 5 group 5 | independent_session | 5500 -> 31500 pulses | direction 1 | 18000 pulses/s
+trial 6 group 5 | independent_session | 31500 -> 5500 pulses | direction -1 | 18000 pulses/s
+trial 7 group 5 | independent_session | 31500 -> 5500 pulses | direction -1 | 12000 pulses/s
+trial 8 group 5 | independent_session | 5500 -> 31500 pulses | direction 1 | 12000 pulses/s
+Estimated 59.0872 s including holds, plus settling and read overhead.
+Confirm this authorized batch. Type START: START
+Session 20261126T092259919Z_27968
+Samples 10090, missing 0, late 3, mean read 0.000405937 s, mean period 0.00573465 s
+Pending R5-V10000: Trial 4 plateau [6021.0, 21286.0] does not cover the frozen grid
+3/4 pairs accepted | 8482fd942d66450a9f0bd9dd298cc26f
+Round 5, batch 1; 71/85 accepted; field session Z-AF-20261126-S02
+71/85 pairs accepted
+Round 5 batch 1: R5-V10000
+Actual field session ID: Z-AF-20261126-S02
+Confirm field state and batch authorization. Type READY: READY
+Independent pre-check passed. Transfer and scan stopping margins passed.
+
+AF | 2 trials | command range [0,32000] pulses
+AF endpoint arrival tolerance: +/-10 pulses; endpoint feedback allowance: 10 pulses
+Scan 10000 pulses/s | nominal plateau 25750 pulses | estimated usable [6125,30875] pulses, length 24750 pulses
+Analysis window 10000 to 22000 pulses
+trial 1 group 5 | independent_session | 5500 -> 31500 pulses | direction 1 | 10000 pulses/s
+trial 2 group 5 | independent_session | 31500 -> 5500 pulses | direction -1 | 10000 pulses/s
+Estimated 19.005 s including holds, plus settling and read overhead.
+Confirm this authorized batch. Type START: START
+Session 20261126T092426648Z_42956
+Samples 3295, missing 0, late 0, mean read 0.000403117 s, mean period 0.00572879 s
+1/1 pairs accepted | 70c0f3d51d7849d6ac5f27e027809f3a
+Round 5, batch 2; 72/85 accepted; field session Z-AF-20261126-S02
+72/85 pairs accepted
+Round 5 batch 2: R5-V16000, R5-V14000, R5-V2000, R5-V40000
+Actual field session ID: Z-AF-20261126-S02
+Confirm field state and batch authorization. Type READY: READY
+Independent pre-check passed. Transfer and scan stopping margins passed.
+
+AF | 8 trials | command range [0,32000] pulses
+AF endpoint arrival tolerance: +/-10 pulses; endpoint feedback allowance: 10 pulses
+Scan 16000 pulses/s | nominal plateau 25360 pulses | estimated usable [6620,30380] pulses, length 23760 pulses
+Scan 14000 pulses/s | nominal plateau 25510 pulses | estimated usable [6445,30555] pulses, length 24110 pulses
+Scan 2000 pulses/s | nominal plateau 25990 pulses | estimated usable [5605,31395] pulses, length 25790 pulses
+Scan 40000 pulses/s | nominal plateau 22000 pulses | estimated usable [9500,27500] pulses, length 18000 pulses
+Analysis window 10000 to 22000 pulses
+trial 1 group 5 | independent_session | 31500 -> 5500 pulses | direction -1 | 16000 pulses/s
+trial 2 group 5 | independent_session | 5500 -> 31500 pulses | direction 1 | 16000 pulses/s
+trial 3 group 5 | independent_session | 5500 -> 31500 pulses | direction 1 | 14000 pulses/s
+trial 4 group 5 | independent_session | 31500 -> 5500 pulses | direction -1 | 14000 pulses/s
+trial 5 group 5 | independent_session | 5500 -> 31500 pulses | direction 1 | 2000 pulses/s
+trial 6 group 5 | independent_session | 31500 -> 5500 pulses | direction -1 | 2000 pulses/s
+trial 7 group 5 | independent_session | 5500 -> 31500 pulses | direction 1 | 40000 pulses/s
+trial 8 group 5 | independent_session | 31500 -> 5500 pulses | direction -1 | 40000 pulses/s
+Estimated 65.3843 s including holds, plus settling and read overhead.
+Confirm this authorized batch. Type START: START
+Session 20261126T092447421Z_7328
+Samples 11215, missing 0, late 2, mean read 0.000406761 s, mean period 0.00572731 s
+4/4 pairs accepted | 12b42a3238214701af54c0153804cde3
+Round 5, batch 3; 76/85 accepted; field session Z-AF-20261126-S02
+76/85 pairs accepted
+Round 5 batch 3: R5-V3000, R5-V36000, R5-V4000, R5-V32000
+Actual field session ID: Z-AF-20261126-S02
+Confirm field state and batch authorization. Type READY: READY
+Independent pre-check passed. Transfer and scan stopping margins passed.
+
+AF | 8 trials | command range [0,32000] pulses
+AF endpoint arrival tolerance: +/-10 pulses; endpoint feedback allowance: 10 pulses
+Scan 3000 pulses/s | nominal plateau 25977.5 pulses | estimated usable [5661.25,31338.8] pulses, length 25677.5 pulses
+Scan 36000 pulses/s | nominal plateau 22760 pulses | estimated usable [8920,28080] pulses, length 19160 pulses
+Scan 4000 pulses/s | nominal plateau 25960 pulses | estimated usable [5720,31280] pulses, length 25560 pulses
+Scan 32000 pulses/s | nominal plateau 23440 pulses | estimated usable [8380,28620] pulses, length 20240 pulses
+Analysis window 10000 to 22000 pulses
+trial 1 group 5 | independent_session | 31500 -> 5500 pulses | direction -1 | 3000 pulses/s
+trial 2 group 5 | independent_session | 5500 -> 31500 pulses | direction 1 | 3000 pulses/s
+trial 3 group 5 | independent_session | 31500 -> 5500 pulses | direction -1 | 36000 pulses/s
+trial 4 group 5 | independent_session | 5500 -> 31500 pulses | direction 1 | 36000 pulses/s
+trial 5 group 5 | independent_session | 5500 -> 31500 pulses | direction 1 | 4000 pulses/s
+trial 6 group 5 | independent_session | 31500 -> 5500 pulses | direction -1 | 4000 pulses/s
+trial 7 group 5 | independent_session | 5500 -> 31500 pulses | direction 1 | 32000 pulses/s
+trial 8 group 5 | independent_session | 31500 -> 5500 pulses | direction -1 | 32000 pulses/s
+Estimated 64.5378 s including holds, plus settling and read overhead.
+Confirm this authorized batch. Type START: START
+Session 20261126T092553585Z_16496
+Samples 11043, missing 0, late 2, mean read 0.000405524 s, mean period 0.00573345 s
+4/4 pairs accepted | 27a1559d6b1e4e2494d02108b29237c3
+Round 5, batch 4; 80/85 accepted; field session Z-AF-20261126-S02
+80/85 pairs accepted
+Round 5 batch 4: R5-V5000, R5-V28000, R5-V6000, R5-V24000
+Actual field session ID: Z-AF-20261126-S02
+Confirm field state and batch authorization. Type READY: READY
+Formal A: pre read-only check failed: E:\A_ZQY\ZR_Experiment\分项实验\03_摩擦与残差补偿\manifest\formal_a\Z-AF-20261126-03\attempts\480df0e37f6d4a34bab352d5fca67ba6\pre.txt
+Round 5, batch 4; 80/85 accepted; field session Z-AF-20261126-S02
+80/85 pairs accepted
+Round 5 batch 4: R5-V5000, R5-V28000, R5-V6000, R5-V24000
+Actual field session ID: Z-AF-20261126-S02
+Confirm field state and batch authorization. Type READY: READY
+Independent pre-check passed. Transfer and scan stopping margins passed.
+
+AF | 8 trials | command range [0,32000] pulses
+AF endpoint arrival tolerance: +/-10 pulses; endpoint feedback allowance: 10 pulses
+Scan 5000 pulses/s | nominal plateau 25937.5 pulses | estimated usable [5781.25,31218.8] pulses, length 25437.5 pulses
+Scan 28000 pulses/s | nominal plateau 24040 pulses | estimated usable [7880,29120] pulses, length 21240 pulses
+Scan 6000 pulses/s | nominal plateau 25910 pulses | estimated usable [5845,31155] pulses, length 25310 pulses
+Scan 24000 pulses/s | nominal plateau 24560 pulses | estimated usable [7420,29580] pulses, length 22160 pulses
+Analysis window 10000 to 22000 pulses
+trial 1 group 5 | independent_session | 31500 -> 5500 pulses | direction -1 | 5000 pulses/s
+trial 2 group 5 | independent_session | 5500 -> 31500 pulses | direction 1 | 5000 pulses/s
+trial 3 group 5 | independent_session | 31500 -> 5500 pulses | direction -1 | 28000 pulses/s
+trial 4 group 5 | independent_session | 5500 -> 31500 pulses | direction 1 | 28000 pulses/s
+trial 5 group 5 | independent_session | 5500 -> 31500 pulses | direction 1 | 6000 pulses/s
+trial 6 group 5 | independent_session | 31500 -> 5500 pulses | direction -1 | 6000 pulses/s
+trial 7 group 5 | independent_session | 5500 -> 31500 pulses | direction 1 | 24000 pulses/s
+trial 8 group 5 | independent_session | 31500 -> 5500 pulses | direction -1 | 24000 pulses/s
+Estimated 54.1655 s including holds, plus settling and read overhead.
+Confirm this authorized batch. Type START: START
+Session 20261126T092718221Z_25700
+Samples 9258, missing 0, late 1, mean read 0.000407874 s, mean period 0.00573841 s
+4/4 pairs accepted | dfd138a58f8847ecb5c01395e1e05667
+Round 5, batch 5; 84/85 accepted; field session Z-AF-20261126-S02
+84/85 pairs accepted
+Round 5 batch 5: R5-V8000
+Actual field session ID: Z-AF-20261126-S02
+Confirm field state and batch authorization. Type READY: READY
+Independent pre-check passed. Transfer and scan stopping margins passed.
+
+AF | 2 trials | command range [0,32000] pulses
+AF endpoint arrival tolerance: +/-10 pulses; endpoint feedback allowance: 10 pulses
+Scan 8000 pulses/s | nominal plateau 25840 pulses | estimated usable [5980,31020] pulses, length 25040 pulses
+Analysis window 10000 to 22000 pulses
+trial 1 group 5 | independent_session | 31500 -> 5500 pulses | direction -1 | 8000 pulses/s
+trial 2 group 5 | independent_session | 5500 -> 31500 pulses | direction 1 | 8000 pulses/s
+Estimated 22.795 s including holds, plus settling and read overhead.
+Confirm this authorized batch. Type START: START
+Session 20261126T092813296Z_41092
+Samples 3508, missing 0, late 1, mean read 0.00040696 s, mean period 0.00574018 s
+1/1 pairs accepted | 6827fc49ae074bbc90b0b9a557c1f819

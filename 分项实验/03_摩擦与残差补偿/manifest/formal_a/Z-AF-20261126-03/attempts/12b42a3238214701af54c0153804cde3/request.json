@@ -1,0 +1,37 @@
+{
+  "pairs": [
+    {
+      "round": 5,
+      "batch": 2,
+      "pair": "R5-V16000",
+      "speed": 16000,
+      "first": -1,
+      "split": "independent_session"
+    },
+    {
+      "round": 5,
+      "batch": 2,
+      "pair": "R5-V14000",
+      "speed": 14000,
+      "first": 1,
+      "split": "independent_session"
+    },
+    {
+      "round": 5,
+      "batch": 2,
+      "pair": "R5-V2000",
+      "speed": 2000,
+      "first": 1,
+      "split": "independent_session"
+    },
+    {
+      "round": 5,
+      "batch": 2,
+      "pair": "R5-V40000",
+      "speed": 40000,
+      "first": 1,
+      "split": "independent_session"
+    }
+  ],
+  "field_session": "Z-AF-20261126-S02"
+}

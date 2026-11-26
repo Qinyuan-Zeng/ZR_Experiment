@@ -33,10 +33,12 @@ constexpr double pulsePerMm = 1000, upper = 32;
 constexpr double upperPulse = upper * pulsePerMm;
 constexpr double endpointAllowancePulse = 10;
 constexpr double missing = std::numeric_limits<double>::quiet_NaN();
-constexpr char version[] = "stage1-15";
+constexpr char version[] = "stage1-19";
 constexpr char frictionPhase[] = "A0F";
+constexpr char formalPhase[] = "AF";
 constexpr double frictionWindowStart = 3.5, frictionWindowEnd = 22;
 constexpr double scanDerivativeSpan = .05;
+constexpr double formalTurnaroundTimeout = 1.0;
 std::atomic<bool> interrupted{false};
 
 BOOL WINAPI handleInterrupt(DWORD type)
@@ -105,7 +107,7 @@ bool inRange(double x) { return x >= 0 && x <= upper; }
 
 bool isScan(const std::string& phase)
 {
-    return phase == "C" || phase == frictionPhase;
+    return phase == "C" || phase == frictionPhase || phase == formalPhase;
 }
 
 bool usesEndpointAllowance(const std::string& phase)
@@ -216,7 +218,9 @@ struct Trial {
 };
 
 struct Plan {
-    std::string phase, bProtocol, protocolId;
+    std::string phase, bProtocol, protocolId, attemptId;
+    int gridLoPulse = 5000;
+    double safeLo = 0, safeHi = 0, reservePulse = 0, followPulse = 0, minSmoothStop = 0;
     std::vector<Trial> trials;
     double period = .01, duration = 2, window = 1, offset = 1;
     double posTol = .01, velTol = .05, acceleration = 0, transfer = 0, timeout = 30;
@@ -233,6 +237,53 @@ void add(Plan& plan, int group, int direction, double target, double approach,
     if (direction) pulse(approach);
     plan.trials.push_back({static_cast<int>(plan.trials.size()) + 1, group, direction,
                            target, approach, speed, use});
+}
+
+bool validId(const std::string& value)
+{
+    return !value.empty() && value.size() <= 64 &&
+        value.find_first_not_of("ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_") == std::string::npos;
+}
+
+Plan readFormalBatch(const fs::path& root, const std::string& protocol, const std::string& attempt)
+{
+    require(validId(protocol) && validId(attempt), "invalid_formal_A_id");
+    std::ifstream file(root / "manifest" / "formal_a" / protocol / "attempts" / attempt / "batch.txt");
+    Plan p;
+    p.phase = formalPhase;
+    p.protocolId = protocol;
+    p.attemptId = attempt;
+    p.period = .005;
+    p.duration = .25;
+    int count = 0, round = 0;
+    double lo = 0, hi = 0;
+    require(bool(file >> p.transfer >> p.acceleration >> lo >> hi >> p.safeLo >> p.safeHi >>
+                 p.reservePulse >> p.followPulse >> p.minSmoothStop >> p.gridLoPulse >> round >> count), "invalid_formal_A_batch_header");
+    require(p.transfer > 0 && p.transfer <= 5 && p.acceleration > 0 && p.acceleration <= 400 &&
+            lo >= 0 && lo < hi && hi <= upper && std::abs(pulse(lo) - lo * pulsePerMm) < 1e-7 &&
+            std::abs(pulse(hi) - hi * pulsePerMm) < 1e-7 &&
+            p.safeLo < lo * pulsePerMm && hi * pulsePerMm < p.safeHi &&
+            p.safeHi - p.safeLo <= 40000 && p.reservePulse > 0 && p.followPulse > 0 && p.minSmoothStop > 0 &&
+            p.gridLoPulse >= 5000 && p.gridLoPulse <= 21500 && p.gridLoPulse % 250 == 0 &&
+            round >= 1 && round <= 5 && count >= 1 && count <= 4, "invalid_formal_A_batch_limits");
+    const std::set<int> speeds{2000,3000,4000,5000,6000,8000,10000,12000,14000,
+                               16000,18000,20000,24000,28000,32000,36000,40000};
+    std::set<int> used;
+    for (int i = 0; i < count; ++i) {
+        int speed = 0, first = 0;
+        std::string split;
+        require(bool(file >> speed >> first >> split) && speeds.count(speed) && used.insert(speed).second &&
+                (first == 1 || first == -1), "invalid_formal_A_pair");
+        const bool held = speed == 4000 || speed == 14000 || speed == 32000;
+        require(split == (round == 5 ? "independent_session" : held ? "speed_validation" : "development"),
+                "invalid_formal_A_split");
+        for (const int direction : { first, -first })
+            add(p, round, direction, direction > 0 ? hi : lo, direction > 0 ? lo : hi,
+                speed / pulsePerMm, split);
+    }
+    std::string extra;
+    require(!(file >> extra), "unexpected_formal_A_batch_data");
+    return p;
 }
 
 void makeBPlan(Plan& p, bool advanced)
@@ -475,6 +526,12 @@ void preview(const Plan& p)
             feasible = feasible && usableDistance >= minimumUsable;
             if (p.phase == frictionPhase)
                 feasible = feasible && lo + crop <= frictionWindowStart && hi - crop >= frictionWindowEnd;
+            if (p.phase == formalPhase)
+                feasible = feasible && lo + crop <= p.gridLoPulse / pulsePerMm && hi - crop >= 22;
+        }
+        if (p.phase == formalPhase) {
+            std::cout << "Analysis window " << p.gridLoPulse << " to 22000 pulses\n";
+            require(feasible, "A predicted plateau must cover the frozen analysis window at every speed");
         }
         require(feasible, p.phase == frictionPhase
             ? "A0 predicted plateau must cover 3500 to 22000 pulses at every speed"
@@ -509,6 +566,115 @@ struct Sample {
 void command(short rc, const char* name)
 {
     if (rc) throw std::runtime_error(std::string(name) + "_rc_" + std::to_string(rc));
+}
+
+struct FormalState {
+    double x = 0, v = 0, planX = 0, planV = 0, error = 0, smooth = 0, abrupt = 0;
+    long status = 0, planner = 0, driveFollow = 0;
+    short mode = 0, plus = 0, minus = 0;
+};
+
+FormalState readFormalState()
+{
+    FormalState s;
+    command(GTN_GetAxisEncPos(core, axis, &s.x), "GTN_GetAxisEncPos");
+    command(GTN_GetAxisEncVel(core, axis, &s.v), "GTN_GetAxisEncVel");
+    command(GTN_GetPrfPos(core, axis, &s.planX), "GTN_GetPrfPos");
+    command(GTN_GetPrfVel(core, axis, &s.planV), "GTN_GetPrfVel");
+    command(GTN_GetAxisError(core, axis, &s.error), "GTN_GetAxisError");
+    command(GTN_GetSts(core, axis, &s.status), "GTN_GetSts");
+    command(GTN_GetPrfMode(core, axis, &s.planner), "GTN_GetPrfMode");
+    command(GTN_GetControlLoopMode(core, axis, 1, &s.mode), "GTN_GetControlLoopMode");
+    command(GTN_GetLimitStatus(core, axis, &s.plus, &s.minus), "GTN_GetLimitStatus");
+    command(GTN_GetStopDec(core, axis, &s.smooth, &s.abrupt), "GTN_GetStopDec");
+    command(GTN_GetAxisPosErrLimit(core, axis, &s.driveFollow), "GTN_GetAxisPosErrLimit");
+    return s;
+}
+
+void printFormalState(std::ostream& out, const FormalState& s)
+{
+    out << std::setprecision(12) << "position_pulse=" << s.x << "\nplanned_pulse=" << s.planX
+        << "\nvelocity_pulse_s=" << s.v * 1000 << "\nplanned_velocity_pulse_s=" << s.planV * 1000
+        << "\nfollowing_error_pulse=" << s.error << "\nstatus_word=" << s.status
+        << "\nenabled=" << bool(s.status & enableMask) << "\nmoving=" << bool(s.status & movingMask)
+        << "\nfault=" << bool(s.status & faultMask) << "\nlimit_plus=" << s.plus
+        << "\nlimit_minus=" << s.minus << "\nmode=" << s.mode << "\nplanner=" << s.planner
+        << "\nsmooth_stop_dec_pulse_ms2=" << s.smooth << "\nabrupt_stop_dec_pulse_ms2=" << s.abrupt
+        << "\ncontroller_follow_limit_pulse=" << s.driveFollow << std::endl;
+}
+
+double formalFollowLimit(const Plan& p, const FormalState& s)
+{
+    return s.driveFollow > 0 ? std::min(p.followPulse, double(s.driveFollow)) : p.followPulse;
+}
+
+void checkFormalIdle(const FormalState& s)
+{
+    require((s.status & enableMask) && !(s.status & (faultMask | movingMask)) &&
+            !s.plus && !s.minus && s.mode == 2 && s.planner == PROFILE_MODE_TRAP,
+            "formal_A_axis_not_idle_enabled_TRAP");
+    require(std::isfinite(s.x) && std::isfinite(s.planX) && std::isfinite(s.error) &&
+            std::abs(s.v) <= .05 && std::abs(s.planV) <= .05 &&
+            std::abs(s.x - s.planX) <= 10 && s.driveFollow >= 0 &&
+            std::isfinite(s.smooth) && s.smooth > 0 && std::isfinite(s.abrupt) && s.abrupt > 0,
+            "formal_A_idle_feedback_or_protection_invalid");
+}
+
+int formalStateOnly()
+{
+    command(GTN_OpenCard(5, nullptr, nullptr), "GTN_OpenCard");
+    try {
+        const auto first = readFormalState();
+        printFormalState(std::cout, first);
+        checkFormalIdle(first);
+        for (int i = 0; i < 10; ++i) {
+            std::this_thread::sleep_for(std::chrono::milliseconds(10));
+            const auto next = readFormalState();
+            checkFormalIdle(next);
+            require(std::abs(next.x - first.x) <= 10, "formal_A_not_stationary");
+        }
+    } catch (...) {
+        GTN_Close();
+        throw;
+    }
+    command(GTN_Close(), "GTN_Close");
+    std::cout << "ready=1\n";
+    return 0;
+}
+
+// Core 2 at 50 us truncates TRAP acceleration to this step, as verified in stage 2.
+constexpr double formalAccelerationStep = 0.006103515625;
+
+constexpr bool matchesFormalAcceleration(double requested, double actual, bool verified50Us)
+{
+    if (actual >= requested - .001 && actual <= requested + .001 && actual > 0) return true;
+    if (!verified50Us || requested < formalAccelerationStep || requested > .4) return false;
+    const auto steps = static_cast<int>(requested / formalAccelerationStep);
+    return actual == steps * formalAccelerationStep;
+}
+
+static_assert(matchesFormalAcceleration(.4, .396728515625, true));
+static_assert(!matchesFormalAcceleration(.4, .396728515625, false));
+static_assert(!matchesFormalAcceleration(.4, .390625, true));
+
+bool matchesVerifiedFormalCorePeriod(std::ostream& log)
+{
+    double period = 0;
+    short flag = 0, info = 0;
+    command(GTN_GetCorePeriod(core, &period, &flag, &info), "GTN_GetCorePeriod");
+    log << "core_period_raw=" << period << "\ncore_period_flag=" << flag
+        << "\ncore_period_info=" << info << std::endl;
+    return period == 50 && flag == 0 && info == 7;
+}
+
+void checkFormalPath(const Plan& p, double from, double to, double speed, double smooth)
+{
+    if (std::abs(to - from) <= p.posTol * pulsePerMm) return;
+    const double velocity = speed * pulsePerMm;
+    const double need = p.reservePulse + p.followPulse + p.posTol * pulsePerMm +
+        velocity * velocity / (2 * smooth * 1e6);
+    require(std::min(from, to) - p.safeLo >= need && p.safeHi - std::max(from, to) >= need,
+            "formal_A_insufficient_stopping_reserve");
 }
 
 class SamplingWait {
@@ -585,6 +751,14 @@ public:
                  << p.phase << "_settling_check=axis_state_and_position" << std::endl;
         }
         if (!p.protocolId.empty()) meta << "protocol_id=" << p.protocolId << std::endl;
+        if (p.phase == formalPhase) {
+            meta << "attempt_id=" << p.attemptId << "\nsafe_lo_pulse=" << p.safeLo
+                 << "\nsafe_hi_pulse=" << p.safeHi << "\nreserve_pulse=" << p.reservePulse
+                 << "\nrequested_follow_pulse=" << p.followPulse
+                 << "\nminimum_smooth_stop_pulse_ms2=" << p.minSmoothStop
+                 << "\ngrid_lo_pulse=" << p.gridLoPulse << "\ngrid_hi_pulse=22000"
+                 << "\nturnaround_timeout_s=" << formalTurnaroundTimeout << std::endl;
+        }
         if (p.phase == "B") meta << "B_protocol=" << p.bProtocol << "\nB_step_pulse=100" << std::endl;
         std::cout << "Session " << session << '\n';
     }
@@ -610,6 +784,23 @@ public:
                 meta << "smooth_stop_dec_pulse_ms2=" << smoothDec
                      << "\nabrupt_stop_dec_pulse_ms2=" << abruptDec << std::endl;
                 require(std::isfinite(smoothDec) && smoothDec > 0, "invalid_smooth_stop_deceleration");
+            }
+            if (p.phase == formalPhase) {
+                const auto state = readFormalState();
+                checkFormalIdle(state);
+                verified50Us = matchesVerifiedFormalCorePeriod(meta);
+                followLimit = formalFollowLimit(p, state);
+                smoothStop = state.smooth;
+                require(smoothStop >= p.minSmoothStop && std::abs(state.error) <= followLimit && inRange(state.x / pulsePerMm),
+                        "formal_A_start_outside_operating_conditions");
+                double from = state.x;
+                for (const auto& t : p.trials) {
+                    checkFormalPath(p, from, pulse(t.approach), p.transfer, smoothStop);
+                    checkFormalPath(p, pulse(t.approach), pulse(t.target), t.speed, smoothStop);
+                    from = pulse(t.target);
+                }
+                meta << "checked_initial_pulse=" << state.x
+                     << "\neffective_follow_pulse=" << followLimit << std::endl;
             }
             for (const auto& t : p.trials) runTrial(t);
         } catch (const std::exception& e) {
@@ -638,6 +829,8 @@ private:
     std::ofstream raw, trials, meta;
     bool opened = false, activeMove = false, stopping = false;
     EndpointFeedback endpoint;
+    double followLimit = 0, smoothStop = 0;
+    bool verified50Us = false;
     int count = 0, invalid = 0, late = 0, intervals = 0;
     double readSum = 0, gapSum = 0, maxGap = 0;
 
@@ -701,6 +894,12 @@ private:
                 if (feedbackInRange(x, plannerPulse)) endpoint.beginMove(plannerPulse);
             }
             require(endpoint.accept(x), "feedback_outside_work_range");
+            if (p.phase == formalPhase) {
+                double following = missing;
+                command(GTN_GetAxisError(core, axis, &following), "GTN_GetAxisError");
+                require(x >= p.safeLo && x <= p.safeHi && std::abs(following) <= followLimit,
+                        "formal_A_feedback_or_following_error_outside_limit");
+            }
         }
         return s;
     }
@@ -718,7 +917,8 @@ private:
     bool stationary(const Sample& s) const
     {
         // Feedback velocity can briefly disagree with both encoder position and axis state.
-        return !s.moving() && (usesEncoderMotionChecks(p.phase) || std::abs(s.v) <= p.velTol);
+        return !s.moving() && ((usesEncoderMotionChecks(p.phase) && p.phase != formalPhase) ||
+                               std::abs(s.v) <= p.velTol);
     }
 
     bool at(const Sample& s, double target) const
@@ -738,11 +938,47 @@ private:
         const double plannerMm = plannerPosition / pulsePerMm;
         require(inRange(plannerMm) && from.x >= plannerMm - p.posTol && from.x <= plannerMm + p.posTol,
                 "planner_feedback_position_mismatch");
+        if (p.phase == formalPhase) {
+            const auto state = readFormalState();
+            checkFormalIdle(state);
+            require(std::abs(state.error) <= formalFollowLimit(p, state) && state.smooth == smoothStop &&
+                    formalFollowLimit(p, state) == followLimit, "formal_A_protection_state_changed");
+            checkFormalPath(p, state.x, targetPulse, speed, smoothStop);
+        }
         TTrapPrm trap{};
         trap.acc = trap.dec = p.acceleration * pulsePerMm / 1e6;
         command(GTN_SetTrapPrm(core, axis, &trap), "GTN_SetTrapPrm");
         command(GTN_SetPos(core, axis, targetPulse), "GTN_SetPos");
         command(GTN_SetVel(core, axis, speed * pulsePerMm / 1000), "GTN_SetVel");
+        if (p.phase == formalPhase) {
+            TTrapPrm actual{};
+            long actualTarget = 0;
+            double actualSpeed = 0;
+            command(GTN_GetTrapPrm(core, axis, &actual), "GTN_GetTrapPrm");
+            command(GTN_GetPos(core, axis, &actualTarget), "GTN_GetPos");
+            command(GTN_GetVel(core, axis, &actualSpeed), "GTN_GetVel");
+            meta << "trap_trial_" << t.id << '_' << stage << '=' << trap.acc << ',' << actual.acc
+                 << ',' << actual.dec << ',' << actual.velStart << ',' << actual.smoothTime << ','
+                 << actualTarget << ',' << actualSpeed << std::endl;
+            require(actual.smoothTime == 0 && std::abs(actual.velStart) <= 1e-9 &&
+                    matchesFormalAcceleration(trap.acc, actual.acc, verified50Us) &&
+                    matchesFormalAcceleration(trap.dec, actual.dec, verified50Us) &&
+                    actualTarget == targetPulse && std::abs(actualSpeed - speed * pulsePerMm / 1000) <= .001,
+                    "formal_A_TRAP_readback_mismatch");
+            if (std::string(stage) == "scan") {
+                const double speedMmS = actualSpeed * 1000 / pulsePerMm;
+                const double rampUp = speedMmS * speedMmS / (2 * actual.acc * 1e6 / pulsePerMm);
+                const double rampDown = speedMmS * speedMmS / (2 * actual.dec * 1e6 / pulsePerMm);
+                const double travel = target - from.x;
+                const double crop = scanDerivativeSpan * speedMmS;
+                const double gridLo = p.gridLoPulse / pulsePerMm;
+                const bool covered = travel > 0
+                    ? from.x + rampUp + crop <= gridLo && target - rampDown - crop >= 22
+                    : target + rampDown + crop <= gridLo && from.x - rampUp - crop >= 22;
+                require(covered, "formal_A_readback_plateau_outside_frozen_grid");
+            }
+            require(!interrupted.load(), "operator_stop");
+        }
         activeMove = true;
         command(GTN_Update(core, axisMask), "GTN_Update");
         endpoint.beginMove(isProtectedEndpoint(target) ? static_cast<double>(targetPulse) : missing);
@@ -786,9 +1022,17 @@ private:
                     lastStableStart = s.time;
                 }
                 last = s.time;
+                const bool stableWindow = std::isfinite(lastStableStart) &&
+                    s.time - lastStableStart >= std::min(p.window, p.duration) - 2.5 * p.period;
+                // A transient velocity sample resets the window. Give the axis time to
+                // establish a new stable window before attempting a reversal.
+                if (p.phase == formalPhase && !stableWindow && elapsed < formalTurnaroundTimeout)
+                    continue;
                 if (elapsed >= end) {
-                    stable = stable && std::isfinite(lastStableStart) &&
-                             s.time - lastStableStart >= std::min(p.window, p.duration) - 2.5 * p.period;
+                    stable = stable && stableWindow;
+                    if (p.phase == formalPhase)
+                        meta << "turnaround_trial_" << t.id << "_s=" << elapsed
+                             << "\nturnaround_trial_" << t.id << "_stable=" << stableWindow << std::endl;
                     break;
                 }
             }
@@ -856,7 +1100,7 @@ private:
                << t.speed << ',' << p.duration << ',' << p.window << ',' << p.period << ','
                << positionTolerance(t.target) << ',' << p.velTol << ','
                << status << ',' << reason << std::endl;
-        require(status != "aborted" && (p.phase != frictionPhase || status == "completed"), reason);
+        require(status != "aborted" && ((p.phase != frictionPhase && p.phase != formalPhase) || status == "completed"), reason);
     }
 };
 
@@ -876,6 +1120,21 @@ fs::path projectRoot(const char* projectFile)
 int runExperiment(const char* entry, int argc, char** argv)
 {
     try {
+        if (std::string(entry) == "a_scan") {
+            if (argc == 2 && std::string(argv[1]) == "--state") return formalStateOnly();
+            require(argc == 4 && (std::string(argv[1]) == "--run-batch" ||
+                                 std::string(argv[1]) == "--preview-batch"),
+                    "Use scripts/a_formal.py to plan, freeze and run formal A");
+            const auto root = projectRoot("ZRFrictionCurrent.vcxproj");
+            const auto plan = readFormalBatch(root, argv[2], argv[3]);
+            preview(plan);
+            if (std::string(argv[1]) == "--preview-batch") return 0;
+            require(input("Confirm this authorized batch. Type START") == "START", "cancelled");
+            InterruptHandler interruptHandler;
+            Acquisition acquisition(root, plan);
+            acquisition.run();
+            return 0;
+        }
         bool planOnly = false, advanced = false;
         for (int i = 1; i < argc; ++i) {
             const std::string option = argv[i];

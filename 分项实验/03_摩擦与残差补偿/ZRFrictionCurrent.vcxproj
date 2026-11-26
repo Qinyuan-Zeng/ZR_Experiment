@@ -62,12 +62,15 @@
     <ClCompile Include="src\a0_scan.cpp">
       <ExcludedFromBuild Condition="'$(EntryPoint)'!='a0_scan'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="src\a_scan.cpp">
+      <ExcludedFromBuild Condition="'$(EntryPoint)'!='a_scan'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClInclude Include="..\01_位置相关空载电流辨识\include\stage1.hpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />
   </ItemGroup>
-  <Target Name="ValidateEntryPoint" BeforeTargets="PrepareForBuild" Condition="'$(EntryPoint)' != 'a0_scan'">
+  <Target Name="ValidateEntryPoint" BeforeTargets="PrepareForBuild" Condition="'$(EntryPoint)' != 'a0_scan' And '$(EntryPoint)' != 'a_scan'">
     <Error Text="Unknown EntryPoint: $(EntryPoint)" />
   </Target>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -1,0 +1,3 @@
+session_id,trial_id,phase,group,use,direction,target_mm,approach_mm,start_mm,speed_mm_s,hold_s,window_s,period_s,pos_tol_mm,vel_tol_mm_s,status,reason
+20261126T092228481Z_2944,1,AF,4,development,1,31.5,5.5,5.499,36,0.25,1,0.005,0.01,0.05,completed,ok
+20261126T092228481Z_2944,2,AF,4,development,-1,5.5,31.5,31.497,36,0.25,1,0.005,0.01,0.05,completed,ok

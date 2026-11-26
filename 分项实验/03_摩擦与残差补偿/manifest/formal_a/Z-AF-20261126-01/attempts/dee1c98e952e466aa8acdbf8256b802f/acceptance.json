@@ -1,0 +1,21 @@
+{
+  "session": "20261126T083845536Z_2212",
+  "outcome": "formal_A_TRAP_readback_mismatch",
+  "accepted": [],
+  "rejected": {
+    "R1-V2000": "Trial 1 missing, invalid or incomplete",
+    "R1-V40000": "Trial 3 missing, invalid or incomplete",
+    "R1-V3000": "Trial 5 missing, invalid or incomplete",
+    "R1-V36000": "Trial 7 missing, invalid or incomplete"
+  },
+  "inputs": {
+    "E:\\A_ZQY\\ZR_Experiment\\分项实验\\03_摩擦与残差补偿\\manifest\\20261126T083845536Z_2212.txt": "3466d62079e28efa2b1352e1aaa4de2a7b8935c4898605f9ae6471f2d159d921",
+    "E:\\A_ZQY\\ZR_Experiment\\分项实验\\03_摩擦与残差补偿\\data\\raw\\20261126T083845536Z_2212.csv": "b95905fa0e0d6df6533e52956769c70181929900feff4179ddb8241572195eca",
+    "E:\\A_ZQY\\ZR_Experiment\\分项实验\\03_摩擦与残差补偿\\manifest\\20261126T083845536Z_2212.plan.csv": "28c1a74acb1b05f9f218bfd02412ba2dc2071abff682e04c6fd1d00f331da15b",
+    "E:\\A_ZQY\\ZR_Experiment\\分项实验\\03_摩擦与残差补偿\\manifest\\20261126T083845536Z_2212.trials.csv": "dd6d054f8a73c06d6c9366c21f54d5f8ea3acf89f4e496f47c137a4be54af894",
+    "E:\\A_ZQY\\ZR_Experiment\\分项实验\\03_摩擦与残差补偿\\manifest\\formal_a\\Z-AF-20261126-01\\attempts\\dee1c98e952e466aa8acdbf8256b802f\\pre.txt": "3b2a665c7dbc2704eca15401d1730d596eea75305a076f71757ea3e255d7e0d3",
+    "E:\\A_ZQY\\ZR_Experiment\\分项实验\\03_摩擦与残差补偿\\manifest\\formal_a\\Z-AF-20261126-01\\attempts\\dee1c98e952e466aa8acdbf8256b802f\\post.txt": "3b2a665c7dbc2704eca15401d1730d596eea75305a076f71757ea3e255d7e0d3",
+    "E:\\A_ZQY\\ZR_Experiment\\分项实验\\03_摩擦与残差补偿\\manifest\\formal_a\\Z-AF-20261126-01\\attempts\\dee1c98e952e466aa8acdbf8256b802f\\request.json": "884f8eb841a636f14803e76d23ca745e330d265bdb6662b642af5f31c6505265",
+    "E:\\A_ZQY\\ZR_Experiment\\分项实验\\03_摩擦与残差补偿\\manifest\\formal_a\\Z-AF-20261126-01\\attempts\\dee1c98e952e466aa8acdbf8256b802f\\batch.txt": "1fa160585d4084b277c6f73eff27b87d99c5935e128b8c050e9472f97ee2e8b5"
+  }
+}
