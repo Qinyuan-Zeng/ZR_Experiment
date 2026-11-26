@@ -1,0 +1,11 @@
+session_id=Z-B_20261125-161805_049_47432
+pair_id=2
+planned_pair_id=Z-BP_20261125-155725_864_47920_M2_B3
+condition=B3
+round=2
+series=matrix
+history_condition=H1
+first_role=decel
+match_pulse_s=20000
+eval_pulse=15977
+outcome=incomplete

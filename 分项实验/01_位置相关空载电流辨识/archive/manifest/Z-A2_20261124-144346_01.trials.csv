@@ -1,0 +1,8 @@
+session_id,trial_id,phase,group,use,direction,target_mm,approach_mm,start_mm,speed_mm_s,hold_s,window_s,period_s,pos_tol_mm,vel_tol_mm_s,status,reason
+Z-A2_20261124-144346_01,1,A2,1,diagnostic,1,8,7,7.002,2,2,1,0.01,0.01,0.05,completed,ok
+Z-A2_20261124-144346_01,2,A2,1,diagnostic,-1,8,9,9.001,2,2,1,0.01,0.01,0.05,invalid,unstable_hold
+Z-A2_20261124-144346_01,3,A2,1,diagnostic,1,16,15,15.002,2,2,1,0.01,0.01,0.05,completed,ok
+Z-A2_20261124-144346_01,4,A2,1,diagnostic,-1,16,17,17.001,2,2,1,0.01,0.01,0.05,invalid,unstable_hold
+Z-A2_20261124-144346_01,5,A2,1,diagnostic,1,24,23,23.001,2,2,1,0.01,0.01,0.05,completed,ok
+Z-A2_20261124-144346_01,6,A2,1,diagnostic,-1,24,25,25.002,2,2,1,0.01,0.01,0.05,invalid,unstable_hold
+Z-A2_20261124-144346_01,7,A2,2,diagnostic,-1,16,17,nan,2,2,1,0.01,0.01,0.05,aborted,unexpected_motion_direction

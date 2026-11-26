@@ -1,0 +1,40 @@
+{
+  "ids": [
+    "Z-B_20261125-151029_707_30000"
+  ],
+  "condition": "B3",
+  "evaluatedPulse": 15977,
+  "diagnostic": false,
+  "accepted": true,
+  "evaluablePairs": 5,
+  "qualificationRepeat": {
+    "status": "passes_candidate_thresholds",
+    "repeatPairs": 5,
+    "meanI": 38.52984155125305,
+    "sigmaI": 1.3712318080792707,
+    "snr": 28.098707544731667,
+    "meanAlpha": 0.03254554689341586,
+    "sigmaAlpha": 0.0011319255213304124,
+    "ci95": [
+      0.031140301042738888,
+      0.03395079274409283
+    ],
+    "relativeHalfWidth": 0.04317782261515044,
+    "byOrder": [
+      {
+        "order": "accel_first",
+        "pairs": 3,
+        "meanDeltaI": 39.1240538115876,
+        "meanAlpha": 0.03303225990057054
+      },
+      {
+        "order": "decel_first",
+        "pairs": 2,
+        "meanDeltaI": 37.638523160751234,
+        "meanAlpha": 0.03181547738268383
+      }
+    ],
+    "zeroVarianceInterpretation": null,
+    "meanAlphaPulseUnits": 0.000032545546893415856
+  }
+}

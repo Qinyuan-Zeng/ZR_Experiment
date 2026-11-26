@@ -1,0 +1,18 @@
+{
+  "batch_sha256": "d8e33e61193053aa3a6de447d70801824fa7dbd6e380fcf1dcf5ac3df7bb8fa0",
+  "frozen_tables": [
+    "position_B_primary_v1.json",
+    "position_BC_overlap_v1.json"
+  ],
+  "evaluated_sessions": [
+    "Z-C_20261124-165139_02"
+  ],
+  "evaluation_groups": [
+    "Z-C_20261124-165139_02/C/4/2",
+    "Z-C_20261124-165139_02/C/4/10",
+    "Z-C_20261124-165139_02/C/4/40",
+    "Z-C_20261124-165139_02/C/5/10",
+    "Z-C_20261124-165139_02/C/5/40",
+    "Z-C_20261124-165139_02/C/5/2"
+  ]
+}

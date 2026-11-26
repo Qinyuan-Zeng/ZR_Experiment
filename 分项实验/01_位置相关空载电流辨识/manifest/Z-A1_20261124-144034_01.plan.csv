@@ -1,0 +1,4 @@
+session_id,trial_id,phase,group,use,direction,target_mm,approach_mm,speed_mm_s
+Z-A1_20261124-144034_01,1,A1,1,diagnostic,0,8,nan,2
+Z-A1_20261124-144034_01,2,A1,2,diagnostic,0,16,nan,2
+Z-A1_20261124-144034_01,3,A1,3,diagnostic,0,24,nan,2

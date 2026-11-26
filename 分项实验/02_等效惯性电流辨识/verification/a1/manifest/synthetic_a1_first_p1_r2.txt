@@ -1,0 +1,17 @@
+session_id=synthetic_a1_first
+pair_id=1
+run_id=synthetic_a1_first_p1_r2
+role=decel
+execution_order=2
+direction=1
+outcome=complete
+watch_aligned_contiguous=1
+core_period_ns=50000
+command_before_tick=698
+command_after_tick=702
+settled_tick=4900
+start_mm=12.5
+end_mm=16.5
+planned_platform_begin_ms=100
+planned_platform_end_ms=200
+planned_match_ms=150

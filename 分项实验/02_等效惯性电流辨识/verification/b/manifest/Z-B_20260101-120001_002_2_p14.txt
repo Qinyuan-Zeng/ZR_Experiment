@@ -1,0 +1,11 @@
+session_id=Z-B_20260101-120001_002_2
+pair_id=14
+planned_pair_id=Z-BP_synthetic_M4_B1
+condition=B1
+round=4
+series=matrix
+history_condition=H1
+first_role=decel
+match_pulse_s=20000
+eval_pulse=16000
+outcome=complete

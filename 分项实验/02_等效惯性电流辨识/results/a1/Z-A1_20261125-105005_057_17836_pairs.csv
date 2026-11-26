@@ -1,0 +1,2 @@
+session_id,pair_id,valid,reason,delta_x_mm,delta_v_mm_s,delta_a_mm_s2,delta_I_raw,delta_I_corr_raw,alpha_raw_per_mm_s2,x0_plan_mm,x_match_eval_mm,diagnostic_checks_passed,first_role
+Z-A1_20261125-105005_057_17836,1,0,decel: 15 ms center speed outside predeclared tolerance | decel: 21 ms center speed outside predeclared tolerance | decel: 31 ms center speed outside predeclared tolerance | 15 ms velocity mismatch | 21 ms velocity mismatch | 31 ms velocity mismatch,0.00047394130029410064,0.9433994074042502,794.1407010488876,35.195097509750894,35.16806036756148,,16,16,,accel

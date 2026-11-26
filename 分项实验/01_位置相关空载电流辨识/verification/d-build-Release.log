@@ -1,0 +1,30 @@
+﻿生成启动时间为 2026/11/24 20:05:44。
+日志记录详细程度设置为: Normal。
+节点 1 上的项目“E:\A_ZQY\ZR_Experiment\分项实验\01_位置相关空载电流辨识\ZRPositionCurrent.vcxproj”(默认目标)。
+PrepareForBuild:
+  已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
+InitializeBuildStatus:
+  正在创建“E:\A_ZQY\ZR_Experiment\分项实验\01_位置相关空载电流辨识\obj\x64\Release\hold_positions\ZRPositi.CE6CAE8D.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+  正在对“E:\A_ZQY\ZR_Experiment\分项实验\01_位置相关空载电流辨识\obj\x64\Release\hold_positions\ZRPositi.CE6CAE8D.tlog\unsuccessfulbuild”执行 Touch 任务。
+ClCompile:
+  E:\VS Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.44.35207\bin\HostX86\x64\CL.exe /c /I"E:\A_ZQY\ZR_Experiment\分项实验\01_位置相关空载电流辨识\include" /I"E:\A_ZQY\ZR_Experiment\分项实验\01_位置相关空载电流辨识\..\00_平台配置与基础调试\sdk" /Zi /nologo /W4 /WX- /diagnostics:column /O2 /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"E:\A_ZQY\ZR_Experiment\分项实验\01_位置相关空载电流辨识\obj\x64\Release\hold_positions\\" /Fd"E:\A_ZQY\ZR_Experiment\分项实验\01_位置相关空载电流辨识\obj\x64\Release\hold_positions\vc143.pdb" /external:W4 /Gd /TP /FC /errorReport:queue /utf-8 src\stage1.cpp
+  stage1.cpp
+Link:
+  E:\VS Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.44.35207\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\A_ZQY\ZR_Experiment\分项实验\01_位置相关空载电流辨识\bin\x64\Release\hold_positions\ZRPositionCurrent.exe" /NOLOGO /LIBPATH:"E:\A_ZQY\ZR_Experiment\分项实验\01_位置相关空载电流辨识\..\00_平台配置与基础调试\sdk\x64" gts.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\A_ZQY\ZR_Experiment\分项实验\01_位置相关空载电流辨识\bin\x64\Release\hold_positions\ZRPositionCurrent.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\A_ZQY\ZR_Experiment\分项实验\01_位置相关空载电流辨识\bin\x64\Release\hold_positions\ZRPositionCurrent.lib" /MACHINE:X64 "E:\A_ZQY\ZR_Experiment\分项实验\01_位置相关空载电流辨识\obj\x64\Release\hold_positions\stage1.obj"
+  "E:\A_ZQY\ZR_Experiment\分项实验\01_位置相关空载电流辨识\obj\x64\Release\hold_positions\hold_positions.obj"
+  ZRPositionCurrent.vcxproj -> E:\A_ZQY\ZR_Experiment\分项实验\01_位置相关空载电流辨识\bin\x64\Release\hold_positions\ZRPositionCurrent.exe
+PostBuildEvent:
+  copy /Y "E:\A_ZQY\ZR_Experiment\分项实验\01_位置相关空载电流辨识\..\00_平台配置与基础调试\sdk\x64\gts.dll" "E:\A_ZQY\ZR_Experiment\分项实验\01_位置相关空载电流辨识\bin\x64\Release\hold_positions\gts.dll"
+        
+  :VCEnd
+  已复制         1 个文件。
+FinalizeBuildStatus:
+  正在删除文件“E:\A_ZQY\ZR_Experiment\分项实验\01_位置相关空载电流辨识\obj\x64\Release\hold_positions\ZRPositi.CE6CAE8D.tlog\unsuccessfulbuild”。
+  正在对“E:\A_ZQY\ZR_Experiment\分项实验\01_位置相关空载电流辨识\obj\x64\Release\hold_positions\ZRPositi.CE6CAE8D.tlog\ZRPositionCurrent.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\A_ZQY\ZR_Experiment\分项实验\01_位置相关空载电流辨识\ZRPositionCurrent.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:03.77

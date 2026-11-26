@@ -1,0 +1,213 @@
+{
+  "snapshot": {
+    "id": "Z-BP_20261125-195157_221_35296",
+    "settings": {
+      "bands": [
+        {
+          "name": "main",
+          "low": 12000,
+          "high": 24000
+        },
+        {
+          "name": "sensitivity",
+          "low": 16000,
+          "high": 28000
+        }
+      ],
+      "fitMs": 11,
+      "speedGridMs": 0.25,
+      "speedTimeReference": "included_frame_midpoint",
+      "binWidth": 3000,
+      "totalDwellLimit": 0.1,
+      "binDwellLimit": 0.2,
+      "minimumDeltaV": 10000,
+      "rawToMa": 1.2,
+      "firstTier": 400000,
+      "lastTier": 600000
+    },
+    "bAlpha": 0.000030306147541113107,
+    "provenance": {
+      "model": "position_B_primary_v1",
+      "model_sha256": "21a8c53ef63cd84bc91f85aaad10bac79e87fbef3671c0e71bc9360c45658050",
+      "protocol_sha256": "96829182a837f6401c8c8c711141436282048b238ba66d1cb9d47e7f82aee33e",
+      "point_table_sha256": "72bdb3a8d16c795f8ace811eaa2237b6906d44ec15aa925d0b598911e05a93fb",
+      "accepted_pairs_sha256": "5a7d70dc41f1304e1cd2b06936bf22222c84e6368c9a622652372946ac1855a7",
+      "range_sha256": "979e515fbc78e39dd118fdf6086e1458b319d518fd5c8e1feda8996090bde1d0",
+      "raw_and_run_manifests_sha256": "0646814162cb59532e03239fc86e584e9cddc6b8a3ac459ffd047be59007dfee"
+    }
+  },
+  "coverage": {
+    "main": {
+      "traces": {
+        "total": 160,
+        "valid": 159
+      },
+      "pairs": {
+        "total": 80,
+        "valid": 79
+      },
+      "primaryTraces": {
+        "total": 100,
+        "valid": 99
+      },
+      "primaryPairs": {
+        "total": 50,
+        "valid": 49
+      },
+      "byCondition": {
+        "X300V16": {
+          "total": 5,
+          "valid": 5
+        },
+        "X300V20": {
+          "total": 5,
+          "valid": 5
+        },
+        "X350V16": {
+          "total": 5,
+          "valid": 5
+        },
+        "X350V20": {
+          "total": 5,
+          "valid": 5
+        },
+        "X400V16": {
+          "total": 5,
+          "valid": 5
+        },
+        "X400V20": {
+          "total": 5,
+          "valid": 5
+        },
+        "X450V16": {
+          "total": 5,
+          "valid": 5
+        },
+        "X450V20": {
+          "total": 5,
+          "valid": 5
+        },
+        "X500V16": {
+          "total": 5,
+          "valid": 5
+        },
+        "X500V20": {
+          "total": 5,
+          "valid": 5
+        },
+        "X550V16": {
+          "total": 5,
+          "valid": 5
+        },
+        "X550V20": {
+          "total": 5,
+          "valid": 4
+        },
+        "X600V16": {
+          "total": 5,
+          "valid": 5
+        },
+        "X600V20": {
+          "total": 5,
+          "valid": 5
+        },
+        "X650V16": {
+          "total": 5,
+          "valid": 5
+        },
+        "X650V20": {
+          "total": 5,
+          "valid": 5
+        }
+      },
+      "reasons": {
+        "velocity bin dwell mismatch": 1
+      }
+    },
+    "sensitivity": {
+      "traces": {
+        "total": 160,
+        "valid": 160
+      },
+      "pairs": {
+        "total": 80,
+        "valid": 80
+      },
+      "primaryTraces": {
+        "total": 100,
+        "valid": 100
+      },
+      "primaryPairs": {
+        "total": 50,
+        "valid": 50
+      },
+      "byCondition": {
+        "X300V16": {
+          "total": 5,
+          "valid": 5
+        },
+        "X300V20": {
+          "total": 5,
+          "valid": 5
+        },
+        "X350V16": {
+          "total": 5,
+          "valid": 5
+        },
+        "X350V20": {
+          "total": 5,
+          "valid": 5
+        },
+        "X400V16": {
+          "total": 5,
+          "valid": 5
+        },
+        "X400V20": {
+          "total": 5,
+          "valid": 5
+        },
+        "X450V16": {
+          "total": 5,
+          "valid": 5
+        },
+        "X450V20": {
+          "total": 5,
+          "valid": 5
+        },
+        "X500V16": {
+          "total": 5,
+          "valid": 5
+        },
+        "X500V20": {
+          "total": 5,
+          "valid": 5
+        },
+        "X550V16": {
+          "total": 5,
+          "valid": 5
+        },
+        "X550V20": {
+          "total": 5,
+          "valid": 5
+        },
+        "X600V16": {
+          "total": 5,
+          "valid": 5
+        },
+        "X600V20": {
+          "total": 5,
+          "valid": 5
+        },
+        "X650V16": {
+          "total": 5,
+          "valid": 5
+        },
+        "X650V20": {
+          "total": 5,
+          "valid": 5
+        }
+      },
+      "reasons": {}
+    }
+  }
+}

@@ -1,0 +1,168 @@
+自动使能：2ms发DAC、1ms采样；零目标时序通过后做三轮0→100→0三角波。
+高频循环QPC主动定时，不Sleep(1)、不打印、不写盘；读取不是设备同步快照。
+迟到超过0.5ms或采样时隙超过1ms即中止；轮间约200ms零目标观察。
+保护：全程位移0.05mm、速度50pulse/ms；采集电流50raw，启动使能400raw。
+时序和归零均为PC软件控制，不能保证硬件实时性；Q/Esc/Ctrl+C请求退出。
+CSV: triangle_repeat_20261109_111341_786.log.csv
+GTN_OpenCard(5): rc=0
+GTN_NetInit: rc=0 status=0
+[before_enable] status=0x40000000 mode=2 enc=0.000000 prf=0.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+GetSwitch(original): rc=0
+GetForceControlParameter: rc=0
+GetForceValue(original): rc=0
+Original switch: enable=0 mode=0 dir=0 threshold=0 dac=0 time=0 offset=0 reserve=0,0
+Force config: type=0 target=0 outputK=1 outputB=0
+
+[API 1] Disabled Set/GetSwitch: change threshold with enable=0, then restore.
+Inactive round-trip: threshold 0 -> 1, set=0 get=0 match=YES
+Inactive restore: set=0 get=0 match=YES
+PARAMETER ROUND-TRIP PASS (disabled; no transition armed).
+GTN_AxisOn: rc=0
+[enabled_mode2] status=0x40000200 mode=2 enc=0.000000 prf=0.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+[enabled_mode2] status=0x40000200 mode=2 enc=-1.000000 prf=0.000000 vel=-20.000000 current_raw=0 rc=[0,0,0,0,0,0]
+[enabled_mode2] status=0x40000200 mode=2 enc=0.000000 prf=0.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+[enabled_mode2] status=0x40000200 mode=2 enc=0.000000 prf=0.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+[enabled_mode2] status=0x40000200 mode=2 enc=0.000000 prf=0.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+[enabled_mode2] status=0x40000200 mode=2 enc=0.000000 prf=0.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+[enabled_mode2] status=0x40000200 mode=2 enc=0.000000 prf=0.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+[enabled_mode2] status=0x40000200 mode=2 enc=0.000000 prf=0.000000 vel=-20.000000 current_raw=0 rc=[0,0,0,0,0,0]
+[enabled_mode2] status=0x40000200 mode=2 enc=0.000000 prf=0.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+[enabled_mode2] status=0x40000200 mode=2 enc=0.000000 prf=0.000000 vel=20.000000 current_raw=0 rc=[0,0,0,0,0,0]
+[enabled_mode2] status=0x40000200 mode=2 enc=0.000000 prf=0.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+[enabled_mode2] status=0x40000200 mode=2 enc=0.000000 prf=0.000000 vel=20.000000 current_raw=0 rc=[0,0,0,0,0,0]
+[enabled_mode2] status=0x40000200 mode=2 enc=0.000000 prf=0.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+Arm zero-output entry: error=0.000000 dir=0 threshold=10 overTime=10ms dac=0
+SetSwitch(entry): rc=0
+[waiting_force] status=0x40000200 mode=2 enc=0.000000 prf=0.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+GetSwitch(entry): rc=0
+Entry progress: mode=2 switchEnable=1
+[waiting_force] status=0x40000200 mode=3 enc=0.000000 prf=0.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+GetSwitch(entry): rc=0
+Entry progress: mode=3 switchEnable=0
+ENTRY PASS: submitted mode=0 task completed (enable=0); observed loopMode=3.
+[API 2] GetControlLoopMode is recorded, not used to require entry mode 3 or 4.
+[API 3] SetForceValue -> GetForceValue: zero DAC target, not measured force.
+Zero target step 1/3: requested DAC=0
+GTN_SetForceValue(0) AFTER ENTRY: rc=0
+GTN_GetForceValue(after): rc=0
+[zero_target_readback] status=0x40000200 mode=3 enc=-1.000000 prf=0.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+Zero target step 2/3: requested DAC=0
+GTN_SetForceValue(0) AFTER ENTRY: rc=0
+GTN_GetForceValue(after): rc=0
+[zero_target_readback] status=0x40000200 mode=3 enc=0.000000 prf=0.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+Zero target step 3/3: requested DAC=0
+GTN_SetForceValue(0) AFTER ENTRY: rc=0
+GTN_GetForceValue(after): rc=0
+[zero_target_readback] status=0x40000200 mode=3 enc=0.000000 prf=0.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+ZERO SETTER PASS: 3 successful zero writes and target readbacks; nonzero response NOT tested.
+[before_stream] status=0x40000200 mode=3 enc=0.000000 prf=0.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+STREAM: zeroTiming=FAIL triangle=NOT PASSED finalZero=0 finalGet=-1 target=0 zeroBegin=31.063400 zeroEnd=31.163900 ms overall=FAIL
+GTN_AxisOff(cleanup): rc=0
+GTN_GetSts(cleanup): rc=0
+GetForceValue(disabled cleanup): rc=0
+SetSwitch(cancel pending entry): rc=0
+GetMode(cleanup): rc=0
+SetSwitch(exit while disabled): rc=0
+GetMode(exit): rc=0
+GetSwitch(exit): rc=0
+Cleanup exit progress: mode=3 switchEnable=1
+GetMode(exit): rc=0
+GetSwitch(exit): rc=0
+Cleanup exit progress: mode=3 switchEnable=1
+GetMode(exit): rc=0
+GetSwitch(exit): rc=0
+Cleanup exit progress: mode=3 switchEnable=1
+GetMode(exit): rc=0
+GetSwitch(exit): rc=0
+Cleanup exit progress: mode=3 switchEnable=1
+GetMode(exit): rc=0
+GetSwitch(exit): rc=0
+Cleanup exit progress: mode=3 switchEnable=1
+GetMode(exit): rc=0
+GetSwitch(exit): rc=0
+Cleanup exit progress: mode=3 switchEnable=1
+GetMode(exit): rc=0
+GetSwitch(exit): rc=0
+Cleanup exit progress: mode=3 switchEnable=1
+GetMode(exit): rc=0
+GetSwitch(exit): rc=0
+Cleanup exit progress: mode=3 switchEnable=1
+GetMode(exit): rc=0
+GetSwitch(exit): rc=0
+Cleanup exit progress: mode=3 switchEnable=1
+GetMode(exit): rc=0
+GetSwitch(exit): rc=0
+Cleanup exit progress: mode=3 switchEnable=1
+GetMode(exit): rc=0
+GetSwitch(exit): rc=0
+Cleanup exit progress: mode=3 switchEnable=1
+GetMode(exit): rc=0
+GetSwitch(exit): rc=0
+Cleanup exit progress: mode=3 switchEnable=1
+GetMode(exit): rc=0
+GetSwitch(exit): rc=0
+Cleanup exit progress: mode=3 switchEnable=1
+GetMode(exit): rc=0
+GetSwitch(exit): rc=0
+Cleanup exit progress: mode=3 switchEnable=1
+GetMode(exit): rc=0
+GetSwitch(exit): rc=0
+Cleanup exit progress: mode=3 switchEnable=1
+GetMode(exit): rc=0
+GetSwitch(exit): rc=0
+Cleanup exit progress: mode=3 switchEnable=1
+GetMode(exit): rc=0
+GetSwitch(exit): rc=0
+Cleanup exit progress: mode=3 switchEnable=1
+GetMode(exit): rc=0
+GetSwitch(exit): rc=0
+Cleanup exit progress: mode=3 switchEnable=1
+GetMode(exit): rc=0
+GetSwitch(exit): rc=0
+Cleanup exit progress: mode=3 switchEnable=1
+GetMode(exit): rc=0
+GetSwitch(exit): rc=0
+Cleanup exit progress: mode=3 switchEnable=1
+GetMode(exit): rc=0
+GetSwitch(exit): rc=0
+Cleanup exit progress: mode=3 switchEnable=1
+GetMode(exit): rc=0
+GetSwitch(exit): rc=0
+Cleanup exit progress: mode=3 switchEnable=1
+GetMode(exit): rc=0
+GetSwitch(exit): rc=0
+Cleanup exit progress: mode=3 switchEnable=1
+GetMode(exit): rc=0
+GetSwitch(exit): rc=0
+Cleanup exit progress: mode=3 switchEnable=1
+GetMode(exit): rc=0
+GetSwitch(exit): rc=0
+Cleanup exit progress: mode=3 switchEnable=1
+GetMode(exit): rc=0
+GetSwitch(exit): rc=0
+Cleanup exit progress: mode=3 switchEnable=1
+GetMode(exit): rc=0
+GetSwitch(exit): rc=0
+Cleanup exit progress: mode=3 switchEnable=1
+GetMode(exit): rc=0
+GetSwitch(exit): rc=0
+Cleanup exit progress: mode=3 switchEnable=1
+GetMode(exit): rc=0
+GetSwitch(exit): rc=0
+Cleanup exit progress: mode=3 switchEnable=1
+GetMode(exit): rc=0
+GetSwitch(exit): rc=0
+Cleanup exit progress: mode=3 switchEnable=1
+GetMode(exit): rc=0
+GetSwitch(exit): rc=0
+Cleanup exit progress: mode=3 switchEnable=1
+GetMode(exit): rc=0
+GetSwitch(exit): rc=0
+Cleanup exit progress: mode=3 switchEnable=1
+SetSwitch(cancel exit timeout): rc=0
+ATTENTION: mode 2 restoration NOT VERIFIED. Keep axis disabled.
+GTN_Close: rc=0
+TIMING: stage=0 rows=31 maxLate=0.383200ms maxSetCall=0.180100ms dtMin=0.945900ms dtMax=1.333600ms
+RESULT: test=FAIL/INCOMPLETE cleanup=NOT VERIFIED overall=NOT PASSED
+Log: triangle_repeat_20261109_111341_786.log
+请保持驱动器禁用，检查退出日志；必要时使用硬件急停。

@@ -1,0 +1,6 @@
+planned_pair_id,condition,round,series,history_condition,first_role
+Z-DP_20261126-095126_343_29884_P1,D,1,validation,H1,accel
+Z-DP_20261126-095126_343_29884_P2,D,2,validation,H1,decel
+Z-DP_20261126-095126_343_29884_P3,D,3,validation,H1,accel
+Z-DP_20261126-095126_343_29884_P4,D,4,validation,H1,decel
+Z-DP_20261126-095126_343_29884_P5,D,5,validation,H1,accel

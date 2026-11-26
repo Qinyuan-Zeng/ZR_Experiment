@@ -1,0 +1,6 @@
+session,trial,phase,group,reason
+A2,1,A2,A2/A2/1/,invalid_measured_approach
+A2,2,A2,A2/A2/1/,missing_invalid_or_unordered_samples
+A2,3,A2,A2/A2/1/,unstable_or_gapped_window
+A2,4,A2,A2/A2/1/,aborted/operator_stop
+A2,5,A2,A2/A2/2/,missing_trial_summary

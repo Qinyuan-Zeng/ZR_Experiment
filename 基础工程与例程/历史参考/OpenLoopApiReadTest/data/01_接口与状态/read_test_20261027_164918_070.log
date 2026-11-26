@@ -1,0 +1,6 @@
+DLL: E:\A_ZQY\Experiment\OpenLoopApiReadTest\bin\x64\Debug\gts.dll
+Process bits: 64
+CORE=2 AXIS=1 INDEX=1
+Network initialization: 1; XML=Googol.xml; overTime=60
+GTN_OpenCard(channel=5): rc=-6
+Open failed. No further calls. Consult the matching error-code manual.

@@ -1,0 +1,2 @@
+session_id,pair_id,valid,reason,delta_x_mm,delta_v_mm_s,delta_a_mm_s2,delta_I_raw,delta_I_corr_raw,alpha_raw_per_mm_s2,x0_plan_mm,x_match_eval_mm,diagnostic_checks_passed,first_role
+synthetic_a1_first,1,1,,-0.00003147912241274753,0.00006192723205344919,800.4084024509935,400.02042004200416,400.00841361420976,0.49975539035986194,16,16,,accel

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="413.858268pt" height="262.8pt" viewBox="0 0 413.858268 262.8" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-20T15:58:46.715400</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 262.8 
+L 413.858268 262.8 
+L 413.858268 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 8.277165 77.294118 
+L 86.910236 77.294118 
+L 86.910236 30.917647 
+L 8.277165 30.917647 
+z
+" clip-path="url(#pb65a448e74)" style="fill: #ffffff; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 120.018898 77.294118 
+L 202.790551 77.294118 
+L 202.790551 30.917647 
+L 120.018898 30.917647 
+z
+" clip-path="url(#pb65a448e74)" style="fill: #ffffff; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 235.899213 77.294118 
+L 314.532283 77.294118 
+L 314.532283 30.917647 
+L 235.899213 30.917647 
+z
+" clip-path="url(#pb65a448e74)" style="fill: #ffffff; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 347.640945 77.294118 
+L 405.581102 77.294118 
+L 405.581102 30.917647 
+L 347.640945 30.917647 
+z
+" clip-path="url(#pb65a448e74)" style="fill: #ffffff; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 86.910236 54.105882 
+L 119.180372 54.105882 
+" clip-path="url(#pb65a448e74)" style="fill: none; stroke: #000000; stroke-width: 0.75; stroke-linejoin: miter"/>
+    <path d="M 115.980372 52.505882 
+L 119.180372 54.105882 
+L 115.980372 55.705882 
+z
+" clip-path="url(#pb65a448e74)" style="stroke: #000000; stroke-width: 0.75; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 202.790551 54.105882 
+L 235.060687 54.105882 
+" clip-path="url(#pb65a448e74)" style="fill: none; stroke: #000000; stroke-width: 0.75; stroke-linejoin: miter"/>
+    <path d="M 231.860687 52.505882 
+L 235.060687 54.105882 
+L 231.860687 55.705882 
+z
+" clip-path="url(#pb65a448e74)" style="stroke: #000000; stroke-width: 0.75; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 314.532283 54.105882 
+L 346.802419 54.105882 
+" clip-path="url(#pb65a448e74)" style="fill: none; stroke: #000000; stroke-width: 0.75; stroke-linejoin: miter"/>
+    <path d="M 343.602419 52.505882 
+L 346.802419 54.105882 
+L 343.602419 55.705882 
+z
+" clip-path="url(#pb65a448e74)" style="stroke: #000000; stroke-width: 0.75; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 322.809449 170.047059 
+L 405.581102 170.047059 
+L 405.581102 123.670588 
+L 322.809449 123.670588 
+z
+" clip-path="url(#pb65a448e74)" style="fill: #ffffff; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 8.277165 170.047059 
+L 86.910236 170.047059 
+L 86.910236 123.670588 
+L 8.277165 123.670588 
+z
+" clip-path="url(#pb65a448e74)" style="fill: #ffffff; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 120.018898 255.070588 
+L 219.344882 255.070588 
+L 219.344882 208.694118 
+L 120.018898 208.694118 
+z
+" clip-path="url(#pb65a448e74)" style="fill: #ffffff; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 120.018898 170.047059 
+L 202.790551 170.047059 
+L 202.790551 123.670588 
+L 120.018898 123.670588 
+z
+" clip-path="url(#pb65a448e74)" style="fill: #ffffff; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 376.611024 77.294118 
+L 376.611024 122.832063 
+" clip-path="url(#pb65a448e74)" style="fill: none; stroke: #000000; stroke-width: 0.75; stroke-linejoin: miter"/>
+    <path d="M 378.211024 119.632063 
+L 376.611024 122.832063 
+L 375.011024 119.632063 
+z
+" clip-path="url(#pb65a448e74)" style="stroke: #000000; stroke-width: 0.75; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 322.809449 146.858824 
+L 203.629077 146.858824 
+" clip-path="url(#pb65a448e74)" style="fill: none; stroke: #000000; stroke-width: 0.75; stroke-linejoin: miter"/>
+    <path d="M 206.829077 148.458824 
+L 203.629077 146.858824 
+L 206.829077 145.258824 
+z
+" clip-path="url(#pb65a448e74)" style="stroke: #000000; stroke-width: 0.75; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 161.404724 123.670588 
+L 161.404724 78.132643 
+" clip-path="url(#pb65a448e74)" style="fill: none; stroke: #000000; stroke-width: 0.75; stroke-linejoin: miter"/>
+    <path d="M 159.804724 81.332643 
+L 161.404724 78.132643 
+L 163.004724 81.332643 
+z
+" clip-path="url(#pb65a448e74)" style="stroke: #000000; stroke-width: 0.75; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 120.018898 146.858824 
+L 87.748762 146.858824 
+" clip-path="url(#pb65a448e74)" style="fill: none; stroke: #000000; stroke-width: 0.75; stroke-linejoin: miter"/>
+    <path d="M 90.948762 148.458824 
+L 87.748762 146.858824 
+L 90.948762 145.258824 
+z
+" clip-path="url(#pb65a448e74)" style="stroke: #000000; stroke-width: 0.75; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 45.524409 170.047059 
+L 45.524409 231.882353 
+L 119.180372 231.882353 
+" clip-path="url(#pb65a448e74)" style="fill: none; stroke: #000000; stroke-width: 0.75; stroke-linejoin: miter"/>
+    <path d="M 115.980372 230.282353 
+L 119.180372 231.882353 
+L 115.980372 233.482353 
+z
+" clip-path="url(#pb65a448e74)" style="stroke: #000000; stroke-width: 0.75; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 161.404724 170.047059 
+L 161.404724 207.855592 
+" clip-path="url(#pb65a448e74)" style="fill: none; stroke: #000000; stroke-width: 0.75; stroke-linejoin: miter"/>
+    <path d="M 163.004724 204.655592 
+L 161.404724 207.855592 
+L 159.804724 204.655592 
+z
+" clip-path="url(#pb65a448e74)" style="stroke: #000000; stroke-width: 0.75; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 9px; font-family: 'Times New Roman', 'SimSun'" transform="translate(20.593701 51.506517)">整条位置轨迹</text>
+    <text style="font-size: 9px; font-family: 'Times New Roman', 'SimSun'" transform="translate(16.093701 62.21599)">位置与速度参考</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 9px; font-family: 'Times New Roman', 'SimSun'" transform="translate(138.818943 51.453783)">位置 P 外环</text>
+    <text style="font-size: 9px; font-family: 'Times New Roman', 'SimSun'" transform="translate(137.153943 62.163255)">速度 PI 内环</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 9px; font-family: 'Times New Roman', 'SimSun'" transform="translate(257.215748 51.506517)">电流响应</text>
+    <text style="font-size: 9px; font-family: 'Times New Roman', 'SimSun'" transform="translate(252.715748 62.145677)">与幅值限制</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 9px; font-family: 'Times New Roman', 'SimSun'" transform="translate(354.737508 51.488939)">Z 轴动力学</text>
+    <text style="font-size: 9px; font-family: 'Times New Roman', 'SimSun'" transform="translate(354.111024 62.198412)">与单侧接触</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 9px; font-family: 'Times New Roman', 'SimSun'" transform="translate(328.195276 144.24188)">编码器与电流测量</text>
+    <text style="font-size: 9px; font-family: 'Times New Roman', 'SimSun'" transform="translate(334.945276 154.916197)">量化 噪声 采样</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 9px; font-family: 'Times New Roman', 'SimSun'" transform="translate(20.593701 144.224302)">空载电流预测</text>
+    <text style="font-size: 9px; font-family: 'Times New Roman', 'SimSun'" transform="translate(20.593701 154.933775)">因果运动特征</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 9px; font-family: 'Times New Roman', 'SimSun'" transform="translate(142.68189 229.26541)">残差电流估力</text>
+    <text style="font-size: 9px; font-family: 'Times New Roman', 'SimSun'" transform="translate(129.18189 239.974882)">尺度标定与因果滤波</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 9px; font-family: 'Times New Roman', 'SimSun'" transform="translate(143.404724 144.24188)">反馈延迟</text>
+    <text style="font-size: 9px; font-family: 'Times New Roman', 'SimSun'" transform="translate(143.404724 154.916197)">采样信号</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 9px; font-family: 'Times New Roman', 'SimSun'; text-anchor: middle" x="211.067717" y="189.370588" transform="rotate(-0 211.067717 189.370588)">反馈电流</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 9px; font-family: 'Times New Roman', 'SimSun'; text-anchor: middle" x="45.524409" y="197.1" transform="rotate(-0 45.524409 197.1)">空载预测电流</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 9px; font-family: 'Times New Roman', 'SimSun'; text-anchor: middle" x="206.929134" y="11.594118" transform="rotate(-0 206.929134 11.594118)">单次执行模型  控制与估力周期 1 ms</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 9px; font-family: 'Times New Roman', 'SimSun'; text-anchor: middle" x="347.640945" y="189.370588" transform="rotate(-0 347.640945 189.370588)">对象积分 0.1 ms</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pb65a448e74">
+   <rect x="0" y="0" width="413.858268" height="262.8"/>
+  </clipPath>
+ </defs>
+</svg>

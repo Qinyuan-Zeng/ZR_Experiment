@@ -1,0 +1,367 @@
+
+ZRA stage 1 | core 2 axis 1 a33 | 1000 pulse/mm | q to cancel/stop
+Offline preview; motion inputs here are candidates.
+
+READ | 1 trials | 5 s
+Sample 10 ms | loop index 1 | configuration a33_core2_axis1 | R R_unverified_read_only
+
+ZRA stage 1 | core 2 axis 1 a33 | 1000 pulse/mm | q to cancel/stop
+Offline preview; motion inputs here are candidates.
+Protocol A0, A2, B, D [A0]: Enter site-confirmed speed (mm/s), acceleration (mm/s^2), e.g. 2,20 [2,20]: 
+A0 | 8 trials | allowed [0,32] mm
+trial 1 group 1 | diagnostic | 7 -> 8 mm | direction 1 | 2 mm/s
+trial 2 group 1 | diagnostic | 15 -> 16 mm | direction 1 | 2 mm/s
+trial 3 group 1 | diagnostic | 23 -> 24 mm | direction 1 | 2 mm/s
+trial 4 group 1 | diagnostic | 31 -> 32 mm | direction 1 | 2 mm/s
+trial 5 group 1 | diagnostic | 25 -> 24 mm | direction -1 | 2 mm/s
+trial 6 group 1 | diagnostic | 17 -> 16 mm | direction -1 | 2 mm/s
+trial 7 group 1 | diagnostic | 9 -> 8 mm | direction -1 | 2 mm/s
+trial 8 group 1 | diagnostic | 1 -> 0 mm | direction -1 | 2 mm/s
+Estimated 58.6 s including holds, plus settling and read overhead.
+Sample 10 ms | loop index 1 | configuration a33_core2_axis1 | R R_fixed_operator_confirmed
+Transfer 2 mm/s | accel/decel 20 mm/s^2 | position mode 2 | hold 2 s x 1 | arrival tolerance 0.01 mm, 0.05 mm/s | timeout 30 s
+
+ZRA stage 1 | core 2 axis 1 a33 | 1000 pulse/mm | q to cancel/stop
+Offline preview; motion inputs here are candidates.
+Protocol A0, A2, B, D [A0]: Enter site-confirmed speed (mm/s), acceleration (mm/s^2), e.g. 2,20 [2,20]: A0 representative interior positions (comma-separated mm): 
+A2 | 20 trials | allowed [0,32] mm
+trial 1 group 1 | diagnostic | 7 -> 8 mm | direction 1 | 2 mm/s
+trial 2 group 1 | diagnostic | 9 -> 8 mm | direction -1 | 2 mm/s
+trial 3 group 1 | diagnostic | 23 -> 24 mm | direction 1 | 2 mm/s
+trial 4 group 1 | diagnostic | 25 -> 24 mm | direction -1 | 2 mm/s
+trial 5 group 2 | diagnostic | 25 -> 24 mm | direction -1 | 2 mm/s
+trial 6 group 2 | diagnostic | 23 -> 24 mm | direction 1 | 2 mm/s
+trial 7 group 2 | diagnostic | 9 -> 8 mm | direction -1 | 2 mm/s
+trial 8 group 2 | diagnostic | 7 -> 8 mm | direction 1 | 2 mm/s
+trial 9 group 3 | diagnostic | 7 -> 8 mm | direction 1 | 2 mm/s
+trial 10 group 3 | diagnostic | 9 -> 8 mm | direction -1 | 2 mm/s
+trial 11 group 3 | diagnostic | 23 -> 24 mm | direction 1 | 2 mm/s
+trial 12 group 3 | diagnostic | 25 -> 24 mm | direction -1 | 2 mm/s
+trial 13 group 4 | diagnostic | 25 -> 24 mm | direction -1 | 2 mm/s
+trial 14 group 4 | diagnostic | 23 -> 24 mm | direction 1 | 2 mm/s
+trial 15 group 4 | diagnostic | 9 -> 8 mm | direction -1 | 2 mm/s
+trial 16 group 4 | diagnostic | 7 -> 8 mm | direction 1 | 2 mm/s
+trial 17 group 5 | diagnostic | 7 -> 8 mm | direction 1 | 2 mm/s
+trial 18 group 5 | diagnostic | 9 -> 8 mm | direction -1 | 2 mm/s
+trial 19 group 5 | diagnostic | 23 -> 24 mm | direction 1 | 2 mm/s
+trial 20 group 5 | diagnostic | 25 -> 24 mm | direction -1 | 2 mm/s
+Estimated 111 s including holds, plus settling and read overhead.
+Sample 10 ms | loop index 1 | configuration a33_core2_axis1 | R R_fixed_operator_confirmed
+Transfer 2 mm/s | accel/decel 20 mm/s^2 | position mode 2 | hold 2 s x 1 | arrival tolerance 0.01 mm, 0.05 mm/s | timeout 30 s
+
+ZRA stage 1 | core 2 axis 1 a33 | 1000 pulse/mm | q to cancel/stop
+Offline preview; motion inputs here are candidates.
+Protocol A0, A2, B, D [A0]: Enter site-confirmed speed (mm/s), acceleration (mm/s^2), e.g. 2,20 [2,20]: 
+B | 160 trials | allowed [0,32] mm
+trial 1 group 1 | train | 1 -> 2 mm | direction 1 | 2 mm/s
+trial 2 group 1 | train | 3 -> 4 mm | direction 1 | 2 mm/s
+trial 3 group 1 | train | 5 -> 6 mm | direction 1 | 2 mm/s
+trial 4 group 1 | train | 7 -> 8 mm | direction 1 | 2 mm/s
+trial 5 group 1 | train | 9 -> 10 mm | direction 1 | 2 mm/s
+trial 6 group 1 | train | 11 -> 12 mm | direction 1 | 2 mm/s
+trial 7 group 1 | train | 13 -> 14 mm | direction 1 | 2 mm/s
+trial 8 group 1 | train | 15 -> 16 mm | direction 1 | 2 mm/s
+trial 9 group 1 | train | 17 -> 18 mm | direction 1 | 2 mm/s
+trial 10 group 1 | train | 19 -> 20 mm | direction 1 | 2 mm/s
+trial 11 group 1 | train | 21 -> 22 mm | direction 1 | 2 mm/s
+trial 12 group 1 | train | 23 -> 24 mm | direction 1 | 2 mm/s
+trial 13 group 1 | train | 25 -> 26 mm | direction 1 | 2 mm/s
+trial 14 group 1 | train | 27 -> 28 mm | direction 1 | 2 mm/s
+trial 15 group 1 | train | 29 -> 30 mm | direction 1 | 2 mm/s
+trial 16 group 1 | train | 31 -> 32 mm | direction 1 | 2 mm/s
+trial 17 group 1 | train | 31 -> 30 mm | direction -1 | 2 mm/s
+trial 18 group 1 | train | 29 -> 28 mm | direction -1 | 2 mm/s
+trial 19 group 1 | train | 27 -> 26 mm | direction -1 | 2 mm/s
+trial 20 group 1 | train | 25 -> 24 mm | direction -1 | 2 mm/s
+trial 21 group 1 | train | 23 -> 22 mm | direction -1 | 2 mm/s
+trial 22 group 1 | train | 21 -> 20 mm | direction -1 | 2 mm/s
+trial 23 group 1 | train | 19 -> 18 mm | direction -1 | 2 mm/s
+trial 24 group 1 | train | 17 -> 16 mm | direction -1 | 2 mm/s
+trial 25 group 1 | train | 15 -> 14 mm | direction -1 | 2 mm/s
+trial 26 group 1 | train | 13 -> 12 mm | direction -1 | 2 mm/s
+trial 27 group 1 | train | 11 -> 10 mm | direction -1 | 2 mm/s
+trial 28 group 1 | train | 9 -> 8 mm | direction -1 | 2 mm/s
+trial 29 group 1 | train | 7 -> 6 mm | direction -1 | 2 mm/s
+trial 30 group 1 | train | 5 -> 4 mm | direction -1 | 2 mm/s
+trial 31 group 1 | train | 3 -> 2 mm | direction -1 | 2 mm/s
+trial 32 group 1 | train | 1 -> 0 mm | direction -1 | 2 mm/s
+trial 33 group 2 | train | 1 -> 2 mm | direction 1 | 2 mm/s
+trial 34 group 2 | train | 3 -> 4 mm | direction 1 | 2 mm/s
+trial 35 group 2 | train | 5 -> 6 mm | direction 1 | 2 mm/s
+trial 36 group 2 | train | 7 -> 8 mm | direction 1 | 2 mm/s
+trial 37 group 2 | train | 9 -> 10 mm | direction 1 | 2 mm/s
+trial 38 group 2 | train | 11 -> 12 mm | direction 1 | 2 mm/s
+trial 39 group 2 | train | 13 -> 14 mm | direction 1 | 2 mm/s
+trial 40 group 2 | train | 15 -> 16 mm | direction 1 | 2 mm/s
+trial 41 group 2 | train | 17 -> 18 mm | direction 1 | 2 mm/s
+trial 42 group 2 | train | 19 -> 20 mm | direction 1 | 2 mm/s
+trial 43 group 2 | train | 21 -> 22 mm | direction 1 | 2 mm/s
+trial 44 group 2 | train | 23 -> 24 mm | direction 1 | 2 mm/s
+trial 45 group 2 | train | 25 -> 26 mm | direction 1 | 2 mm/s
+trial 46 group 2 | train | 27 -> 28 mm | direction 1 | 2 mm/s
+trial 47 group 2 | train | 29 -> 30 mm | direction 1 | 2 mm/s
+trial 48 group 2 | train | 31 -> 32 mm | direction 1 | 2 mm/s
+trial 49 group 2 | train | 31 -> 30 mm | direction -1 | 2 mm/s
+trial 50 group 2 | train | 29 -> 28 mm | direction -1 | 2 mm/s
+trial 51 group 2 | train | 27 -> 26 mm | direction -1 | 2 mm/s
+trial 52 group 2 | train | 25 -> 24 mm | direction -1 | 2 mm/s
+trial 53 group 2 | train | 23 -> 22 mm | direction -1 | 2 mm/s
+trial 54 group 2 | train | 21 -> 20 mm | direction -1 | 2 mm/s
+trial 55 group 2 | train | 19 -> 18 mm | direction -1 | 2 mm/s
+trial 56 group 2 | train | 17 -> 16 mm | direction -1 | 2 mm/s
+trial 57 group 2 | train | 15 -> 14 mm | direction -1 | 2 mm/s
+trial 58 group 2 | train | 13 -> 12 mm | direction -1 | 2 mm/s
+trial 59 group 2 | train | 11 -> 10 mm | direction -1 | 2 mm/s
+trial 60 group 2 | train | 9 -> 8 mm | direction -1 | 2 mm/s
+trial 61 group 2 | train | 7 -> 6 mm | direction -1 | 2 mm/s
+trial 62 group 2 | train | 5 -> 4 mm | direction -1 | 2 mm/s
+trial 63 group 2 | train | 3 -> 2 mm | direction -1 | 2 mm/s
+trial 64 group 2 | train | 1 -> 0 mm | direction -1 | 2 mm/s
+trial 65 group 3 | train | 1 -> 2 mm | direction 1 | 2 mm/s
+trial 66 group 3 | train | 3 -> 4 mm | direction 1 | 2 mm/s
+trial 67 group 3 | train | 5 -> 6 mm | direction 1 | 2 mm/s
+trial 68 group 3 | train | 7 -> 8 mm | direction 1 | 2 mm/s
+trial 69 group 3 | train | 9 -> 10 mm | direction 1 | 2 mm/s
+trial 70 group 3 | train | 11 -> 12 mm | direction 1 | 2 mm/s
+trial 71 group 3 | train | 13 -> 14 mm | direction 1 | 2 mm/s
+trial 72 group 3 | train | 15 -> 16 mm | direction 1 | 2 mm/s
+trial 73 group 3 | train | 17 -> 18 mm | direction 1 | 2 mm/s
+trial 74 group 3 | train | 19 -> 20 mm | direction 1 | 2 mm/s
+trial 75 group 3 | train | 21 -> 22 mm | direction 1 | 2 mm/s
+trial 76 group 3 | train | 23 -> 24 mm | direction 1 | 2 mm/s
+trial 77 group 3 | train | 25 -> 26 mm | direction 1 | 2 mm/s
+trial 78 group 3 | train | 27 -> 28 mm | direction 1 | 2 mm/s
+trial 79 group 3 | train | 29 -> 30 mm | direction 1 | 2 mm/s
+trial 80 group 3 | train | 31 -> 32 mm | direction 1 | 2 mm/s
+trial 81 group 3 | train | 31 -> 30 mm | direction -1 | 2 mm/s
+trial 82 group 3 | train | 29 -> 28 mm | direction -1 | 2 mm/s
+trial 83 group 3 | train | 27 -> 26 mm | direction -1 | 2 mm/s
+trial 84 group 3 | train | 25 -> 24 mm | direction -1 | 2 mm/s
+trial 85 group 3 | train | 23 -> 22 mm | direction -1 | 2 mm/s
+trial 86 group 3 | train | 21 -> 20 mm | direction -1 | 2 mm/s
+trial 87 group 3 | train | 19 -> 18 mm | direction -1 | 2 mm/s
+trial 88 group 3 | train | 17 -> 16 mm | direction -1 | 2 mm/s
+trial 89 group 3 | train | 15 -> 14 mm | direction -1 | 2 mm/s
+trial 90 group 3 | train | 13 -> 12 mm | direction -1 | 2 mm/s
+trial 91 group 3 | train | 11 -> 10 mm | direction -1 | 2 mm/s
+trial 92 group 3 | train | 9 -> 8 mm | direction -1 | 2 mm/s
+trial 93 group 3 | train | 7 -> 6 mm | direction -1 | 2 mm/s
+trial 94 group 3 | train | 5 -> 4 mm | direction -1 | 2 mm/s
+trial 95 group 3 | train | 3 -> 2 mm | direction -1 | 2 mm/s
+trial 96 group 3 | train | 1 -> 0 mm | direction -1 | 2 mm/s
+trial 97 group 4 | train | 1 -> 2 mm | direction 1 | 2 mm/s
+trial 98 group 4 | train | 3 -> 4 mm | direction 1 | 2 mm/s
+trial 99 group 4 | train | 5 -> 6 mm | direction 1 | 2 mm/s
+trial 100 group 4 | train | 7 -> 8 mm | direction 1 | 2 mm/s
+trial 101 group 4 | train | 9 -> 10 mm | direction 1 | 2 mm/s
+trial 102 group 4 | train | 11 -> 12 mm | direction 1 | 2 mm/s
+trial 103 group 4 | train | 13 -> 14 mm | direction 1 | 2 mm/s
+trial 104 group 4 | train | 15 -> 16 mm | direction 1 | 2 mm/s
+trial 105 group 4 | train | 17 -> 18 mm | direction 1 | 2 mm/s
+trial 106 group 4 | train | 19 -> 20 mm | direction 1 | 2 mm/s
+trial 107 group 4 | train | 21 -> 22 mm | direction 1 | 2 mm/s
+trial 108 group 4 | train | 23 -> 24 mm | direction 1 | 2 mm/s
+trial 109 group 4 | train | 25 -> 26 mm | direction 1 | 2 mm/s
+trial 110 group 4 | train | 27 -> 28 mm | direction 1 | 2 mm/s
+trial 111 group 4 | train | 29 -> 30 mm | direction 1 | 2 mm/s
+trial 112 group 4 | train | 31 -> 32 mm | direction 1 | 2 mm/s
+trial 113 group 4 | train | 31 -> 30 mm | direction -1 | 2 mm/s
+trial 114 group 4 | train | 29 -> 28 mm | direction -1 | 2 mm/s
+trial 115 group 4 | train | 27 -> 26 mm | direction -1 | 2 mm/s
+trial 116 group 4 | train | 25 -> 24 mm | direction -1 | 2 mm/s
+trial 117 group 4 | train | 23 -> 22 mm | direction -1 | 2 mm/s
+trial 118 group 4 | train | 21 -> 20 mm | direction -1 | 2 mm/s
+trial 119 group 4 | train | 19 -> 18 mm | direction -1 | 2 mm/s
+trial 120 group 4 | train | 17 -> 16 mm | direction -1 | 2 mm/s
+trial 121 group 4 | train | 15 -> 14 mm | direction -1 | 2 mm/s
+trial 122 group 4 | train | 13 -> 12 mm | direction -1 | 2 mm/s
+trial 123 group 4 | train | 11 -> 10 mm | direction -1 | 2 mm/s
+trial 124 group 4 | train | 9 -> 8 mm | direction -1 | 2 mm/s
+trial 125 group 4 | train | 7 -> 6 mm | direction -1 | 2 mm/s
+trial 126 group 4 | train | 5 -> 4 mm | direction -1 | 2 mm/s
+trial 127 group 4 | train | 3 -> 2 mm | direction -1 | 2 mm/s
+trial 128 group 4 | train | 1 -> 0 mm | direction -1 | 2 mm/s
+trial 129 group 5 | train | 1 -> 2 mm | direction 1 | 2 mm/s
+trial 130 group 5 | train | 3 -> 4 mm | direction 1 | 2 mm/s
+trial 131 group 5 | train | 5 -> 6 mm | direction 1 | 2 mm/s
+trial 132 group 5 | train | 7 -> 8 mm | direction 1 | 2 mm/s
+trial 133 group 5 | train | 9 -> 10 mm | direction 1 | 2 mm/s
+trial 134 group 5 | train | 11 -> 12 mm | direction 1 | 2 mm/s
+trial 135 group 5 | train | 13 -> 14 mm | direction 1 | 2 mm/s
+trial 136 group 5 | train | 15 -> 16 mm | direction 1 | 2 mm/s
+trial 137 group 5 | train | 17 -> 18 mm | direction 1 | 2 mm/s
+trial 138 group 5 | train | 19 -> 20 mm | direction 1 | 2 mm/s
+trial 139 group 5 | train | 21 -> 22 mm | direction 1 | 2 mm/s
+trial 140 group 5 | train | 23 -> 24 mm | direction 1 | 2 mm/s
+trial 141 group 5 | train | 25 -> 26 mm | direction 1 | 2 mm/s
+trial 142 group 5 | train | 27 -> 28 mm | direction 1 | 2 mm/s
+trial 143 group 5 | train | 29 -> 30 mm | direction 1 | 2 mm/s
+trial 144 group 5 | train | 31 -> 32 mm | direction 1 | 2 mm/s
+trial 145 group 5 | train | 31 -> 30 mm | direction -1 | 2 mm/s
+trial 146 group 5 | train | 29 -> 28 mm | direction -1 | 2 mm/s
+trial 147 group 5 | train | 27 -> 26 mm | direction -1 | 2 mm/s
+trial 148 group 5 | train | 25 -> 24 mm | direction -1 | 2 mm/s
+trial 149 group 5 | train | 23 -> 22 mm | direction -1 | 2 mm/s
+trial 150 group 5 | train | 21 -> 20 mm | direction -1 | 2 mm/s
+trial 151 group 5 | train | 19 -> 18 mm | direction -1 | 2 mm/s
+trial 152 group 5 | train | 17 -> 16 mm | direction -1 | 2 mm/s
+trial 153 group 5 | train | 15 -> 14 mm | direction -1 | 2 mm/s
+trial 154 group 5 | train | 13 -> 12 mm | direction -1 | 2 mm/s
+trial 155 group 5 | train | 11 -> 10 mm | direction -1 | 2 mm/s
+trial 156 group 5 | train | 9 -> 8 mm | direction -1 | 2 mm/s
+trial 157 group 5 | train | 7 -> 6 mm | direction -1 | 2 mm/s
+trial 158 group 5 | train | 5 -> 4 mm | direction -1 | 2 mm/s
+trial 159 group 5 | train | 3 -> 2 mm | direction -1 | 2 mm/s
+trial 160 group 5 | train | 1 -> 0 mm | direction -1 | 2 mm/s
+Estimated 527 s including holds, plus settling and read overhead.
+Sample 10 ms | loop index 1 | configuration a33_core2_axis1 | R R_fixed_operator_confirmed
+Transfer 2 mm/s | accel/decel 20 mm/s^2 | position mode 2 | hold 2 s x 1 | arrival tolerance 0.01 mm, 0.05 mm/s | timeout 30 s
+
+ZRA stage 1 | core 2 axis 1 a33 | 1000 pulse/mm | q to cancel/stop
+Offline preview; motion inputs here are candidates.
+Protocol A0, A2, B, D [A0]: Enter site-confirmed speed (mm/s), acceleration (mm/s^2), e.g. 2,20 [2,20]: Use unseen, cross_time [unseen]: 
+D | 48 trials | allowed [0,32] mm
+trial 1 group 1 | unseen | 2 -> 3 mm | direction 1 | 2 mm/s
+trial 2 group 1 | unseen | 4 -> 3 mm | direction -1 | 2 mm/s
+trial 3 group 1 | unseen | 6 -> 7 mm | direction 1 | 2 mm/s
+trial 4 group 1 | unseen | 8 -> 7 mm | direction -1 | 2 mm/s
+trial 5 group 1 | unseen | 10 -> 11 mm | direction 1 | 2 mm/s
+trial 6 group 1 | unseen | 12 -> 11 mm | direction -1 | 2 mm/s
+trial 7 group 1 | unseen | 14 -> 15 mm | direction 1 | 2 mm/s
+trial 8 group 1 | unseen | 16 -> 15 mm | direction -1 | 2 mm/s
+trial 9 group 1 | unseen | 18 -> 19 mm | direction 1 | 2 mm/s
+trial 10 group 1 | unseen | 20 -> 19 mm | direction -1 | 2 mm/s
+trial 11 group 1 | unseen | 22 -> 23 mm | direction 1 | 2 mm/s
+trial 12 group 1 | unseen | 24 -> 23 mm | direction -1 | 2 mm/s
+trial 13 group 1 | unseen | 26 -> 27 mm | direction 1 | 2 mm/s
+trial 14 group 1 | unseen | 28 -> 27 mm | direction -1 | 2 mm/s
+trial 15 group 1 | unseen | 28 -> 29 mm | direction 1 | 2 mm/s
+trial 16 group 1 | unseen | 30 -> 29 mm | direction -1 | 2 mm/s
+trial 17 group 2 | unseen | 8 -> 7 mm | direction -1 | 2 mm/s
+trial 18 group 2 | unseen | 6 -> 7 mm | direction 1 | 2 mm/s
+trial 19 group 2 | unseen | 12 -> 11 mm | direction -1 | 2 mm/s
+trial 20 group 2 | unseen | 10 -> 11 mm | direction 1 | 2 mm/s
+trial 21 group 2 | unseen | 16 -> 15 mm | direction -1 | 2 mm/s
+trial 22 group 2 | unseen | 14 -> 15 mm | direction 1 | 2 mm/s
+trial 23 group 2 | unseen | 20 -> 19 mm | direction -1 | 2 mm/s
+trial 24 group 2 | unseen | 18 -> 19 mm | direction 1 | 2 mm/s
+trial 25 group 2 | unseen | 24 -> 23 mm | direction -1 | 2 mm/s
+trial 26 group 2 | unseen | 22 -> 23 mm | direction 1 | 2 mm/s
+trial 27 group 2 | unseen | 28 -> 27 mm | direction -1 | 2 mm/s
+trial 28 group 2 | unseen | 26 -> 27 mm | direction 1 | 2 mm/s
+trial 29 group 2 | unseen | 30 -> 29 mm | direction -1 | 2 mm/s
+trial 30 group 2 | unseen | 28 -> 29 mm | direction 1 | 2 mm/s
+trial 31 group 2 | unseen | 4 -> 3 mm | direction -1 | 2 mm/s
+trial 32 group 2 | unseen | 2 -> 3 mm | direction 1 | 2 mm/s
+trial 33 group 3 | unseen | 10 -> 11 mm | direction 1 | 2 mm/s
+trial 34 group 3 | unseen | 12 -> 11 mm | direction -1 | 2 mm/s
+trial 35 group 3 | unseen | 14 -> 15 mm | direction 1 | 2 mm/s
+trial 36 group 3 | unseen | 16 -> 15 mm | direction -1 | 2 mm/s
+trial 37 group 3 | unseen | 18 -> 19 mm | direction 1 | 2 mm/s
+trial 38 group 3 | unseen | 20 -> 19 mm | direction -1 | 2 mm/s
+trial 39 group 3 | unseen | 22 -> 23 mm | direction 1 | 2 mm/s
+trial 40 group 3 | unseen | 24 -> 23 mm | direction -1 | 2 mm/s
+trial 41 group 3 | unseen | 26 -> 27 mm | direction 1 | 2 mm/s
+trial 42 group 3 | unseen | 28 -> 27 mm | direction -1 | 2 mm/s
+trial 43 group 3 | unseen | 28 -> 29 mm | direction 1 | 2 mm/s
+trial 44 group 3 | unseen | 30 -> 29 mm | direction -1 | 2 mm/s
+trial 45 group 3 | unseen | 2 -> 3 mm | direction 1 | 2 mm/s
+trial 46 group 3 | unseen | 4 -> 3 mm | direction -1 | 2 mm/s
+trial 47 group 3 | unseen | 6 -> 7 mm | direction 1 | 2 mm/s
+trial 48 group 3 | unseen | 8 -> 7 mm | direction -1 | 2 mm/s
+Estimated 228.1 s including holds, plus settling and read overhead.
+Sample 10 ms | loop index 1 | configuration a33_core2_axis1 | R R_fixed_operator_confirmed
+Transfer 2 mm/s | accel/decel 20 mm/s^2 | position mode 2 | hold 2 s x 1 | arrival tolerance 0.01 mm, 0.05 mm/s | timeout 30 s
+
+ZRA stage 1 | core 2 axis 1 a33 | 1000 pulse/mm | q to cancel/stop
+Offline preview; motion inputs here are candidates.
+Enter site-confirmed speed (mm/s), acceleration (mm/s^2), e.g. 2,20 [2,20]: Seconds since power-on (Enter if unknown): A0 representative positions (comma-separated mm): 
+A1 | 2 trials | allowed [0,32] mm
+trial 1 group 1 | diagnostic | 8 -> 8 mm | direction 0 | 2 mm/s
+trial 2 group 2 | diagnostic | 24 -> 24 mm | direction 0 | 2 mm/s
+Estimated 80.2 s including holds, plus settling and read overhead.
+Sample 10 ms | loop index 1 | configuration a33_core2_axis1 | R R_fixed_operator_confirmed
+Transfer 2 mm/s | accel/decel 20 mm/s^2 | position mode 2 | hold 10 s x 3 | arrival tolerance 0.01 mm, 0.05 mm/s | timeout 30 s
+
+ZRA stage 1 | core 2 axis 1 a33 | 1000 pulse/mm | q to cancel/stop
+Offline preview; motion inputs here are candidates.
+Enter site-confirmed speed (mm/s), acceleration (mm/s^2), e.g. 2,20 [2,20]: Enter three site-confirmed scan speeds (mm/s), e.g. 2,10,40 [2,10,40]: 
+C | 30 trials | allowed [0,32] mm
+trial 1 group 1 | development | 0 -> 32 mm | direction 1 | 2 mm/s
+trial 2 group 1 | development | 32 -> 0 mm | direction -1 | 2 mm/s
+trial 3 group 1 | development | 0 -> 32 mm | direction 1 | 10 mm/s
+trial 4 group 1 | development | 32 -> 0 mm | direction -1 | 10 mm/s
+trial 5 group 1 | development | 0 -> 32 mm | direction 1 | 40 mm/s
+trial 6 group 1 | development | 32 -> 0 mm | direction -1 | 40 mm/s
+trial 7 group 2 | development | 0 -> 32 mm | direction 1 | 10 mm/s
+trial 8 group 2 | development | 32 -> 0 mm | direction -1 | 10 mm/s
+trial 9 group 2 | development | 0 -> 32 mm | direction 1 | 40 mm/s
+trial 10 group 2 | development | 32 -> 0 mm | direction -1 | 40 mm/s
+trial 11 group 2 | development | 0 -> 32 mm | direction 1 | 2 mm/s
+trial 12 group 2 | development | 32 -> 0 mm | direction -1 | 2 mm/s
+trial 13 group 3 | development | 0 -> 32 mm | direction 1 | 40 mm/s
+trial 14 group 3 | development | 32 -> 0 mm | direction -1 | 40 mm/s
+trial 15 group 3 | development | 0 -> 32 mm | direction 1 | 2 mm/s
+trial 16 group 3 | development | 32 -> 0 mm | direction -1 | 2 mm/s
+trial 17 group 3 | development | 0 -> 32 mm | direction 1 | 10 mm/s
+trial 18 group 3 | development | 32 -> 0 mm | direction -1 | 10 mm/s
+trial 19 group 4 | scan_holdout | 0 -> 32 mm | direction 1 | 2 mm/s
+trial 20 group 4 | scan_holdout | 32 -> 0 mm | direction -1 | 2 mm/s
+trial 21 group 4 | scan_holdout | 0 -> 32 mm | direction 1 | 10 mm/s
+trial 22 group 4 | scan_holdout | 32 -> 0 mm | direction -1 | 10 mm/s
+trial 23 group 4 | scan_holdout | 0 -> 32 mm | direction 1 | 40 mm/s
+trial 24 group 4 | scan_holdout | 32 -> 0 mm | direction -1 | 40 mm/s
+trial 25 group 5 | scan_holdout | 0 -> 32 mm | direction 1 | 10 mm/s
+trial 26 group 5 | scan_holdout | 32 -> 0 mm | direction -1 | 10 mm/s
+trial 27 group 5 | scan_holdout | 0 -> 32 mm | direction 1 | 40 mm/s
+trial 28 group 5 | scan_holdout | 32 -> 0 mm | direction -1 | 40 mm/s
+trial 29 group 5 | scan_holdout | 0 -> 32 mm | direction 1 | 2 mm/s
+trial 30 group 5 | scan_holdout | 32 -> 0 mm | direction -1 | 2 mm/s
+Estimated 246.898 s including holds, plus settling and read overhead.
+Sample 10 ms | loop index 1 | configuration a33_core2_axis1 | R R_fixed_operator_confirmed
+Transfer 2 mm/s | accel/decel 20 mm/s^2 | position mode 2 | hold 0.25 s x 1 | arrival tolerance 0.01 mm, 0.05 mm/s | timeout 30 s
+
+ZRA stage 1 | core 2 axis 1 a33 | 1000 pulse/mm | q to cancel/stop
+Offline preview; motion inputs here are candidates.
+target_out_of_range
+Protocol A0, A2, B, D [A0]: Enter site-confirmed speed (mm/s), acceleration (mm/s^2), e.g. 2,20 [2,20]: A0 representative interior positions (comma-separated mm): 
+
+ZRA stage 1 | core 2 axis 1 a33 | 1000 pulse/mm | q to cancel/stop
+Offline preview; motion inputs here are candidates.
+Protocol A0, A2, B, D [A0]: Enter site-confirmed speed (mm/s), acceleration (mm/s^2), e.g. 2,20 [2,20]: Independent approach offset (mm) [1]: Hold duration (s) [2]: Requested sample period (ms) [10]: Control-loop index [1]: R-axis state [R_fixed_operator_confirmed]: Site configuration identifier [a33_core2_axis1]: Position-servo mode code [2]: Arrival position tolerance (mm) [.01]: Stationary velocity tolerance (mm/s) [.05]: Arrival timeout per move (s) [30]: 
+A0 | 8 trials | allowed [0,32] mm
+trial 1 group 1 | diagnostic | 7 -> 8 mm | direction 1 | 2 mm/s
+trial 2 group 1 | diagnostic | 15 -> 16 mm | direction 1 | 2 mm/s
+trial 3 group 1 | diagnostic | 23 -> 24 mm | direction 1 | 2 mm/s
+trial 4 group 1 | diagnostic | 31 -> 32 mm | direction 1 | 2 mm/s
+trial 5 group 1 | diagnostic | 25 -> 24 mm | direction -1 | 2 mm/s
+trial 6 group 1 | diagnostic | 17 -> 16 mm | direction -1 | 2 mm/s
+trial 7 group 1 | diagnostic | 9 -> 8 mm | direction -1 | 2 mm/s
+trial 8 group 1 | diagnostic | 1 -> 0 mm | direction -1 | 2 mm/s
+Estimated 66.6 s including holds, plus settling and read overhead.
+Sample 10 ms | loop index 1 | configuration a33_core2_axis1 | R R_fixed_operator_confirmed
+Transfer 2 mm/s | accel/decel 20 mm/s^2 | position mode 2 | hold 3 s x 1 | arrival tolerance 0.01 mm, 0.05 mm/s | timeout 30 s
+
+ZRA stage 1 | core 2 axis 1 a33 | 1000 pulse/mm | q to cancel/stop
+Incorrect number of motion parameters
+Protocol A0, A2, B, D [A0]: Enter site-confirmed speed (mm/s), acceleration (mm/s^2), e.g. 2,20: 
+
+ZRA stage 1 | core 2 axis 1 a33 | 1000 pulse/mm | q to cancel/stop
+Protocol A0, A2, B, D [A0]: Enter site-confirmed speed (mm/s), acceleration (mm/s^2), e.g. 2,20: 
+A0 | 8 trials | allowed [0,32] mm
+trial 1 group 1 | diagnostic | 7 -> 8 mm | direction 1 | 2 mm/s
+trial 2 group 1 | diagnostic | 15 -> 16 mm | direction 1 | 2 mm/s
+trial 3 group 1 | diagnostic | 23 -> 24 mm | direction 1 | 2 mm/s
+trial 4 group 1 | diagnostic | 31 -> 32 mm | direction 1 | 2 mm/s
+trial 5 group 1 | diagnostic | 25 -> 24 mm | direction -1 | 2 mm/s
+trial 6 group 1 | diagnostic | 17 -> 16 mm | direction -1 | 2 mm/s
+trial 7 group 1 | diagnostic | 9 -> 8 mm | direction -1 | 2 mm/s
+trial 8 group 1 | diagnostic | 1 -> 0 mm | direction -1 | 2 mm/s
+Estimated 58.6 s including holds, plus settling and read overhead.
+Sample 10 ms | loop index 1 | configuration a33_core2_axis1 | R R_fixed_operator_confirmed
+Transfer 2 mm/s | accel/decel 20 mm/s^2 | position mode 2 | hold 2 s x 1 | arrival tolerance 0.01 mm, 0.05 mm/s | timeout 30 s
+Use the already homed, enabled position servo in TRAP mode. Confirm the displayed motion parameters and position mode, verify raw current, R fixed, limits, braking and stopping margin. Use Q to stop the session.
+cancelled
+Type START to start: 
+
+PASS: seven standard previews, advanced override, out-of-range rejection, required live motion input, and pre-start cancellation.

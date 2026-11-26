@@ -1,0 +1,46 @@
+{
+  "sessions": [
+    "synthetic_a1_interrupted"
+  ],
+  "sessionOutcomes": [
+    {
+      "id": "synthetic_a1_interrupted",
+      "outcome": "incomplete",
+      "plannedPairs": 5,
+      "completedPairs": 0
+    }
+  ],
+  "model": "position_B_primary_v1",
+  "model_sha256": "21a8c53ef63cd84bc91f85aaad10bac79e87fbef3671c0e71bc9360c45658050",
+  "condition": {
+    "xPlan": 16,
+    "xEval": 16,
+    "speed": 20,
+    "peak": 40,
+    "acc": 400,
+    "dir": 1,
+    "scale": 1000,
+    "xTol": 0.01,
+    "targetTol": 0.5,
+    "speedTol": 0.5,
+    "stability": 0.1,
+    "minCount": 5,
+    "snr": 5,
+    "half": 0.3
+  },
+  "mode": "predeclared_evaluation",
+  "validPairs": 0,
+  "diagnosticChecksPassed": null,
+  "primary": {
+    "motionFitMs": 21,
+    "currentWindowMs": 5,
+    "timeShiftMs": 0
+  },
+  "repeat": {
+    "status": "insufficient_independent_repeat_pairs",
+    "repeatPairs": 0,
+    "minimum": 5
+  },
+  "directionCheck": "independent reverse-direction study pending",
+  "historyBias": "execution-order groups are descriptive; independent history-bias test pending"
+}

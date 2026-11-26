@@ -1,0 +1,8 @@
+mode=synthetic
+core_period_ns=50000
+encoder_pulse_per_mm=1000
+expected_start_mm=0
+expected_turnaround_mm=1
+expected_speed_mm_s=10
+expected_accel_decel_mm_s2=400
+outcome=synthetic

@@ -1,0 +1,12 @@
+session_id=Z-B_20261125-200319_515_4344
+pair_id=4
+planned_pair_id=Z-BP_20261125-195157_221_35296_M4_X450V20
+condition=X450V20
+round=4
+series=matrix
+history_condition=H1
+first_role=decel
+match_pulse_s=20000
+acc_pulse_s2=450000
+eval_pulse=15976
+outcome=complete

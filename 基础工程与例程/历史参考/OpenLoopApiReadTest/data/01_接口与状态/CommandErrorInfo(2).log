@@ -1,0 +1,5 @@
+//---------------------------//
+2026-11-9 15:16:7:217  pfnEcfg_master_init_pre() = -10
+2026-11-9 15:16:7:217  GT_IN_InitEcatCommGeneral(100,&initPrmTemp,60.000000,1) = -10
+2026-11-9 15:16:7:217  The g_pSlaveListExV1 is 0
+2026-11-9 15:16:7:218  The g_pSlaveListExV1 is 0

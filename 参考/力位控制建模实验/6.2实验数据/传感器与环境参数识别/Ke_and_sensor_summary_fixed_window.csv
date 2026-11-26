@@ -1,0 +1,2 @@
+data_start_missing_s,time_column_reset_after_truncation,first_step_original_s,step_period_s,num_steps,F_bias_g,noise_std_bias_g,fit_force_min_g,fit_force_max_g,Ke_g_per_mm,z_contact_mm,Ke_RMSE_g,Ke_R2,sensor_delay_median_s,sensor_rise_median_s,tau_sensor_median_s,bandwidth_median_Hz,N_delay_median
+1.24,1,5,4,15,13.9172581364245,2.1808865670646,50,400,18839.1850095713,0.0471635645361675,0.669453623337796,0.999959427868491,-0.0299024689866698,1.15032830915253,0.52287650416024,0.30426096377464,-30

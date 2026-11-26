@@ -1,0 +1,16 @@
+{
+  "ids": [
+    "Z-B_20261125-185833_416_6532"
+  ],
+  "condition": "X650V16",
+  "evaluatedPulse": 15977,
+  "diagnostic": false,
+  "accepted": false,
+  "evaluablePairs": 0,
+  "qualificationRepeat": {
+    "status": "insufficient_independent_repeat_pairs",
+    "repeatPairs": 0,
+    "minimum": 5,
+    "meanAlphaPulseUnits": null
+  }
+}

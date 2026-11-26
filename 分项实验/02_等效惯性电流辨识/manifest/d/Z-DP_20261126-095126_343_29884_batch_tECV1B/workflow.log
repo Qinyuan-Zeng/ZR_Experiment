@@ -1,0 +1,167 @@
+2026-11-26T01:51:58.824Z field_confirmed=1 protocol=Z-DP_20261126-095126_343_29884 max_pairs=4 reserve_pulse=5000 follow_limit_pulse=500
+2026-11-26T01:51:58.825Z begin pending
+2026-11-26T01:51:58.908Z pending
+exit=0
+Z-DP_20261126-095126_343_29884_P1 D H1
+Z-DP_20261126-095126_343_29884_P2 D H1
+Z-DP_20261126-095126_343_29884_P3 D H1
+Z-DP_20261126-095126_343_29884_P4 D H1
+Z-DP_20261126-095126_343_29884_P5 D H1
+
+
+2026-11-26T01:51:58.908Z begin before
+2026-11-26T01:51:59.085Z before
+exit=0
+core=2
+axis=1
+position_pulse=18324
+planned_pulse=18324
+velocity_pulse_s=0
+planned_velocity_pulse_s=0
+following_error_pulse=0
+status_word=1073742336
+enabled=1
+moving=0
+fault=0
+limit_plus=0
+limit_minus=0
+mode=2
+planner=0
+ready=1
+
+GTN_OpenCard.rc=0
+GTN_GetVersionEx.rc=0
+firmware=100
+GTN_GetAxisPosErrLimit.rc=0
+controller_follow_limit_pulse=0
+follow_limit_pulse=500
+GTN_Close.rc=0
+
+2026-11-26T01:51:59.085Z begin acquire
+2026-11-26T01:52:12.189Z acquire
+exit=1
+Mode [F] D acquisition/resume: Frozen D protocol ID: Pending D pairs to run [maximum 4]: Field-confirmed extra stop reserve and following-error limit [both pulse]: Session: Z-D_20261126-095159_169_1124
+Z-DP_20261126-095126_343_29884_P1
+accel_pulse=17694 -> 20894
+transfer 18.324 -> 17.694 mm, envelope [17.694, 18.324], boundary clearances 17.694/13.676 mm, required reserve 5.01201 mm each side [OK]
+accel 17.694 -> 20.894 mm, envelope [17.694, 20.894], boundary clearances 17.694/11.106 mm, required reserve 5.81412 mm each side [OK]
+v0_pulse_s=18000, eval platform before/after=34.9857/45.0143 ms; full 31 ms window
+decel_pulse=15142 -> 18342
+transfer 20.894 -> 15.142 mm, envelope [15.142, 20.894], boundary clearances 15.142/11.106 mm, required reserve 5.01201 mm each side [OK]
+decel 15.142 -> 18.342 mm, envelope [15.142, 18.342], boundary clearances 15.142/13.658 mm, required reserve 5.81412 mm each side [OK]
+v0_pulse_s=18000, eval platform before/after=43.0135/36.9865 ms; full 31 ms window
+Z-DP_20261126-095126_343_29884_P2
+decel_pulse=15142 -> 18342
+transfer 18.342 -> 15.142 mm, envelope [15.142, 18.342], boundary clearances 15.142/13.658 mm, required reserve 5.01201 mm each side [OK]
+decel 15.142 -> 18.342 mm, envelope [15.142, 18.342], boundary clearances 15.142/13.658 mm, required reserve 5.81412 mm each side [OK]
+v0_pulse_s=18000, eval platform before/after=43.0135/36.9865 ms; full 31 ms window
+accel_pulse=17694 -> 20894
+transfer 18.342 -> 17.694 mm, envelope [17.694, 18.342], boundary clearances 17.694/13.658 mm, required reserve 5.01201 mm each side [OK]
+accel 17.694 -> 20.894 mm, envelope [17.694, 20.894], boundary clearances 17.694/11.106 mm, required reserve 5.81412 mm each side [OK]
+v0_pulse_s=18000, eval platform before/after=34.9857/45.0143 ms; full 31 ms window
+Z-DP_20261126-095126_343_29884_P3
+accel_pulse=17694 -> 20894
+transfer 20.894 -> 17.694 mm, envelope [17.694, 20.894], boundary clearances 17.694/11.106 mm, required reserve 5.01201 mm each side [OK]
+accel 17.694 -> 20.894 mm, envelope [17.694, 20.894], boundary clearances 17.694/11.106 mm, required reserve 5.81412 mm each side [OK]
+v0_pulse_s=18000, eval platform before/after=34.9857/45.0143 ms; full 31 ms window
+decel_pulse=15142 -> 18342
+transfer 20.894 -> 15.142 mm, envelope [15.142, 20.894], boundary clearances 15.142/11.106 mm, required reserve 5.01201 mm each side [OK]
+decel 15.142 -> 18.342 mm, envelope [15.142, 18.342], boundary clearances 15.142/13.658 mm, required reserve 5.81412 mm each side [OK]
+v0_pulse_s=18000, eval platform before/after=43.0135/36.9865 ms; full 31 ms window
+Z-DP_20261126-095126_343_29884_P4
+decel_pulse=15142 -> 18342
+transfer 18.342 -> 15.142 mm, envelope [15.142, 18.342], boundary clearances 15.142/13.658 mm, required reserve 5.01201 mm each side [OK]
+decel 15.142 -> 18.342 mm, envelope [15.142, 18.342], boundary clearances 15.142/13.658 mm, required reserve 5.81412 mm each side [OK]
+v0_pulse_s=18000, eval platform before/after=43.0135/36.9865 ms; full 31 ms window
+accel_pulse=17694 -> 20894
+transfer 18.342 -> 17.694 mm, envelope [17.694, 18.342], boundary clearances 17.694/13.658 mm, required reserve 5.01201 mm each side [OK]
+accel 17.694 -> 20.894 mm, envelope [17.694, 20.894], boundary clearances 17.694/11.106 mm, required reserve 5.81412 mm each side [OK]
+v0_pulse_s=18000, eval platform before/after=34.9857/45.0143 ms; full 31 ms window
+Confirm servo ready, limits, R fixed, brake and verified stop reserve. Type START: Z-D_20261126-095159_169_1124_p1_r1 complete
+Z-D_20261126-095159_169_1124_p1_r2 complete
+Z-D_20261126-095159_169_1124_p2_r1 complete
+Z-D_20261126-095159_169_1124_p2_r2 complete
+Z-D_20261126-095159_169_1124_p3_r1 incomplete: not_at_confirmed_start
+Z-D_20261126-095159_169_1124 acquisition incomplete
+
+
+2026-11-26T01:52:12.190Z begin after
+2026-11-26T01:52:12.281Z after
+exit=1
+core=2
+axis=1
+position_pulse=17692
+planned_pulse=17694
+velocity_pulse_s=20000
+planned_velocity_pulse_s=0
+following_error_pulse=1
+status_word=1073742336
+enabled=1
+moving=0
+fault=0
+limit_plus=0
+limit_minus=0
+mode=2
+planner=0
+ready=0
+reason=not_idle_or_not_aligned
+
+GTN_OpenCard.rc=0
+GTN_GetVersionEx.rc=0
+firmware=100
+GTN_GetAxisPosErrLimit.rc=0
+controller_follow_limit_pulse=0
+follow_limit_pulse=500
+GTN_Close.rc=0
+
+2026-11-26T01:52:12.281Z begin replay
+2026-11-26T01:52:12.443Z replay
+exit=0
+{
+  "protocol": "Z-DP_20261126-095126_343_29884",
+  "bProtocol": "Z-BP_20261125-195157_221_35296",
+  "alpha": 0.000030306147541113107,
+  "accepted": 2,
+  "planned": 5,
+  "sessions": [
+    "Z-D_20261126-095159_169_1124"
+  ],
+  "pending": [
+    "Z-DP_20261126-095126_343_29884_P3",
+    "Z-DP_20261126-095126_343_29884_P4",
+    "Z-DP_20261126-095126_343_29884_P5"
+  ],
+  "pendingReasons": {
+    "Z-DP_20261126-095126_343_29884_P3": [
+      "pair was interrupted; resample both roles"
+    ],
+    "Z-DP_20261126-095126_343_29884_P4": [
+      "slot or trajectory was not recorded"
+    ],
+    "Z-DP_20261126-095126_343_29884_P5": [
+      "not yet recorded"
+    ]
+  },
+  "limits": {
+    "absBias": 4,
+    "rmse": 6
+  },
+  "status": "insufficient_valid_pairs",
+  "reasons": [],
+  "bias": -4.702792363946582,
+  "rmse": 4.717839593714767,
+  "baselineRmse": 25.07885884570714,
+  "residualScatterRmse": 0.37650287333357113,
+  "rmseImprovementRaw": 20.36101925199237
+}
+
+
+2026-11-26T01:52:12.443Z acquire: 
+after: GTN_OpenCard.rc=0
+GTN_GetVersionEx.rc=0
+firmware=100
+GTN_GetAxisPosErrLimit.rc=0
+controller_follow_limit_pulse=0
+follow_limit_pulse=500
+GTN_Close.rc=0
+

@@ -1,0 +1,11 @@
+{
+  "ids": [
+    "Z-B_20261125-171641_942_16060"
+  ],
+  "condition": "X300V16",
+  "evaluatedPulse": 16000,
+  "diagnostic": true,
+  "accepted": false,
+  "evaluablePairs": 0,
+  "qualificationRepeat": null
+}

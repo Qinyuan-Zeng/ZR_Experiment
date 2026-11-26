@@ -1,0 +1,13 @@
+session_id=C
+phase=C
+config=synthetic-v1
+R_state=fixed
+current_api=GTN_GetAtlTorque
+current_unit=raw
+core=2
+axis=1
+pulse_per_mm=1000
+acc_mm_s2=100
+position_mode=2
+loop_index=1
+segments=1

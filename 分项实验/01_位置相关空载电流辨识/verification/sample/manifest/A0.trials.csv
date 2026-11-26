@@ -1,0 +1,9 @@
+session_id,trial_id,phase,group,use,direction,target_mm,approach_mm,speed_mm_s,start_mm,hold_s,window_s,period_s,pos_tol_mm,vel_tol_mm_s,status,reason
+A0,1,A0,1,diagnostic,-1,0,1,2,1,2,1,0.02,0.01,0.05,completed,ok
+A0,2,A0,1,diagnostic,-1,8,9,2,9,2,1,0.02,0.01,0.05,completed,ok
+A0,3,A0,1,diagnostic,1,8,7,2,7,2,1,0.02,0.01,0.05,completed,ok
+A0,4,A0,1,diagnostic,-1,16,17,2,17,2,1,0.02,0.01,0.05,completed,ok
+A0,5,A0,1,diagnostic,1,16,15,2,15,2,1,0.02,0.01,0.05,completed,ok
+A0,6,A0,1,diagnostic,-1,24,25,2,25,2,1,0.02,0.01,0.05,completed,ok
+A0,7,A0,1,diagnostic,1,24,23,2,23,2,1,0.02,0.01,0.05,completed,ok
+A0,8,A0,1,diagnostic,1,32,31,2,31,2,1,0.02,0.01,0.05,completed,ok

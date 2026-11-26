@@ -1,0 +1,40 @@
+{
+  "ids": [
+    "Z-B_20261125-165925_419_13160"
+  ],
+  "condition": "X200V16",
+  "evaluatedPulse": 15982,
+  "diagnostic": false,
+  "accepted": false,
+  "evaluablePairs": 5,
+  "qualificationRepeat": {
+    "status": "does_not_pass_or_is_indeterminate",
+    "repeatPairs": 5,
+    "meanI": 3.4064813661575415,
+    "sigmaI": 2.01038684907791,
+    "snr": 1.694440732996223,
+    "meanAlpha": 0.008679117338140332,
+    "sigmaAlpha": 0.005131443443509931,
+    "ci95": [
+      0.002308610205744842,
+      0.015049624470535821
+    ],
+    "relativeHalfWidth": 0.7340040333825575,
+    "byOrder": [
+      {
+        "order": "accel_first",
+        "pairs": 3,
+        "meanDeltaI": 2.148339436667863,
+        "meanAlpha": 0.005456965185202786
+      },
+      {
+        "order": "decel_first",
+        "pairs": 2,
+        "meanDeltaI": 5.2936942603920585,
+        "meanAlpha": 0.01351234556754665
+      }
+    ],
+    "zeroVarianceInterpretation": null,
+    "meanAlphaPulseUnits": 0.000008679117338140331
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "protocol": "Z-DP_20261126-093024_940_1908",
+  "bProtocol": "Z-BP_20261125-195157_221_35296",
+  "alpha": 0.000030306147541113107,
+  "accepted": 0,
+  "planned": 5,
+  "sessions": [
+    "Z-D_20261126-094717_938_24196"
+  ],
+  "pending": [
+    "Z-DP_20261126-093024_940_1908_P1",
+    "Z-DP_20261126-093024_940_1908_P2",
+    "Z-DP_20261126-093024_940_1908_P3",
+    "Z-DP_20261126-093024_940_1908_P4",
+    "Z-DP_20261126-093024_940_1908_P5"
+  ],
+  "pendingReasons": {
+    "Z-DP_20261126-093024_940_1908_P1": [
+      "accel: 31 ms center speed outside predeclared tolerance",
+      "decel: 15 ms center speed outside predeclared tolerance",
+      "decel: 21 ms center speed outside predeclared tolerance",
+      "decel: 31 ms center speed outside predeclared tolerance",
+      "15 ms velocity mismatch",
+      "21 ms velocity mismatch",
+      "31 ms velocity mismatch"
+    ],
+    "Z-DP_20261126-093024_940_1908_P2": [
+      "slot or trajectory was not recorded"
+    ],
+    "Z-DP_20261126-093024_940_1908_P3": [
+      "slot or trajectory was not recorded"
+    ],
+    "Z-DP_20261126-093024_940_1908_P4": [
+      "slot or trajectory was not recorded"
+    ],
+    "Z-DP_20261126-093024_940_1908_P5": [
+      "not yet recorded"
+    ]
+  },
+  "limits": {
+    "absBias": 4,
+    "rmse": 6
+  },
+  "status": "insufficient_valid_pairs",
+  "reasons": [],
+  "bias": null,
+  "rmse": null,
+  "baselineRmse": null,
+  "residualScatterRmse": null,
+  "rmseImprovementRaw": null
+}

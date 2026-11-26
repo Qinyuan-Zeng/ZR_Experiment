@@ -1,0 +1,6 @@
+Frozen model: quadratic [1, 31] mm
+Acceptance paired rows: 734
+Frozen D v1: B 301 nodes, BC 38 nodes.
+Z-D_20261124-200659_01: 734 paired references.
+PASS: endpoints, missing samples, unstable hold, interrupted/unstarted trials, frozen model, overlap rejection.
+C:\Users\HYB\AppData\Local\Temp\zr-d-final-ac49b58b6df540779678bd441b4e65f4

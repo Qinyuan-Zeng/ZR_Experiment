@@ -1,0 +1,27 @@
+
+B verified
+B | 1204 trials | command range [0,32000] pulses
+B protocol B | grid 100 pulses | approach 1000 pulses | hold only 80.2667 min
+Estimated 6231.3 s including holds, plus settling and read overhead.
+Transfer 2 mm/s | accel/decel 20 mm/s^2 | position mode 2 | hold 4 s x 1 | arrival tolerance 0.01 mm, 0.05 mm/s | timeout 30 s
+BL verified
+B | 11 trials | command range [0,32000] pulses
+B protocol BL | grid 100 pulses | approach 1000 pulses | hold only 0.733333 min
+Estimated 71.2 s including holds, plus settling and read overhead.
+Transfer 2 mm/s | accel/decel 20 mm/s^2 | position mode 2 | hold 4 s x 1 | arrival tolerance 0.01 mm, 0.05 mm/s | timeout 30 s
+BH verified
+B | 11 trials | command range [0,32000] pulses
+B protocol BH | grid 100 pulses | approach 1000 pulses | hold only 0.733333 min
+Estimated 71.2 s including holds, plus settling and read overhead.
+Transfer 2 mm/s | accel/decel 20 mm/s^2 | position mode 2 | hold 4 s x 1 | arrival tolerance 0.01 mm, 0.05 mm/s | timeout 30 s
+BE verified
+B | 24 trials | command range [0,32000] pulses
+B protocol BE | grid 100 pulses | approach 500 pulses | hold only 1.6 min
+Estimated 156.55 s including holds, plus settling and read overhead.
+Transfer 2 mm/s | accel/decel 20 mm/s^2 | position mode 2 | hold 4 s x 1 | arrival tolerance 0.01 mm, 0.05 mm/s | timeout 30 s
+D verified
+Estimated 228.075 s including holds, plus settling and read overhead.
+Transfer 2 mm/s | accel/decel 20 mm/s^2 | position mode 2 | hold 2 s x 1 | arrival tolerance 0.01 mm, 0.05 mm/s | timeout 30 s
+A0 verified
+Estimated 58.6 s including holds, plus settling and read overhead.
+Transfer 2 mm/s | accel/decel 20 mm/s^2 | position mode 2 | hold 2 s x 1 | arrival tolerance 0.01 mm, 0.05 mm/s | timeout 30 s

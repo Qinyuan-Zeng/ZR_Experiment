@@ -1,0 +1,3 @@
+protocol_id=Z-DP_20261126-093024_940_1908
+seen_revision=Z-D_20261126-094717_938_24196:12396
+accepted_slots=

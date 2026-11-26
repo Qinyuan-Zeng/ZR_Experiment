@@ -1,0 +1,6 @@
+﻿  GMS_Net_test.cpp
+F:\LZB\GVN_project\friction_ff_compensation\friction_ff_compensation\GMS_Net_test.cpp(30,9): warning C4005: “PT_MODE_DYNAMIC”: 宏重定义
+      F:\LZB\GVN_project\friction_ff_compensation\friction_ff_compensation\gxn.h(806,9):
+      参见“PT_MODE_DYNAMIC”的前一个定义
+  
+  friction_ff_compensation.vcxproj -> F:\LZB\GVN_project\friction_ff_compensation\x64\Debug\friction_ff_compensation.exe

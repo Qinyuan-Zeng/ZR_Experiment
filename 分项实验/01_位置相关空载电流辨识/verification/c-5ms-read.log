@@ -1,0 +1,6 @@
+ZRA stage 1 | core 2 axis 1 a33 | 1000 pulse/mm | q to cancel/stop
+Read duration (s) [5]: Requested sample period (ms) [10]: Control-loop index [1]: R-axis state [R_unverified_read_only]: Site configuration identifier [a33_core2_axis1]: 
+READ | 1 trials | 5 s
+Sample 5 ms | loop index 1 | configuration a33_core2_axis1 | R R_unverified_read_only
+Type READ to start [READ]: Session 20261124T081158818Z_27728
+Samples 847, missing 0, late 0, mean read 0.000452117 s, mean period 0.00591373 s

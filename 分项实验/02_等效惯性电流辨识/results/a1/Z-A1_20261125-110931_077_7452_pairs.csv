@@ -1,0 +1,2 @@
+session_id,pair_id,valid,reason,delta_x_mm,delta_v_mm_s,delta_a_mm_s2,delta_I_raw,delta_I_corr_raw,alpha_raw_per_mm_s2,x0_plan_mm,x_match_eval_mm,diagnostic_checks_passed
+Z-A1_20261125-110931_077_7452,1,1,,0.0004349744450777848,0.07954708238768049,768.3937470651574,20.07950195019498,20.059345938886665,0.02610555592819744,16,15.976,

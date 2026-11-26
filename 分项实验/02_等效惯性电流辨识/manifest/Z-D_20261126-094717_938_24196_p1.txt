@@ -1,0 +1,12 @@
+session_id=Z-D_20261126-094717_938_24196
+pair_id=1
+planned_pair_id=Z-DP_20261126-093024_940_1908_P1
+condition=D
+series=validation
+history_condition=H1
+round=1
+first_role=accel
+match_pulse_s=18000
+acc_pulse_s2=500000
+eval_pulse=18000
+outcome=complete

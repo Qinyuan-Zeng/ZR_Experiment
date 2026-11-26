@@ -1,0 +1,49 @@
+{
+  "图1_平台模型": {
+    "model": "E:\\A_ZQY\\Experiment\\ZRPlatformSimulation\\stage3_improved\\zr_stage3_improved.slx",
+    "meaning": "按实现信号链抽象重绘，非Simulink截图；真实力仅用于离线评价和独立保护"
+  },
+  "图2_试次间优化流程": {
+    "model": "E:\\A_ZQY\\Experiment\\ZRPlatformSimulation\\stage3_improved\\zr_stage3_improved.slx",
+    "meaning": "按实现信号链抽象重绘，非Simulink截图；真实力仅用于离线评价和独立保护"
+  },
+  "图3_历史负载代表性": {
+    "source_script": "E:\\A_ZQY\\Experiment\\ZRPlatformSimulation\\stage1_hold_v2\\make_report.py",
+    "data": "same frozen predictions; 146 mm physical width; all labels 9 pt; 600 dpi"
+  },
+  "图4_名义空载电流预测": {
+    "source_script": "E:\\A_ZQY\\Experiment\\ZRPlatformSimulation\\stage1_hold_v2\\make_report.py",
+    "data": "same frozen predictions; 146 mm physical width; all labels 9 pt; 600 dpi"
+  },
+  "图5_重新规划空载预测": {
+    "source_script": "E:\\A_ZQY\\Experiment\\ZRPlatformSimulation\\stage1_hold_v2\\make_report.py",
+    "data": "same frozen predictions; 146 mm physical width; all labels 9 pt; 600 dpi"
+  },
+  "图6_长保持电流预测": {
+    "source_script": "E:\\A_ZQY\\Experiment\\ZRPlatformSimulation\\stage1_hold_v2\\make_report.py",
+    "data": "same frozen predictions; 146 mm physical width; all labels 9 pt; 600 dpi"
+  },
+  "图7_名义残差估力": "E:\\A_ZQY\\Experiment\\ZRPlatformSimulation\\stage2_force\\results\\论文插图\\图1_名义工况完整循环",
+  "图8_独立估力比较": "E:\\A_ZQY\\Experiment\\ZRPlatformSimulation\\stage2_force\\results\\论文插图\\图3_独立测试方法比较",
+  "图9_学习过程与独立确认": {
+    "old": "E:\\A_ZQY\\Experiment\\ZRPlatformSimulation\\stage3_improved\\results\\original_reference_manifest.csv",
+    "new": "E:\\A_ZQY\\Experiment\\ZRPlatformSimulation\\stage3_improved\\results\\adaptive_manifest.csv",
+    "selection": "7工况各2重复，原法0.9与新法0.6均独立冻结；下图为新噪声确认"
+  },
+  "图10_学习后加载与保持": {
+    "old": "original_reference_05",
+    "new": "adaptive_014",
+    "replicate": 1,
+    "case": "late_contact",
+    "alignment": "按任务时钟，不作真实接触对齐"
+  },
+  "图11_实际发送的加载参考": {
+    "old": "original_reference_05",
+    "new": "adaptive_014",
+    "columns": [
+      "z_ref_m",
+      "v_ref_mps",
+      "a_ref_mps2"
+    ]
+  }
+}

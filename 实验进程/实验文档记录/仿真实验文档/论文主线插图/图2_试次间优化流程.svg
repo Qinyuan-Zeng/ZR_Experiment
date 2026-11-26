@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="413.858268pt" height="187.2pt" viewBox="0 0 413.858268 187.2" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-20T15:44:33.715806</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 187.2 
+L 413.858268 187.2 
+L 413.858268 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 8.277165 93.6 
+L 103.464567 93.6 
+L 103.464567 39 
+L 8.277165 39 
+z
+" clip-path="url(#p8d48323d76)" style="fill: #ffffff; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 157.266142 93.6 
+L 252.453543 93.6 
+L 252.453543 39 
+L 157.266142 39 
+z
+" clip-path="url(#p8d48323d76)" style="fill: #ffffff; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 306.255118 93.6 
+L 405.581102 93.6 
+L 405.581102 39 
+L 306.255118 39 
+z
+" clip-path="url(#p8d48323d76)" style="fill: #ffffff; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 105.464394 66.3 
+Q 130.364581 66.3 154.426243 66.3 
+" clip-path="url(#p8d48323d76)" style="fill: none; stroke: #000000; stroke-width: 0.75; stroke-linecap: round"/>
+    <path d="M 151.226243 64.7 
+L 154.426243 66.3 
+L 151.226243 67.9 
+z
+" clip-path="url(#p8d48323d76)" style="stroke: #000000; stroke-width: 0.75; stroke-linecap: round"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 254.45337 66.3 
+Q 279.353557 66.3 303.415219 66.3 
+" clip-path="url(#p8d48323d76)" style="fill: none; stroke: #000000; stroke-width: 0.75; stroke-linecap: round"/>
+    <path d="M 300.215219 64.7 
+L 303.415219 66.3 
+L 300.215219 67.9 
+z
+" clip-path="url(#p8d48323d76)" style="stroke: #000000; stroke-width: 0.75; stroke-linecap: round"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 53.801575 150.096918 
+Q 53.801575 122.846741 53.801575 96.43509 
+" clip-path="url(#p8d48323d76)" style="fill: none; stroke-dasharray: 2.775,1.2; stroke-dashoffset: 0; stroke: #000000; stroke-width: 0.75; stroke-linecap: round"/>
+    <path d="M 52.201575 99.63509 
+L 53.801575 96.43509 
+L 55.401575 99.63509 
+z
+" clip-path="url(#p8d48323d76)" style="stroke-dasharray: 2.775,1.2; stroke-dashoffset: 0; stroke: #000000; stroke-width: 0.75; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 355.91811 93.6 
+L 355.91811 152.1 
+" clip-path="url(#p8d48323d76)" style="fill: none; stroke-dasharray: 2.775,1.2; stroke-dashoffset: 0; stroke: #000000; stroke-width: 0.75"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 355.91811 152.1 
+L 53.801575 152.1 
+" clip-path="url(#p8d48323d76)" style="fill: none; stroke-dasharray: 2.775,1.2; stroke-dashoffset: 0; stroke: #000000; stroke-width: 0.75"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 9px; font-family: 'Times New Roman', 'SimSun'" transform="translate(24.370866 63.718213)">第 k 次完整轨迹</text>
+    <text style="font-size: 9px; font-family: 'Times New Roman', 'SimSun'" transform="translate(28.870866 74.357373)">执行位置闭环</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 9px; font-family: 'Times New Roman', 'SimSun'" transform="translate(182.359843 63.683057)">记录估计力</text>
+    <text style="font-size: 9px; font-family: 'Times New Roman', 'SimSun'" transform="translate(177.859843 74.392529)">计算任务误差</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 9px; font-family: 'Times New Roman', 'SimSun'" transform="translate(326.540845 63.683057)">求解带约束 QP</text>
+    <text style="font-size: 9px; font-family: 'Times New Roman', 'SimSun'" transform="translate(328.91811 74.392529)">修正轨迹系数</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 9px; font-family: 'Times New Roman', 'SimSun'; text-anchor: middle" x="202.790551" y="140.4" transform="rotate(-0 202.790551 140.4)">第 k+1 次运动开始前生成完整规划</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 9px; font-family: 'Times New Roman', 'SimSun'; text-anchor: middle" x="206.929134" y="19.5" transform="rotate(-0 206.929134 19.5)">试次间更新  MATLAB 外层程序</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p8d48323d76">
+   <rect x="0" y="0" width="413.858268" height="187.2"/>
+  </clipPath>
+ </defs>
+</svg>

@@ -1,0 +1,5 @@
+//---------------------------//
+2026-5-17 17:13:36:702  LoadFile(C:\Users\admin\Desktop\sine_compensate\Googol.xml) = 3
+2026-5-17 17:13:36:702  LoadFile(C:\Users\admin\Desktop\sine_compensate\Googol.xml) = 3
+2026-5-17 17:13:36:702  LoadXmlPro(0,pXmlFile,2) = 100
+2026-5-17 17:13:36:702  GTN_NetInit(100,&prm,60,&status(100)) = 11912

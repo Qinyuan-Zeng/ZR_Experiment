@@ -1,0 +1,17 @@
+﻿test_sine.obj : error LNK2019: 无法解析的外部符号 _GTN_Reset@4，函数 _main 中引用了该符号
+test_sine.obj : error LNK2019: 无法解析的外部符号 _GTN_GetSts@20，函数 _main 中引用了该符号
+test_sine.obj : error LNK2019: 无法解析的外部符号 _GTN_ClrSts@12，函数 _main 中引用了该符号
+test_sine.obj : error LNK2019: 无法解析的外部符号 _GTN_AxisOn@8，函数 _main 中引用了该符号
+test_sine.obj : error LNK2019: 无法解析的外部符号 _GTN_AxisOff@8，函数 _main 中引用了该符号
+test_sine.obj : error LNK2019: 无法解析的外部符号 _GTN_SetPrfPos@12，函数 _main 中引用了该符号
+test_sine.obj : error LNK2019: 无法解析的外部符号 _GTN_ZeroPos@12，函数 _main 中引用了该符号
+test_sine.obj : error LNK2019: 无法解析的外部符号 _GTN_GetPrfPos@20，函数 _main 中引用了该符号
+test_sine.obj : error LNK2019: 无法解析的外部符号 _GTN_LoadConfig@8，函数 _main 中引用了该符号
+test_sine.obj : error LNK2019: 无法解析的外部符号 _GTN_Update@8，函数 _main 中引用了该符号
+test_sine.obj : error LNK2019: 无法解析的外部符号 _GTN_SetPos@12，函数 _main 中引用了该符号
+test_sine.obj : error LNK2019: 无法解析的外部符号 _GTN_SetVel@16，函数 _main 中引用了该符号
+test_sine.obj : error LNK2019: 无法解析的外部符号 _GTN_PrfTrap@8，函数 _main 中引用了该符号
+test_sine.obj : error LNK2019: 无法解析的外部符号 _GTN_SetTrapPrm@12，函数 _main 中引用了该符号
+test_sine.obj : error LNK2019: 无法解析的外部符号 _GTN_GetTrapPrm@12，函数 _main 中引用了该符号
+test_sine.obj : error LNK2019: 无法解析的外部符号 _GTN_OpenCard@12，函数 _main 中引用了该符号
+F:\LZB\GVN_project\friction_ff_compensation\Debug\friction_ff_compensation.exe : fatal error LNK1120: 16 个无法解析的外部命令

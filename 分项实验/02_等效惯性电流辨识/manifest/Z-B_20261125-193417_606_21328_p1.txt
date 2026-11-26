@@ -1,0 +1,12 @@
+session_id=Z-B_20261125-193417_606_21328
+pair_id=1
+planned_pair_id=Q1
+condition=X350V20
+round=1
+series=qualification
+history_condition=H1
+first_role=accel
+match_pulse_s=20000
+acc_pulse_s2=350000
+eval_pulse=16000
+outcome=complete

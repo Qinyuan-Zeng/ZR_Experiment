@@ -1,0 +1,101 @@
+自动使能：正向DAC起动摸底，从100开始，每档+10，上限300，每档仅一次20ms请求。
+达到50pulse(0.005mm)位移，3次间隔至少2ms同方向确认后归零，停止递增；单次未确认越过阈值也不继续。
+归零后监测250ms；初始使能400raw、采集50raw；累计位移500pulse、速度50pulse/ms软件退出。
+硬上限不自动扩展；无运动指令；Q/Esc/Ctrl+C退出。硬件急停可用。
+Raw: breakaway_20261030_152438_455.log_raw.csv
+Summary: breakaway_20261030_152438_455.log_summary.csv
+GTN_OpenCard(5): rc=0
+GTN_NetInit: rc=0 status=0
+[before_enable] status=0x40000000 mode=2 enc=1.000000 prf=0.000000 vel=20.000000 current_raw=0 rc=[0,0,0,0,0,0]
+GetSwitch(original): rc=0
+GetForceControlParameter: rc=0
+GetForceValue(original): rc=0
+Original switch: enable=0 mode=0 dir=0 threshold=0 dac=0 time=0 offset=0 reserve=0,0
+Force config: type=0 target=0 outputK=1 outputB=0
+
+[API 1] Disabled Set/GetSwitch: change threshold with enable=0, then restore.
+Inactive round-trip: threshold 0 -> 1, set=0 get=0 match=YES
+Inactive restore: set=0 get=0 match=YES
+PARAMETER ROUND-TRIP PASS (disabled; no transition armed).
+GTN_AxisOn: rc=0
+[enabled_mode2] status=0x40000200 mode=2 enc=1.000000 prf=0.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+[enabled_mode2] status=0x40000200 mode=2 enc=1.000000 prf=0.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+[enabled_mode2] status=0x40000200 mode=2 enc=1.000000 prf=0.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+[enabled_mode2] status=0x40000200 mode=2 enc=1.000000 prf=0.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+[enabled_mode2] status=0x40000200 mode=2 enc=1.000000 prf=0.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+[enabled_mode2] status=0x40000200 mode=2 enc=1.000000 prf=0.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+[enabled_mode2] status=0x40000200 mode=2 enc=1.000000 prf=0.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+[enabled_mode2] status=0x40000200 mode=2 enc=1.000000 prf=0.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+[enabled_mode2] status=0x40000200 mode=2 enc=1.000000 prf=0.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+[enabled_mode2] status=0x40000200 mode=2 enc=1.000000 prf=0.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+[enabled_mode2] status=0x40000200 mode=2 enc=1.000000 prf=0.000000 vel=20.000000 current_raw=0 rc=[0,0,0,0,0,0]
+[enabled_mode2] status=0x40000200 mode=2 enc=1.000000 prf=0.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+[enabled_mode2] status=0x40000200 mode=2 enc=1.000000 prf=0.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+Arm zero-output entry: error=-1.000000 dir=0 threshold=11 overTime=10ms dac=0
+SetSwitch(entry): rc=0
+[waiting_force] status=0x40000200 mode=2 enc=1.000000 prf=0.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+GetSwitch(entry): rc=0
+Entry progress: mode=2 switchEnable=1
+[waiting_force] status=0x40000200 mode=3 enc=1.000000 prf=1.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+GetSwitch(entry): rc=0
+Entry progress: mode=3 switchEnable=0
+ENTRY PASS: submitted mode=0 task completed (enable=0); observed loopMode=3.
+[API 2] GetControlLoopMode is recorded, not used to require entry mode 3 or 4.
+[API 3] SetForceValue -> GetForceValue: zero DAC target, not measured force.
+Zero target step 1/3: requested DAC=0
+GTN_SetForceValue(0) AFTER ENTRY: rc=0
+GTN_GetForceValue(after): rc=0
+[zero_target_readback] status=0x40000200 mode=3 enc=1.000000 prf=1.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+Zero target step 2/3: requested DAC=0
+GTN_SetForceValue(0) AFTER ENTRY: rc=0
+GTN_GetForceValue(after): rc=0
+[zero_target_readback] status=0x40000200 mode=3 enc=1.000000 prf=1.000000 vel=-20.000000 current_raw=0 rc=[0,0,0,0,0,0]
+Zero target step 3/3: requested DAC=0
+GTN_SetForceValue(0) AFTER ENTRY: rc=0
+GTN_GetForceValue(after): rc=0
+[zero_target_readback] status=0x40000200 mode=3 enc=1.000000 prf=1.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+ZERO SETTER PASS: 3 successful zero writes and target readbacks; nonzero response NOT tested.
+[before_mapping] status=0x40000200 mode=3 enc=0.000000 prf=1.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+STEP: dac=100 set=0 get=0 read=100 zero=0 zeroGet=0 elapsed=20.115ms peakCurrent=13 raw travel=7.053 pulse candidate=NO confirmed=NO good=YES
+STEP: dac=110 set=0 get=0 read=110 zero=0 zeroGet=0 elapsed=20.281ms peakCurrent=15 raw travel=8.014 pulse candidate=NO confirmed=NO good=YES
+STEP: dac=120 set=0 get=0 read=120 zero=0 zeroGet=0 elapsed=20.162ms peakCurrent=16 raw travel=9.014 pulse candidate=NO confirmed=NO good=YES
+STEP: dac=130 set=0 get=0 read=130 zero=0 zeroGet=0 elapsed=20.219ms peakCurrent=17 raw travel=10.000 pulse candidate=NO confirmed=NO good=YES
+STEP: dac=140 set=0 get=0 read=140 zero=0 zeroGet=0 elapsed=20.269ms peakCurrent=19 raw travel=11.000 pulse candidate=NO confirmed=NO good=YES
+STEP: dac=150 set=0 get=0 read=150 zero=0 zeroGet=0 elapsed=20.203ms peakCurrent=20 raw travel=11.974 pulse candidate=NO confirmed=NO good=YES
+STEP: dac=160 set=0 get=0 read=160 zero=0 zeroGet=0 elapsed=20.074ms peakCurrent=22 raw travel=11.974 pulse candidate=NO confirmed=NO good=YES
+STEP: dac=170 set=0 get=0 read=170 zero=0 zeroGet=0 elapsed=20.120ms peakCurrent=23 raw travel=12.974 pulse candidate=NO confirmed=NO good=YES
+STEP: dac=180 set=0 get=0 read=180 zero=0 zeroGet=0 elapsed=20.108ms peakCurrent=24 raw travel=13.959 pulse candidate=NO confirmed=NO good=YES
+STEP: dac=190 set=0 get=0 read=190 zero=0 zeroGet=0 elapsed=20.216ms peakCurrent=25 raw travel=15.923 pulse candidate=NO confirmed=NO good=YES
+STEP: dac=200 set=0 get=0 read=200 zero=0 zeroGet=0 elapsed=20.262ms peakCurrent=27 raw travel=15.907 pulse candidate=NO confirmed=NO good=YES
+STEP: dac=210 set=0 get=0 read=210 zero=0 zeroGet=0 elapsed=20.291ms peakCurrent=28 raw travel=16.933 pulse candidate=NO confirmed=NO good=YES
+STEP: dac=220 set=0 get=0 read=220 zero=0 zeroGet=0 elapsed=20.119ms peakCurrent=30 raw travel=17.805 pulse candidate=NO confirmed=NO good=YES
+STEP: dac=230 set=0 get=0 read=230 zero=0 zeroGet=0 elapsed=20.067ms peakCurrent=31 raw travel=18.840 pulse candidate=NO confirmed=NO good=YES
+STEP: dac=240 set=0 get=0 read=240 zero=0 zeroGet=0 elapsed=20.430ms peakCurrent=32 raw travel=19.551 pulse candidate=NO confirmed=NO good=YES
+STEP: dac=250 set=0 get=0 read=250 zero=0 zeroGet=0 elapsed=20.272ms peakCurrent=34 raw travel=21.551 pulse candidate=NO confirmed=NO good=YES
+STEP: dac=260 set=0 get=0 read=260 zero=0 zeroGet=0 elapsed=20.266ms peakCurrent=35 raw travel=22.359 pulse candidate=NO confirmed=NO good=YES
+STEP: dac=270 set=0 get=0 read=270 zero=0 zeroGet=0 elapsed=20.272ms peakCurrent=36 raw travel=23.013 pulse candidate=NO confirmed=NO good=YES
+STEP: dac=280 set=0 get=0 read=280 zero=0 zeroGet=0 elapsed=20.284ms peakCurrent=38 raw travel=25.000 pulse candidate=NO confirmed=NO good=YES
+STEP: dac=290 set=0 get=0 read=290 zero=0 zeroGet=0 elapsed=36.064ms peakCurrent=39 raw travel=26.872 pulse candidate=NO confirmed=NO good=YES
+STEP: dac=300 set=0 get=0 read=300 zero=0 zeroGet=0 elapsed=20.160ms peakCurrent=41 raw travel=27.000 pulse candidate=NO confirmed=NO good=YES
+Normal exit: KEEP ENABLED, mode=1, posOffset=-10 pulses. No retreat move.
+SetSwitch(exit WHILE ENABLED): rc=0
+[returning_mode2_enabled] status=0x40000200 mode=2 enc=4.000000 prf=-7.000000 vel=20.000000 current_raw=0 rc=[0,0,0,0,0,0]
+GetSwitch(enabled exit): rc=0
+Enabled exit progress: mode=2 switchEnable=0
+[mode2_enabled_observation] status=0x40000200 mode=2 enc=3.000000 prf=-7.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+[mode2_enabled_observation] status=0x40000200 mode=2 enc=3.000000 prf=-7.000000 vel=0.000000 current_raw=-1 rc=[0,0,0,0,0,0]
+[mode2_enabled_observation] status=0x40000200 mode=2 enc=3.000000 prf=-7.000000 vel=0.000000 current_raw=-1 rc=[0,0,0,0,0,0]
+[mode2_enabled_observation] status=0x40000200 mode=2 enc=3.000000 prf=-7.000000 vel=0.000000 current_raw=-1 rc=[0,0,0,0,0,0]
+ENABLED EXIT PASS: mode=1 task completed and mode 2 verified while enabled; now AxisOff.
+GTN_AxisOff(cleanup): rc=0
+GTN_GetSts(cleanup): rc=0
+GetForceValue(disabled cleanup): rc=0
+SetSwitch(cancel pending entry): rc=0
+GetMode(cleanup): rc=0
+Restore original switch: set rc=0 get rc=0 match=YES
+Final: mode rc=0 mode=2 status rc=0 sts=0x40000000
+GTN_Close: rc=0
+RESULT: test=PASS cleanup=PASS overall=PASS
+Log: breakaway_20261030_152438_455.log
+LIMIT REACHED: lastDAC=300; no confirmed 0.005mm displacement in tested windows. No automatic extension.
+This is a detectable-displacement test, NOT exact static friction, force or ampere calibration.

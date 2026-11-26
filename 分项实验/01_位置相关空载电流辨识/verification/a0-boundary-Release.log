@@ -1,0 +1,17 @@
+ZRA stage 1 | core 2 axis 1 a33 | 1000 pulse/mm | q to cancel/stop
+Offline preview; motion inputs here are candidates.
+Protocol A0, A2, B, D [A0]: Enter site-confirmed speed (mm/s), acceleration (mm/s^2), e.g. 2,20 [2,20]: 
+A0 | 8 trials | command range [0,32000] pulses
+A0 endpoint arrival tolerance: +/-10 pulses; endpoint feedback allowance: 10 pulses
+trial 1 group 1 | diagnostic | 7000 -> 8000 pulses | direction 1 | 2000 pulses/s
+trial 2 group 1 | diagnostic | 15000 -> 16000 pulses | direction 1 | 2000 pulses/s
+trial 3 group 1 | diagnostic | 23000 -> 24000 pulses | direction 1 | 2000 pulses/s
+trial 4 group 1 | diagnostic | 31000 -> 32000 pulses | direction 1 | 2000 pulses/s
+trial 5 group 1 | diagnostic | 25000 -> 24000 pulses | direction -1 | 2000 pulses/s
+trial 6 group 1 | diagnostic | 17000 -> 16000 pulses | direction -1 | 2000 pulses/s
+trial 7 group 1 | diagnostic | 9000 -> 8000 pulses | direction -1 | 2000 pulses/s
+trial 8 group 1 | diagnostic | 1000 -> 0 pulses | direction -1 | 2000 pulses/s
+Estimated 58.6 s including holds, plus settling and read overhead.
+Sample 10 ms | loop index 1 | configuration a33_core2_axis1 | R R_fixed_operator_confirmed
+Transfer 2 mm/s | accel/decel 20 mm/s^2 | position mode 2 | hold 2 s x 1 | arrival tolerance 0.01 mm, 0.05 mm/s | timeout 30 s
+

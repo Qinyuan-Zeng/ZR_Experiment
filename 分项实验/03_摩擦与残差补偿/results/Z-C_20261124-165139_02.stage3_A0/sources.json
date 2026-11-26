@@ -1,0 +1,30 @@
+{
+  "session": "Z-C_20261124-165139_02",
+  "use": "development",
+  "current_unit": "raw",
+  "grid_pulse": [
+    3500.0,
+    22000.0,
+    250
+  ],
+  "policy": {
+    "gapPeriods": 2.5,
+    "speedFraction": 0.1,
+    "accelFraction": 0.1,
+    "accelFloor": 1,
+    "gridMm": 0.25,
+    "minApproachFraction": 0.95,
+    "scanDerivativeSpanS": 0.05
+  },
+  "alpha_sensitivity_only": 3.312125163540513e-05,
+  "alpha_unit": "raw/(pulse/s^2)",
+  "sha256": {
+    "分项实验\\01_位置相关空载电流辨识\\data\\raw\\Z-C_20261124-165139_02.csv": "5e82773235e77c242fb69c21f094c8948b5c79aacb53b3977bc872c79bf3838e",
+    "分项实验\\01_位置相关空载电流辨识\\models\\position_B_primary_v1.json": "e854bcf3816a68e2b3a3952936c7fb1ef970fb2979cdd947c788e3a75e49e195",
+    "分项实验\\02_等效惯性电流辨识\\results\\b\\Z-BP_20261125-155725_864_47920_summary.json": "2261721bd473202466a932cdb2f61a8aad3a3c9e338743edd190a0db2fbbea71",
+    "分项实验\\01_位置相关空载电流辨识\\manifest\\Z-C_20261124-165139_02.txt": "7dea6286da599719e5c7544267610d1fe1ce53c3fb51d0741345c11d6581b02b",
+    "分项实验\\01_位置相关空载电流辨识\\manifest\\Z-C_20261124-165139_02.plan.csv": "c4b606baa16b858774d5e344d8878b3aaff4e05a8dc75a6774c02156de3143be",
+    "分项实验\\01_位置相关空载电流辨识\\manifest\\Z-C_20261124-165139_02.trials.csv": "a19f6daf3c501fcb5944be39627bd61d4e04ca1ef634eb69c2052dbf92d3dd45",
+    "分项实验\\03_摩擦与残差补偿\\scripts\\a0_replay.py": "43a2ea66876e7a71972035ca0a0fc7b2d2d0f55b723bdc31609128dd4d7477d6"
+  }
+}

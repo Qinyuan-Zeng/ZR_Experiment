@@ -1,0 +1,4 @@
+READ ONLY. No network reinitialization or control writes.
+DLL=E:\A_ZQY\Experiment\tmp\state_read_verify\gts.dll
+OpenCard(5) rc=-6
+CURRENT STATE UNKNOWN: open failed.

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Motion Studio Version:V2.2.0-->
+<!--Dll Version:2025-05-22-->
+<!--Generate Time:2025-09-01 16:52:03-->
+<GoogolConfig ver="1.1">
+	<EtherCAT>
+		<EtherCATConfig>
+			<Config>
+				<Master AdapterIndex="0" IoUpdateFreq="4" StackDebugLevel="0">
+					<Info>
+						<Name>GOOGOL EtherCAT Master</Name>
+						<Destination>FFFFFFFFFFFF</Destination>
+						<Source>000000000000</Source>
+						<EtherType>A488</EtherType>
+					</Info>
+				</Master>
+			</Config>
+		</EtherCATConfig>
+	</EtherCAT>
+	<Device>
+		<DeviceInfo type="0x09c4" name="GVN-008-016-V-00">
+			<Config>
+				<DeviceShareMax count="2" />
+				<NetTypeVerify>1</NetTypeVerify>
+			</Config>
+			<NetToplogy>
+				<PortInfo>
+					<PortA type="-1" />
+					<PortB type="-1" />
+					<PortC type="-1" />
+					<PortD type="-1" />
+				</PortInfo>
+				<StationInfo>
+					<Station link="0" type="0x9000" subType="0x0000" netType="6" coreIndex="1" stationId="0" name="Local" />
+					<Station link="1" type="0x8130" subType="0x0003" netType="7" coreIndex="2" stationId="1" name="GSFD" />
+				</StationInfo>
+			</NetToplogy>
+			<ResourceMap>
+				<Core index="1" period="250">
+					<AuAdcInfo />
+					<AuDacInfo />
+					<AuEncoderExInfo />
+					<AuTriggerInfo />
+					<AxisInfo />
+					<AxisActTorqueInfo />
+					<AxisActVelInfo />
+					<AxisAdcInfo />
+					<AxisAlarmInfo />
+					<AxisArriveInfo />
+					<AxisClearInfo />
+					<AxisDacInfo />
+					<AxisDriverFollowErrorInfo />
+					<AxisEnableInfo />
+					<AxisEncoderInfo />
+					<AxisHomeInfo />
+					<AxisLmtNegativeInfo />
+					<AxisLmtPositiveInfo />
+					<AxisPrfPosInfo />
+					<AxisPrfTorqueInfo />
+					<AxisPrfVelInfo />
+					<AxisPulseInfo />
+					<GpiInfo />
+					<GpoInfo />
+					<LaserInfo />
+					<MpgDiInfo />
+					<MpgEncoderInfo />
+					<PosCompareInfo />
+					<ScanCrdInfo />
+					<TriggerInfo />
+				</Core>
+				<Core index="2" period="125">
+					<AuAdcInfo>
+						<AuAdc index="1" count="1">
+							<PhysicalInfo netType="7" stationId="1" id="0">MC_AU_ADC</PhysicalInfo>
+						</AuAdc>
+					</AuAdcInfo>
+					<AuDacInfo />
+					<AuEncoderExInfo>
+						<AuEncoderEx index="1" count="1">
+							<PhysicalInfo netType="7" stationId="1" id="0">MC_AU_ENCODER_EX</PhysicalInfo>
+						</AuEncoderEx>
+					</AuEncoderExInfo>
+					<AuTriggerInfo>
+						<AuTrigger index="1" count="5">
+							<PhysicalInfo netType="7" stationId="1" id="0">MC_AU_TRIGGER</PhysicalInfo>
+						</AuTrigger>
+					</AuTriggerInfo>
+					<AxisInfo>
+						<Axis index="1" count="1">
+							<PhysicalInfo netType="7" stationId="1" id="0">MC_AXIS</PhysicalInfo>
+						</Axis>
+					</AxisInfo>
+					<AxisActTorqueInfo>
+						<AxisActTorque index="1" count="1">
+							<PhysicalInfo netType="7" stationId="1" id="0">MC_ACTTORQUE</PhysicalInfo>
+						</AxisActTorque>
+					</AxisActTorqueInfo>
+					<AxisActVelInfo>
+						<AxisActVel index="1" count="1">
+							<PhysicalInfo netType="7" stationId="1" id="0">MC_ACTVEL</PhysicalInfo>
+						</AxisActVel>
+					</AxisActVelInfo>
+					<AxisAdcInfo>
+						<AxisAdc index="1" count="1">
+							<PhysicalInfo netType="7" stationId="1" id="0">MC_ADC</PhysicalInfo>
+						</AxisAdc>
+					</AxisAdcInfo>
+					<AxisAlarmInfo>
+						<AxisAlarm index="1" count="1">
+							<PhysicalInfo netType="7" stationId="1" id="0">MC_ALARM</PhysicalInfo>
+						</AxisAlarm>
+					</AxisAlarmInfo>
+					<AxisArriveInfo>
+						<AxisArrive index="1" count="1">
+							<PhysicalInfo netType="7" stationId="1" id="0">MC_ARRIVE</PhysicalInfo>
+						</AxisArrive>
+					</AxisArriveInfo>
+					<AxisClearInfo />
+					<AxisDacInfo>
+						<AxisDac index="1" count="1">
+							<PhysicalInfo netType="7" stationId="1" id="0">MC_DAC</PhysicalInfo>
+						</AxisDac>
+					</AxisDacInfo>
+					<AxisDriverFollowErrorInfo>
+						<AxisDriverFollowError index="1" count="1">
+							<PhysicalInfo netType="7" stationId="1" id="0">MC_DR_FOLLOW_ERROR</PhysicalInfo>
+						</AxisDriverFollowError>
+					</AxisDriverFollowErrorInfo>
+					<AxisEnableInfo>
+						<AxisEnable index="1" count="1">
+							<PhysicalInfo netType="7" stationId="1" id="0">MC_ENABLE</PhysicalInfo>
+						</AxisEnable>
+					</AxisEnableInfo>
+					<AxisEncoderInfo>
+						<AxisEncoder index="1" count="1">
+							<PhysicalInfo netType="7" stationId="1" id="0">MC_ENCODER</PhysicalInfo>
+						</AxisEncoder>
+					</AxisEncoderInfo>
+					<AxisHomeInfo>
+						<AxisHome index="1" count="1">
+							<PhysicalInfo netType="7" stationId="1" id="0">MC_HOME</PhysicalInfo>
+						</AxisHome>
+					</AxisHomeInfo>
+					<AxisLmtNegativeInfo>
+						<AxisLmtNegative index="1" count="1">
+							<PhysicalInfo netType="7" stationId="1" id="0">MC_LIMIT_NEGATIVE</PhysicalInfo>
+						</AxisLmtNegative>
+					</AxisLmtNegativeInfo>
+					<AxisLmtPositiveInfo>
+						<AxisLmtPositive index="1" count="1">
+							<PhysicalInfo netType="7" stationId="1" id="0">MC_LIMIT_POSITIVE</PhysicalInfo>
+						</AxisLmtPositive>
+					</AxisLmtPositiveInfo>
+					<AxisPrfPosInfo>
+						<AxisPrfPos index="1" count="1">
+							<PhysicalInfo netType="7" stationId="1" id="0">MC_PRF_POS</PhysicalInfo>
+						</AxisPrfPos>
+					</AxisPrfPosInfo>
+					<AxisPrfTorqueInfo>
+						<AxisPrfTorque index="1" count="1">
+							<PhysicalInfo netType="7" stationId="1" id="0">MC_PRF_TORQUE</PhysicalInfo>
+						</AxisPrfTorque>
+					</AxisPrfTorqueInfo>
+					<AxisPrfVelInfo>
+						<AxisPrfVel index="1" count="1">
+							<PhysicalInfo netType="7" stationId="1" id="0">MC_PRF_VEL</PhysicalInfo>
+						</AxisPrfVel>
+					</AxisPrfVelInfo>
+					<AxisPulseInfo>
+						<AxisPulse index="1" count="1">
+							<PhysicalInfo netType="7" stationId="1" id="0">MC_PULSE</PhysicalInfo>
+						</AxisPulse>
+						<AxisPulse index="1" count="1">
+							<PhysicalInfo netType="7" stationId="1" id="0">MC_PULSE</PhysicalInfo>
+						</AxisPulse>
+					</AxisPulseInfo>
+					<GpiInfo>
+						<Gpi index="1" count="9">
+							<PhysicalInfo netType="7" stationId="1" id="0">MC_GPI</PhysicalInfo>
+						</Gpi>
+					</GpiInfo>
+					<GpoInfo>
+						<Gpo index="1" count="6">
+							<PhysicalInfo netType="7" stationId="1" id="0">MC_GPO</PhysicalInfo>
+						</Gpo>
+					</GpoInfo>
+					<LaserInfo />
+					<MpgDiInfo />
+					<MpgEncoderInfo />
+					<PosCompareInfo />
+					<ScanCrdInfo />
+					<TriggerInfo>
+						<Trigger index="1" count="1">
+							<PhysicalInfo netType="7" stationId="1" id="0">MC_TRIGGER</PhysicalInfo>
+						</Trigger>
+					</TriggerInfo>
+				</Core>
+			</ResourceMap>
+		</DeviceInfo>
+	</Device>
+</GoogolConfig>

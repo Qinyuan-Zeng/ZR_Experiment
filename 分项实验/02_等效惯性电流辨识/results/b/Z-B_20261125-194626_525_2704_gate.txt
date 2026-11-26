@@ -1,0 +1,12 @@
+status=accepted
+rules=b_matched_inertia_v1
+model_sha256=21a8c53ef63cd84bc91f85aaad10bac79e87fbef3671c0e71bc9360c45658050
+condition=X450V20
+level=independent
+direction=1
+x0_plan_pulse=16000
+eval_pulse=15976
+peak_pulse_s=40000
+match_pulse_s=20000
+acc_pulse_s2=450000
+evidence=Z-B_20261125-194626_525_2704

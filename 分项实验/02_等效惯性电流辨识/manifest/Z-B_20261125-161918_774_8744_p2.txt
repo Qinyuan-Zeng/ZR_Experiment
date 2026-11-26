@@ -1,0 +1,11 @@
+session_id=Z-B_20261125-161918_774_8744
+pair_id=2
+planned_pair_id=Z-BP_20261125-155725_864_47920_M3_B1
+condition=B1
+round=3
+series=matrix
+history_condition=H1
+first_role=accel
+match_pulse_s=20000
+eval_pulse=15976
+outcome=complete

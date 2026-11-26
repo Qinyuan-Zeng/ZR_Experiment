@@ -1,0 +1,2 @@
+session_id,trial_id,phase,group,use,direction,target_mm,approach_mm,start_mm,speed_mm_s,hold_s,window_s,period_s,pos_tol_mm,vel_tol_mm_s,status,reason
+Z-READ_20261124-105929_02,1,READ,1,diagnostic,0,nan,nan,nan,0,5,1,0.01,0.01,0.05,completed,ok

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<EtherCATConfig>
+	<Config BusIndex="3">
+		<Master AdapterIndex="0" IoUpdateFreq="4" StackDebugLevel="0">
+			<PdoMapMode>0</PdoMapMode>
+			<Info>
+				<Name>GOOGOL EtherCAT Master</Name>
+				<Destination>FFFFFFFFFFFF</Destination>
+				<Source>000000000000</Source>
+				<EtherType>A488</EtherType>
+			</Info>
+		</Master>
+	</Config>
+</EtherCATConfig>

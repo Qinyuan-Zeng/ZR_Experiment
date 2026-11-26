@@ -1,0 +1,863 @@
+﻿[
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\build.bat",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\build.bat",
+    "status": "内容一致",
+    "source_sha256": "0566fff3f5940be277657d2fc103d49d8c8c83234f001535f44a6d70f09f8c06",
+    "destination_sha256": "0566fff3f5940be277657d2fc103d49d8c8c83234f001535f44a6d70f09f8c06"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\CurrentProfilesTest.cpp",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\CurrentProfilesTest.cpp",
+    "status": "内容一致",
+    "source_sha256": "2c5737bbaa8f8d0d2cf8a2a57f954ff1e09d9deeb522f93de3a5acb4bcfb61bc",
+    "destination_sha256": "2c5737bbaa8f8d0d2cf8a2a57f954ff1e09d9deeb522f93de3a5acb4bcfb61bc"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\DacCurrentMappingTest.cpp",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\DacCurrentMappingTest.cpp",
+    "status": "内容一致",
+    "source_sha256": "3b0b6e0485b61edfe0275a4c8b3b980cd077a808d03efe0ecb2d5e0f2af00b14",
+    "destination_sha256": "3b0b6e0485b61edfe0275a4c8b3b980cd077a808d03efe0ecb2d5e0f2af00b14"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\Gecat.xml",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\Gecat.xml",
+    "status": "内容一致",
+    "source_sha256": "22264312e65a84f38a6c97f3d556b20361d1f72eb2ae0d841036255c38efb6c4",
+    "destination_sha256": "22264312e65a84f38a6c97f3d556b20361d1f72eb2ae0d841036255c38efb6c4"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\Googol.xml",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\Googol.xml",
+    "status": "内容一致",
+    "source_sha256": "0dd12c046d08c69808a17065e70f5d68e0b7ffd1e9d92f0261790316946dd16f",
+    "destination_sha256": "0dd12c046d08c69808a17065e70f5d68e0b7ffd1e9d92f0261790316946dd16f"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\gvn_force_api_ext.h",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\gvn_force_api_ext.h",
+    "status": "内容一致",
+    "source_sha256": "652d3aa84bb063f0036657e1bae6e223337ca384cac87925647baff7759958c4",
+    "destination_sha256": "652d3aa84bb063f0036657e1bae6e223337ca384cac87925647baff7759958c4"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\main.cpp",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\main.cpp",
+    "status": "内容一致",
+    "source_sha256": "3b4614172dd6a70cd71ef732b6118a58bfb9ec73aad22fa331220a429615d4b7",
+    "destination_sha256": "3b4614172dd6a70cd71ef732b6118a58bfb9ec73aad22fa331220a429615d4b7"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\OpenLoopApiReadTest.sln",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\OpenLoopApiReadTest.sln",
+    "status": "内容一致",
+    "source_sha256": "8a532187a8f6ac19b978d9b033086007f2e511bda69f694bfb8cd93028f78aeb",
+    "destination_sha256": "8a532187a8f6ac19b978d9b033086007f2e511bda69f694bfb8cd93028f78aeb"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\OpenLoopApiReadTest.vcxproj",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\OpenLoopApiReadTest.vcxproj",
+    "status": "内容一致",
+    "source_sha256": "77bd0551b66f1de0c39e6f9b1c4d99d98786733b5c48e4801622f5947256c452",
+    "destination_sha256": "77bd0551b66f1de0c39e6f9b1c4d99d98786733b5c48e4801622f5947256c452"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\OpenLoopStateRead.cpp",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\OpenLoopStateRead.cpp",
+    "status": "内容一致",
+    "source_sha256": "c88e2f72968139749e6a60d2ba3dc35966da91e527ff5e46ffe11e0489b68b5b",
+    "destination_sha256": "c88e2f72968139749e6a60d2ba3dc35966da91e527ff5e46ffe11e0489b68b5b"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\PlotCurrentProfiles.py",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\PlotCurrentProfiles.py",
+    "status": "内容一致",
+    "source_sha256": "5cb84cd33ed8b5d95b83933081a5363231ff6abb95011e72c25d631581f290f6",
+    "destination_sha256": "5cb84cd33ed8b5d95b83933081a5363231ff6abb95011e72c25d631581f290f6"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\README.md",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\README.md",
+    "status": "内容一致",
+    "source_sha256": "0d9d46c208e0376c0b1d3788b0cd00999b72e822224777b6af5953f2b2872607",
+    "destination_sha256": "0d9d46c208e0376c0b1d3788b0cd00999b72e822224777b6af5953f2b2872607"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\TriangleDacUpdateTest.cpp",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\TriangleDacUpdateTest.cpp",
+    "status": "内容一致",
+    "source_sha256": "71c7229c85ca599f58a2832b6abfb2a1cfcc5fc216c4c2ded244a55ee1c7bf35",
+    "destination_sha256": "71c7229c85ca599f58a2832b6abfb2a1cfcc5fc216c4c2ded244a55ee1c7bf35"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\ZeroOutputModeSwitchTest.cpp",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\ZeroOutputModeSwitchTest.cpp",
+    "status": "内容一致",
+    "source_sha256": "25c82014095a47647343f8f77db497931d4ae68336b7ce9e39f4e4c15ffbcd0b",
+    "destination_sha256": "25c82014095a47647343f8f77db497931d4ae68336b7ce9e39f4e4c15ffbcd0b"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\ZeroOutputModeSwitchTest.sln",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\ZeroOutputModeSwitchTest.sln",
+    "status": "内容一致",
+    "source_sha256": "839750337207da51d4f891a33a3ecf1d9cddea70d64eed55bbcb5be18064bb32",
+    "destination_sha256": "839750337207da51d4f891a33a3ecf1d9cddea70d64eed55bbcb5be18064bb32"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\ZeroOutputModeSwitchTest.vcxproj",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\ZeroOutputModeSwitchTest.vcxproj",
+    "status": "内容一致",
+    "source_sha256": "b94666a1b8f26e05a31f410f705d07112ee198ffc039e2d76f2140d8ab45720d",
+    "destination_sha256": "b94666a1b8f26e05a31f410f705d07112ee198ffc039e2d76f2140d8ab45720d"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\研究进展.md",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\研究进展.md",
+    "status": "内容一致",
+    "source_sha256": "89649937155b3bdb53d1532c59086af81e313eec094bb5e4e1b02c516e1f0187",
+    "destination_sha256": "89649937155b3bdb53d1532c59086af81e313eec094bb5e4e1b02c516e1f0187"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\figures\\current_profiles_20261109_waveforms.png",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\figures\\current_profiles_20261109_waveforms.png",
+    "status": "内容一致",
+    "source_sha256": "27aa466e8acbf67f38dcebae9eea1f8c0dafd1b41f717b6903860a94e41921a5",
+    "destination_sha256": "27aa466e8acbf67f38dcebae9eea1f8c0dafd1b41f717b6903860a94e41921a5"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\history\\BreakawayDacTest.cpp",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\history\\BreakawayDacTest.cpp",
+    "status": "内容一致",
+    "source_sha256": "105e09cb01e5f1c31692c8dc61e50371ad434aee9de24dcf5298a034eec59190",
+    "destination_sha256": "105e09cb01e5f1c31692c8dc61e50371ad434aee9de24dcf5298a034eec59190"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\history\\GVN新增API历史记录.md",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\history\\GVN新增API历史记录.md",
+    "status": "内容一致",
+    "source_sha256": "ddcabb044ad15eac94f021b15e900537b1a7a25972bea1882b4e045debfaa998",
+    "destination_sha256": "ddcabb044ad15eac94f021b15e900537b1a7a25972bea1882b4e045debfaa998"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\history\\SmallDacPulseTest.cpp",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\history\\SmallDacPulseTest.cpp",
+    "status": "内容一致",
+    "source_sha256": "b4343fe7f83c2ab304a8f8373737a90ecd1b2b3722eab5f9cd6eaaa0a9517433",
+    "destination_sha256": "b4343fe7f83c2ab304a8f8373737a90ecd1b2b3722eab5f9cd6eaaa0a9517433"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\history\\TriangleDacRepeatTest.cpp",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\history\\TriangleDacRepeatTest.cpp",
+    "status": "内容一致",
+    "source_sha256": "4cbe2f21acfe572d9698bf29a48296d9613e0900a969684704ceffa509693b9d",
+    "destination_sha256": "4cbe2f21acfe572d9698bf29a48296d9613e0900a969684704ceffa509693b9d"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\sdk\\gts.h",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\sdk\\gts.h",
+    "status": "内容一致",
+    "source_sha256": "140859acc8c36039dd1f24f02d4955453fc0ae9139ce3ee4f89a858844251a5a",
+    "destination_sha256": "140859acc8c36039dd1f24f02d4955453fc0ae9139ce3ee4f89a858844251a5a"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\tests\\compare_force_docs.py",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\tests\\compare_force_docs.py",
+    "status": "内容一致",
+    "source_sha256": "826bb5a40a70cb72baad12c756f336a58da66d4dd46d6f896e7d00b7b9bf290a",
+    "destination_sha256": "826bb5a40a70cb72baad12c756f336a58da66d4dd46d6f896e7d00b7b9bf290a"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\tests\\force_doc_diff.py",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\tests\\force_doc_diff.py",
+    "status": "内容一致",
+    "source_sha256": "b618213179f845083d18140f73d59da46b214230b2b8cd0eea691ed7b783cd96",
+    "destination_sha256": "b618213179f845083d18140f73d59da46b214230b2b8cd0eea691ed7b783cd96"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\tests\\force_new_p11.png",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\tests\\force_new_p11.png",
+    "status": "内容一致",
+    "source_sha256": "4717a31e7c84b314a9b216069a6fbcc32727fa8403c8223d5b7878d4f6be1bcb",
+    "destination_sha256": "4717a31e7c84b314a9b216069a6fbcc32727fa8403c8223d5b7878d4f6be1bcb"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\tests\\force_new_p2.png",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\tests\\force_new_p2.png",
+    "status": "内容一致",
+    "source_sha256": "46619a9901d6c5bab828c9230b9cc04b8ce264b1d01cd4c6eb2c50dd9aea065a",
+    "destination_sha256": "46619a9901d6c5bab828c9230b9cc04b8ce264b1d01cd4c6eb2c50dd9aea065a"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\tests\\inspect_modes.py",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\tests\\inspect_modes.py",
+    "status": "内容一致",
+    "source_sha256": "19c147fe1ef9c7be3ef0069c8f813c915b5af8dae948c54d8a326e2a9e5b5343",
+    "destination_sha256": "19c147fe1ef9c7be3ef0069c8f813c915b5af8dae948c54d8a326e2a9e5b5343"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\tests\\inspect_support_manual.py",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\tests\\inspect_support_manual.py",
+    "status": "内容一致",
+    "source_sha256": "bbb0a80dcc618d1ab619c46b57a6b7645ee8389090fe993f87e8a3f84c0ce8c4",
+    "destination_sha256": "bbb0a80dcc618d1ab619c46b57a6b7645ee8389090fe993f87e8a3f84c0ce8c4"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\tests\\offline_checks.cpp",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\tests\\offline_checks.cpp",
+    "status": "内容一致",
+    "source_sha256": "0a238467ed5e9d2e3472c12b3a9efa67e2854c47255e990fc6aac7395db4a8c6",
+    "destination_sha256": "0a238467ed5e9d2e3472c12b3a9efa67e2854c47255e990fc6aac7395db4a8c6"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\tests\\run_offline_checks.bat",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\tests\\run_offline_checks.bat",
+    "status": "内容一致",
+    "source_sha256": "1f63d300b75cbf8d4e60573871119bec9112042485ec4c0b999b2cd1876a6444",
+    "destination_sha256": "1f63d300b75cbf8d4e60573871119bec9112042485ec4c0b999b2cd1876a6444"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\tests\\run_zero_mode_offline.bat",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\tests\\run_zero_mode_offline.bat",
+    "status": "内容一致",
+    "source_sha256": "fc22ad23bd72c0a976d54f6302c3e3ddd7ee143ae92a504c7ee51554dbb1578e",
+    "destination_sha256": "fc22ad23bd72c0a976d54f6302c3e3ddd7ee143ae92a504c7ee51554dbb1578e"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\tests\\zero_mode_offline.cpp",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\tests\\zero_mode_offline.cpp",
+    "status": "内容一致",
+    "source_sha256": "4f46b7131e99d5848b81fc269a7814d31670e5d92946e6d22e3ac97981d8b92a",
+    "destination_sha256": "4f46b7131e99d5848b81fc269a7814d31670e5d92946e6d22e3ac97981d8b92a"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\data\\01_接口与状态\\CommandErrorInfo(2).log",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\data\\01_接口与状态\\CommandErrorInfo(2).log",
+    "status": "内容一致",
+    "source_sha256": "b1b796b97151617e67d4b0161a68f48555b7e43b046ea7bc4c68df7e6b78f16e",
+    "destination_sha256": "b1b796b97151617e67d4b0161a68f48555b7e43b046ea7bc4c68df7e6b78f16e"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\data\\01_接口与状态\\CommandErrorInfo.log",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\data\\01_接口与状态\\CommandErrorInfo.log",
+    "status": "内容一致",
+    "source_sha256": "7a2ac92654deae4078338752acca75deacd8e0415498a75313423d2d1b2b74bc",
+    "destination_sha256": "7a2ac92654deae4078338752acca75deacd8e0415498a75313423d2d1b2b74bc"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\data\\01_接口与状态\\read_test_20261027_164918_070.log",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\data\\01_接口与状态\\read_test_20261027_164918_070.log",
+    "status": "内容一致",
+    "source_sha256": "53a76b1cd1b27e5b30f186de6a605425b5f1e299071a945a58816a3a3fd95d96",
+    "destination_sha256": "53a76b1cd1b27e5b30f186de6a605425b5f1e299071a945a58816a3a3fd95d96"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\data\\01_接口与状态\\state_read_20261030_160701_238.log",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\data\\01_接口与状态\\state_read_20261030_160701_238.log",
+    "status": "内容一致",
+    "source_sha256": "72332e7b04f9d1e89e8062062e095bb748c854e041385f95a825408bc3c53f38",
+    "destination_sha256": "72332e7b04f9d1e89e8062062e095bb748c854e041385f95a825408bc3c53f38"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\data\\01_接口与状态\\state_read_20261030_161738_273.log",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\data\\01_接口与状态\\state_read_20261030_161738_273.log",
+    "status": "内容一致",
+    "source_sha256": "72332e7b04f9d1e89e8062062e095bb748c854e041385f95a825408bc3c53f38",
+    "destination_sha256": "72332e7b04f9d1e89e8062062e095bb748c854e041385f95a825408bc3c53f38"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\data\\01_接口与状态\\state_read_20261031_103221_498.log",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\data\\01_接口与状态\\state_read_20261031_103221_498.log",
+    "status": "内容一致",
+    "source_sha256": "b00145e245329fd9c7ebac92b11c3a0873460c687c6dd10f7d6e17a71c6cac6c",
+    "destination_sha256": "b00145e245329fd9c7ebac92b11c3a0873460c687c6dd10f7d6e17a71c6cac6c"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\data\\01_接口与状态\\zero_mode_20261030_093121_410.log",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\data\\01_接口与状态\\zero_mode_20261030_093121_410.log",
+    "status": "内容一致",
+    "source_sha256": "29bf6a7e532682b6634dbbb46eb8ce86e5c28c462c8a8eb56269550c7a4b2367",
+    "destination_sha256": "29bf6a7e532682b6634dbbb46eb8ce86e5c28c462c8a8eb56269550c7a4b2367"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\data\\02_DAC映射与位移\\breakaway_20261030_152236_845.log",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\data\\02_DAC映射与位移\\breakaway_20261030_152236_845.log",
+    "status": "内容一致",
+    "source_sha256": "1eb3ca6565863dcdd00c01d60818ae6692506a16bb95aac7180a383387ff3c5e",
+    "destination_sha256": "1eb3ca6565863dcdd00c01d60818ae6692506a16bb95aac7180a383387ff3c5e"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\data\\02_DAC映射与位移\\breakaway_20261030_152236_845.log_raw.csv",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\data\\02_DAC映射与位移\\breakaway_20261030_152236_845.log_raw.csv",
+    "status": "内容一致",
+    "source_sha256": "900449a870fbb6c5d311a6d61994aa910b0ddcf403f644b25f90855ae64c724c",
+    "destination_sha256": "900449a870fbb6c5d311a6d61994aa910b0ddcf403f644b25f90855ae64c724c"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\data\\02_DAC映射与位移\\breakaway_20261030_152236_845.log_summary.csv",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\data\\02_DAC映射与位移\\breakaway_20261030_152236_845.log_summary.csv",
+    "status": "内容一致",
+    "source_sha256": "3126fbff43921a6309d2c14fc9ab2ac67e6002b796eac1b18926709be1f16718",
+    "destination_sha256": "3126fbff43921a6309d2c14fc9ab2ac67e6002b796eac1b18926709be1f16718"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\data\\02_DAC映射与位移\\breakaway_20261030_152336_166.log",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\data\\02_DAC映射与位移\\breakaway_20261030_152336_166.log",
+    "status": "内容一致",
+    "source_sha256": "12c742e76c5c051607030b1cbae6b3993edeabfb91219dcf2a787aa1abb2a42b",
+    "destination_sha256": "12c742e76c5c051607030b1cbae6b3993edeabfb91219dcf2a787aa1abb2a42b"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\data\\02_DAC映射与位移\\breakaway_20261030_152336_166.log_raw.csv",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\data\\02_DAC映射与位移\\breakaway_20261030_152336_166.log_raw.csv",
+    "status": "内容一致",
+    "source_sha256": "ec8422041c80f54f2e87780bbeef82c48745ec565a4ddaed721a1e3cee27dff7",
+    "destination_sha256": "ec8422041c80f54f2e87780bbeef82c48745ec565a4ddaed721a1e3cee27dff7"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\data\\02_DAC映射与位移\\breakaway_20261030_152336_166.log_summary.csv",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\data\\02_DAC映射与位移\\breakaway_20261030_152336_166.log_summary.csv",
+    "status": "内容一致",
+    "source_sha256": "730a421330bc4b4712bfd14ec624645f8133197b46442b9e4814930761a33474",
+    "destination_sha256": "730a421330bc4b4712bfd14ec624645f8133197b46442b9e4814930761a33474"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\data\\02_DAC映射与位移\\breakaway_20261030_152408_855.log",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\data\\02_DAC映射与位移\\breakaway_20261030_152408_855.log",
+    "status": "内容一致",
+    "source_sha256": "d4064079592497725e5eaf24c3a83f428f6a0e7d4ab8bd32bcde75e71f90ced1",
+    "destination_sha256": "d4064079592497725e5eaf24c3a83f428f6a0e7d4ab8bd32bcde75e71f90ced1"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\data\\02_DAC映射与位移\\breakaway_20261030_152408_855.log_raw.csv",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\data\\02_DAC映射与位移\\breakaway_20261030_152408_855.log_raw.csv",
+    "status": "内容一致",
+    "source_sha256": "23fd0d95a4c87535a95195cabc98f35ab255cfc840bbe94ac842777ebe96b13a",
+    "destination_sha256": "23fd0d95a4c87535a95195cabc98f35ab255cfc840bbe94ac842777ebe96b13a"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\data\\02_DAC映射与位移\\breakaway_20261030_152408_855.log_summary.csv",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\data\\02_DAC映射与位移\\breakaway_20261030_152408_855.log_summary.csv",
+    "status": "内容一致",
+    "source_sha256": "89eea84e146e8386ab66df5a6a730e57a36e41816a7c025fd89170a4a2d47d6a",
+    "destination_sha256": "89eea84e146e8386ab66df5a6a730e57a36e41816a7c025fd89170a4a2d47d6a"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\data\\02_DAC映射与位移\\breakaway_20261030_152438_455.log",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\data\\02_DAC映射与位移\\breakaway_20261030_152438_455.log",
+    "status": "内容一致",
+    "source_sha256": "c8326efa42521563cb1538400b6fca61fbe688af3e6bb0ce74573543d4df1f6f",
+    "destination_sha256": "c8326efa42521563cb1538400b6fca61fbe688af3e6bb0ce74573543d4df1f6f"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\data\\02_DAC映射与位移\\breakaway_20261030_152438_455.log_raw.csv",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\data\\02_DAC映射与位移\\breakaway_20261030_152438_455.log_raw.csv",
+    "status": "内容一致",
+    "source_sha256": "78d6fd5419536622ff7e0e2654b2bf38c76ddf5f8d728d9a3a177807ebe273b5",
+    "destination_sha256": "78d6fd5419536622ff7e0e2654b2bf38c76ddf5f8d728d9a3a177807ebe273b5"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\data\\02_DAC映射与位移\\breakaway_20261030_152438_455.log_summary.csv",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\data\\02_DAC映射与位移\\breakaway_20261030_152438_455.log_summary.csv",
+    "status": "内容一致",
+    "source_sha256": "dd998c13e42277ae1060cbb416c810caec90f3d4055d85a30acf2b6755276093",
+    "destination_sha256": "dd998c13e42277ae1060cbb416c810caec90f3d4055d85a30acf2b6755276093"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\data\\02_DAC映射与位移\\breakaway_20261030_152526_655.log",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\data\\02_DAC映射与位移\\breakaway_20261030_152526_655.log",
+    "status": "内容一致",
+    "source_sha256": "9c60991b287f5ba836ff5368c1832b83c5b4382dd39e218821c2fb86f1dcfa9b",
+    "destination_sha256": "9c60991b287f5ba836ff5368c1832b83c5b4382dd39e218821c2fb86f1dcfa9b"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\data\\02_DAC映射与位移\\breakaway_20261030_152526_655.log_raw.csv",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\data\\02_DAC映射与位移\\breakaway_20261030_152526_655.log_raw.csv",
+    "status": "内容一致",
+    "source_sha256": "58ccaddac92966270edfaec38146880bca25837862db60824509041293702660",
+    "destination_sha256": "58ccaddac92966270edfaec38146880bca25837862db60824509041293702660"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\data\\02_DAC映射与位移\\breakaway_20261030_152526_655.log_summary.csv",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\data\\02_DAC映射与位移\\breakaway_20261030_152526_655.log_summary.csv",
+    "status": "内容一致",
+    "source_sha256": "47ca66b2ae707818df752c3d2d9b39ed98128324ea29f9880f55fde5b66a27e1",
+    "destination_sha256": "47ca66b2ae707818df752c3d2d9b39ed98128324ea29f9880f55fde5b66a27e1"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\data\\02_DAC映射与位移\\breakaway_20261030_152604_623.log",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\data\\02_DAC映射与位移\\breakaway_20261030_152604_623.log",
+    "status": "内容一致",
+    "source_sha256": "c9b209f0fc5e6922106580b8e5c79cd6ab30005057b49f7c151acf2038c59dc7",
+    "destination_sha256": "c9b209f0fc5e6922106580b8e5c79cd6ab30005057b49f7c151acf2038c59dc7"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\data\\02_DAC映射与位移\\breakaway_20261030_152604_623.log_raw.csv",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\data\\02_DAC映射与位移\\breakaway_20261030_152604_623.log_raw.csv",
+    "status": "内容一致",
+    "source_sha256": "49a825abe33c1d3e16655563ecaab6a23b5c34e772025ea8643f58f61b5d26af",
+    "destination_sha256": "49a825abe33c1d3e16655563ecaab6a23b5c34e772025ea8643f58f61b5d26af"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\data\\02_DAC映射与位移\\breakaway_20261030_152604_623.log_summary.csv",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\data\\02_DAC映射与位移\\breakaway_20261030_152604_623.log_summary.csv",
+    "status": "内容一致",
+    "source_sha256": "80daaadec0f06e3171adb48718e7c4c409d758a73b1bce9efab5bef9ab1eef20",
+    "destination_sha256": "80daaadec0f06e3171adb48718e7c4c409d758a73b1bce9efab5bef9ab1eef20"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\data\\02_DAC映射与位移\\dac_map_20261030_150238_716.log",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\data\\02_DAC映射与位移\\dac_map_20261030_150238_716.log",
+    "status": "内容一致",
+    "source_sha256": "739e86ec4a75e080acb51394a6c2a927781f648173f2704a9e9101db7e75c880",
+    "destination_sha256": "739e86ec4a75e080acb51394a6c2a927781f648173f2704a9e9101db7e75c880"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\data\\02_DAC映射与位移\\dac_map_20261030_150238_716.log_raw.csv",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\data\\02_DAC映射与位移\\dac_map_20261030_150238_716.log_raw.csv",
+    "status": "内容一致",
+    "source_sha256": "64226c2d38f6a9b40fa602c31855630cc3f52e894d4d9abde385afc2a518ed36",
+    "destination_sha256": "64226c2d38f6a9b40fa602c31855630cc3f52e894d4d9abde385afc2a518ed36"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\data\\02_DAC映射与位移\\dac_map_20261030_150238_716.log_summary.csv",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\data\\02_DAC映射与位移\\dac_map_20261030_150238_716.log_summary.csv",
+    "status": "内容一致",
+    "source_sha256": "0e88239738b9094ccd2823c3b728e562a27481109a15e0db61c17f52debf0c38",
+    "destination_sha256": "0e88239738b9094ccd2823c3b728e562a27481109a15e0db61c17f52debf0c38"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\data\\02_DAC映射与位移\\small_dac_20261030_095705_460.log",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\data\\02_DAC映射与位移\\small_dac_20261030_095705_460.log",
+    "status": "内容一致",
+    "source_sha256": "5994ca4276ed4aafb9f788a98bb0aef934df3f6c38d8fc6e6caea6801c8f82ec",
+    "destination_sha256": "5994ca4276ed4aafb9f788a98bb0aef934df3f6c38d8fc6e6caea6801c8f82ec"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\data\\02_DAC映射与位移\\small_dac_20261030_135939_994.log",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\data\\02_DAC映射与位移\\small_dac_20261030_135939_994.log",
+    "status": "内容一致",
+    "source_sha256": "e4999cc41f7d52652e29d9d4a5496be803243f9d80c1164bb3d102ba9433a1b4",
+    "destination_sha256": "e4999cc41f7d52652e29d9d4a5496be803243f9d80c1164bb3d102ba9433a1b4"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\data\\02_DAC映射与位移\\small_dac_20261030_141600_415.log",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\data\\02_DAC映射与位移\\small_dac_20261030_141600_415.log",
+    "status": "内容一致",
+    "source_sha256": "645485724af15377f1dbd61c8a9f1593c873a7f9412bd1652dce9993828fe3fd",
+    "destination_sha256": "645485724af15377f1dbd61c8a9f1593c873a7f9412bd1652dce9993828fe3fd"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\data\\02_DAC映射与位移\\small_dac_20261030_141744_825.log",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\data\\02_DAC映射与位移\\small_dac_20261030_141744_825.log",
+    "status": "内容一致",
+    "source_sha256": "e0fa69f35d9da4454799cfb03dc7a7048f8d96819b020613e56a26d645b26bf0",
+    "destination_sha256": "e0fa69f35d9da4454799cfb03dc7a7048f8d96819b020613e56a26d645b26bf0"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\data\\02_DAC映射与位移\\small_dac_20261030_141852_647.log",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\data\\02_DAC映射与位移\\small_dac_20261030_141852_647.log",
+    "status": "内容一致",
+    "source_sha256": "32750fd91b837bc640a4ba201f21cc90bce8386ddba09de3f542ef41349827a2",
+    "destination_sha256": "32750fd91b837bc640a4ba201f21cc90bce8386ddba09de3f542ef41349827a2"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\data\\02_DAC映射与位移\\small_dac_20261030_141915_436.log",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\data\\02_DAC映射与位移\\small_dac_20261030_141915_436.log",
+    "status": "内容一致",
+    "source_sha256": "8720bbe82da67b34ffc7b85c69e3febbe859337203feb0ffa316613a126f54f7",
+    "destination_sha256": "8720bbe82da67b34ffc7b85c69e3febbe859337203feb0ffa316613a126f54f7"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\data\\02_DAC映射与位移\\small_dac_20261030_142747_513.log",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\data\\02_DAC映射与位移\\small_dac_20261030_142747_513.log",
+    "status": "内容一致",
+    "source_sha256": "abc34b082c6ef50ec9b9ec0c260c1b13898cc5172b16029174d2213c4de9f5a6",
+    "destination_sha256": "abc34b082c6ef50ec9b9ec0c260c1b13898cc5172b16029174d2213c4de9f5a6"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\data\\02_DAC映射与位移\\small_dac_20261030_142857_579.log",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\data\\02_DAC映射与位移\\small_dac_20261030_142857_579.log",
+    "status": "内容一致",
+    "source_sha256": "5e1e266407819bd8ceeb111db2150fde589825f0a809d37b44f599f478cb03c8",
+    "destination_sha256": "5e1e266407819bd8ceeb111db2150fde589825f0a809d37b44f599f478cb03c8"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\data\\02_DAC映射与位移\\small_dac_20261030_142937_035.log",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\data\\02_DAC映射与位移\\small_dac_20261030_142937_035.log",
+    "status": "内容一致",
+    "source_sha256": "6368adb579d88a9e9f03191132fc75e564c23f61ec6b78511157d4e34b6f8e48",
+    "destination_sha256": "6368adb579d88a9e9f03191132fc75e564c23f61ec6b78511157d4e34b6f8e48"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\data\\02_DAC映射与位移\\small_dac_20261030_143026_039.log",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\data\\02_DAC映射与位移\\small_dac_20261030_143026_039.log",
+    "status": "内容一致",
+    "source_sha256": "971fdf463ec5dd71d1412ddb02391324ca08728a81c2bbfcbe954d1d297b91b0",
+    "destination_sha256": "971fdf463ec5dd71d1412ddb02391324ca08728a81c2bbfcbe954d1d297b91b0"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\data\\02_DAC映射与位移\\small_dac_20261030_150107_339.log",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\data\\02_DAC映射与位移\\small_dac_20261030_150107_339.log",
+    "status": "内容一致",
+    "source_sha256": "600bf441196eb9870838264ba0bb1ae23178fa3cf58b4f095f4729f447d4f1c3",
+    "destination_sha256": "600bf441196eb9870838264ba0bb1ae23178fa3cf58b4f095f4729f447d4f1c3"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\data\\03_波形验证\\current_profiles_20261109_151602_931.log",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\data\\03_波形验证\\current_profiles_20261109_151602_931.log",
+    "status": "内容一致",
+    "source_sha256": "c0497a2c379655dc6ec77749433778bb6a33131c31af56797a0e9b4012b19744",
+    "destination_sha256": "c0497a2c379655dc6ec77749433778bb6a33131c31af56797a0e9b4012b19744"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\data\\03_波形验证\\current_profiles_20261109_151602_931.log.csv",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\data\\03_波形验证\\current_profiles_20261109_151602_931.log.csv",
+    "status": "内容一致",
+    "source_sha256": "01eacdd035dddaacce8a850e78afcddff21a04097209df57ba68720403b3d250",
+    "destination_sha256": "01eacdd035dddaacce8a850e78afcddff21a04097209df57ba68720403b3d250"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\data\\03_波形验证\\triangle_repeat_20261109_111341_786.log",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\data\\03_波形验证\\triangle_repeat_20261109_111341_786.log",
+    "status": "内容一致",
+    "source_sha256": "d8597d79de920693d056484dfaf7cc6db84fb35aaafdc7c00d9aa030038b74d7",
+    "destination_sha256": "d8597d79de920693d056484dfaf7cc6db84fb35aaafdc7c00d9aa030038b74d7"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\data\\03_波形验证\\triangle_repeat_20261109_111341_786.log.csv",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\data\\03_波形验证\\triangle_repeat_20261109_111341_786.log.csv",
+    "status": "内容一致",
+    "source_sha256": "db39635417f297993a50f654ca76642481acc16bc2a076c6294dd2e3e69587ae",
+    "destination_sha256": "db39635417f297993a50f654ca76642481acc16bc2a076c6294dd2e3e69587ae"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\data\\03_波形验证\\triangle_update_20261031_104546_249.log",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\data\\03_波形验证\\triangle_update_20261031_104546_249.log",
+    "status": "内容一致",
+    "source_sha256": "ae37ed8a06ee0870fcbe37f18ec5c0cb780f924da6b49facd9d7bc3ab28906a0",
+    "destination_sha256": "ae37ed8a06ee0870fcbe37f18ec5c0cb780f924da6b49facd9d7bc3ab28906a0"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\data\\03_波形验证\\triangle_update_20261031_104546_249.log.csv",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\data\\03_波形验证\\triangle_update_20261031_104546_249.log.csv",
+    "status": "内容一致",
+    "source_sha256": "d8b0410ce12a3cc271748c04b43fe59000da26e58c2ad4f42435b4e55a765562",
+    "destination_sha256": "d8b0410ce12a3cc271748c04b43fe59000da26e58c2ad4f42435b4e55a765562"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\sdk\\x86\\gts.dll",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\sdk\\x86\\gts.dll",
+    "status": "内容一致",
+    "source_sha256": "067d31bf2ab3e2a647405b850fe0ebe9afedbb335589d9824cb10a86cc2be21a",
+    "destination_sha256": "067d31bf2ab3e2a647405b850fe0ebe9afedbb335589d9824cb10a86cc2be21a"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\sdk\\x86\\gts.lib",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\sdk\\x86\\gts.lib",
+    "status": "内容一致",
+    "source_sha256": "15a727ff15b715a2c48f34efed021a1d660db1b09d70eef4d025b0b08b13fc81",
+    "destination_sha256": "15a727ff15b715a2c48f34efed021a1d660db1b09d70eef4d025b0b08b13fc81"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\sdk\\gts.h",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\sdk\\gts.h",
+    "status": "内容一致",
+    "source_sha256": "140859acc8c36039dd1f24f02d4955453fc0ae9139ce3ee4f89a858844251a5a",
+    "destination_sha256": "140859acc8c36039dd1f24f02d4955453fc0ae9139ce3ee4f89a858844251a5a"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\sdk\\x64\\gts.dll",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\sdk\\x64\\gts.dll",
+    "status": "内容一致",
+    "source_sha256": "e06871528fbcb9c94495745adce75cc28e1a200cd2c20dee36f38f04ceb144ed",
+    "destination_sha256": "e06871528fbcb9c94495745adce75cc28e1a200cd2c20dee36f38f04ceb144ed"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\sdk\\x64\\gts.lib",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\sdk\\x64\\gts.lib",
+    "status": "内容一致",
+    "source_sha256": "4b3c5e52520c9c7781f272adecea3738624ac665d45a104422a28e464f32115e",
+    "destination_sha256": "4b3c5e52520c9c7781f272adecea3738624ac665d45a104422a28e464f32115e"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\sdk\\x86\\gts.dll",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\sdk\\x86\\gts.dll",
+    "status": "内容一致",
+    "source_sha256": "067d31bf2ab3e2a647405b850fe0ebe9afedbb335589d9824cb10a86cc2be21a",
+    "destination_sha256": "067d31bf2ab3e2a647405b850fe0ebe9afedbb335589d9824cb10a86cc2be21a"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\OpenLoopApiReadTest\\sdk\\x86\\gts.lib",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\OpenLoopApiReadTest\\sdk\\x86\\gts.lib",
+    "status": "内容一致",
+    "source_sha256": "15a727ff15b715a2c48f34efed021a1d660db1b09d70eef4d025b0b08b13fc81",
+    "destination_sha256": "15a727ff15b715a2c48f34efed021a1d660db1b09d70eef4d025b0b08b13fc81"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\GVN新增API使用与验证交接.md",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\GVN新增API使用与验证交接.md",
+    "status": "内容一致",
+    "source_sha256": "768cf925289668ba87b566df9488f49d6a778c38b8d7b35efc0a72e10581219f",
+    "destination_sha256": "768cf925289668ba87b566df9488f49d6a778c38b8d7b35efc0a72e10581219f"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\参考\\采样周期与数据记录注意事项.md",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\参考\\采样周期与数据记录注意事项.md",
+    "status": "内容一致",
+    "source_sha256": "ce11e7c66f627dbd57662ac31d4e4918b1cd3b40cf94375ec421563d2089cd93",
+    "destination_sha256": "ce11e7c66f627dbd57662ac31d4e4918b1cd3b40cf94375ec421563d2089cd93"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\参考\\积分器与伺服误差对电流残差接触力估计的影响.md",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\参考\\积分器与伺服误差对电流残差接触力估计的影响.md",
+    "status": "内容一致",
+    "source_sha256": "50c2cafc4af7be8ec0bef5e67afd0671f518bb8acbf7250492f0a35c7dcedffc",
+    "destination_sha256": "50c2cafc4af7be8ec0bef5e67afd0671f518bb8acbf7250492f0a35c7dcedffc"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\组会汇报\\PPT整改规范范本.md",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\组会汇报\\PPT整改规范范本.md",
+    "status": "内容一致",
+    "source_sha256": "6c655650f9ca5e8f81255953dcd8e71ca446fcd709e03c5192b8d848f4f085cc",
+    "destination_sha256": "6c655650f9ca5e8f81255953dcd8e71ca446fcd709e03c5192b8d848f4f085cc"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\ModelingExperiment\\acquisition\\run_e2_hold_position.cpp",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\分项采集\\run_e2_hold_position.cpp",
+    "status": "内容一致",
+    "source_sha256": "04ae574fb62378ff08172d247e5076400d74125f7226fdcb0bb4de4f5b3a02e1",
+    "destination_sha256": "04ae574fb62378ff08172d247e5076400d74125f7226fdcb0bb4de4f5b3a02e1"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\ModelingExperiment\\acquisition\\run_e3_velocity_motion.cpp",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\分项采集\\run_e3_velocity_motion.cpp",
+    "status": "内容一致",
+    "source_sha256": "cf0a381b078f999f1e708db384ea6d6c9231709c4180959368041b4bbd2ab09d",
+    "destination_sha256": "cf0a381b078f999f1e708db384ea6d6c9231709c4180959368041b4bbd2ab09d"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\ModelingExperiment\\acquisition\\run_e4_acceleration_inertia.cpp",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\分项采集\\run_e4_acceleration_inertia.cpp",
+    "status": "内容一致",
+    "source_sha256": "d10afb41d761c51c5634ca042809df352bd411586c89fc06586a10f8da7844c3",
+    "destination_sha256": "d10afb41d761c51c5634ca042809df352bd411586c89fc06586a10f8da7844c3"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\ModelingExperiment\\acquisition\\run_e5_stop_history.cpp",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\分项采集\\run_e5_stop_history.cpp",
+    "status": "内容一致",
+    "source_sha256": "583684b0b7378b51529f9092b3dc7d4c234aeb10359b136814685a3cbcb16943",
+    "destination_sha256": "583684b0b7378b51529f9092b3dc7d4c234aeb10359b136814685a3cbcb16943"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\ModelingExperiment\\acquisition\\run_e6a_blind_validation.cpp",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\分项采集\\run_e6a_blind_validation.cpp",
+    "status": "内容一致",
+    "source_sha256": "56a07e27aa52ced94efa44180a8b697a3f09817ca9800548311b22711c261f3d",
+    "destination_sha256": "56a07e27aa52ced94efa44180a8b697a3f09817ca9800548311b22711c261f3d"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\ModelingExperiment3\\acquisition\\run_m3_controlled_dataset.cpp",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\ModelingExperiment3\\acquisition\\run_m3_controlled_dataset.cpp",
+    "status": "内容一致",
+    "source_sha256": "12467f166314882dce70b877f4646d074b1380e717ba2f93b83b817f78d44c31",
+    "destination_sha256": "12467f166314882dce70b877f4646d074b1380e717ba2f93b83b817f78d44c31"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\CurrentResidualForceCalibration\\acquisition\\run_spring_mapping.cpp",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\CurrentResidualForceCalibration\\acquisition\\run_spring_mapping.cpp",
+    "status": "内容一致",
+    "source_sha256": "35ef6b52ae544c16cdce275b54882cc2532fbed001fadc278f491b070ff76026",
+    "destination_sha256": "35ef6b52ae544c16cdce275b54882cc2532fbed001fadc278f491b070ff76026"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\force_control_platform_test\\1_adc_pressure_probe.cpp",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\force_control_platform_test\\1_adc_pressure_probe.cpp",
+    "status": "内容一致",
+    "source_sha256": "8ddb0b58a0639353271e3c7cf3ce8e7f4bddbe306473d5d1a4e6e84e39e73ed8",
+    "destination_sha256": "8ddb0b58a0639353271e3c7cf3ce8e7f4bddbe306473d5d1a4e6e84e39e73ed8"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\ModelingExperiment\\e0_drift.vcxproj",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\ModelingExperiment\\e0_drift.vcxproj",
+    "status": "内容一致",
+    "source_sha256": "a108ee8551c38d313e7edcccb988a9e2e2d1904bd4525ef50876307a92838992",
+    "destination_sha256": "a108ee8551c38d313e7edcccb988a9e2e2d1904bd4525ef50876307a92838992"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\ModelingExperiment\\e1_position.vcxproj",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\ModelingExperiment\\e1_position.vcxproj",
+    "status": "内容一致",
+    "source_sha256": "66ac4607a1032e19286c2e8a5141a62d999b1cba4404cd6c76b9c2791f651b9e",
+    "destination_sha256": "66ac4607a1032e19286c2e8a5141a62d999b1cba4404cd6c76b9c2791f651b9e"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\ModelingExperiment\\e2_hold_dense_supplement.vcxproj",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\ModelingExperiment\\e2_hold_dense_supplement.vcxproj",
+    "status": "内容一致",
+    "source_sha256": "1b17a2ffb4864cf6324513063da4c75a296006079413daf01678276ac17e0542",
+    "destination_sha256": "1b17a2ffb4864cf6324513063da4c75a296006079413daf01678276ac17e0542"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\ModelingExperiment\\e2_hold_halfmm_supplement.vcxproj",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\ModelingExperiment\\e2_hold_halfmm_supplement.vcxproj",
+    "status": "内容一致",
+    "source_sha256": "f1e4304430feb3962a2e8df9da40c55727d81e66ecba17a391e8e197b138675c",
+    "destination_sha256": "f1e4304430feb3962a2e8df9da40c55727d81e66ecba17a391e8e197b138675c"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\ModelingExperiment\\e2_hold_position.vcxproj",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\ModelingExperiment\\e2_hold_position.vcxproj",
+    "status": "内容一致",
+    "source_sha256": "5eacc06c5e14d741c1cca82631813b1274abce17d38bba76d57d1537e0266426",
+    "destination_sha256": "5eacc06c5e14d741c1cca82631813b1274abce17d38bba76d57d1537e0266426"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\ModelingExperiment\\e2_hold_pretest.vcxproj",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\ModelingExperiment\\e2_hold_pretest.vcxproj",
+    "status": "内容一致",
+    "source_sha256": "8db8833542a53faf811761e745ce4543f3544f9dc786bf914655c45abc81c3f7",
+    "destination_sha256": "8db8833542a53faf811761e745ce4543f3544f9dc786bf914655c45abc81c3f7"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\ModelingExperiment\\e3_velocity_motion.vcxproj",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\ModelingExperiment\\e3_velocity_motion.vcxproj",
+    "status": "内容一致",
+    "source_sha256": "95f2094e3842d95b73c9b3d293d681138d29c4ca693cc5748abc6801569b9dc8",
+    "destination_sha256": "95f2094e3842d95b73c9b3d293d681138d29c4ca693cc5748abc6801569b9dc8"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\ModelingExperiment\\e4_acceleration_inertia.vcxproj",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\ModelingExperiment\\e4_acceleration_inertia.vcxproj",
+    "status": "内容一致",
+    "source_sha256": "cc0cbf25527900b555674d8d07f3f8db711c1266cb04897e8f6e769efaf9b095",
+    "destination_sha256": "cc0cbf25527900b555674d8d07f3f8db711c1266cb04897e8f6e769efaf9b095"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\ModelingExperiment\\e5_stop_history.vcxproj",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\ModelingExperiment\\e5_stop_history.vcxproj",
+    "status": "内容一致",
+    "source_sha256": "a2d47f6d0dfbd0762051a25e8666b8ed282799c01af553a0b6ab8588b031c0b8",
+    "destination_sha256": "a2d47f6d0dfbd0762051a25e8666b8ed282799c01af553a0b6ab8588b031c0b8"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\ModelingExperiment\\e6a_blind_validation.vcxproj",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\ModelingExperiment\\e6a_blind_validation.vcxproj",
+    "status": "内容一致",
+    "source_sha256": "61785646ee4bf79d4ed7a30e11ea60aa4e0ba470a44386f7bc75f2d2085a3ef5",
+    "destination_sha256": "61785646ee4bf79d4ed7a30e11ea60aa4e0ba470a44386f7bc75f2d2085a3ef5"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\ModelingExperiment3\\m2_anchor80_retest.vcxproj",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\ModelingExperiment3\\m2_anchor80_retest.vcxproj",
+    "status": "内容一致",
+    "source_sha256": "e24f24aefacdb1b5a0aa81c48a8c65620d5f4f6c137c3418aae792132d14cf77",
+    "destination_sha256": "e24f24aefacdb1b5a0aa81c48a8c65620d5f4f6c137c3418aae792132d14cf77"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\ModelingExperiment3\\m2_short_press.vcxproj",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\ModelingExperiment3\\m2_short_press.vcxproj",
+    "status": "内容一致",
+    "source_sha256": "d50aa6b269a468ae6c844b375e0aee24a05bdefcda7d732a4a5e77e2885cef9b",
+    "destination_sha256": "d50aa6b269a468ae6c844b375e0aee24a05bdefcda7d732a4a5e77e2885cef9b"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\ModelingExperiment3\\m2_timing_control.vcxproj",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\ModelingExperiment3\\m2_timing_control.vcxproj",
+    "status": "内容一致",
+    "source_sha256": "5d7e279f3b98b728a134701973684f6094a3a7cd6e5459b2c8f5dbe3b4eda0c5",
+    "destination_sha256": "5d7e279f3b98b728a134701973684f6094a3a7cd6e5459b2c8f5dbe3b4eda0c5"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\ModelingExperiment3\\m3_contact_screen.vcxproj",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\ModelingExperiment3\\m3_contact_screen.vcxproj",
+    "status": "内容一致",
+    "source_sha256": "37f5745f43df979c3520accb207c78bf2b813a46fd60b7df2b61dd5d08aba992",
+    "destination_sha256": "37f5745f43df979c3520accb207c78bf2b813a46fd60b7df2b61dd5d08aba992"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\ModelingExperiment3\\m3_controlled_dataset.vcxproj",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\ModelingExperiment3\\m3_controlled_dataset.vcxproj",
+    "status": "内容一致",
+    "source_sha256": "9a7af853044681cac3de81cacc1d1f314c86cc477b346dbe88c7b3ae269a5d9e",
+    "destination_sha256": "9a7af853044681cac3de81cacc1d1f314c86cc477b346dbe88c7b3ae269a5d9e"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\ModelingExperiment3\\m3_v2_final_retest.vcxproj",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\ModelingExperiment3\\m3_v2_final_retest.vcxproj",
+    "status": "内容一致",
+    "source_sha256": "9a20b7d16a4b209ce95514a08fa1c44f05f01ac371eac8295e3f05f7da4f49ce",
+    "destination_sha256": "9a20b7d16a4b209ce95514a08fa1c44f05f01ac371eac8295e3f05f7da4f49ce"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\CurrentResidualForceCalibration\\mock_guard_test.vcxproj",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\CurrentResidualForceCalibration\\mock_guard_test.vcxproj",
+    "status": "内容一致",
+    "source_sha256": "90c4e6d029e8728587677d5dc5f0f3771bc5b51011b52409902468b4fe082e64",
+    "destination_sha256": "90c4e6d029e8728587677d5dc5f0f3771bc5b51011b52409902468b4fe082e64"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\CurrentResidualForceCalibration\\spring_baseline_check.vcxproj",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\CurrentResidualForceCalibration\\spring_baseline_check.vcxproj",
+    "status": "内容一致",
+    "source_sha256": "ed4414da05f8a8befdc199f0686ce4cd24d8260dc9a5a6f604e09bd8be163ddb",
+    "destination_sha256": "ed4414da05f8a8befdc199f0686ce4cd24d8260dc9a5a6f604e09bd8be163ddb"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\CurrentResidualForceCalibration\\spring_mapping.vcxproj",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\CurrentResidualForceCalibration\\spring_mapping.vcxproj",
+    "status": "内容一致",
+    "source_sha256": "b67d5b7143fe9d7b02b4cd45d5ecef06640f395d36559fc57d584d8b50167cb1",
+    "destination_sha256": "b67d5b7143fe9d7b02b4cd45d5ecef06640f395d36559fc57d584d8b50167cb1"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\force_control_platform_test\\adc_pressure_probe.vcxproj",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\force_control_platform_test\\adc_pressure_probe.vcxproj",
+    "status": "内容一致",
+    "source_sha256": "d4cdf04436aa895ea60e9ec041b1672ec62ab0f5a8abfc46e4f0ea435dbebc4a",
+    "destination_sha256": "d4cdf04436aa895ea60e9ec041b1672ec62ab0f5a8abfc46e4f0ea435dbebc4a"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\force_control_platform_test\\force_control_platform_test.vcxproj",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\force_control_platform_test\\force_control_platform_test.vcxproj",
+    "status": "内容一致",
+    "source_sha256": "c720eea8397cd2bc18475c87783d382f81bf072ef85cd17a53f7e5711255e5db",
+    "destination_sha256": "c720eea8397cd2bc18475c87783d382f81bf072ef85cd17a53f7e5711255e5db"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\force_control_platform_test\\force_process_multi_target_probe.vcxproj",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\force_control_platform_test\\force_process_multi_target_probe.vcxproj",
+    "status": "内容一致",
+    "source_sha256": "c80c36ee90c7ccc685eeef62cf0f0f834c5fb46d7121442a8f3f43005d8c15e5",
+    "destination_sha256": "c80c36ee90c7ccc685eeef62cf0f0f834c5fb46d7121442a8f3f43005d8c15e5"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\force_control_platform_test\\force_process_validation_probe.vcxproj",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\force_control_platform_test\\force_process_validation_probe.vcxproj",
+    "status": "内容一致",
+    "source_sha256": "5d6187d749e338830757a8712a1380fb7f10bbfbfb7f27a761b84142e85fae7a",
+    "destination_sha256": "5d6187d749e338830757a8712a1380fb7f10bbfbfb7f27a761b84142e85fae7a"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\force_control_platform_test\\force_residual_validation_probe.vcxproj",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\force_control_platform_test\\force_residual_validation_probe.vcxproj",
+    "status": "内容一致",
+    "source_sha256": "425a12175eb45e614554ba016fa342d4c41c38590036ffabf688ce88d86467bb",
+    "destination_sha256": "425a12175eb45e614554ba016fa342d4c41c38590036ffabf688ce88d86467bb"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\force_control_platform_test\\spring_step_response_probe.vcxproj",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\force_control_platform_test\\spring_step_response_probe.vcxproj",
+    "status": "内容一致",
+    "source_sha256": "6032a92b033d62fd07ce13a1b9c45fb9e56413c2e3c15e8677e21602f2b610ff",
+    "destination_sha256": "6032a92b033d62fd07ce13a1b9c45fb9e56413c2e3c15e8677e21602f2b610ff"
+  },
+  {
+    "source": "E:\\A_ZQY\\Experiment\\force_control_platform_test\\spring_step_speed_sweep_probe.vcxproj",
+    "destination": "E:\\A_ZQY\\ZR_Experiment\\基础工程与例程\\历史参考\\force_control_platform_test\\spring_step_speed_sweep_probe.vcxproj",
+    "status": "内容一致",
+    "source_sha256": "c6b015e917f5f89869bea6401bf8f6fdedeb4ed2aca7986d28a5eaad0df70211",
+    "destination_sha256": "c6b015e917f5f89869bea6401bf8f6fdedeb4ed2aca7986d28a5eaad0df70211"
+  }
+]

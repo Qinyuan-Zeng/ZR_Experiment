@@ -1,0 +1,221 @@
+<?xml version="1.0"?>
+<GoogolConfig ver="1.1">
+	<Setting>
+		<McMode>
+			<EtherCATMode>0</EtherCATMode>
+			<NetResetMode>0</NetResetMode>
+			<NetTopologyCheckMode>0</NetTopologyCheckMode>
+		</McMode>
+	</Setting>
+	<Device>
+		<DeviceInfo type="0x09c6" name="GVN0008A016LTD00">
+			<Config>
+				<DeviceShareMax count="4" />
+				<ExtModuleAccess mode="0" />
+			</Config>
+			<NetToplogy>
+				<PortInfo>
+					<PortA type="-1" />
+					<PortB type="-1" />
+					<PortC type="-1" />
+					<PortD type="-1" />
+				</PortInfo>
+				<StationInfo>
+					<Station link="0" type="0x9000" subType="0x0000" netType="6" coreIndex="1" stationId="0" name="Local" />
+					<Station link="1" type="0x8130" subType="0x0007" BusIndex="2" netType="7" coreIndex="2" stationId="1" name="GSVD" />
+				</StationInfo>
+			</NetToplogy>
+			<ResourceMap>
+				<Core index="1" period="1000">
+					<AxisInfo />
+					<GpiInfo />
+					<GpoInfo />
+					<AuAdcInfo />
+					<AuDacInfo />
+					<AuEncoderExInfo />
+					<AuTriggerInfo />
+					<AxisActTorqueInfo />
+					<AxisActVelInfo />
+					<AxisAdcInfo />
+					<AxisAlarmInfo />
+					<AxisArriveInfo />
+					<AxisClearInfo />
+					<AxisDacInfo />
+					<AxisDriverFollowErrorInfo />
+					<AxisEnableInfo />
+					<AxisEncoderInfo />
+					<AxisHomeInfo />
+					<AxisLmtNegativeInfo />
+					<AxisLmtPositiveInfo />
+					<AxisPrfPosInfo />
+					<AxisPrfTorqueInfo />
+					<AxisPrfVelInfo />
+					<AxisPulseInfo />
+					<EXTAIInfo />
+					<EXTAOInfo />
+					<EXTDIInfo />
+					<EXTDOInfo />
+					<LaserInfo />
+					<MpgDiInfo />
+					<MpgEncoderInfo />
+					<PosCompareInfo />
+					<PosCompareVirtualSourceInfo />
+					<RemoteEncNumInfo />
+					<ScanCrdInfo />
+					<TemperatureInputInfo />
+					<TriggerInfo />
+				</Core>
+				<Core index="2" period="50">
+					<AxisInfo>
+						<Axis index="1" count="1">
+							<PhysicalInfo netType="7" stationId="1" id="0">MC_AXIS</PhysicalInfo>
+						</Axis>
+					</AxisInfo>
+					<GpiInfo>
+						<Gpi index="1" count="11">
+							<PhysicalInfo netType="7" stationId="1" id="0">MC_GPI</PhysicalInfo>
+						</Gpi>
+					</GpiInfo>
+					<GpoInfo>
+						<Gpo index="1" count="7">
+							<PhysicalInfo netType="7" stationId="1" id="0">MC_GPO</PhysicalInfo>
+						</Gpo>
+					</GpoInfo>
+					<AuAdcInfo>
+						<AuAdc index="1" count="1">
+							<PhysicalInfo netType="7" stationId="1" id="0">MC_AU_ADC</PhysicalInfo>
+						</AuAdc>
+					</AuAdcInfo>
+					<AuDacInfo />
+					<AuEncoderExInfo>
+						<AuEncoderEx index="1" count="1">
+							<PhysicalInfo netType="7" stationId="1" id="0">MC_AU_ENCODER_EX</PhysicalInfo>
+						</AuEncoderEx>
+					</AuEncoderExInfo>
+					<AuTriggerInfo>
+						<AuTrigger index="1" count="5">
+							<PhysicalInfo netType="7" stationId="1" id="0">MC_AU_TRIGGER</PhysicalInfo>
+						</AuTrigger>
+					</AuTriggerInfo>
+					<AxisActTorqueInfo>
+						<AxisActTorque index="1" count="1">
+							<PhysicalInfo netType="7" stationId="1" id="0">MC_ACTTORQUE</PhysicalInfo>
+						</AxisActTorque>
+					</AxisActTorqueInfo>
+					<AxisActVelInfo>
+						<AxisActVel index="1" count="1">
+							<PhysicalInfo netType="7" stationId="1" id="0">MC_ACTVEL</PhysicalInfo>
+						</AxisActVel>
+					</AxisActVelInfo>
+					<AxisAdcInfo>
+						<AxisAdc index="1" count="1">
+							<PhysicalInfo netType="7" stationId="1" id="0">MC_ADC</PhysicalInfo>
+						</AxisAdc>
+					</AxisAdcInfo>
+					<AxisAlarmInfo>
+						<AxisAlarm index="1" count="1">
+							<PhysicalInfo netType="7" stationId="1" id="0">MC_ALARM</PhysicalInfo>
+						</AxisAlarm>
+					</AxisAlarmInfo>
+					<AxisArriveInfo>
+						<AxisArrive index="1" count="1">
+							<PhysicalInfo netType="7" stationId="1" id="0">MC_ARRIVE</PhysicalInfo>
+						</AxisArrive>
+					</AxisArriveInfo>
+					<AxisClearInfo>
+						<AxisClear index="1" count="1">
+							<PhysicalInfo netType="7" stationId="1" id="0">MC_CLEAR</PhysicalInfo>
+						</AxisClear>
+					</AxisClearInfo>
+					<AxisDacInfo>
+						<AxisDac index="1" count="1">
+							<PhysicalInfo netType="7" stationId="1" id="0">MC_DAC</PhysicalInfo>
+						</AxisDac>
+					</AxisDacInfo>
+					<AxisDriverFollowErrorInfo>
+						<AxisDriverFollowError index="1" count="1">
+							<PhysicalInfo netType="7" stationId="1" id="0">MC_DR_FOLLOW_ERROR</PhysicalInfo>
+						</AxisDriverFollowError>
+					</AxisDriverFollowErrorInfo>
+					<AxisEnableInfo>
+						<AxisEnable index="1" count="1">
+							<PhysicalInfo netType="7" stationId="1" id="0">MC_ENABLE</PhysicalInfo>
+						</AxisEnable>
+					</AxisEnableInfo>
+					<AxisEncoderInfo>
+						<AxisEncoder index="1" count="1">
+							<PhysicalInfo netType="7" stationId="1" id="0">MC_ENCODER</PhysicalInfo>
+						</AxisEncoder>
+					</AxisEncoderInfo>
+					<AxisHomeInfo>
+						<AxisHome index="1" count="1">
+							<PhysicalInfo netType="7" stationId="1" id="0">MC_HOME</PhysicalInfo>
+						</AxisHome>
+					</AxisHomeInfo>
+					<AxisLmtNegativeInfo>
+						<AxisLmtNegative index="1" count="1">
+							<PhysicalInfo netType="7" stationId="1" id="0">MC_LIMIT_NEGATIVE</PhysicalInfo>
+						</AxisLmtNegative>
+					</AxisLmtNegativeInfo>
+					<AxisLmtPositiveInfo>
+						<AxisLmtPositive index="1" count="1">
+							<PhysicalInfo netType="7" stationId="1" id="0">MC_LIMIT_POSITIVE</PhysicalInfo>
+						</AxisLmtPositive>
+					</AxisLmtPositiveInfo>
+					<AxisPrfPosInfo>
+						<AxisPrfPos index="1" count="1">
+							<PhysicalInfo netType="7" stationId="1" id="0">MC_PRF_POS</PhysicalInfo>
+						</AxisPrfPos>
+					</AxisPrfPosInfo>
+					<AxisPrfTorqueInfo>
+						<AxisPrfTorque index="1" count="1">
+							<PhysicalInfo netType="7" stationId="1" id="0">MC_PRF_TORQUE</PhysicalInfo>
+						</AxisPrfTorque>
+					</AxisPrfTorqueInfo>
+					<AxisPrfVelInfo>
+						<AxisPrfVel index="1" count="1">
+							<PhysicalInfo netType="7" stationId="1" id="0">MC_PRF_VEL</PhysicalInfo>
+						</AxisPrfVel>
+					</AxisPrfVelInfo>
+					<AxisPulseInfo>
+						<AxisPulse index="1" count="1">
+							<PhysicalInfo netType="7" stationId="1" id="0">MC_PULSE</PhysicalInfo>
+						</AxisPulse>
+					</AxisPulseInfo>
+					<EXTAIInfo />
+					<EXTAOInfo />
+					<EXTDIInfo />
+					<EXTDOInfo />
+					<LaserInfo />
+					<MpgDiInfo />
+					<MpgEncoderInfo />
+					<PosCompareInfo />
+					<PosCompareVirtualSourceInfo />
+					<RemoteEncNumInfo />
+					<ScanCrdInfo />
+					<TemperatureInputInfo />
+					<TriggerInfo>
+						<Trigger index="1" count="1">
+							<PhysicalInfo netType="7" stationId="1" id="0">MC_TRIGGER</PhysicalInfo>
+						</Trigger>
+					</TriggerInfo>
+				</Core>
+			</ResourceMap>
+		</DeviceInfo>
+	</Device>
+	<EtherCAT>
+		<EtherCATConfig CardIndex="1" ConfigCount="1">
+			<Config BusIndex="3">
+				<Master AdapterIndex="0" IoUpdateFreq="4" StackDebugLevel="0">
+					<PdoMapMode>0</PdoMapMode>
+					<Info>
+						<Name>GOOGOL EtherCAT Master</Name>
+						<Destination>FFFFFFFFFFFF</Destination>
+						<Source>000000000000</Source>
+						<EtherType>A488</EtherType>
+					</Info>
+				</Master>
+			</Config>
+		</EtherCATConfig>
+	</EtherCAT>
+</GoogolConfig>

@@ -1,0 +1,196 @@
+自动使能：正向DAC起动摸底，从100开始，每档+10，上限400，每档仅一次20ms请求。
+达到50pulse(0.005mm)位移，3次间隔至少2ms同方向确认后归零，停止递增；单次未确认越过阈值也不继续。
+归零后监测250ms；初始使能400raw、采集50raw；累计位移500pulse、速度50pulse/ms软件退出。
+硬上限不自动扩展；无运动指令；Q/Esc/Ctrl+C退出。硬件急停可用。
+Raw: breakaway_20261030_152604_623.log_raw.csv
+Summary: breakaway_20261030_152604_623.log_summary.csv
+GTN_OpenCard(5): rc=0
+GTN_NetInit: rc=0 status=0
+[before_enable] status=0x40000000 mode=2 enc=-1.000000 prf=0.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+GetSwitch(original): rc=0
+GetForceControlParameter: rc=0
+GetForceValue(original): rc=0
+Original switch: enable=0 mode=0 dir=0 threshold=0 dac=0 time=0 offset=0 reserve=0,0
+Force config: type=0 target=0 outputK=1 outputB=0
+
+[API 1] Disabled Set/GetSwitch: change threshold with enable=0, then restore.
+Inactive round-trip: threshold 0 -> 1, set=0 get=0 match=YES
+Inactive restore: set=0 get=0 match=YES
+PARAMETER ROUND-TRIP PASS (disabled; no transition armed).
+GTN_AxisOn: rc=0
+[enabled_mode2] status=0x40000200 mode=2 enc=0.000000 prf=0.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+[enabled_mode2] status=0x40000200 mode=2 enc=0.000000 prf=0.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+[enabled_mode2] status=0x40000200 mode=2 enc=0.000000 prf=0.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+[enabled_mode2] status=0x40000200 mode=2 enc=0.000000 prf=0.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+[enabled_mode2] status=0x40000200 mode=2 enc=0.000000 prf=0.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+[enabled_mode2] status=0x40000200 mode=2 enc=0.000000 prf=0.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+[enabled_mode2] status=0x40000200 mode=2 enc=0.000000 prf=0.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+[enabled_mode2] status=0x40000200 mode=2 enc=0.000000 prf=0.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+[enabled_mode2] status=0x40000200 mode=2 enc=0.000000 prf=0.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+[enabled_mode2] status=0x40000200 mode=2 enc=0.000000 prf=0.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+[enabled_mode2] status=0x40000200 mode=2 enc=0.000000 prf=0.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+[enabled_mode2] status=0x40000200 mode=2 enc=0.000000 prf=0.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+[enabled_mode2] status=0x40000200 mode=2 enc=0.000000 prf=0.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+Arm zero-output entry: error=0.000000 dir=0 threshold=10 overTime=10ms dac=0
+SetSwitch(entry): rc=0
+[waiting_force] status=0x40000200 mode=2 enc=0.000000 prf=0.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+GetSwitch(entry): rc=0
+Entry progress: mode=2 switchEnable=1
+[waiting_force] status=0x40000200 mode=3 enc=0.000000 prf=0.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+GetSwitch(entry): rc=0
+Entry progress: mode=3 switchEnable=0
+ENTRY PASS: submitted mode=0 task completed (enable=0); observed loopMode=3.
+[API 2] GetControlLoopMode is recorded, not used to require entry mode 3 or 4.
+[API 3] SetForceValue -> GetForceValue: zero DAC target, not measured force.
+Zero target step 1/3: requested DAC=0
+GTN_SetForceValue(0) AFTER ENTRY: rc=0
+GTN_GetForceValue(after): rc=0
+[zero_target_readback] status=0x40000200 mode=3 enc=0.000000 prf=0.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+Zero target step 2/3: requested DAC=0
+GTN_SetForceValue(0) AFTER ENTRY: rc=0
+GTN_GetForceValue(after): rc=0
+[zero_target_readback] status=0x40000200 mode=3 enc=0.000000 prf=0.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+Zero target step 3/3: requested DAC=0
+GTN_SetForceValue(0) AFTER ENTRY: rc=0
+GTN_GetForceValue(after): rc=0
+[zero_target_readback] status=0x40000200 mode=3 enc=0.000000 prf=0.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+ZERO SETTER PASS: 3 successful zero writes and target readbacks; nonzero response NOT tested.
+[before_mapping] status=0x40000200 mode=3 enc=0.000000 prf=0.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+STEP: dac=100 set=0 get=0 read=100 zero=0 zeroGet=0 elapsed=20.470ms peakCurrent=13 raw travel=7.000 pulse candidate=NO confirmed=NO good=YES
+STEP: dac=110 set=0 get=0 read=110 zero=0 zeroGet=0 elapsed=20.266ms peakCurrent=15 raw travel=8.000 pulse candidate=NO confirmed=NO good=YES
+STEP: dac=120 set=0 get=0 read=120 zero=0 zeroGet=0 elapsed=20.218ms peakCurrent=16 raw travel=8.973 pulse candidate=NO confirmed=NO good=YES
+STEP: dac=130 set=0 get=0 read=130 zero=0 zeroGet=0 elapsed=20.264ms peakCurrent=17 raw travel=9.972 pulse candidate=NO confirmed=NO good=YES
+STEP: dac=140 set=0 get=0 read=140 zero=0 zeroGet=0 elapsed=20.259ms peakCurrent=19 raw travel=10.958 pulse candidate=NO confirmed=NO good=YES
+STEP: dac=150 set=0 get=0 read=150 zero=0 zeroGet=0 elapsed=20.171ms peakCurrent=20 raw travel=11.956 pulse candidate=NO confirmed=NO good=YES
+STEP: dac=160 set=0 get=0 read=160 zero=0 zeroGet=0 elapsed=20.245ms peakCurrent=22 raw travel=12.899 pulse candidate=NO confirmed=NO good=YES
+STEP: dac=170 set=0 get=0 read=170 zero=0 zeroGet=0 elapsed=20.254ms peakCurrent=23 raw travel=13.986 pulse candidate=NO confirmed=NO good=YES
+STEP: dac=180 set=0 get=0 read=180 zero=0 zeroGet=0 elapsed=20.170ms peakCurrent=24 raw travel=14.944 pulse candidate=NO confirmed=NO good=YES
+STEP: dac=190 set=0 get=0 read=190 zero=0 zeroGet=0 elapsed=20.223ms peakCurrent=25 raw travel=15.931 pulse candidate=NO confirmed=NO good=YES
+STEP: dac=200 set=0 get=0 read=200 zero=0 zeroGet=0 elapsed=20.172ms peakCurrent=27 raw travel=16.865 pulse candidate=NO confirmed=NO good=YES
+STEP: dac=210 set=0 get=0 read=210 zero=0 zeroGet=0 elapsed=20.189ms peakCurrent=28 raw travel=17.855 pulse candidate=NO confirmed=NO good=YES
+STEP: dac=220 set=0 get=0 read=220 zero=0 zeroGet=0 elapsed=20.217ms peakCurrent=30 raw travel=18.795 pulse candidate=NO confirmed=NO good=YES
+STEP: dac=230 set=0 get=0 read=230 zero=0 zeroGet=0 elapsed=20.120ms peakCurrent=31 raw travel=19.760 pulse candidate=NO confirmed=NO good=YES
+STEP: dac=240 set=0 get=0 read=240 zero=0 zeroGet=0 elapsed=20.393ms peakCurrent=32 raw travel=20.627 pulse candidate=NO confirmed=NO good=YES
+STEP: dac=250 set=0 get=0 read=250 zero=0 zeroGet=0 elapsed=20.175ms peakCurrent=34 raw travel=21.718 pulse candidate=NO confirmed=NO good=YES
+STEP: dac=260 set=0 get=0 read=260 zero=0 zeroGet=0 elapsed=20.223ms peakCurrent=35 raw travel=22.571 pulse candidate=NO confirmed=NO good=YES
+STEP: dac=270 set=0 get=0 read=270 zero=0 zeroGet=0 elapsed=20.270ms peakCurrent=36 raw travel=23.308 pulse candidate=NO confirmed=NO good=YES
+STEP: dac=280 set=0 get=0 read=280 zero=0 zeroGet=0 elapsed=20.072ms peakCurrent=38 raw travel=24.320 pulse candidate=NO confirmed=NO good=YES
+STEP: dac=290 set=0 get=0 read=290 zero=0 zeroGet=0 elapsed=20.168ms peakCurrent=39 raw travel=25.367 pulse candidate=NO confirmed=NO good=YES
+STEP: dac=300 set=0 get=0 read=300 zero=0 zeroGet=0 elapsed=20.269ms peakCurrent=41 raw travel=27.106 pulse candidate=NO confirmed=NO good=YES
+STEP: dac=310 set=0 get=0 read=310 zero=0 zeroGet=0 elapsed=20.302ms peakCurrent=42 raw travel=28.154 pulse candidate=NO confirmed=NO good=YES
+STEP: dac=320 set=0 get=0 read=320 zero=0 zeroGet=0 elapsed=20.104ms peakCurrent=43 raw travel=29.079 pulse candidate=NO confirmed=NO good=YES
+STEP: dac=330 set=0 get=0 read=330 zero=0 zeroGet=0 elapsed=20.088ms peakCurrent=45 raw travel=30.000 pulse candidate=NO confirmed=NO good=YES
+STEP: dac=340 set=0 get=0 read=340 zero=0 zeroGet=0 elapsed=20.313ms peakCurrent=46 raw travel=32.000 pulse candidate=NO confirmed=NO good=YES
+STEP: dac=350 set=0 get=0 read=350 zero=0 zeroGet=0 elapsed=20.095ms peakCurrent=47 raw travel=33.000 pulse candidate=NO confirmed=NO good=YES
+STEP: dac=360 set=0 get=0 read=360 zero=0 zeroGet=0 elapsed=20.308ms peakCurrent=49 raw travel=32.987 pulse candidate=NO confirmed=NO good=YES
+STEP: dac=370 set=0 get=0 read=370 zero=0 zeroGet=-1 elapsed=1.417ms peakCurrent=50 raw travel=0.846 pulse candidate=NO confirmed=NO good=NO
+STOP: fault, unstable baseline, file error or unconfirmed displacement; no next DAC.
+GTN_AxisOff(cleanup): rc=0
+GTN_GetSts(cleanup): rc=0
+GetForceValue(disabled cleanup): rc=0
+SetSwitch(cancel pending entry): rc=0
+GetMode(cleanup): rc=0
+SetSwitch(exit while disabled): rc=0
+GetMode(exit): rc=0
+GetSwitch(exit): rc=0
+Cleanup exit progress: mode=3 switchEnable=1
+GetMode(exit): rc=0
+GetSwitch(exit): rc=0
+Cleanup exit progress: mode=3 switchEnable=1
+GetMode(exit): rc=0
+GetSwitch(exit): rc=0
+Cleanup exit progress: mode=3 switchEnable=1
+GetMode(exit): rc=0
+GetSwitch(exit): rc=0
+Cleanup exit progress: mode=3 switchEnable=1
+GetMode(exit): rc=0
+GetSwitch(exit): rc=0
+Cleanup exit progress: mode=3 switchEnable=1
+GetMode(exit): rc=0
+GetSwitch(exit): rc=0
+Cleanup exit progress: mode=3 switchEnable=1
+GetMode(exit): rc=0
+GetSwitch(exit): rc=0
+Cleanup exit progress: mode=3 switchEnable=1
+GetMode(exit): rc=0
+GetSwitch(exit): rc=0
+Cleanup exit progress: mode=3 switchEnable=1
+GetMode(exit): rc=0
+GetSwitch(exit): rc=0
+Cleanup exit progress: mode=3 switchEnable=1
+GetMode(exit): rc=0
+GetSwitch(exit): rc=0
+Cleanup exit progress: mode=3 switchEnable=1
+GetMode(exit): rc=0
+GetSwitch(exit): rc=0
+Cleanup exit progress: mode=3 switchEnable=1
+GetMode(exit): rc=0
+GetSwitch(exit): rc=0
+Cleanup exit progress: mode=3 switchEnable=1
+GetMode(exit): rc=0
+GetSwitch(exit): rc=0
+Cleanup exit progress: mode=3 switchEnable=1
+GetMode(exit): rc=0
+GetSwitch(exit): rc=0
+Cleanup exit progress: mode=3 switchEnable=1
+GetMode(exit): rc=0
+GetSwitch(exit): rc=0
+Cleanup exit progress: mode=3 switchEnable=1
+GetMode(exit): rc=0
+GetSwitch(exit): rc=0
+Cleanup exit progress: mode=3 switchEnable=1
+GetMode(exit): rc=0
+GetSwitch(exit): rc=0
+Cleanup exit progress: mode=3 switchEnable=1
+GetMode(exit): rc=0
+GetSwitch(exit): rc=0
+Cleanup exit progress: mode=3 switchEnable=1
+GetMode(exit): rc=0
+GetSwitch(exit): rc=0
+Cleanup exit progress: mode=3 switchEnable=1
+GetMode(exit): rc=0
+GetSwitch(exit): rc=0
+Cleanup exit progress: mode=3 switchEnable=1
+GetMode(exit): rc=0
+GetSwitch(exit): rc=0
+Cleanup exit progress: mode=3 switchEnable=1
+GetMode(exit): rc=0
+GetSwitch(exit): rc=0
+Cleanup exit progress: mode=3 switchEnable=1
+GetMode(exit): rc=0
+GetSwitch(exit): rc=0
+Cleanup exit progress: mode=3 switchEnable=1
+GetMode(exit): rc=0
+GetSwitch(exit): rc=0
+Cleanup exit progress: mode=3 switchEnable=1
+GetMode(exit): rc=0
+GetSwitch(exit): rc=0
+Cleanup exit progress: mode=3 switchEnable=1
+GetMode(exit): rc=0
+GetSwitch(exit): rc=0
+Cleanup exit progress: mode=3 switchEnable=1
+GetMode(exit): rc=0
+GetSwitch(exit): rc=0
+Cleanup exit progress: mode=3 switchEnable=1
+GetMode(exit): rc=0
+GetSwitch(exit): rc=0
+Cleanup exit progress: mode=3 switchEnable=1
+GetMode(exit): rc=0
+GetSwitch(exit): rc=0
+Cleanup exit progress: mode=3 switchEnable=1
+GetMode(exit): rc=0
+GetSwitch(exit): rc=0
+Cleanup exit progress: mode=3 switchEnable=1
+GetMode(exit): rc=0
+GetSwitch(exit): rc=0
+Cleanup exit progress: mode=3 switchEnable=1
+GetMode(exit): rc=0
+GetSwitch(exit): rc=0
+Cleanup exit progress: mode=3 switchEnable=1
+SetSwitch(cancel exit timeout): rc=0
+ATTENTION: mode 2 restoration NOT VERIFIED. Keep axis disabled.
+GTN_Close: rc=0
+RESULT: test=FAIL/INCOMPLETE cleanup=NOT VERIFIED overall=NOT PASSED
+Log: breakaway_20261030_152604_623.log
+请保持驱动器禁用，检查退出日志；必要时使用硬件急停。
+SEARCH INCOMPLETE: check STEP and cleanup; do not infer a starting threshold.

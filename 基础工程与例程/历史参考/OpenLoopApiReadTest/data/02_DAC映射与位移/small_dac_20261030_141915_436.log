@@ -1,0 +1,87 @@
+水平电机：自动使能，单次+1 DAC bit短脉冲测试。Q/Esc退出；硬件急停保持可用。
+零输出进入后发+1，主机请求约20ms后归零，不自动加大；实际时长受通信和调度影响。
+脉冲前后电流反馈保护50raw；启动使能阶段400raw。DAC到安培尚未标定。
+先验证禁用状态参数写入/读回/恢复，再使能并提交mode=0进入、零目标、mode=1回切。
+进入按demo检查enable归零，loopMode仅记录；回切额外确认模式2，随后撤使能。
+软件阈值：位移 0.050 mm，速度 50 pulse/ms（5 mm/s），位置误差 1000 pulse（0.1 mm），电流反馈 400 raw；它们不是硬件限幅。
+GTN_OpenCard(5): rc=0
+GTN_NetInit: rc=0 status=0
+[before_enable] status=0x40000000 mode=2 enc=1.000000 prf=0.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+GetSwitch(original): rc=0
+GetForceControlParameter: rc=0
+GetForceValue(original): rc=0
+Original switch: enable=0 mode=0 dir=0 threshold=0 dac=0 time=0 offset=0 reserve=0,0
+Force config: type=0 target=0 outputK=1 outputB=0
+
+[API 1] Disabled Set/GetSwitch: change threshold with enable=0, then restore.
+Inactive round-trip: threshold 0 -> 1, set=0 get=0 match=YES
+Inactive restore: set=0 get=0 match=YES
+PARAMETER ROUND-TRIP PASS (disabled; no transition armed).
+GTN_AxisOn: rc=0
+[enabled_mode2] status=0x40000200 mode=2 enc=1.000000 prf=0.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+[enabled_mode2] status=0x40000200 mode=2 enc=1.000000 prf=0.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+[enabled_mode2] status=0x40000200 mode=2 enc=1.000000 prf=0.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+[enabled_mode2] status=0x40000200 mode=2 enc=1.000000 prf=0.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+[enabled_mode2] status=0x40000200 mode=2 enc=1.000000 prf=0.000000 vel=-20.000000 current_raw=0 rc=[0,0,0,0,0,0]
+[enabled_mode2] status=0x40000200 mode=2 enc=1.000000 prf=0.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+[enabled_mode2] status=0x40000200 mode=2 enc=0.000000 prf=0.000000 vel=-20.000000 current_raw=0 rc=[0,0,0,0,0,0]
+[enabled_mode2] status=0x40000200 mode=2 enc=1.000000 prf=0.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+[enabled_mode2] status=0x40000200 mode=2 enc=1.000000 prf=0.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+[enabled_mode2] status=0x40000200 mode=2 enc=1.000000 prf=0.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+[enabled_mode2] status=0x40000200 mode=2 enc=1.000000 prf=0.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+[enabled_mode2] status=0x40000200 mode=2 enc=1.000000 prf=0.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+[enabled_mode2] status=0x40000200 mode=2 enc=1.000000 prf=0.000000 vel=-20.000000 current_raw=0 rc=[0,0,0,0,0,0]
+Arm zero-output entry: error=-1.000000 dir=0 threshold=9 overTime=10ms dac=0
+SetSwitch(entry): rc=0
+[waiting_force] status=0x40000200 mode=2 enc=1.000000 prf=0.000000 vel=20.000000 current_raw=0 rc=[0,0,0,0,0,0]
+GetSwitch(entry): rc=0
+Entry progress: mode=2 switchEnable=1
+[waiting_force] status=0x40000200 mode=3 enc=1.000000 prf=1.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+GetSwitch(entry): rc=0
+Entry progress: mode=3 switchEnable=0
+ENTRY PASS: submitted mode=0 task completed (enable=0); observed loopMode=3.
+[API 2] GetControlLoopMode is recorded, not used to require entry mode 3 or 4.
+[API 3] SetForceValue -> GetForceValue: zero DAC target, not measured force.
+Zero target step 1/3: requested DAC=0
+GTN_SetForceValue(0) AFTER ENTRY: rc=0
+GTN_GetForceValue(after): rc=0
+[zero_target_readback] status=0x40000200 mode=3 enc=0.000000 prf=1.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+Zero target step 2/3: requested DAC=0
+GTN_SetForceValue(0) AFTER ENTRY: rc=0
+GTN_GetForceValue(after): rc=0
+[zero_target_readback] status=0x40000200 mode=3 enc=1.000000 prf=1.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+Zero target step 3/3: requested DAC=0
+GTN_SetForceValue(0) AFTER ENTRY: rc=0
+GTN_GetForceValue(after): rc=0
+[zero_target_readback] status=0x40000200 mode=3 enc=1.000000 prf=1.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+ZERO SETTER PASS: 3 successful zero writes and target readbacks; nonzero response NOT tested.
+[before_small_pulse] status=0x40000200 mode=3 enc=1.000000 prf=1.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+PULSE: one +1 DAC bit request, nominal 20ms; actual current scaling unknown.
+GetForceValue(after pulse zero): rc=0
+PULSE API PASS: requested=+1 read=10 zero=0 elapsed=31 ms samples=70 peakCurrent=1 raw peakTravel=1.000000 pulse.
+Output response may be below resolution; this does NOT prove calibrated current or force.
+[zero_force_observation] status=0x40000200 mode=3 enc=1.000000 prf=1.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+[zero_force_observation] status=0x40000200 mode=3 enc=1.000000 prf=1.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+[zero_force_observation] status=0x40000200 mode=3 enc=1.000000 prf=1.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+[zero_force_observation] status=0x40000200 mode=3 enc=1.000000 prf=1.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+[zero_force_observation] status=0x40000200 mode=3 enc=1.000000 prf=1.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+Normal exit: KEEP ENABLED, mode=1, posOffset=-10 pulses. No retreat move.
+SetSwitch(exit WHILE ENABLED): rc=0
+[returning_mode2_enabled] status=0x40000200 mode=2 enc=1.000000 prf=-9.000000 vel=0.000000 current_raw=-1 rc=[0,0,0,0,0,0]
+GetSwitch(enabled exit): rc=0
+Enabled exit progress: mode=2 switchEnable=0
+[mode2_enabled_observation] status=0x40000200 mode=2 enc=1.000000 prf=-9.000000 vel=0.000000 current_raw=-1 rc=[0,0,0,0,0,0]
+[mode2_enabled_observation] status=0x40000200 mode=2 enc=0.000000 prf=-9.000000 vel=0.000000 current_raw=-1 rc=[0,0,0,0,0,0]
+[mode2_enabled_observation] status=0x40000200 mode=2 enc=1.000000 prf=-9.000000 vel=0.000000 current_raw=-1 rc=[0,0,0,0,0,0]
+[mode2_enabled_observation] status=0x40000200 mode=2 enc=0.000000 prf=-9.000000 vel=-20.000000 current_raw=-1 rc=[0,0,0,0,0,0]
+ENABLED EXIT PASS: mode=1 task completed and mode 2 verified while enabled; now AxisOff.
+GTN_AxisOff(cleanup): rc=0
+GTN_GetSts(cleanup): rc=0
+GetForceValue(disabled cleanup): rc=0
+SetSwitch(cancel pending entry): rc=0
+GetMode(cleanup): rc=0
+Restore original switch: set rc=0 get rc=0 match=YES
+Final: mode rc=0 mode=2 status rc=0 sts=0x40000000
+GTN_Close: rc=0
+RESULT: test=PASS cleanup=PASS overall=PASS
+Log: small_dac_20261030_141915_436.log

@@ -1,0 +1,10 @@
+session_id=Z-B_20261125-151029_707_30000
+pair_id=5
+planned_pair_id=Q5
+condition=B3
+round=5
+series=qualification
+history_condition=H1
+first_role=accel
+eval_pulse=15977
+outcome=complete

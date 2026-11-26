@@ -1,0 +1,2 @@
+c1_global,c1_weighted,c1_robust,RMSE,MAE,R2,num_valid_bins,num_valid_samples,dx_bin,dv_bin,minN_bin,minA_range,v_min_abs
+-0.00151901619310713,-0.00151901619310713,-0.00126929141483992,12.2617047695699,9.65194084690111,0.157418616656839,105,10637,0.1,1,20,30,0.5

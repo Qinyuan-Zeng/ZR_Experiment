@@ -1,0 +1,12 @@
+session_id=Z-B_20261125-200445_367_14356
+pair_id=2
+planned_pair_id=Z-BP_20261125-195157_221_35296_M5_X550V20
+condition=X550V20
+round=5
+series=matrix
+history_condition=H1
+first_role=accel
+match_pulse_s=20000
+acc_pulse_s2=550000
+eval_pulse=15975
+outcome=complete

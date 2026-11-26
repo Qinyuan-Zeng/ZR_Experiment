@@ -1,0 +1,7 @@
+//---------------------------//
+2025-9-3 15:1:45:58  Host open all device failed
+2025-9-3 15:1:45:59  HostOpenAllDevice(2,&deviceCount(0)) = -6
+2025-9-3 15:1:45:59  GT_IN_OpenAllDevice(5,2,NULL,&actDeviceCount(0)) = -6
+2025-9-3 15:1:45:59  GTN_OpenAllDevice(5,2,&count(0)) = -6
+2025-9-3 15:1:45:59  GTN_OpenCard() = -6
+2025-9-3 15:1:45:61  GTN_NetInit() = 0

@@ -1,0 +1,8 @@
+session_id,pair_id,valid,reason,delta_x_mm,delta_v_mm_s,delta_a_mm_s2,delta_I_raw,delta_I_corr_raw,alpha_raw_per_mm_s2,x0_plan_mm,x_match_eval_mm,diagnostic_checks_passed,first_role
+synthetic_a1_continuation,1,1,,-0.00003147912241274753,0.00006192723205344919,800.4084024509935,396.02042004200416,396.0084136142098,0.4947579415727787,16,16,,decel
+synthetic_a1_continuation,2,1,,-0.00003147912241274753,0.00006192723205344919,800.4084024509935,398.02042004200416,398.0084136142098,0.49725666596632034,16,16,,accel
+synthetic_a1_interrupted,1,1,,-0.00003147912241274753,0.00006192723205344919,800.4084024509935,396.02042004200416,396.0084136142098,0.4947579415727787,16,16,,accel
+synthetic_a1_interrupted,2,1,,-0.00003147912241274753,0.00006192723205344919,800.4084024509935,398.02042004200416,398.0084136142098,0.49725666596632034,16,16,,decel
+synthetic_a1_interrupted,3,1,,-0.00003147912241274753,0.00006192723205344919,800.4084024509935,400.02042004200416,400.00841361420976,0.49975539035986194,16,16,,accel
+synthetic_a1_interrupted,4,0,decel: run was not recorded | accel: run was not recorded | pair is outside the complete portion of the session,,,,,,,16,16,,decel
+synthetic_a1_interrupted,5,0,accel: run was not recorded | decel: run was not recorded | pair is outside the complete portion of the session,,,,,,,16,16,,accel

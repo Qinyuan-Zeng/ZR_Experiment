@@ -1,0 +1,2 @@
+session_id,pair_id,valid,reason,delta_x_mm,delta_v_mm_s,delta_a_mm_s2,delta_I_raw,delta_I_corr_raw,alpha_raw_per_mm_s2,x0_plan_mm,x_match_eval_mm,diagnostic_checks_passed,first_role
+Z-A1_20261125-105005_057_17836,1,0,calibration diagnostic only; ineligible for qualification,-0.000016953489378579434,0.00591379853680607,787.0571678552627,34.303378337833806,34.29347281925749,,16,15.976,1,accel

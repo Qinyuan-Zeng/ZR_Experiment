@@ -1,0 +1,10 @@
+E:\A_ZQY\Experiment\实验进程\实验文档记录\data_driven_baseline_figures\fig1_coordinate_phase_offset.png
+E:\A_ZQY\Experiment\实验进程\实验文档记录\data_driven_baseline_figures\fig2_representative_trace_residual.png
+E:\A_ZQY\Experiment\实验进程\实验文档记录\data_driven_baseline_figures\fig3_seen_unseen_before_after_metrics.png
+E:\A_ZQY\Experiment\实验进程\实验文档记录\data_driven_baseline_figures\fig4_hold_bias_by_block.png
+E:\A_ZQY\Experiment\实验进程\实验文档记录\data_driven_baseline_figures\fig1_coordinate_phase_offset.svg
+E:\A_ZQY\Experiment\实验进程\实验文档记录\data_driven_baseline_figures\fig2_representative_trace_residual.svg
+E:\A_ZQY\Experiment\实验进程\实验文档记录\data_driven_baseline_figures\fig3_seen_unseen_before_after_metrics.svg
+E:\A_ZQY\Experiment\实验进程\实验文档记录\data_driven_baseline_figures\fig4_hold_bias_by_block.svg
+E:\A_ZQY\Experiment\实验进程\实验文档记录\data_driven_baseline_figures\table_12_conditions_after_compensation.csv
+E:\A_ZQY\Experiment\实验进程\实验文档记录\实验_backup_before_data_driven_baseline_20260924_160631.docx

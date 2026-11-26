@@ -1,0 +1,4 @@
+Frozen model SHA-256: faaab77907a153a000635230c61554e7a96227ad243c65e20e9580051ab1e9d1
+C n counts position-grid values; groups counts complete round trips contributing values.
+D n counts paired position references; groups counts full repeat groups.
+A2 reference: A2_repeatability.csv. Compare by position, direction and session.

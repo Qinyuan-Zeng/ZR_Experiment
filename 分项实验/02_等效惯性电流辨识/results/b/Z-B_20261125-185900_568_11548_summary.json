@@ -1,0 +1,42 @@
+{
+  "ids": [
+    "Z-B_20261125-185900_568_11548",
+    "Z-B_20261125-185950_976_5168",
+    "Z-B_20261125-190224_049_46808"
+  ],
+  "condition": "X650V16",
+  "evaluatedPulse": 15977,
+  "diagnostic": false,
+  "accepted": true,
+  "evaluablePairs": 5,
+  "qualificationRepeat": {
+    "status": "passes_candidate_thresholds",
+    "repeatPairs": 5,
+    "meanI": 43.20582048099608,
+    "sigmaI": 1.0721961457810807,
+    "snr": 40.29656388059595,
+    "meanAlpha": 0.034663331724164886,
+    "sigmaAlpha": 0.0008093086150513154,
+    "ci95": [
+      0.0336586034520421,
+      0.03566805999628767
+    ],
+    "relativeHalfWidth": 0.02898533470809895,
+    "byOrder": [
+      {
+        "order": "accel_first",
+        "pairs": 2,
+        "meanDeltaI": 43.9671172714892,
+        "meanAlpha": 0.035239660935853644
+      },
+      {
+        "order": "decel_first",
+        "pairs": 3,
+        "meanDeltaI": 42.69828928733401,
+        "meanAlpha": 0.03427911224970571
+      }
+    ],
+    "zeroVarianceInterpretation": null,
+    "meanAlphaPulseUnits": 0.000034663331724164884
+  }
+}

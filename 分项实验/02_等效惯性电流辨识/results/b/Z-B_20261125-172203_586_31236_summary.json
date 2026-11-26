@@ -1,0 +1,40 @@
+{
+  "ids": [
+    "Z-B_20261125-172203_586_31236"
+  ],
+  "condition": "X300V16",
+  "evaluatedPulse": 15976,
+  "diagnostic": false,
+  "accepted": true,
+  "evaluablePairs": 5,
+  "qualificationRepeat": {
+    "status": "passes_candidate_thresholds",
+    "repeatPairs": 5,
+    "meanI": 10.159952304909362,
+    "sigmaI": 0.7526526901428762,
+    "snr": 13.498858687372389,
+    "meanAlpha": 0.017067825319435532,
+    "sigmaAlpha": 0.0011441321099962853,
+    "ci95": [
+      0.015647425416879357,
+      0.018488225221991707
+    ],
+    "relativeHalfWidth": 0.08322090693878462,
+    "byOrder": [
+      {
+        "order": "accel_first",
+        "pairs": 3,
+        "meanDeltaI": 10.355017372151101,
+        "meanAlpha": 0.017325187882964454
+      },
+      {
+        "order": "decel_first",
+        "pairs": 2,
+        "meanDeltaI": 9.867354704046754,
+        "meanAlpha": 0.016681781474142145
+      }
+    ],
+    "zeroVarianceInterpretation": null,
+    "meanAlphaPulseUnits": 0.000017067825319435533
+  }
+}

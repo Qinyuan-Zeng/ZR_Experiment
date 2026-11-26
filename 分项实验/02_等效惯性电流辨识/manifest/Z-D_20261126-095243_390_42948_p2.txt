@@ -1,0 +1,12 @@
+session_id=Z-D_20261126-095243_390_42948
+pair_id=2
+planned_pair_id=Z-DP_20261126-095126_343_29884_P4
+condition=D
+series=validation
+history_condition=H1
+round=4
+first_role=decel
+match_pulse_s=18000
+acc_pulse_s2=500000
+eval_pulse=18000
+outcome=complete

@@ -1,0 +1,603 @@
+2026-11-25T12:05:12.221Z field_confirmed=1 protocol=Z-BP_20261125-195157_221_35296 max_pairs=4 reserve_pulse=5000 follow_limit_pulse=500
+2026-11-25T12:05:12.223Z begin pending
+2026-11-25T12:05:12.271Z pending
+exit=0
+Z-BP_20261125-195157_221_35296_M5_X450V16 X450V16 H1
+Z-BP_20261125-195157_221_35296_M5_X500V20 X500V20 H1
+Z-BP_20261125-195157_221_35296_M5_X450V20 X450V20 H1
+Z-BP_20261125-195157_221_35296_M5_X500V16 X500V16 H1
+Z-BP_20261125-195157_221_35296_M5_X300V16 X300V16 H1
+Z-BP_20261125-195157_221_35296_M5_X650V20 X650V20 H1
+Z-BP_20261125-195157_221_35296_M5_X300V20 X300V20 H1
+Z-BP_20261125-195157_221_35296_M5_X650V16 X650V16 H1
+
+
+2026-11-25T12:05:12.272Z begin before
+2026-11-25T12:05:12.442Z before
+exit=0
+core=2
+axis=1
+position_pulse=16233
+planned_pulse=16233
+velocity_pulse_s=0
+planned_velocity_pulse_s=0
+following_error_pulse=0
+status_word=1073742336
+enabled=1
+moving=0
+fault=0
+limit_plus=0
+limit_minus=0
+mode=2
+planner=0
+ready=1
+
+GTN_OpenCard.rc=0
+GTN_GetVersionEx.rc=0
+firmware=100
+GTN_GetAxisPosErrLimit.rc=0
+controller_follow_limit_pulse=0
+follow_limit_pulse=500
+GTN_Close.rc=0
+
+2026-11-25T12:05:12.442Z begin acquire
+2026-11-25T12:05:36.679Z acquire
+exit=0
+Mode [Q] qualification first pair, R qualification repeats, F formal/resume: Frozen B protocol ID: Pending Z-BP_20261125-195157_221_35296_M5_X450V16
+Pending Z-BP_20261125-195157_221_35296_M5_X500V20
+Pending Z-BP_20261125-195157_221_35296_M5_X450V20
+Pending Z-BP_20261125-195157_221_35296_M5_X500V16
+Pending Z-BP_20261125-195157_221_35296_M5_X300V16
+Pending Z-BP_20261125-195157_221_35296_M5_X650V20
+Pending Z-BP_20261125-195157_221_35296_M5_X300V20
+Pending Z-BP_20261125-195157_221_35296_M5_X650V16
+Pending slots to run [maximum 4]: Field-confirmed extra stop reserve and following-error limit [both pulse]: Session: Z-B_20261125-200512_484_20004
+Reserve checked against supplied/read-back values.
+Z-BP_20261125-195157_221_35296_M5_X450V16 X450V16 matrix H1 eval=15974 pulse, A=450000 pulse/s^2, v0=16000 pulse/s, V=40000 pulse/s
+  transfer_pulse=16233 -> 15716
+  transfer 16.233 -> 15.716 mm, envelope [15.716, 16.233], boundary clearances 15.716/15.767 mm, required reserve 5.01201 mm each side [OK]
+  accel_pulse=15716 -> 19271
+accel 15.716 -> 19.271 mm, envelope [15.716, 19.271], boundary clearances 15.716/12.729 mm, required reserve 5.81412 mm each side [OK]
+  ideal v(eval)=15238.1 pulse/s; eval platform before/after=33.8625/55.0195 ms; full windows 15/21/31 ms: YES YES YES
+  transfer_pulse=19271 -> 12729
+  transfer 19.271 -> 12.729 mm, envelope [12.729, 19.271], boundary clearances 12.729/12.729 mm, required reserve 5.01201 mm each side [OK]
+  decel_pulse=12729 -> 16284
+decel 12.729 -> 16.284 mm, envelope [12.729, 16.284], boundary clearances 12.729/15.716 mm, required reserve 5.81412 mm each side [OK]
+  ideal v(eval)=16703.3 pulse/s; eval platform before/after=51.7635/37.1184 ms; full windows 15/21/31 ms: YES YES YES
+Z-BP_20261125-195157_221_35296_M5_X500V20 X500V20 matrix H1 eval=15976 pulse, A=500000 pulse/s^2, v0=20000 pulse/s, V=40000 pulse/s
+  transfer_pulse=16284 -> 15600
+  transfer 16.284 -> 15.6 mm, envelope [15.6, 16.284], boundary clearances 15.6/15.716 mm, required reserve 5.01201 mm each side [OK]
+  accel_pulse=15600 -> 18800
+accel 15.6 -> 18.8 mm, envelope [15.6, 18.8], boundary clearances 15.6/13.2 mm, required reserve 5.81412 mm each side [OK]
+  ideal v(eval)=19390.7 pulse/s; eval platform before/after=38.7814/41.2186 ms; full windows 15/21/31 ms: YES YES YES
+  transfer_pulse=18800 -> 13200
+  transfer 18.8 -> 13.2 mm, envelope [13.2, 18.8], boundary clearances 13.2/13.2 mm, required reserve 5.01201 mm each side [OK]
+  decel_pulse=13200 -> 16400
+decel 13.2 -> 16.4 mm, envelope [13.2, 16.4], boundary clearances 13.2/15.6 mm, required reserve 5.81412 mm each side [OK]
+  ideal v(eval)=20591.3 pulse/s; eval platform before/after=38.8175/41.1825 ms; full windows 15/21/31 ms: YES YES YES
+Z-BP_20261125-195157_221_35296_M5_X450V20 X450V20 matrix H1 eval=15976 pulse, A=450000 pulse/s^2, v0=20000 pulse/s, V=40000 pulse/s
+  transfer_pulse=16400 -> 15556
+  transfer 16.4 -> 15.556 mm, envelope [15.556, 16.4], boundary clearances 15.556/15.6 mm, required reserve 5.01201 mm each side [OK]
+  accel_pulse=15556 -> 19111
+accel 15.556 -> 19.111 mm, envelope [15.556, 19.111], boundary clearances 15.556/12.889 mm, required reserve 5.81412 mm each side [OK]
+  ideal v(eval)=19442.2 pulse/s; eval platform before/after=43.2049/45.677 ms; full windows 15/21/31 ms: YES YES YES
+  transfer_pulse=19111 -> 12889
+  transfer 19.111 -> 12.889 mm, envelope [12.889, 19.111], boundary clearances 12.889/12.889 mm, required reserve 5.01201 mm each side [OK]
+  decel_pulse=12889 -> 16444
+decel 12.889 -> 16.444 mm, envelope [12.889, 16.444], boundary clearances 12.889/15.556 mm, required reserve 5.81412 mm each side [OK]
+  ideal v(eval)=20523.2 pulse/s; eval platform before/after=43.2749/45.607 ms; full windows 15/21/31 ms: YES YES YES
+Z-BP_20261125-195157_221_35296_M5_X500V16 X500V16 matrix H1 eval=15974 pulse, A=500000 pulse/s^2, v0=16000 pulse/s, V=40000 pulse/s
+  transfer_pulse=16444 -> 15744
+  transfer 16.444 -> 15.744 mm, envelope [15.744, 16.444], boundary clearances 15.744/15.556 mm, required reserve 5.01201 mm each side [OK]
+  accel_pulse=15744 -> 18944
+accel 15.744 -> 18.944 mm, envelope [15.744, 18.944], boundary clearances 15.744/13.056 mm, required reserve 5.81412 mm each side [OK]
+  ideal v(eval)=15165.8 pulse/s; eval platform before/after=30.3315/49.6685 ms; full windows 15/21/31 ms: YES YES YES
+  transfer_pulse=18944 -> 13056
+  transfer 18.944 -> 13.056 mm, envelope [13.056, 18.944], boundary clearances 13.056/13.056 mm, required reserve 5.01201 mm each side [OK]
+  decel_pulse=13056 -> 16256
+decel 13.056 -> 16.256 mm, envelope [13.056, 16.256], boundary clearances 13.056/15.744 mm, required reserve 5.81412 mm each side [OK]
+  ideal v(eval)=16792.9 pulse/s; eval platform before/after=46.4143/33.5857 ms; full windows 15/21/31 ms: YES YES YES
+Confirm servo ready, limits, R fixed, brake and verified stop reserve. Type START: Z-B_20261125-200512_484_20004_p1_r1 complete
+Z-B_20261125-200512_484_20004_p1_r2 complete
+Z-B_20261125-200512_484_20004_p2_r1 complete
+Z-B_20261125-200512_484_20004_p2_r2 complete
+Z-B_20261125-200512_484_20004_p3_r1 complete
+Z-B_20261125-200512_484_20004_p3_r2 complete
+Z-B_20261125-200512_484_20004_p4_r1 complete
+Z-B_20261125-200512_484_20004_p4_r2 complete
+Z-B_20261125-200512_484_20004 acquisition complete
+
+
+2026-11-25T12:05:36.679Z begin after
+2026-11-25T12:05:36.859Z after
+exit=0
+core=2
+axis=1
+position_pulse=16256
+planned_pulse=16256
+velocity_pulse_s=0
+planned_velocity_pulse_s=0
+following_error_pulse=0
+status_word=1073742336
+enabled=1
+moving=0
+fault=0
+limit_plus=0
+limit_minus=0
+mode=2
+planner=0
+ready=1
+
+GTN_OpenCard.rc=0
+GTN_GetVersionEx.rc=0
+firmware=100
+GTN_GetAxisPosErrLimit.rc=0
+controller_follow_limit_pulse=0
+follow_limit_pulse=500
+GTN_Close.rc=0
+
+2026-11-25T12:05:36.859Z begin replay
+2026-11-25T12:05:39.098Z replay
+exit=0
+E:\A_ZQY\ZR_Experiment\分项实验\02_等效惯性电流辨识\results\b\Z-BP_20261125-195157_221_35296
+{
+  "protocol": "Z-BP_20261125-195157_221_35296",
+  "matrixDesign": "expanded_range_v1",
+  "tierValidation": null,
+  "sessions": [
+    "Z-B_20261125-195259_425_13432",
+    "Z-B_20261125-195309_434_14252",
+    "Z-B_20261125-195335_500_46824",
+    "Z-B_20261125-195401_092_34104",
+    "Z-B_20261125-195421_106_23896",
+    "Z-B_20261125-195445_993_39340",
+    "Z-B_20261125-195450_714_21648",
+    "Z-B_20261125-195512_748_24420",
+    "Z-B_20261125-195535_111_43592",
+    "Z-B_20261125-195558_998_37660",
+    "Z-B_20261125-195712_129_13116",
+    "Z-B_20261125-195736_103_35700",
+    "Z-B_20261125-195738_269_11784",
+    "Z-B_20261125-195808_788_17816",
+    "Z-B_20261125-200108_207_42072",
+    "Z-B_20261125-200118_514_17928",
+    "Z-B_20261125-200145_287_44868",
+    "Z-B_20261125-200213_466_11964",
+    "Z-B_20261125-200228_569_28260",
+    "Z-B_20261125-200252_407_1056",
+    "Z-B_20261125-200319_515_4344",
+    "Z-B_20261125-200345_629_18440",
+    "Z-B_20261125-200414_739_18768",
+    "Z-B_20261125-200445_367_14356",
+    "Z-B_20261125-200512_484_20004"
+  ],
+  "status": "matrix_pending",
+  "accepted": 76,
+  "pending": [
+    "Z-BP_20261125-195157_221_35296_M5_X300V16",
+    "Z-BP_20261125-195157_221_35296_M5_X650V20",
+    "Z-BP_20261125-195157_221_35296_M5_X300V20",
+    "Z-BP_20261125-195157_221_35296_M5_X650V16"
+  ],
+  "byCondition": {
+    "X300V16": {
+      "n": 4,
+      "meanDeltaI": {
+        "n": 4,
+        "mean": 9.602975899093419,
+        "ci95": [
+          6.667648654261702,
+          12.538303143925136
+        ]
+      },
+      "snr": 5.204985128100612,
+      "absDeltaARange": [
+        594443.8296188052,
+        603805.4501388184
+      ],
+      "meanAlpha": {
+        "n": 4,
+        "mean": 0.000016032107003381285,
+        "ci95": [
+          0.000011268859057216641,
+          0.00002079535494954593
+        ]
+      }
+    },
+    "X650V20": {
+      "n": 4,
+      "meanDeltaI": {
+        "n": 4,
+        "mean": 44.50534271321389,
+        "ci95": [
+          39.95739959089114,
+          49.05328583553664
+        ]
+      },
+      "snr": 15.569236103498103,
+      "absDeltaARange": [
+        1276536.109009122,
+        1299819.0102561812
+      ],
+      "meanAlpha": {
+        "n": 4,
+        "mean": 0.000034434856986886216,
+        "ci95": [
+          0.000031327830982911225,
+          0.000037541882990861206
+        ]
+      }
+    },
+    "X300V20": {
+      "n": 4,
+      "meanDeltaI": {
+        "n": 4,
+        "mean": 15.559323124353021,
+        "ci95": [
+          13.569390569739177,
+          17.549255678966865
+        ]
+      },
+      "snr": 12.440061364617188,
+      "absDeltaARange": [
+        591115.8376672936,
+        596938.756609949
+      ],
+      "meanAlpha": {
+        "n": 4,
+        "mean": 0.00002621832757867142,
+        "ci95": [
+          0.00002293986318302834,
+          0.0000294967919743145
+        ]
+      }
+    },
+    "X650V16": {
+      "n": 4,
+      "meanDeltaI": {
+        "n": 4,
+        "mean": 41.961732204002594,
+        "ci95": [
+          40.20074155040281,
+          43.72272285760238
+        ]
+      },
+      "snr": 37.911113156731524,
+      "absDeltaARange": [
+        1229319.8683128776,
+        1249084.3202633825
+      ],
+      "meanAlpha": {
+        "n": 4,
+        "mean": 0.00003386363783755777,
+        "ci95": [
+          0.0000326169242662404,
+          0.000035110351408875144
+        ]
+      }
+    },
+    "X350V16": {
+      "n": 5,
+      "meanDeltaI": {
+        "n": 5,
+        "mean": 13.885212305585767,
+        "ci95": [
+          11.475403483227494,
+          16.295021127944043
+        ]
+      },
+      "snr": 7.1532663161035,
+      "absDeltaARange": [
+        681814.1135971898,
+        696024.0755846262
+      ],
+      "meanAlpha": {
+        "n": 5,
+        "mean": 0.000020094932856124193,
+        "ci95": [
+          0.000016645932300141903,
+          0.000023543933412106483
+        ]
+      }
+    },
+    "X600V20": {
+      "n": 5,
+      "meanDeltaI": {
+        "n": 5,
+        "mean": 38.510395171760415,
+        "ci95": [
+          35.43110704492706,
+          41.58968329859377
+        ]
+      },
+      "snr": 15.526090286041688,
+      "absDeltaARange": [
+        1185716.4553171883,
+        1197594.2835113308
+      ],
+      "meanAlpha": {
+        "n": 5,
+        "mean": 0.00003229340647350265,
+        "ci95": [
+          0.000029886835001798348,
+          0.000034699977945206946
+        ]
+      }
+    },
+    "X350V20": {
+      "n": 5,
+      "meanDeltaI": {
+        "n": 5,
+        "mean": 18.975749462531788,
+        "ci95": [
+          17.69345654566318,
+          20.258042379400393
+        ]
+      },
+      "snr": 18.371565013794655,
+      "absDeltaARange": [
+        683553.9325655533,
+        691492.608422443
+      ],
+      "meanAlpha": {
+        "n": 5,
+        "mean": 0.00002758727327166523,
+        "ci95": [
+          0.000025855179614723216,
+          0.000029319366928607244
+        ]
+      }
+    },
+    "X600V16": {
+      "n": 5,
+      "meanDeltaI": {
+        "n": 5,
+        "mean": 38.11079487901911,
+        "ci95": [
+          36.70468475381697,
+          39.51690500422125
+        ]
+      },
+      "snr": 33.6483002803599,
+      "absDeltaARange": [
+        1148792.0588733223,
+        1169649.6048824366
+      ],
+      "meanAlpha": {
+        "n": 5,
+        "mean": 0.00003282052448608593,
+        "ci95": [
+          0.000031630498634227564,
+          0.0000340105503379443
+        ]
+      }
+    },
+    "X400V16": {
+      "n": 5,
+      "meanDeltaI": {
+        "n": 5,
+        "mean": 21.51281719913742,
+        "ci95": [
+          20.350257151498635,
+          22.675377246776204
+        ]
+      },
+      "snr": 22.972928057725543,
+      "absDeltaARange": [
+        787962.1405178888,
+        801270.0754967276
+      ],
+      "meanAlpha": {
+        "n": 5,
+        "mean": 0.000027066708072028092,
+        "ci95": [
+          0.000025719495482547002,
+          0.00002841392066150918
+        ]
+      }
+    },
+    "X550V20": {
+      "n": 5,
+      "meanDeltaI": {
+        "n": 5,
+        "mean": 33.88725600229455,
+        "ci95": [
+          31.515259094625467,
+          36.25925290996363
+        ]
+      },
+      "snr": 17.736043475089364,
+      "absDeltaARange": [
+        1085288.378061302,
+        1098719.3032004624
+      ],
+      "meanAlpha": {
+        "n": 5,
+        "mean": 0.00003104055883413754,
+        "ci95": [
+          0.000029025466520593763,
+          0.00003305565114768132
+        ]
+      }
+    },
+    "X400V20": {
+      "n": 5,
+      "meanDeltaI": {
+        "n": 5,
+        "mean": 22.64065319507833,
+        "ci95": [
+          20.786916037711876,
+          24.494390352444782
+        ]
+      },
+      "snr": 15.162655112013562,
+      "absDeltaARange": [
+        782982.3722768574,
+        793175.2360033042
+      ],
+      "meanAlpha": {
+        "n": 5,
+        "mean": 0.000028690715308975943,
+        "ci95": [
+          0.000026494797935072313,
+          0.00003088663268287957
+        ]
+      }
+    },
+    "X550V16": {
+      "n": 5,
+      "meanDeltaI": {
+        "n": 5,
+        "mean": 32.286201547587076,
+        "ci95": [
+          31.43079776474523,
+          33.14160533042892
+        ]
+      },
+      "snr": 46.857622221064034,
+      "absDeltaARange": [
+        1066825.4268967914,
+        1074842.1919177645
+      ],
+      "meanAlpha": {
+        "n": 5,
+        "mean": 0.000030133698685924096,
+        "ci95": [
+          0.00002942423512345864,
+          0.00003084316224838955
+        ]
+      }
+    },
+    "X450V16": {
+      "n": 5,
+      "meanDeltaI": {
+        "n": 5,
+        "mean": 27.522400368491947,
+        "ci95": [
+          25.081826971096753,
+          29.962973765887142
+        ]
+      },
+      "snr": 14.000027693936506,
+      "absDeltaARange": [
+        894322.9963211179,
+        912040.1171689049
+      ],
+      "meanAlpha": {
+        "n": 5,
+        "mean": 0.00003051394539098992,
+        "ci95": [
+          0.000028076307642683006,
+          0.00003295158313929683
+        ]
+      }
+    },
+    "X500V20": {
+      "n": 5,
+      "meanDeltaI": {
+        "n": 5,
+        "mean": 27.314581085366967,
+        "ci95": [
+          26.20662124412549,
+          28.422540926608445
+        ]
+      },
+      "snr": 30.605887990069277,
+      "absDeltaARange": [
+        968000.1443656802,
+        985533.0774768797
+      ],
+      "meanAlpha": {
+        "n": 5,
+        "mean": 0.00002798164192703262,
+        "ci95": [
+          0.0000271263014288277,
+          0.00002883698242523754
+        ]
+      }
+    },
+    "X450V20": {
+      "n": 5,
+      "meanDeltaI": {
+        "n": 5,
+        "mean": 26.690796331621716,
+        "ci95": [
+          25.28543471081167,
+          28.09615795243176
+        ]
+      },
+      "snr": 23.57805094809689,
+      "absDeltaARange": [
+        884549.4509550915,
+        892924.0025289562
+      ],
+      "meanAlpha": {
+        "n": 5,
+        "mean": 0.000030051254170162724,
+        "ci95": [
+          0.00002854355186177298,
+          0.00003155895647855247
+        ]
+      }
+    },
+    "X500V16": {
+      "n": 5,
+      "meanDeltaI": {
+        "n": 5,
+        "mean": 28.13417998376608,
+        "ci95": [
+          26.18932098420048,
+          30.07903898333168
+        ]
+      },
+      "snr": 17.958935894307047,
+      "absDeltaARange": [
+        979819.3827293812,
+        987519.1412170115
+      ],
+      "meanAlpha": {
+        "n": 5,
+        "mean": 0.000028582273125910836,
+        "ci95": [
+          0.000026660967477436386,
+          0.000030503578774385286
+        ]
+      }
+    }
+  },
+  "excitation": null,
+  "fitZero": null,
+  "fitFree": null,
+  "speedFits": null,
+  "predictionStats": null,
+  "baselineComparison": null,
+  "history": {
+    "plannedBlocks": 0,
+    "matchedBlocks": 0,
+    "deltaI": null,
+    "deltaAlpha": null
+  },
+  "inference": "OLS t intervals per independent pair; overlapping excitation intervals weaken the free-intercept fit",
+  "dReservation": {
+    "d_speed_pulse_s": "18000",
+    "d_acc_pulse_s2": "500000",
+    "d_plan_pulse": "18000",
+    "d_eval_pulse": "18000",
+    "d_time": "D_after_B_range_separate_session",
+    "d_max_abs_bias_raw": "4",
+    "d_max_rmse_raw": "6",
+    "d_min_pairs": "5"
+  }
+}
+
+
+2026-11-25T12:05:39.098Z begin pending
+2026-11-25T12:05:39.143Z pending
+exit=0
+Z-BP_20261125-195157_221_35296_M5_X300V16 X300V16 H1
+Z-BP_20261125-195157_221_35296_M5_X650V20 X650V20 H1
+Z-BP_20261125-195157_221_35296_M5_X300V20 X300V20 H1
+Z-BP_20261125-195157_221_35296_M5_X650V16 X650V16 H1
+
+
+2026-11-25T12:05:39.143Z Accepted 4, pending 4

@@ -1,0 +1,83 @@
+自动使能：零目标2ms更新100次；通过后执行一次0/20/40/60/80/100/80/60/40/20/0三角波。
+高频循环QPC主动定时，不Sleep(1)、不打印、不写盘；读取不是设备同步快照。
+迟到超过1ms或一轮超过2ms立即中止，无追赶补发、无自动改周期重试。
+保护：全程位移0.05mm、速度50pulse/ms；采集电流50raw，启动使能400raw。
+时序和归零均为PC软件控制，不能保证硬件实时性；Q/Esc/Ctrl+C请求退出。
+CSV: triangle_update_20261031_104546_249.log.csv
+GTN_OpenCard(5): rc=0
+GTN_NetInit: rc=0 status=0
+[before_enable] status=0x40000000 mode=2 enc=0.000000 prf=0.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+GetSwitch(original): rc=0
+GetForceControlParameter: rc=0
+GetForceValue(original): rc=0
+Original switch: enable=0 mode=0 dir=0 threshold=0 dac=0 time=0 offset=0 reserve=0,0
+Force config: type=0 target=0 outputK=1 outputB=0
+
+[API 1] Disabled Set/GetSwitch: change threshold with enable=0, then restore.
+Inactive round-trip: threshold 0 -> 1, set=0 get=0 match=YES
+Inactive restore: set=0 get=0 match=YES
+PARAMETER ROUND-TRIP PASS (disabled; no transition armed).
+GTN_AxisOn: rc=0
+[enabled_mode2] status=0x40000200 mode=2 enc=1.000000 prf=0.000000 vel=-20.000000 current_raw=0 rc=[0,0,0,0,0,0]
+[enabled_mode2] status=0x40000200 mode=2 enc=1.000000 prf=0.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+[enabled_mode2] status=0x40000200 mode=2 enc=1.000000 prf=0.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+[enabled_mode2] status=0x40000200 mode=2 enc=0.000000 prf=0.000000 vel=20.000000 current_raw=0 rc=[0,0,0,0,0,0]
+[enabled_mode2] status=0x40000200 mode=2 enc=1.000000 prf=0.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+[enabled_mode2] status=0x40000200 mode=2 enc=1.000000 prf=0.000000 vel=-20.000000 current_raw=0 rc=[0,0,0,0,0,0]
+[enabled_mode2] status=0x40000200 mode=2 enc=1.000000 prf=0.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+[enabled_mode2] status=0x40000200 mode=2 enc=1.000000 prf=0.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+[enabled_mode2] status=0x40000200 mode=2 enc=1.000000 prf=0.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+[enabled_mode2] status=0x40000200 mode=2 enc=1.000000 prf=0.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+[enabled_mode2] status=0x40000200 mode=2 enc=0.000000 prf=0.000000 vel=-20.000000 current_raw=0 rc=[0,0,0,0,0,0]
+[enabled_mode2] status=0x40000200 mode=2 enc=0.000000 prf=0.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+[enabled_mode2] status=0x40000200 mode=2 enc=1.000000 prf=0.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+[enabled_mode2] status=0x40000200 mode=2 enc=0.000000 prf=0.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+Arm zero-output entry: error=0.000000 dir=0 threshold=10 overTime=10ms dac=0
+SetSwitch(entry): rc=0
+[waiting_force] status=0x40000200 mode=2 enc=0.000000 prf=0.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+GetSwitch(entry): rc=0
+Entry progress: mode=2 switchEnable=1
+[waiting_force] status=0x40000200 mode=3 enc=1.000000 prf=1.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+GetSwitch(entry): rc=0
+Entry progress: mode=3 switchEnable=0
+ENTRY PASS: submitted mode=0 task completed (enable=0); observed loopMode=3.
+[API 2] GetControlLoopMode is recorded, not used to require entry mode 3 or 4.
+[API 3] SetForceValue -> GetForceValue: zero DAC target, not measured force.
+Zero target step 1/3: requested DAC=0
+GTN_SetForceValue(0) AFTER ENTRY: rc=0
+GTN_GetForceValue(after): rc=0
+[zero_target_readback] status=0x40000200 mode=3 enc=1.000000 prf=1.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+Zero target step 2/3: requested DAC=0
+GTN_SetForceValue(0) AFTER ENTRY: rc=0
+GTN_GetForceValue(after): rc=0
+[zero_target_readback] status=0x40000200 mode=3 enc=1.000000 prf=1.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+Zero target step 3/3: requested DAC=0
+GTN_SetForceValue(0) AFTER ENTRY: rc=0
+GTN_GetForceValue(after): rc=0
+[zero_target_readback] status=0x40000200 mode=3 enc=1.000000 prf=1.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+ZERO SETTER PASS: 3 successful zero writes and target readbacks; nonzero response NOT tested.
+[before_stream] status=0x40000200 mode=3 enc=1.000000 prf=1.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+STREAM: zeroTiming=PASS triangle=PASS finalZero=0 finalGet=0 target=0 zeroBegin=268.986300 zeroEnd=269.058800 ms overall=PASS
+Normal exit: KEEP ENABLED, mode=1, posOffset=-10 pulses. No retreat move.
+SetSwitch(exit WHILE ENABLED): rc=0
+[returning_mode2_enabled] status=0x40000200 mode=2 enc=1.000000 prf=-9.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+GetSwitch(enabled exit): rc=0
+Enabled exit progress: mode=2 switchEnable=0
+[mode2_enabled_observation] status=0x40000200 mode=2 enc=1.000000 prf=-9.000000 vel=0.000000 current_raw=0 rc=[0,0,0,0,0,0]
+[mode2_enabled_observation] status=0x40000200 mode=2 enc=1.000000 prf=-9.000000 vel=0.000000 current_raw=-1 rc=[0,0,0,0,0,0]
+[mode2_enabled_observation] status=0x40000200 mode=2 enc=1.000000 prf=-9.000000 vel=0.000000 current_raw=-1 rc=[0,0,0,0,0,0]
+[mode2_enabled_observation] status=0x40000200 mode=2 enc=1.000000 prf=-9.000000 vel=0.000000 current_raw=-1 rc=[0,0,0,0,0,0]
+ENABLED EXIT PASS: mode=1 task completed and mode 2 verified while enabled; now AxisOff.
+GTN_AxisOff(cleanup): rc=0
+GTN_GetSts(cleanup): rc=0
+GetForceValue(disabled cleanup): rc=0
+SetSwitch(cancel pending entry): rc=0
+GetMode(cleanup): rc=0
+Restore original switch: set rc=0 get rc=0 match=YES
+Final: mode rc=0 mode=2 status rc=0 sts=0x40000000
+GTN_Close: rc=0
+TIMING: stage=0 rows=100 maxLate=0.050000ms maxSetCall=0.104100ms dtMin=1.968700ms dtMax=2.031300ms
+TIMING: stage=1 rows=11 maxLate=0.153900ms maxSetCall=0.099300ms dtMin=1.858200ms dtMax=2.139300ms
+TIMING: stage=2 rows=25 maxLate=0.048800ms maxSetCall=0.181600ms dtMin=1.972700ms dtMax=2.044300ms
+RESULT: test=PASS cleanup=PASS overall=PASS
+Log: triangle_update_20261031_104546_249.log

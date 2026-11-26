@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EtherCATConfig>
+	<Config>
+		<Master AdapterIndex="0" IoUpdateFreq="4" StackDebugLevel="0">
+			<Info>
+				<Name>GOOGOL EtherCAT Master</Name>
+				<Destination>FFFFFFFFFFFF</Destination>
+				<Source>000000000000</Source>
+				<EtherType>A488</EtherType>
+			</Info>
+		</Master>
+	</Config>
+</EtherCATConfig>

@@ -1,0 +1,270 @@
+{
+  "schema": 1,
+  "created_utc": "2026-11-24T09:16:52.205Z",
+  "conditions": {
+    "config": "synthetic-v1",
+    "R_state": "fixed",
+    "position_mode": "2",
+    "loop_index": "1",
+    "current_api": "GTN_GetAtlTorque",
+    "current_unit": "raw",
+    "core": "2",
+    "axis": "1",
+    "pulse_per_mm": "1000"
+  },
+  "policy": {
+    "gapPeriods": 2.5,
+    "speedFraction": 0.1,
+    "accelFraction": 0.1,
+    "accelFloor": 1,
+    "gridMm": 0.25,
+    "minApproachFraction": 0.95,
+    "scanDerivativeSpanS": 0.05
+  },
+  "sourceHash": "8a40ab6b060b033b5a471744b70c7a07bed72aa4391bc8bbb510368e025e41b6",
+  "training_pulses": [
+    2000,
+    4000,
+    6000,
+    8000,
+    10000,
+    12000,
+    14000,
+    16000,
+    18000,
+    20000,
+    22000,
+    24000,
+    26000,
+    28000,
+    30000
+  ],
+  "selection": "Leave one complete B group and one interior position out together; lowest CV RMSE",
+  "model": {
+    "type": "quadratic",
+    "range": [
+      2,
+      30
+    ],
+    "center_mm": 16,
+    "scale_mm": 16,
+    "coefficients": [
+      217.30044253393655,
+      35.18874285714292,
+      53.741797026503065
+    ]
+  },
+  "baseline": {
+    "type": "constant",
+    "range": [
+      2,
+      30
+    ],
+    "center_mm": 16,
+    "scale_mm": 16,
+    "coefficients": [
+      232.97513333333328
+    ]
+  },
+  "candidates": [
+    {
+      "model": {
+        "type": "constant",
+        "range": [
+          2,
+          30
+        ],
+        "center_mm": 16,
+        "scale_mm": 16,
+        "coefficients": [
+          232.97513333333328
+        ]
+      },
+      "cv_rmse_raw": 21.32713640869916,
+      "cv_n": 65
+    },
+    {
+      "model": {
+        "type": "linear",
+        "range": [
+          2,
+          30
+        ],
+        "center_mm": 16,
+        "scale_mm": 16,
+        "coefficients": [
+          232.97513333333328,
+          35.18874285714292
+        ]
+      },
+      "cv_rmse_raw": 12.642817553496819,
+      "cv_n": 65
+    },
+    {
+      "model": {
+        "type": "quadratic",
+        "range": [
+          2,
+          30
+        ],
+        "center_mm": 16,
+        "scale_mm": 16,
+        "coefficients": [
+          217.30044253393655,
+          35.18874285714292,
+          53.741797026503065
+        ]
+      },
+      "cv_rmse_raw": 1.2435525222970647,
+      "cv_n": 65
+    },
+    {
+      "model": {
+        "type": "pchip",
+        "range": [
+          2,
+          30
+        ],
+        "nodes": [
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14,
+          16,
+          18,
+          20,
+          22,
+          24,
+          26,
+          28,
+          30
+        ],
+        "values": [
+          227.68399999999997,
+          221.12199999999999,
+          216.272,
+          213.12199999999999,
+          211.68500000000003,
+          211.86700000000002,
+          213.78699999999998,
+          217.262,
+          222.54299999999998,
+          229.45100000000002,
+          238.07199999999997,
+          248.31300000000002,
+          260.27700000000004,
+          273.938,
+          289.232
+        ],
+        "tangents": [
+          -3.708999999999989,
+          -2.7887924991237245,
+          -1.9096875000000013,
+          -0.9868214519293449,
+          0,
+          0.16624167459561287,
+          1.2367006487488275,
+          2.0958742576519005,
+          2.9929566002133083,
+          3.835009852533973,
+          4.68071577775421,
+          5.517825895068697,
+          6.37815430243902,
+          7.215725574166805,
+          8.055250000000044
+        ]
+      },
+      "cv_rmse_raw": 1.261883029272263,
+      "cv_n": 65
+    }
+  ],
+  "evidence": [
+    {
+      "group": "B/B/1/",
+      "session": "B",
+      "use": "train",
+      "digest": "44f25a558c473403c87ec6c78c15dcf87357253e8528db6999368d7d67bee8f1"
+    },
+    {
+      "group": "B/B/2/",
+      "session": "B",
+      "use": "train",
+      "digest": "e124525eafb320c51d39492d3ec4cb9be1d5cf9eab70231e5ff85501b7fe73ef"
+    },
+    {
+      "group": "B/B/3/",
+      "session": "B",
+      "use": "train",
+      "digest": "056c3fdcb269cc4cf5889f077af5f3e8701c78afdd25fe1917b719ea1205080c"
+    },
+    {
+      "group": "B/B/4/",
+      "session": "B",
+      "use": "train",
+      "digest": "944a09614bbd78e5cb529a91cfd7c6e13d9c0d35d832c455a9dea3be121e522c"
+    },
+    {
+      "group": "B/B/5/",
+      "session": "B",
+      "use": "train",
+      "digest": "dd51120f90aaa25ac070f7eb0f8b8da2dc486fa5f652c731204009cfc97a8b77"
+    },
+    {
+      "group": "C/C/1/2",
+      "session": "C",
+      "use": "development",
+      "digest": "0dd43c39ff98103312f0f27f5222d8e3d750cbe5c8b34d10957ecaa623a489a9"
+    },
+    {
+      "group": "C/C/1/10",
+      "session": "C",
+      "use": "development",
+      "digest": "a63af0e9cd841d637f31d538c533a7b2a349f24373aee7ab3ab38809bc7262c3"
+    },
+    {
+      "group": "C/C/1/40",
+      "session": "C",
+      "use": "development",
+      "digest": "44343233ce6862a825ba2c59f7c4614e51cd546e65369b9b53f96398516d9c02"
+    },
+    {
+      "group": "C/C/2/10",
+      "session": "C",
+      "use": "development",
+      "digest": "b7ccfa43024715a76722a4f37d5e315d603f181cba1200de70cefa5ac3707e8d"
+    },
+    {
+      "group": "C/C/2/40",
+      "session": "C",
+      "use": "development",
+      "digest": "6cb920ebd1185754b19828e737ef7e33c009ae20d22cf15727405a5e5889962a"
+    },
+    {
+      "group": "C/C/2/2",
+      "session": "C",
+      "use": "development",
+      "digest": "fd77c27000022e9b00a15164b1cd1bca3248115ae5cf5da664e8fe8bda82dcd1"
+    },
+    {
+      "group": "C/C/3/40",
+      "session": "C",
+      "use": "development",
+      "digest": "6913d6a9a7da81d904bdf9f877eb8421bd5d54cc294d372cc10addafb8ab2af3"
+    },
+    {
+      "group": "C/C/3/2",
+      "session": "C",
+      "use": "development",
+      "digest": "cf18c178a5462107bd0fde880aaf36befffaa2b717ad0f156a2e9d81a4c86cfd"
+    },
+    {
+      "group": "C/C/3/10",
+      "session": "C",
+      "use": "development",
+      "digest": "4707933e88fcb0afff1e88962cc45a46efa38ece2935fe2182acc333c7253f9b"
+    }
+  ]
+}

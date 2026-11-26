@@ -1,0 +1,2 @@
+session_id,trial_id,phase,group,use,direction,target_mm,approach_mm,speed_mm_s
+Z-READ_20261124-111417_09,1,READ,1,diagnostic,0,nan,nan,0

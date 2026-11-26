@@ -1,0 +1,56 @@
+ZRA stage 1 | core 2 axis 1 a33 | 1000 pulse/mm | q to cancel/stop
+Offline preview; motion inputs here are candidates.
+Protocol A0, A2, B (main), BL, BH, BE (boundary), D1, D2 [A0]: Enter site-confirmed speed (mm/s), acceleration (mm/s^2), e.g. 2,20 [2,20]: 
+D | 48 trials | command range [0,32000] pulses
+trial 1 group 1 | cross_time | 3000 -> 4000 pulses | direction 1 | 2000 pulses/s
+trial 2 group 1 | cross_time | 5000 -> 4000 pulses | direction -1 | 2000 pulses/s
+trial 3 group 1 | cross_time | 7000 -> 8000 pulses | direction 1 | 2000 pulses/s
+trial 4 group 1 | cross_time | 9000 -> 8000 pulses | direction -1 | 2000 pulses/s
+trial 5 group 1 | cross_time | 11000 -> 12000 pulses | direction 1 | 2000 pulses/s
+trial 6 group 1 | cross_time | 13000 -> 12000 pulses | direction -1 | 2000 pulses/s
+trial 7 group 1 | cross_time | 15000 -> 16000 pulses | direction 1 | 2000 pulses/s
+trial 8 group 1 | cross_time | 17000 -> 16000 pulses | direction -1 | 2000 pulses/s
+trial 9 group 1 | cross_time | 19000 -> 20000 pulses | direction 1 | 2000 pulses/s
+trial 10 group 1 | cross_time | 21000 -> 20000 pulses | direction -1 | 2000 pulses/s
+trial 11 group 1 | cross_time | 21000 -> 22000 pulses | direction 1 | 2000 pulses/s
+trial 12 group 1 | cross_time | 23000 -> 22000 pulses | direction -1 | 2000 pulses/s
+trial 13 group 1 | cross_time | 27000 -> 28000 pulses | direction 1 | 2000 pulses/s
+trial 14 group 1 | cross_time | 29000 -> 28000 pulses | direction -1 | 2000 pulses/s
+trial 15 group 1 | cross_time | 29000 -> 30000 pulses | direction 1 | 2000 pulses/s
+trial 16 group 1 | cross_time | 31000 -> 30000 pulses | direction -1 | 2000 pulses/s
+trial 17 group 2 | cross_time | 9000 -> 8000 pulses | direction -1 | 2000 pulses/s
+trial 18 group 2 | cross_time | 7000 -> 8000 pulses | direction 1 | 2000 pulses/s
+trial 19 group 2 | cross_time | 13000 -> 12000 pulses | direction -1 | 2000 pulses/s
+trial 20 group 2 | cross_time | 11000 -> 12000 pulses | direction 1 | 2000 pulses/s
+trial 21 group 2 | cross_time | 17000 -> 16000 pulses | direction -1 | 2000 pulses/s
+trial 22 group 2 | cross_time | 15000 -> 16000 pulses | direction 1 | 2000 pulses/s
+trial 23 group 2 | cross_time | 21000 -> 20000 pulses | direction -1 | 2000 pulses/s
+trial 24 group 2 | cross_time | 19000 -> 20000 pulses | direction 1 | 2000 pulses/s
+trial 25 group 2 | cross_time | 23000 -> 22000 pulses | direction -1 | 2000 pulses/s
+trial 26 group 2 | cross_time | 21000 -> 22000 pulses | direction 1 | 2000 pulses/s
+trial 27 group 2 | cross_time | 29000 -> 28000 pulses | direction -1 | 2000 pulses/s
+trial 28 group 2 | cross_time | 27000 -> 28000 pulses | direction 1 | 2000 pulses/s
+trial 29 group 2 | cross_time | 31000 -> 30000 pulses | direction -1 | 2000 pulses/s
+trial 30 group 2 | cross_time | 29000 -> 30000 pulses | direction 1 | 2000 pulses/s
+trial 31 group 2 | cross_time | 5000 -> 4000 pulses | direction -1 | 2000 pulses/s
+trial 32 group 2 | cross_time | 3000 -> 4000 pulses | direction 1 | 2000 pulses/s
+trial 33 group 3 | cross_time | 11000 -> 12000 pulses | direction 1 | 2000 pulses/s
+trial 34 group 3 | cross_time | 13000 -> 12000 pulses | direction -1 | 2000 pulses/s
+trial 35 group 3 | cross_time | 15000 -> 16000 pulses | direction 1 | 2000 pulses/s
+trial 36 group 3 | cross_time | 17000 -> 16000 pulses | direction -1 | 2000 pulses/s
+trial 37 group 3 | cross_time | 19000 -> 20000 pulses | direction 1 | 2000 pulses/s
+trial 38 group 3 | cross_time | 21000 -> 20000 pulses | direction -1 | 2000 pulses/s
+trial 39 group 3 | cross_time | 21000 -> 22000 pulses | direction 1 | 2000 pulses/s
+trial 40 group 3 | cross_time | 23000 -> 22000 pulses | direction -1 | 2000 pulses/s
+trial 41 group 3 | cross_time | 27000 -> 28000 pulses | direction 1 | 2000 pulses/s
+trial 42 group 3 | cross_time | 29000 -> 28000 pulses | direction -1 | 2000 pulses/s
+trial 43 group 3 | cross_time | 29000 -> 30000 pulses | direction 1 | 2000 pulses/s
+trial 44 group 3 | cross_time | 31000 -> 30000 pulses | direction -1 | 2000 pulses/s
+trial 45 group 3 | cross_time | 3000 -> 4000 pulses | direction 1 | 2000 pulses/s
+trial 46 group 3 | cross_time | 5000 -> 4000 pulses | direction -1 | 2000 pulses/s
+trial 47 group 3 | cross_time | 7000 -> 8000 pulses | direction 1 | 2000 pulses/s
+trial 48 group 3 | cross_time | 9000 -> 8000 pulses | direction -1 | 2000 pulses/s
+Estimated 323.6 s including holds, plus settling and read overhead.
+Sample 10 ms | loop index 1 | configuration a33_core2_axis1 | R R_fixed_operator_confirmed
+Transfer 2 mm/s | accel/decel 20 mm/s^2 | position mode 2 | hold 4 s x 1 | arrival tolerance 0.01 mm, 0.05 mm/s | timeout 30 s
+

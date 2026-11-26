@@ -1,0 +1,618 @@
+2026-11-25T12:04:45.096Z field_confirmed=1 protocol=Z-BP_20261125-195157_221_35296 max_pairs=4 reserve_pulse=5000 follow_limit_pulse=500
+2026-11-25T12:04:45.097Z begin pending
+2026-11-25T12:04:45.142Z pending
+exit=0
+Z-BP_20261125-195157_221_35296_M5_X400V16 X400V16 H1
+Z-BP_20261125-195157_221_35296_M5_X550V20 X550V20 H1
+Z-BP_20261125-195157_221_35296_M5_X400V20 X400V20 H1
+Z-BP_20261125-195157_221_35296_M5_X550V16 X550V16 H1
+Z-BP_20261125-195157_221_35296_M5_X450V16 X450V16 H1
+Z-BP_20261125-195157_221_35296_M5_X500V20 X500V20 H1
+Z-BP_20261125-195157_221_35296_M5_X450V20 X450V20 H1
+Z-BP_20261125-195157_221_35296_M5_X500V16 X500V16 H1
+Z-BP_20261125-195157_221_35296_M5_X300V16 X300V16 H1
+Z-BP_20261125-195157_221_35296_M5_X650V20 X650V20 H1
+Z-BP_20261125-195157_221_35296_M5_X300V20 X300V20 H1
+Z-BP_20261125-195157_221_35296_M5_X650V16 X650V16 H1
+
+
+2026-11-25T12:04:45.143Z begin before
+2026-11-25T12:04:45.325Z before
+exit=0
+core=2
+axis=1
+position_pulse=16213
+planned_pulse=16213
+velocity_pulse_s=0
+planned_velocity_pulse_s=0
+following_error_pulse=0
+status_word=1073742336
+enabled=1
+moving=0
+fault=0
+limit_plus=0
+limit_minus=0
+mode=2
+planner=0
+ready=1
+
+GTN_OpenCard.rc=0
+GTN_GetVersionEx.rc=0
+firmware=100
+GTN_GetAxisPosErrLimit.rc=0
+controller_follow_limit_pulse=0
+follow_limit_pulse=500
+GTN_Close.rc=0
+
+2026-11-25T12:04:45.325Z begin acquire
+2026-11-25T12:05:09.790Z acquire
+exit=0
+Mode [Q] qualification first pair, R qualification repeats, F formal/resume: Frozen B protocol ID: Pending Z-BP_20261125-195157_221_35296_M5_X400V16
+Pending Z-BP_20261125-195157_221_35296_M5_X550V20
+Pending Z-BP_20261125-195157_221_35296_M5_X400V20
+Pending Z-BP_20261125-195157_221_35296_M5_X550V16
+Pending Z-BP_20261125-195157_221_35296_M5_X450V16
+Pending Z-BP_20261125-195157_221_35296_M5_X500V20
+Pending Z-BP_20261125-195157_221_35296_M5_X450V20
+Pending Z-BP_20261125-195157_221_35296_M5_X500V16
+Pending Z-BP_20261125-195157_221_35296_M5_X300V16
+Pending Z-BP_20261125-195157_221_35296_M5_X650V20
+Pending Z-BP_20261125-195157_221_35296_M5_X300V20
+Pending Z-BP_20261125-195157_221_35296_M5_X650V16
+Pending slots to run [maximum 4]: Field-confirmed extra stop reserve and following-error limit [both pulse]: Session: Z-B_20261125-200445_367_14356
+Reserve checked against supplied/read-back values.
+Z-BP_20261125-195157_221_35296_M5_X400V16 X400V16 matrix H1 eval=15982 pulse, A=400000 pulse/s^2, v0=16000 pulse/s, V=40000 pulse/s
+  transfer_pulse=16213 -> 15680
+  transfer 16.213 -> 15.68 mm, envelope [15.68, 16.213], boundary clearances 15.68/15.787 mm, required reserve 5.01201 mm each side [OK]
+  accel_pulse=15680 -> 19680
+accel 15.68 -> 19.68 mm, envelope [15.68, 19.68], boundary clearances 15.68/12.32 mm, required reserve 5.81412 mm each side [OK]
+  ideal v(eval)=15543.5 pulse/s; eval platform before/after=38.8587/61.1413 ms; full windows 15/21/31 ms: YES YES YES
+  transfer_pulse=19680 -> 12320
+  transfer 19.68 -> 12.32 mm, envelope [12.32, 19.68], boundary clearances 12.32/12.32 mm, required reserve 5.01201 mm each side [OK]
+  decel_pulse=12320 -> 16320
+decel 12.32 -> 16.32 mm, envelope [12.32, 16.32], boundary clearances 12.32/15.68 mm, required reserve 5.81412 mm each side [OK]
+  ideal v(eval)=16443.8 pulse/s; eval platform before/after=58.8904/41.1096 ms; full windows 15/21/31 ms: YES YES YES
+Z-BP_20261125-195157_221_35296_M5_X550V20 X550V20 matrix H1 eval=15975 pulse, A=550000 pulse/s^2, v0=20000 pulse/s, V=40000 pulse/s
+  transfer_pulse=16320 -> 15636
+  transfer 16.32 -> 15.636 mm, envelope [15.636, 16.32], boundary clearances 15.636/15.68 mm, required reserve 5.01201 mm each side [OK]
+  accel_pulse=15636 -> 18545
+accel 15.636 -> 18.545 mm, envelope [15.636, 18.545], boundary clearances 15.636/13.455 mm, required reserve 5.81412 mm each side [OK]
+  ideal v(eval)=19310.6 pulse/s; eval platform before/after=35.1102/37.6159 ms; full windows 15/21/31 ms: YES YES YES
+  transfer_pulse=18545 -> 13455
+  transfer 18.545 -> 13.455 mm, envelope [13.455, 18.545], boundary clearances 13.455/13.455 mm, required reserve 5.01201 mm each side [OK]
+  decel_pulse=13455 -> 16364
+decel 13.455 -> 16.364 mm, envelope [13.455, 16.364], boundary clearances 13.455/15.636 mm, required reserve 5.81412 mm each side [OK]
+  ideal v(eval)=20685.7 pulse/s; eval platform before/after=35.1157/37.6104 ms; full windows 15/21/31 ms: YES YES YES
+Z-BP_20261125-195157_221_35296_M5_X400V20 X400V20 matrix H1 eval=15976 pulse, A=400000 pulse/s^2, v0=20000 pulse/s, V=40000 pulse/s
+  transfer_pulse=16364 -> 15500
+  transfer 16.364 -> 15.5 mm, envelope [15.5, 16.364], boundary clearances 15.5/15.636 mm, required reserve 5.01201 mm each side [OK]
+  accel_pulse=15500 -> 19500
+accel 15.5 -> 19.5 mm, envelope [15.5, 19.5], boundary clearances 15.5/12.5 mm, required reserve 5.81412 mm each side [OK]
+  ideal v(eval)=19514.1 pulse/s; eval platform before/after=48.7852/51.2148 ms; full windows 15/21/31 ms: YES YES YES
+  transfer_pulse=19500 -> 12500
+  transfer 19.5 -> 12.5 mm, envelope [12.5, 19.5], boundary clearances 12.5/12.5 mm, required reserve 5.01201 mm each side [OK]
+  decel_pulse=12500 -> 16500
+decel 12.5 -> 16.5 mm, envelope [12.5, 16.5], boundary clearances 12.5/15.5 mm, required reserve 5.81412 mm each side [OK]
+  ideal v(eval)=20474.4 pulse/s; eval platform before/after=48.8141/51.1859 ms; full windows 15/21/31 ms: YES YES YES
+Z-BP_20261125-195157_221_35296_M5_X550V16 X550V16 matrix H1 eval=15974 pulse, A=550000 pulse/s^2, v0=16000 pulse/s, V=40000 pulse/s
+  transfer_pulse=16500 -> 15767
+  transfer 16.5 -> 15.767 mm, envelope [15.767, 16.5], boundary clearances 15.767/15.5 mm, required reserve 5.01201 mm each side [OK]
+  accel_pulse=15767 -> 18676
+accel 15.767 -> 18.676 mm, envelope [15.767, 18.676], boundary clearances 15.767/13.324 mm, required reserve 5.81412 mm each side [OK]
+  ideal v(eval)=15089.7 pulse/s; eval platform before/after=27.4359/45.2903 ms; full windows 15/21/31 ms: YES YES YES
+  transfer_pulse=18676 -> 13324
+  transfer 18.676 -> 13.324 mm, envelope [13.324, 18.676], boundary clearances 13.324/13.324 mm, required reserve 5.01201 mm each side [OK]
+  decel_pulse=13324 -> 16233
+decel 13.324 -> 16.233 mm, envelope [13.324, 16.233], boundary clearances 13.324/15.767 mm, required reserve 5.81412 mm each side [OK]
+  ideal v(eval)=16879 pulse/s; eval platform before/after=42.0371/30.6891 ms; full windows 15/21/31 ms: YES YES YES
+Confirm servo ready, limits, R fixed, brake and verified stop reserve. Type START: Z-B_20261125-200445_367_14356_p1_r1 complete
+Z-B_20261125-200445_367_14356_p1_r2 complete
+Z-B_20261125-200445_367_14356_p2_r1 complete
+Z-B_20261125-200445_367_14356_p2_r2 complete
+Z-B_20261125-200445_367_14356_p3_r1 complete
+Z-B_20261125-200445_367_14356_p3_r2 complete
+Z-B_20261125-200445_367_14356_p4_r1 complete
+Z-B_20261125-200445_367_14356_p4_r2 complete
+Z-B_20261125-200445_367_14356 acquisition complete
+
+
+2026-11-25T12:05:09.790Z begin after
+2026-11-25T12:05:09.969Z after
+exit=0
+core=2
+axis=1
+position_pulse=16232
+planned_pulse=16233
+velocity_pulse_s=0
+planned_velocity_pulse_s=0
+following_error_pulse=1
+status_word=1073742336
+enabled=1
+moving=0
+fault=0
+limit_plus=0
+limit_minus=0
+mode=2
+planner=0
+ready=1
+
+GTN_OpenCard.rc=0
+GTN_GetVersionEx.rc=0
+firmware=100
+GTN_GetAxisPosErrLimit.rc=0
+controller_follow_limit_pulse=0
+follow_limit_pulse=500
+GTN_Close.rc=0
+
+2026-11-25T12:05:09.970Z begin replay
+2026-11-25T12:05:12.119Z replay
+exit=0
+E:\A_ZQY\ZR_Experiment\分项实验\02_等效惯性电流辨识\results\b\Z-BP_20261125-195157_221_35296
+{
+  "protocol": "Z-BP_20261125-195157_221_35296",
+  "matrixDesign": "expanded_range_v1",
+  "tierValidation": null,
+  "sessions": [
+    "Z-B_20261125-195259_425_13432",
+    "Z-B_20261125-195309_434_14252",
+    "Z-B_20261125-195335_500_46824",
+    "Z-B_20261125-195401_092_34104",
+    "Z-B_20261125-195421_106_23896",
+    "Z-B_20261125-195445_993_39340",
+    "Z-B_20261125-195450_714_21648",
+    "Z-B_20261125-195512_748_24420",
+    "Z-B_20261125-195535_111_43592",
+    "Z-B_20261125-195558_998_37660",
+    "Z-B_20261125-195712_129_13116",
+    "Z-B_20261125-195736_103_35700",
+    "Z-B_20261125-195738_269_11784",
+    "Z-B_20261125-195808_788_17816",
+    "Z-B_20261125-200108_207_42072",
+    "Z-B_20261125-200118_514_17928",
+    "Z-B_20261125-200145_287_44868",
+    "Z-B_20261125-200213_466_11964",
+    "Z-B_20261125-200228_569_28260",
+    "Z-B_20261125-200252_407_1056",
+    "Z-B_20261125-200319_515_4344",
+    "Z-B_20261125-200345_629_18440",
+    "Z-B_20261125-200414_739_18768",
+    "Z-B_20261125-200445_367_14356"
+  ],
+  "status": "matrix_pending",
+  "accepted": 72,
+  "pending": [
+    "Z-BP_20261125-195157_221_35296_M5_X450V16",
+    "Z-BP_20261125-195157_221_35296_M5_X500V20",
+    "Z-BP_20261125-195157_221_35296_M5_X450V20",
+    "Z-BP_20261125-195157_221_35296_M5_X500V16",
+    "Z-BP_20261125-195157_221_35296_M5_X300V16",
+    "Z-BP_20261125-195157_221_35296_M5_X650V20",
+    "Z-BP_20261125-195157_221_35296_M5_X300V20",
+    "Z-BP_20261125-195157_221_35296_M5_X650V16"
+  ],
+  "byCondition": {
+    "X300V16": {
+      "n": 4,
+      "meanDeltaI": {
+        "n": 4,
+        "mean": 9.602975899093419,
+        "ci95": [
+          6.667648654261702,
+          12.538303143925136
+        ]
+      },
+      "snr": 5.204985128100612,
+      "absDeltaARange": [
+        594443.8296188052,
+        603805.4501388184
+      ],
+      "meanAlpha": {
+        "n": 4,
+        "mean": 0.000016032107003381285,
+        "ci95": [
+          0.000011268859057216641,
+          0.00002079535494954593
+        ]
+      }
+    },
+    "X650V20": {
+      "n": 4,
+      "meanDeltaI": {
+        "n": 4,
+        "mean": 44.50534271321389,
+        "ci95": [
+          39.95739959089114,
+          49.05328583553664
+        ]
+      },
+      "snr": 15.569236103498103,
+      "absDeltaARange": [
+        1276536.109009122,
+        1299819.0102561812
+      ],
+      "meanAlpha": {
+        "n": 4,
+        "mean": 0.000034434856986886216,
+        "ci95": [
+          0.000031327830982911225,
+          0.000037541882990861206
+        ]
+      }
+    },
+    "X300V20": {
+      "n": 4,
+      "meanDeltaI": {
+        "n": 4,
+        "mean": 15.559323124353021,
+        "ci95": [
+          13.569390569739177,
+          17.549255678966865
+        ]
+      },
+      "snr": 12.440061364617188,
+      "absDeltaARange": [
+        591115.8376672936,
+        596938.756609949
+      ],
+      "meanAlpha": {
+        "n": 4,
+        "mean": 0.00002621832757867142,
+        "ci95": [
+          0.00002293986318302834,
+          0.0000294967919743145
+        ]
+      }
+    },
+    "X650V16": {
+      "n": 4,
+      "meanDeltaI": {
+        "n": 4,
+        "mean": 41.961732204002594,
+        "ci95": [
+          40.20074155040281,
+          43.72272285760238
+        ]
+      },
+      "snr": 37.911113156731524,
+      "absDeltaARange": [
+        1229319.8683128776,
+        1249084.3202633825
+      ],
+      "meanAlpha": {
+        "n": 4,
+        "mean": 0.00003386363783755777,
+        "ci95": [
+          0.0000326169242662404,
+          0.000035110351408875144
+        ]
+      }
+    },
+    "X350V16": {
+      "n": 5,
+      "meanDeltaI": {
+        "n": 5,
+        "mean": 13.885212305585767,
+        "ci95": [
+          11.475403483227494,
+          16.295021127944043
+        ]
+      },
+      "snr": 7.1532663161035,
+      "absDeltaARange": [
+        681814.1135971898,
+        696024.0755846262
+      ],
+      "meanAlpha": {
+        "n": 5,
+        "mean": 0.000020094932856124193,
+        "ci95": [
+          0.000016645932300141903,
+          0.000023543933412106483
+        ]
+      }
+    },
+    "X600V20": {
+      "n": 5,
+      "meanDeltaI": {
+        "n": 5,
+        "mean": 38.510395171760415,
+        "ci95": [
+          35.43110704492706,
+          41.58968329859377
+        ]
+      },
+      "snr": 15.526090286041688,
+      "absDeltaARange": [
+        1185716.4553171883,
+        1197594.2835113308
+      ],
+      "meanAlpha": {
+        "n": 5,
+        "mean": 0.00003229340647350265,
+        "ci95": [
+          0.000029886835001798348,
+          0.000034699977945206946
+        ]
+      }
+    },
+    "X350V20": {
+      "n": 5,
+      "meanDeltaI": {
+        "n": 5,
+        "mean": 18.975749462531788,
+        "ci95": [
+          17.69345654566318,
+          20.258042379400393
+        ]
+      },
+      "snr": 18.371565013794655,
+      "absDeltaARange": [
+        683553.9325655533,
+        691492.608422443
+      ],
+      "meanAlpha": {
+        "n": 5,
+        "mean": 0.00002758727327166523,
+        "ci95": [
+          0.000025855179614723216,
+          0.000029319366928607244
+        ]
+      }
+    },
+    "X600V16": {
+      "n": 5,
+      "meanDeltaI": {
+        "n": 5,
+        "mean": 38.11079487901911,
+        "ci95": [
+          36.70468475381697,
+          39.51690500422125
+        ]
+      },
+      "snr": 33.6483002803599,
+      "absDeltaARange": [
+        1148792.0588733223,
+        1169649.6048824366
+      ],
+      "meanAlpha": {
+        "n": 5,
+        "mean": 0.00003282052448608593,
+        "ci95": [
+          0.000031630498634227564,
+          0.0000340105503379443
+        ]
+      }
+    },
+    "X400V16": {
+      "n": 5,
+      "meanDeltaI": {
+        "n": 5,
+        "mean": 21.51281719913742,
+        "ci95": [
+          20.350257151498635,
+          22.675377246776204
+        ]
+      },
+      "snr": 22.972928057725543,
+      "absDeltaARange": [
+        787962.1405178888,
+        801270.0754967276
+      ],
+      "meanAlpha": {
+        "n": 5,
+        "mean": 0.000027066708072028092,
+        "ci95": [
+          0.000025719495482547002,
+          0.00002841392066150918
+        ]
+      }
+    },
+    "X550V20": {
+      "n": 5,
+      "meanDeltaI": {
+        "n": 5,
+        "mean": 33.88725600229455,
+        "ci95": [
+          31.515259094625467,
+          36.25925290996363
+        ]
+      },
+      "snr": 17.736043475089364,
+      "absDeltaARange": [
+        1085288.378061302,
+        1098719.3032004624
+      ],
+      "meanAlpha": {
+        "n": 5,
+        "mean": 0.00003104055883413754,
+        "ci95": [
+          0.000029025466520593763,
+          0.00003305565114768132
+        ]
+      }
+    },
+    "X400V20": {
+      "n": 5,
+      "meanDeltaI": {
+        "n": 5,
+        "mean": 22.64065319507833,
+        "ci95": [
+          20.786916037711876,
+          24.494390352444782
+        ]
+      },
+      "snr": 15.162655112013562,
+      "absDeltaARange": [
+        782982.3722768574,
+        793175.2360033042
+      ],
+      "meanAlpha": {
+        "n": 5,
+        "mean": 0.000028690715308975943,
+        "ci95": [
+          0.000026494797935072313,
+          0.00003088663268287957
+        ]
+      }
+    },
+    "X550V16": {
+      "n": 5,
+      "meanDeltaI": {
+        "n": 5,
+        "mean": 32.286201547587076,
+        "ci95": [
+          31.43079776474523,
+          33.14160533042892
+        ]
+      },
+      "snr": 46.857622221064034,
+      "absDeltaARange": [
+        1066825.4268967914,
+        1074842.1919177645
+      ],
+      "meanAlpha": {
+        "n": 5,
+        "mean": 0.000030133698685924096,
+        "ci95": [
+          0.00002942423512345864,
+          0.00003084316224838955
+        ]
+      }
+    },
+    "X450V16": {
+      "n": 4,
+      "meanDeltaI": {
+        "n": 4,
+        "mean": 27.809807239329533,
+        "ci95": [
+          24.39666270534867,
+          31.222951773310395
+        ]
+      },
+      "snr": 12.963237529870563,
+      "absDeltaARange": [
+        894322.9963211179,
+        912040.1171689049
+      ],
+      "meanAlpha": {
+        "n": 4,
+        "mean": 0.00003083406196336738,
+        "ci95": [
+          0.000027475066117037535,
+          0.00003419305780969723
+        ]
+      }
+    },
+    "X500V20": {
+      "n": 4,
+      "meanDeltaI": {
+        "n": 4,
+        "mean": 27.541811250299958,
+        "ci95": [
+          26.193904575820625,
+          28.88971792477929
+        ]
+      },
+      "snr": 32.508943333301275,
+      "absDeltaARange": [
+        969949.1230079189,
+        985533.0774768797
+      ],
+      "meanAlpha": {
+        "n": 4,
+        "mean": 0.00002815740972089161,
+        "ci95": [
+          0.0000271178199248869,
+          0.000029196999516896316
+        ]
+      }
+    },
+    "X450V20": {
+      "n": 4,
+      "meanDeltaI": {
+        "n": 4,
+        "mean": 26.454464690428345,
+        "ci95": [
+          24.615313391344806,
+          28.293615989511885
+        ]
+      },
+      "snr": 22.885041238012747,
+      "absDeltaARange": [
+        884549.4509550915,
+        890424.264059548
+      ],
+      "meanAlpha": {
+        "n": 4,
+        "mean": 0.00002982653271024977,
+        "ci95": [
+          0.000027795362697541306,
+          0.00003185770272295824
+        ]
+      }
+    },
+    "X500V16": {
+      "n": 4,
+      "meanDeltaI": {
+        "n": 4,
+        "mean": 28.766517464673342,
+        "ci95": [
+          27.52739952499074,
+          30.005635404355942
+        ]
+      },
+      "snr": 36.93557152277096,
+      "absDeltaARange": [
+        983578.1304019929,
+        987519.1412170115
+      ],
+      "meanAlpha": {
+        "n": 4,
+        "mean": 0.000029194792941656958,
+        "ci95": [
+          0.0000278710410373631,
+          0.000030518544845950815
+        ]
+      }
+    }
+  },
+  "excitation": null,
+  "fitZero": null,
+  "fitFree": null,
+  "speedFits": null,
+  "predictionStats": null,
+  "baselineComparison": null,
+  "history": {
+    "plannedBlocks": 0,
+    "matchedBlocks": 0,
+    "deltaI": null,
+    "deltaAlpha": null
+  },
+  "inference": "OLS t intervals per independent pair; overlapping excitation intervals weaken the free-intercept fit",
+  "dReservation": {
+    "d_speed_pulse_s": "18000",
+    "d_acc_pulse_s2": "500000",
+    "d_plan_pulse": "18000",
+    "d_eval_pulse": "18000",
+    "d_time": "D_after_B_range_separate_session",
+    "d_max_abs_bias_raw": "4",
+    "d_max_rmse_raw": "6",
+    "d_min_pairs": "5"
+  }
+}
+
+
+2026-11-25T12:05:12.119Z begin pending
+2026-11-25T12:05:12.164Z pending
+exit=0
+Z-BP_20261125-195157_221_35296_M5_X450V16 X450V16 H1
+Z-BP_20261125-195157_221_35296_M5_X500V20 X500V20 H1
+Z-BP_20261125-195157_221_35296_M5_X450V20 X450V20 H1
+Z-BP_20261125-195157_221_35296_M5_X500V16 X500V16 H1
+Z-BP_20261125-195157_221_35296_M5_X300V16 X300V16 H1
+Z-BP_20261125-195157_221_35296_M5_X650V20 X650V20 H1
+Z-BP_20261125-195157_221_35296_M5_X300V20 X300V20 H1
+Z-BP_20261125-195157_221_35296_M5_X650V16 X650V16 H1
+
+
+2026-11-25T12:05:12.165Z Accepted 4, pending 8

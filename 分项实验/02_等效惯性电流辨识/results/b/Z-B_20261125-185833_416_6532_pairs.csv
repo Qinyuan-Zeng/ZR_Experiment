@@ -1,0 +1,6 @@
+session_id,pair_id,planned_pair_id,condition,round,series,history_condition,first_role,eval_pulse,nominal_v_pulse_s,nominal_A_pulse_s2,valid,reason,accel_run_id,decel_run_id,delta_x_pulse,delta_v_pulse_s,accel_x_pulse,decel_x_pulse,accel_v_pulse_s,decel_v_pulse_s,accel_a_pulse_s2,decel_a_pulse_s2,delta_a_pulse_s2,delta_I_raw,delta_I_corr_raw,alpha_raw_per_pulse_s2
+Z-B_20261125-185833_416_6532,1,Q1,X650V16,1,qualification,H1,accel,15977,16000,650000,0,pair was interrupted; resample both roles,,,,,,,,,,,,,,
+Z-B_20261125-185833_416_6532,2,Q2,X650V16,2,qualification,H1,decel,15977,16000,650000,0,slot or trajectory was not recorded,,,,,,,,,,,,,,
+Z-B_20261125-185833_416_6532,3,Q3,X650V16,3,qualification,H1,accel,15977,16000,650000,0,slot or trajectory was not recorded,,,,,,,,,,,,,,
+Z-B_20261125-185833_416_6532,4,Q4,X650V16,4,qualification,H1,decel,15977,16000,650000,0,slot or trajectory was not recorded,,,,,,,,,,,,,,
+Z-B_20261125-185833_416_6532,5,Q5,X650V16,5,qualification,H1,accel,15977,16000,650000,0,slot or trajectory was not recorded,,,,,,,,,,,,,,

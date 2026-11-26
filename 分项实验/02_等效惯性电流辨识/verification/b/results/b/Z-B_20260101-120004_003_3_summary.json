@@ -1,0 +1,11 @@
+{
+  "ids": [
+    "Z-B_20260101-120004_003_3"
+  ],
+  "condition": "B3",
+  "evaluatedPulse": 16000,
+  "diagnostic": false,
+  "accepted": true,
+  "evaluablePairs": 1,
+  "qualificationRepeat": null
+}
