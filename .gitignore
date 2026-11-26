@@ -18,3 +18,5 @@ ipch/
 *.VC.VC.opendb
 *.iobj
 *.ipdb
+obj/
+~$*

@@ -33,7 +33,9 @@ constexpr double pulsePerMm = 1000, upper = 32;
 constexpr double upperPulse = upper * pulsePerMm;
 constexpr double endpointAllowancePulse = 10;
 constexpr double missing = std::numeric_limits<double>::quiet_NaN();
-constexpr char version[] = "stage1-14";
+constexpr char version[] = "stage1-15";
+constexpr char frictionPhase[] = "A0F";
+constexpr double frictionWindowStart = 3.5, frictionWindowEnd = 22;
 constexpr double scanDerivativeSpan = .05;
 std::atomic<bool> interrupted{false};
 
@@ -101,14 +103,19 @@ int integer(const std::string& prompt, int lo, int hi, const std::string& fallba
 
 bool inRange(double x) { return x >= 0 && x <= upper; }
 
+bool isScan(const std::string& phase)
+{
+    return phase == "C" || phase == frictionPhase;
+}
+
 bool usesEndpointAllowance(const std::string& phase)
 {
-    return phase == "A0" || phase == "B" || phase == "C";
+    return phase == "A0" || phase == "B" || isScan(phase);
 }
 
 bool usesEncoderMotionChecks(const std::string& phase)
 {
-    return phase == "A2" || phase == "B" || phase == "C" || phase == "D";
+    return phase == "A2" || phase == "B" || isScan(phase) || phase == "D";
 }
 
 constexpr bool feedbackInRange(double xPulse, double endpointPulse)
@@ -209,7 +216,7 @@ struct Trial {
 };
 
 struct Plan {
-    std::string phase, bProtocol;
+    std::string phase, bProtocol, protocolId;
     std::vector<Trial> trials;
     double period = .01, duration = 2, window = 1, offset = 1;
     double posTol = .01, velTol = .05, acceleration = 0, transfer = 0, timeout = 30;
@@ -289,7 +296,8 @@ void makePlan(Plan& p, const std::string& entry, bool planOnly, bool advanced)
             p.phase = "B";
         }
     }
-    const bool scan = entry == "scan_velocity";
+    const bool friction = entry == "a0_scan";
+    const bool scan = friction || entry == "scan_velocity";
     const bool dProtocol = p.phase == "D" || p.phase == "D1" || p.phase == "D2";
     const std::string motionCandidate = scan ? "2,400" : "2,20";
     const auto motion = motionValues(
@@ -299,6 +307,20 @@ void makePlan(Plan& p, const std::string& entry, bool planOnly, bool advanced)
     p.acceleration = motion[1];
     require(p.transfer >= .001 && p.transfer <= 1000 &&
             p.acceleration >= .001 && p.acceleration <= 100000, "Motion values out of range");
+    if (friction) {
+        p.phase = frictionPhase;
+        p.period = .005;
+        p.duration = .25;
+        const auto ends = motionValues("Site-confirmed low, high turnaround (mm), e.g. 0,32",
+                                       planOnly ? "0,32" : "", 2);
+        const double lo = pulse(ends[0]) / pulsePerMm, hi = pulse(ends[1]) / pulsePerMm;
+        require(lo < hi, "Turnaround points must increase");
+        for (const double speed : {10., 20., 5.}) {
+            add(p, 1, 1, hi, lo, speed, "development");
+            add(p, 1, -1, lo, hi, speed, "development");
+        }
+        return;
+    }
     if (scan) {
         p.phase = "C";
         p.period = .005;
@@ -430,27 +452,33 @@ void preview(const Plan& p)
         std::cout << p.phase << " endpoint arrival tolerance: +/-" << tolerance
                   << " pulses; endpoint feedback allowance: " << endpointAllowancePulse << " pulses\n";
     }
-    if (p.phase == "C") {
+    if (isScan(p.phase)) {
         std::set<double> checkedSpeeds;
         bool feasible = true;
         for (const auto& t : p.trials) {
             if (!checkedSpeeds.insert(t.speed).second) continue;
             const double rampDistance = t.speed * t.speed / (2 * p.acceleration);
-            const double plateau = std::max(0., upper - 2 * rampDistance);
+            const double lo = std::min(t.target, t.approach);
+            const double hi = std::max(t.target, t.approach);
+            const double plateau = std::max(0., hi - lo - 2 * rampDistance);
             const double crop = rampDistance + scanDerivativeSpan * t.speed;
-            const double usableDistance = std::max(0., upper - 2 * crop);
+            const double usableDistance = std::max(0., hi - lo - 2 * crop);
             const double minimumUsable = std::max(3 * p.period * t.speed, .5);
             std::cout << "Scan " << t.speed * pulsePerMm << " pulses/s | nominal plateau "
                       << plateau * pulsePerMm << " pulses";
             if (usableDistance > 0) {
-                std::cout << " | estimated usable [" << crop * pulsePerMm << ','
-                          << (upper - crop) * pulsePerMm << "] pulses, length "
+                std::cout << " | estimated usable [" << (lo + crop) * pulsePerMm << ','
+                          << (hi - crop) * pulsePerMm << "] pulses, length "
                           << usableDistance * pulsePerMm << " pulses";
             }
             std::cout << '\n';
             feasible = feasible && usableDistance >= minimumUsable;
+            if (p.phase == frictionPhase)
+                feasible = feasible && lo + crop <= frictionWindowStart && hi - crop >= frictionWindowEnd;
         }
-        require(feasible, "Insufficient constant-speed distance in the 32000-pulse stroke");
+        require(feasible, p.phase == frictionPhase
+            ? "A0 predicted plateau must cover 3500 to 22000 pulses at every speed"
+            : "Insufficient constant-speed distance in the 32000-pulse stroke");
     }
     double total = 0, previous = missing;
     for (const auto& t : p.trials) {
@@ -519,7 +547,7 @@ private:
 class Acquisition {
 public:
     Acquisition(const fs::path& root, const Plan& plan)
-        : p(plan), samplingWait(plan.phase == "C" || plan.period <= .005),
+        : p(plan), samplingWait(isScan(plan.phase) || plan.period <= .005),
           session(sessionId()), start(Clock::now())
     {
         fs::create_directories(root / "data" / "raw");
@@ -556,6 +584,7 @@ public:
             meta << p.phase << "_direction_check=encoder_displacement\n"
                  << p.phase << "_settling_check=axis_state_and_position" << std::endl;
         }
+        if (!p.protocolId.empty()) meta << "protocol_id=" << p.protocolId << std::endl;
         if (p.phase == "B") meta << "B_protocol=" << p.bProtocol << "\nB_step_pulse=100" << std::endl;
         std::cout << "Session " << session << '\n';
     }
@@ -749,7 +778,7 @@ private:
             auto lastStableStart = missing;
             auto last = missing;
             for (;;) {
-                const auto s = sample(t, p.phase == "C" ? "turnaround" : "hold", t.target, segment);
+                const auto s = sample(t, isScan(p.phase) ? "turnaround" : "hold", t.target, segment);
                 const double elapsed = seconds(origin);
                 if (!at(s, t.target) || (std::isfinite(last) && s.time - last > 2.5 * p.period)) {
                     lastStableStart = missing;
@@ -784,7 +813,7 @@ private:
                 if (t.direction) {
                     require(t.direction * (t.target - actualStart) >= .95 * std::abs(t.target - first),
                             "invalid_approach_direction_or_distance");
-                    s = move(t, t.target, t.speed, p.phase == "C" ? "scan" : "approach", s);
+                    s = move(t, t.target, t.speed, isScan(p.phase) ? "scan" : "approach", s);
                     require(t.direction * (s.x - actualStart) >= .9 * std::abs(t.target - first),
                             "no_measured_directional_displacement");
                 }
@@ -827,17 +856,17 @@ private:
                << t.speed << ',' << p.duration << ',' << p.window << ',' << p.period << ','
                << positionTolerance(t.target) << ',' << p.velTol << ','
                << status << ',' << reason << std::endl;
-        require(status != "aborted", reason);
+        require(status != "aborted" && (p.phase != frictionPhase || status == "completed"), reason);
     }
 };
 
-fs::path projectRoot()
+fs::path projectRoot(const char* projectFile)
 {
     wchar_t path[32768]{};
     const auto length = GetModuleFileNameW(nullptr, path, 32768);
     require(length && length < 32768, "cannot_resolve_executable");
     for (auto dir = fs::path(path).parent_path(); !dir.empty(); dir = dir.parent_path()) {
-        if (fs::exists(dir / "ZRPositionCurrent.vcxproj")) return dir;
+        if (fs::exists(dir / projectFile)) return dir;
         if (dir == dir.root_path()) break;
     }
     throw std::runtime_error("project_root_not_found");
@@ -852,14 +881,17 @@ int runExperiment(const char* entry, int argc, char** argv)
             const std::string option = argv[i];
             if (option == "--plan") planOnly = true;
             else if (option == "--advanced") advanced = true;
-            else throw std::runtime_error("usage: ZRPositionCurrent [--plan] [--advanced]");
+            else throw std::runtime_error("Available options: --plan, --advanced");
         }
-        std::cout << "ZRA stage 1 | core 2 axis 1 a33 | 1000 pulse/mm | q to cancel/stop\n";
+        const bool friction = std::string(entry) == "a0_scan";
+        require(!friction || !advanced, "A0 uses the fixed acquisition settings");
+        std::cout << (friction ? "ZRA stage 3 friction A0" : "ZRA stage 1")
+                  << " | core 2 axis 1 a33 | 1000 pulse/mm | q to cancel/stop\n";
         if (planOnly) std::cout << "Offline preview; motion inputs here are candidates.\n";
         Plan plan;
         makePlan(plan, entry, planOnly, advanced);
         if (advanced) {
-            plan.period = number("Requested sample period (ms)", 1, 100, plan.phase == "C" ? "5" : "10") / 1000;
+            plan.period = number("Requested sample period (ms)", 1, 100, isScan(plan.phase) ? "5" : "10") / 1000;
             plan.loopIndex = static_cast<short>(integer("Control-loop index", 0, 32767, "1"));
             plan.rState = input("R-axis state", plan.rState);
             plan.config = input("Site configuration identifier", plan.config);
@@ -881,7 +913,14 @@ int runExperiment(const char* entry, int argc, char** argv)
                       << plan.velTol << " mm/s | timeout " << plan.timeout << " s\n";
         }
         if (planOnly) return 0;
-        const auto root = projectRoot();
+        const auto root = projectRoot(friction ? "ZRFrictionCurrent.vcxproj" : "ZRPositionCurrent.vcxproj");
+        if (friction) {
+            plan.protocolId = input("Site-confirmed frozen A0 protocol ID");
+            require(!plan.protocolId.empty() &&
+                    plan.protocolId.find_first_not_of(
+                        "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_.") == std::string::npos,
+                    "Invalid A0 protocol ID");
+        }
         if (plan.phase == "D") {
             require(fs::is_regular_file(root / "models" / "position_B_primary_v1.json") &&
                     fs::is_regular_file(root / "models" / "position_BC_overlap_v1.json"),
