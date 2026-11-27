@@ -170,8 +170,37 @@ http.postBuffer 只在怀疑 HTTP 分块传输兼容性时进行针对性试验�
 - 上传后的本地 status 已核对；其他任务新增或继续修改的文件单独说明。
 - 报告最终提交号、已上传范围、未完成项及恢复所需操作。
 
-截至本次记录整理，d68a51f 是此前已确认上传的报告、绘图、文档和恢复工具提交。本地已有分卷第 1 卷提交 913f3a5，第 2～6 卷仍显示为未跟踪。第 1 卷此前推送失败，六卷完整上传尚未验收；下一次先重新查询远程状态再接续，避免把此处的历史快照当作实时状态。
+## 本机环境与本会话实测问题
 
-工作区还存在后续 B1 和源码修改。它们应在下一次用户要求的上传范围中按实际状态核对。
+本工作区的 `.git` 及部分子目录所有者是 `DESKTOP-PFLABT8\CodexSandboxOffline`，是旧沙箱账号遗留的权限状态。受限模式下表现为：
 
-本次已经验证分卷可无损合并，尚未验证六个数据分卷已全部到达 GitHub。后续成功后补充最终提交和恢复验收结果。
+- 启动命令即报 `SetNamedSecurityInfoW failed (Win32 5): grantWrite(...)`，连 `Get-ChildItem` 都无法执行。按权限诊断流程给工作区根补当前用户的完全控制后，根目录恢复可写。
+- 根目录修复后，`.git` 和已有子目录仍拒绝写入（新建文件时报"访问被拒绝"），但非受限模式可正常写入。即：**本机的 git 提交与推送、以及向已有子目录落盘，必须使用完全权限模式**，否则 `git fetch` 先因写不了 `.git/FETCH_HEAD` 失败。
+
+受限模式下 HTTPS 还会报 `schannel: AcquireCredentialsHandle failed: SEC_E_NO_CREDENTIALS`，访问不到加密凭据；同一条 `Invoke-WebRequest` 在非受限模式返回 200。判断网络问题时先区分这两类错误，不要把沙箱挡 TLS 当成代理故障。
+
+本轮 20 MiB 单卷推送实测：第 1 卷 143 秒，其后几卷 5～9 分钟。过程中出现过 `schannel: failed to receive handshake`、`HTTP 408`、`RPC failed ... send-pack: unexpected disconnect`，重试即成功，且 `Everything up-to-date` 可能与真实结果不符，必须以退出码加 `ls-remote` 核对。单卷 20 MiB 在当前链路可用，逐卷提交推送的顺序保持有效。
+
+脚本层面两个坑：
+
+- PowerShell 中 `$ErrorActionPreference = 'Stop'` 叠加 `2>&1 |` 管道时，git 写入 stderr 会抛 `NativeCommandError` 终止整个重试循环。重试脚本用 `Continue`，把输出收进变量再用 `$LASTEXITCODE` 判断。
+- `git add` 后逐卷循环不能用"远程提交号等于 HEAD"判断该卷是否已提交：每卷单独提交后本来就相等，会导致后续卷被整体跳过。应按 `git ls-files --error-unmatch -- <路径>` 判断文件是否已跟踪。
+- `git diff --cached --check` 会把 CRLF 生成数据（`protocol.json`、`accepted_pairs.csv` 等）全量报成 trailing whitespace，对本仓库的生成文件不适用，不能当作阻断条件。
+
+## 完成条件和本次剩余项
+
+推送成功需具备以下证据。
+
+- 本次 push 的退出码为零，远程 refs/heads/main 等于应上传的本地提交。
+- 已取得本轮具体文件清单，逐项确认所需文件在该远程提交中。
+- LFS 文件需要验证实际对象可获取；分卷文件需要确认全部分卷可获取、合并后大小和 SHA-256 一致。
+- 上传后的本地 status 已核对；其他任务新增或继续修改的文件单独说明。
+- 报告最终提交号、已上传范围、未完成项及恢复所需操作。
+
+2026-11-27 本轮已完成。d68a51f 是此前已确认上传的报告、绘图、文档和恢复工具提交，本轮在其上接续：
+
+- 远程 `main` 由 d68a51f 前进到 cbb7cfc，共 7 个新提交：913f3a5、c83e1c0、feaa008、405b742、39483b1、a366dbc 分别对应 B0 分卷第 1～6 卷，cbb7cfc 为 B1 源码、脚本、manifest、结果、交付件与文档。
+- 六卷逐卷提交、推送并核对 `ls-remote` 与 HEAD 一致；提交中六个 blob 大小与 manifest 相符，本地各卷 SHA-256 与 manifest 逐项一致。
+- 合并验收：六卷按序合并得到 116,821,781 字节，SHA-256 为 8a59fda7a89799d1b77e073904b4bc712067bf45cb8f2af5b018cbaeb2ae23e3，与 manifest 记录的完整文件一致。
+
+本轮按用户选择未上传 `分项实验/03_摩擦与残差补偿/B1/data/raw`（622 个文件，约 242 MiB）。该目录仍为未跟踪状态，是当前工作区唯一待上传内容；后续需要时按目录分批推送，不要一次提交整目录。B1 原始数据未上传前，仓库中的 B1 结果与 manifest 缺少对应原始输入，追溯时需说明这一边界。
