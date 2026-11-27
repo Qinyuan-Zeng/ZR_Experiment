@@ -1,0 +1,8 @@
+﻿phase,samples,mechanism,candidate
+accelerate,2821,2574,922
+brake,4047,2740,828
+cruise,43250,42593,36219
+post_hold,64543,55999,51730
+pre_hold,65978,41380,0
+startup,1280,461,0
+transition,19273,0,0

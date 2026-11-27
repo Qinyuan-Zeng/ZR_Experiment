@@ -1,0 +1,4 @@
+0.0 37000.0 4000.0 500.0 0.99 3
+R2-reverse-P-V10-T1000 reverse 1 10 1000
+R2-direct-N-V10-T2000 direct -1 10 2000
+R2-same-N-V10-T200 same -1 10 200

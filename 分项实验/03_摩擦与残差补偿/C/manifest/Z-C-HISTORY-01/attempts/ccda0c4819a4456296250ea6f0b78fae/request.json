@@ -1,0 +1,38 @@
+{
+  "field_session": "Z-C-20261127-S01",
+  "trials": [
+    {
+      "id": "R1-same-N-V2-T1000",
+      "repeat": 1,
+      "history": "same",
+      "sign": -1,
+      "speed": 2,
+      "dwell": 1000,
+      "start": 20000,
+      "end": 12000,
+      "pilot": false
+    },
+    {
+      "id": "R1-reverse-N-V2-T500",
+      "repeat": 1,
+      "history": "reverse",
+      "sign": -1,
+      "speed": 2,
+      "dwell": 500,
+      "start": 12000,
+      "end": 12000,
+      "pilot": false
+    },
+    {
+      "id": "R1-reverse-N-V2-T1000",
+      "repeat": 1,
+      "history": "reverse",
+      "sign": -1,
+      "speed": 2,
+      "dwell": 1000,
+      "start": 12000,
+      "end": 12000,
+      "pilot": false
+    }
+  ]
+}

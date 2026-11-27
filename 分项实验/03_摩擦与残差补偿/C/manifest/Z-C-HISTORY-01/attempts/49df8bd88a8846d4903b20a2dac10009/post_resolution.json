@@ -1,0 +1,11 @@
+{
+  "reason": "isolated_stationary_encoder_velocity_sample",
+  "initial": {
+    "post_initial.txt": "383e658781b1f012d54f661aabfaf210ae239834231f5341955d7e193a35f5f2"
+  },
+  "independent_rereads": {
+    "post_recheck_c144e93a742b43689c001d068b4bd77c.txt": "837a275637a99cad270bcbe4a884faf3dd437df6fbac3f0edc0e87d6a1a39522",
+    "post_recheck_5c4f9800c1244e3981cb2840979a4264.txt": "837a275637a99cad270bcbe4a884faf3dd437df6fbac3f0edc0e87d6a1a39522"
+  },
+  "accepted_snapshot": "post_recheck_5c4f9800c1244e3981cb2840979a4264.txt"
+}

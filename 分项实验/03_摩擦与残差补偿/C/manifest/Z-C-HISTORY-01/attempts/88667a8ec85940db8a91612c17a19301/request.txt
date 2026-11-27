@@ -1,0 +1,4 @@
+0.0 37000.0 4000.0 500.0 0.99 3
+R3-direct-P-V5-T2000 direct 1 5 2000
+R3-same-P-V5-T200 same 1 5 200
+R3-same-P-V5-T500 same 1 5 500

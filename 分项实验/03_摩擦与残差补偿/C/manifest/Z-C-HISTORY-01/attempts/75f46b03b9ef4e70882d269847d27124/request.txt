@@ -1,0 +1,4 @@
+0.0 37000.0 4000.0 500.0 0.99 3
+R1-direct-N-V2-T2000 direct -1 2 2000
+R1-same-N-V2-T200 same -1 2 200
+R1-same-N-V2-T500 same -1 2 500

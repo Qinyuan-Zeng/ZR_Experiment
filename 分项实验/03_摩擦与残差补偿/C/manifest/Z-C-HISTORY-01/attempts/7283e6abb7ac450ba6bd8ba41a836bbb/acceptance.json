@@ -1,0 +1,39 @@
+{
+  "accepted": [
+    {
+      "id": "R2-reverse-N-V2-T500",
+      "repeat": 2,
+      "history": "reverse",
+      "sign": -1,
+      "speed": 2,
+      "dwell": 500,
+      "start": 12000,
+      "end": 12000,
+      "pilot": false,
+      "frames": 75963,
+      "watch_period_us": 50.0,
+      "arrival_to_restart_ms": 509.5,
+      "settled_dwell_ms": 508.35,
+      "probe_bracket_ms": 0.2,
+      "dwell_current_raw": 537.0159339038064,
+      "probe_start_current_abs_peak_raw": 537.0,
+      "inputs": {
+        "E:\\A_ZQY\\ZR_Experiment\\分项实验\\03_摩擦与残差补偿\\C\\data\\raw\\Z-C-HISTORY-01\\7283e6abb7ac450ba6bd8ba41a836bbb\\R2-reverse-N-V2-T500.txt": "2f2ddb2a05fea95de1cc819caec7654902d386e771d8f4f36f22d8fac736478b",
+        "E:\\A_ZQY\\ZR_Experiment\\分项实验\\03_摩擦与残差补偿\\C\\data\\raw\\Z-C-HISTORY-01\\7283e6abb7ac450ba6bd8ba41a836bbb\\R2-reverse-N-V2-T500.csv": "ca12cebe456e4ee43c7c8365990f796de6be319cae431a6c651e712f622d0240",
+        "E:\\A_ZQY\\ZR_Experiment\\分项实验\\03_摩擦与残差补偿\\C\\data\\raw\\Z-C-HISTORY-01\\7283e6abb7ac450ba6bd8ba41a836bbb\\R2-reverse-N-V2-T500.sdk.csv": "9dc9d8dee3016a138f08c6fc070952529ed99f068bae2fe380e7d68514687cdc",
+        "E:\\A_ZQY\\ZR_Experiment\\分项实验\\03_摩擦与残差补偿\\C\\data\\raw\\Z-C-HISTORY-01\\7283e6abb7ac450ba6bd8ba41a836bbb\\R2-reverse-N-V2-T500.batches.csv": "75b5257c495a63ea441c1dc9ade3ec37073c6e4b2381ee9f10e5ad654f7cb859"
+      },
+      "field_session": "Z-C-20261127-S01",
+      "attempt": "7283e6abb7ac450ba6bd8ba41a836bbb"
+    }
+  ],
+  "rejected": {},
+  "batch": {
+    "pre.txt": "837a275637a99cad270bcbe4a884faf3dd437df6fbac3f0edc0e87d6a1a39522",
+    "post.txt": "6c81d87d7808749b283cf468b221d7e7b97eb74a530c6ed3ffc3c46cce2e96d6",
+    "request.json": "b42e80b058580edefb3b77cf4eb8b0a8f3d20913be9bd572f115c9c99e4a516c",
+    "request.txt": "4b171243821fe353a982e192a47bf0db49dedc0580b9205d223b7a605839076b",
+    "exit.json": "c206f757d056a424eb5e8ac4cb61cf6279b4a6478034cab2a750801b9cc323f4",
+    "native.txt": "b8571cd91d9da141d7be40bcb4b75033a69c5add8d0e94fa0bbd38107e8014e8"
+  }
+}

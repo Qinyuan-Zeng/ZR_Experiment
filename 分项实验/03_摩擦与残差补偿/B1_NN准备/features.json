@@ -1,0 +1,24 @@
+{
+  "inputs": [
+    "x_pulse",
+    "v_pulse_s",
+    "a_pulse_s2",
+    "v_history",
+    "still_history",
+    "arrival_memory"
+  ],
+  "target": "residual_raw",
+  "selection": "candidate",
+  "splits": {
+    "dev": "S1",
+    "internal": "S2"
+  },
+  "dt_s": 0.005,
+  "hashes": {
+    "position_B_primary_v1.json": "e854bcf3816a68e2b3a3952936c7fb1ef970fb2979cdd947c788e3a75e49e195",
+    "Z-DP_20261126-095126_343_29884_summary.json": "ec6ed3bc189df8a7c5493ad750d876ed2e3a58389615b6fbab840c495e3e1907",
+    "models_frozen.json": "e13fab8c4f2cb1ff8d46a2fee3e731042138344fe1f1a81beeb645bdc7912030",
+    "legs.csv": "68bb3c578cef4e7c8265f96601a8d6af6cb3af2d7ab0c473903653d8eb7a6388",
+    "prepare.py": "565247b1dee8ed07e952f44e3eb4f647949957b5957c9c3e78ae2bfd1aa23cee"
+  }
+}

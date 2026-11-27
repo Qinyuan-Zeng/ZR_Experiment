@@ -1,0 +1,91 @@
+{
+  "accepted": [
+    {
+      "id": "R2-reverse-N-V2-T1000",
+      "repeat": 2,
+      "history": "reverse",
+      "sign": -1,
+      "speed": 2,
+      "dwell": 1000,
+      "start": 12000,
+      "end": 12000,
+      "pilot": false,
+      "frames": 85843,
+      "watch_period_us": 50.0,
+      "arrival_to_restart_ms": 1008.1,
+      "settled_dwell_ms": 1007.0500000000001,
+      "probe_bracket_ms": 0.2,
+      "dwell_current_raw": 536.4868179335683,
+      "probe_start_current_abs_peak_raw": 534.0,
+      "inputs": {
+        "E:\\A_ZQY\\ZR_Experiment\\分项实验\\03_摩擦与残差补偿\\C\\data\\raw\\Z-C-HISTORY-01\\fa33006552254aebab47dd755d1da949\\R2-reverse-N-V2-T1000.txt": "1c06f61236032ef6e27b59b427eef2cfc9262d46b6db145b115195d965fa4b32",
+        "E:\\A_ZQY\\ZR_Experiment\\分项实验\\03_摩擦与残差补偿\\C\\data\\raw\\Z-C-HISTORY-01\\fa33006552254aebab47dd755d1da949\\R2-reverse-N-V2-T1000.csv": "1c673ae236bd87bfccc945682b1d4d33daef86fc997c398cb0db5fb09490b3ed",
+        "E:\\A_ZQY\\ZR_Experiment\\分项实验\\03_摩擦与残差补偿\\C\\data\\raw\\Z-C-HISTORY-01\\fa33006552254aebab47dd755d1da949\\R2-reverse-N-V2-T1000.sdk.csv": "c06195421d0a271f3d7727f10b97207633b431def7cd7c0cc2d461adc8b480e9",
+        "E:\\A_ZQY\\ZR_Experiment\\分项实验\\03_摩擦与残差补偿\\C\\data\\raw\\Z-C-HISTORY-01\\fa33006552254aebab47dd755d1da949\\R2-reverse-N-V2-T1000.batches.csv": "2511f86bcaaea8de0f18c59ff48d2f74268948cb5f803957b350f09de04b7738"
+      },
+      "field_session": "Z-C-20261127-S01",
+      "attempt": "fa33006552254aebab47dd755d1da949"
+    },
+    {
+      "id": "R2-direct-P-V5-T2000",
+      "repeat": 2,
+      "history": "direct",
+      "sign": 1,
+      "speed": 5,
+      "dwell": 2000,
+      "start": 12000,
+      "end": 20000,
+      "pilot": false,
+      "frames": 116745,
+      "watch_period_us": 50.0,
+      "arrival_to_restart_ms": 2013.3500000000001,
+      "settled_dwell_ms": 2012.25,
+      "probe_bracket_ms": 0.35000000000000003,
+      "dwell_current_raw": 516.960467138775,
+      "probe_start_current_abs_peak_raw": 606.0,
+      "inputs": {
+        "E:\\A_ZQY\\ZR_Experiment\\分项实验\\03_摩擦与残差补偿\\C\\data\\raw\\Z-C-HISTORY-01\\fa33006552254aebab47dd755d1da949\\R2-direct-P-V5-T2000.txt": "ab1f4bac52026d16d52d2376326a719da8884a05edd7de067dd826cedf853419",
+        "E:\\A_ZQY\\ZR_Experiment\\分项实验\\03_摩擦与残差补偿\\C\\data\\raw\\Z-C-HISTORY-01\\fa33006552254aebab47dd755d1da949\\R2-direct-P-V5-T2000.csv": "94dc8142498efc483dbb8a15d2f1788d9067e58e9f88ff9b5f6512a23390d5f5",
+        "E:\\A_ZQY\\ZR_Experiment\\分项实验\\03_摩擦与残差补偿\\C\\data\\raw\\Z-C-HISTORY-01\\fa33006552254aebab47dd755d1da949\\R2-direct-P-V5-T2000.sdk.csv": "139c819d0a91367e29fb1f42f8bb53ecd3fb424608fc3792341febf55f4a8986",
+        "E:\\A_ZQY\\ZR_Experiment\\分项实验\\03_摩擦与残差补偿\\C\\data\\raw\\Z-C-HISTORY-01\\fa33006552254aebab47dd755d1da949\\R2-direct-P-V5-T2000.batches.csv": "4a8c2f2343388f3ddc35cbdf278f00cbe47b5c6625a8c10cb4b02ea60ee4b1cb"
+      },
+      "field_session": "Z-C-20261127-S01",
+      "attempt": "fa33006552254aebab47dd755d1da949"
+    },
+    {
+      "id": "R2-same-P-V5-T200",
+      "repeat": 2,
+      "history": "same",
+      "sign": 1,
+      "speed": 5,
+      "dwell": 200,
+      "start": 12000,
+      "end": 20000,
+      "pilot": false,
+      "frames": 46466,
+      "watch_period_us": 50.0,
+      "arrival_to_restart_ms": 216.35000000000002,
+      "settled_dwell_ms": 215.25,
+      "probe_bracket_ms": 0.25,
+      "dwell_current_raw": 535.5029036004646,
+      "probe_start_current_abs_peak_raw": 591.0,
+      "inputs": {
+        "E:\\A_ZQY\\ZR_Experiment\\分项实验\\03_摩擦与残差补偿\\C\\data\\raw\\Z-C-HISTORY-01\\fa33006552254aebab47dd755d1da949\\R2-same-P-V5-T200.txt": "52ffff287d12073d5c5b151bf87ab1ed310ad79374ecb9cab3d396475de32ce2",
+        "E:\\A_ZQY\\ZR_Experiment\\分项实验\\03_摩擦与残差补偿\\C\\data\\raw\\Z-C-HISTORY-01\\fa33006552254aebab47dd755d1da949\\R2-same-P-V5-T200.csv": "4d7f47f25d3b3a6fc8101f91b2b68988d42f5902fb8fa7d1c005583bfcfc4b79",
+        "E:\\A_ZQY\\ZR_Experiment\\分项实验\\03_摩擦与残差补偿\\C\\data\\raw\\Z-C-HISTORY-01\\fa33006552254aebab47dd755d1da949\\R2-same-P-V5-T200.sdk.csv": "180ae2b6f9185a0d1fdba3e27acd7305eca092981aea733002f08dddc7d9443d",
+        "E:\\A_ZQY\\ZR_Experiment\\分项实验\\03_摩擦与残差补偿\\C\\data\\raw\\Z-C-HISTORY-01\\fa33006552254aebab47dd755d1da949\\R2-same-P-V5-T200.batches.csv": "37f1cdd1b55f53f29595c2a6c092e109207c4140262a62d67d94f025a84f88d0"
+      },
+      "field_session": "Z-C-20261127-S01",
+      "attempt": "fa33006552254aebab47dd755d1da949"
+    }
+  ],
+  "rejected": {},
+  "batch": {
+    "pre.txt": "837a275637a99cad270bcbe4a884faf3dd437df6fbac3f0edc0e87d6a1a39522",
+    "post.txt": "634c026d8453940da6ca9bf74a4c336f8ce1178f35c04144d90e1a2090e95785",
+    "request.json": "fe14e07dfd1beb44fddb215f10f177aafa0e20fc45cbf199c36a1fa2f06d626d",
+    "request.txt": "a8fc24632a068d9b5e22e619a79b21a4c9aca49d16def36404afcbfa2d47940d",
+    "exit.json": "c206f757d056a424eb5e8ac4cb61cf6279b4a6478034cab2a750801b9cc323f4",
+    "native.txt": "ad48f7941b74ab3ba138c4cd0a95e708e983378f19ed6d5281fbab4a113eb01a"
+  }
+}

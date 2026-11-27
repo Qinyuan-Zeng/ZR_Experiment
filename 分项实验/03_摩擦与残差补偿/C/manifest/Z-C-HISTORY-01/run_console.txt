@@ -1,0 +1,706 @@
+0/126 accepted; next R1-direct-P-V5-T2000 in Z-C-20261127-S01
+0/126 C trials accepted
+3 C trials | 16000 pulse restart point | Watch 50 us
+R1-direct-P-V5-T2000       12000 -> 16000 -> 20000 pulse  dwell 2000 ms  probe 5 mm/s
+R1-same-P-V2-T200          12000 -> 16000 -> 20000 pulse  dwell 200 ms  probe 2 mm/s
+R1-reverse-P-V10-T1000     20000 -> 16000 -> 20000 pulse  dwell 1000 ms  probe 10 mm/s
+Actual field session ID: Z-C-20261127-S01
+Confirm current field authorization and safeguards. Type READY: READY
+Independent precheck and route clearance passed.
+Type START to execute the displayed C batch: START
+R1-direct-P-V5-T2000 none
+R1-same-P-V2-T200 none
+R1-reverse-P-V10-T1000 none
+3/126 C trials accepted
+3/126 accepted; next R1-direct-N-V5-T2000 in Z-C-20261127-S01
+3/126 C trials accepted
+3 C trials | 16000 pulse restart point | Watch 50 us
+R1-direct-N-V5-T2000       20000 -> 16000 -> 12000 pulse  dwell 2000 ms  probe 5 mm/s
+R1-same-N-V10-T500         20000 -> 16000 -> 12000 pulse  dwell 500 ms  probe 10 mm/s
+R1-reverse-N-V2-T200       12000 -> 16000 -> 12000 pulse  dwell 200 ms  probe 2 mm/s
+Actual field session ID: Z-C-20261127-S01
+Confirm current field authorization and safeguards. Type READY: READY
+Independent precheck and route clearance passed.
+Type START to execute the displayed C batch: START
+R1-direct-N-V5-T2000 none
+R1-same-N-V10-T500 none
+R1-reverse-N-V2-T200 none
+6/126 C trials accepted
+6/126 accepted; next R1-direct-P-V2-T2000 in Z-C-20261127-S01
+6/126 C trials accepted
+3 C trials | 16000 pulse restart point | Watch 50 us
+R1-direct-P-V2-T2000       12000 -> 16000 -> 20000 pulse  dwell 2000 ms  probe 2 mm/s
+R1-same-P-V2-T500          12000 -> 16000 -> 20000 pulse  dwell 500 ms  probe 2 mm/s
+R1-same-P-V2-T1000         12000 -> 16000 -> 20000 pulse  dwell 1000 ms  probe 2 mm/s
+Actual field session ID: Z-C-20261127-S01
+Confirm current field authorization and safeguards. Type READY: READY
+Independent precheck and route clearance passed.
+Type START to execute the displayed C batch: START
+R1-direct-P-V2-T2000 none
+R1-same-P-V2-T500 none
+R1-same-P-V2-T1000 none
+9/126 C trials accepted
+9/126 accepted; next R1-reverse-P-V2-T200 in Z-C-20261127-S01
+9/126 C trials accepted
+3 C trials | 16000 pulse restart point | Watch 50 us
+R1-reverse-P-V2-T200       20000 -> 16000 -> 20000 pulse  dwell 200 ms  probe 2 mm/s
+R1-reverse-P-V2-T500       20000 -> 16000 -> 20000 pulse  dwell 500 ms  probe 2 mm/s
+R1-reverse-P-V2-T1000      20000 -> 16000 -> 20000 pulse  dwell 1000 ms  probe 2 mm/s
+Actual field session ID: Z-C-20261127-S01
+Confirm current field authorization and safeguards. Type READY: READY
+Independent precheck and route clearance passed.
+Type START to execute the displayed C batch: START
+R1-reverse-P-V2-T200 none
+R1-reverse-P-V2-T500 none
+R1-reverse-P-V2-T1000 none
+12/126 C trials accepted
+12/126 accepted; next R1-direct-N-V2-T2000 in Z-C-20261127-S01
+12/126 C trials accepted
+3 C trials | 16000 pulse restart point | Watch 50 us
+R1-direct-N-V2-T2000       20000 -> 16000 -> 12000 pulse  dwell 2000 ms  probe 2 mm/s
+R1-same-N-V2-T200          20000 -> 16000 -> 12000 pulse  dwell 200 ms  probe 2 mm/s
+R1-same-N-V2-T500          20000 -> 16000 -> 12000 pulse  dwell 500 ms  probe 2 mm/s
+Actual field session ID: Z-C-20261127-S01
+Confirm current field authorization and safeguards. Type READY: READY
+Independent precheck and route clearance passed.
+Type START to execute the displayed C batch: START
+R1-direct-N-V2-T2000 none
+R1-same-N-V2-T200 none
+R1-same-N-V2-T500 none
+15/126 C trials accepted
+15/126 accepted; next R1-same-N-V2-T1000 in Z-C-20261127-S01
+15/126 C trials accepted
+3 C trials | 16000 pulse restart point | Watch 50 us
+R1-same-N-V2-T1000         20000 -> 16000 -> 12000 pulse  dwell 1000 ms  probe 2 mm/s
+R1-reverse-N-V2-T500       12000 -> 16000 -> 12000 pulse  dwell 500 ms  probe 2 mm/s
+R1-reverse-N-V2-T1000      12000 -> 16000 -> 12000 pulse  dwell 1000 ms  probe 2 mm/s
+Actual field session ID: Z-C-20261127-S01
+Confirm current field authorization and safeguards. Type READY: READY
+Independent precheck and route clearance passed.
+Type START to execute the displayed C batch: START
+R1-same-N-V2-T1000 none
+R1-reverse-N-V2-T500 none
+R1-reverse-N-V2-T1000 none
+18/126 C trials accepted
+18/126 accepted; next R1-same-P-V5-T200 in Z-C-20261127-S01
+18/126 C trials accepted
+3 C trials | 16000 pulse restart point | Watch 50 us
+R1-same-P-V5-T200          12000 -> 16000 -> 20000 pulse  dwell 200 ms  probe 5 mm/s
+R1-same-P-V5-T500          12000 -> 16000 -> 20000 pulse  dwell 500 ms  probe 5 mm/s
+R1-same-P-V5-T1000         12000 -> 16000 -> 20000 pulse  dwell 1000 ms  probe 5 mm/s
+Actual field session ID: Z-C-20261127-S01
+Confirm current field authorization and safeguards. Type READY: READY
+Independent precheck and route clearance passed.
+Type START to execute the displayed C batch: START
+R1-same-P-V5-T200 none
+R1-same-P-V5-T500 none
+R1-same-P-V5-T1000 none
+21/126 C trials accepted
+21/126 accepted; next R1-reverse-P-V5-T200 in Z-C-20261127-S01
+21/126 C trials accepted
+3 C trials | 16000 pulse restart point | Watch 50 us
+R1-reverse-P-V5-T200       20000 -> 16000 -> 20000 pulse  dwell 200 ms  probe 5 mm/s
+R1-reverse-P-V5-T500       20000 -> 16000 -> 20000 pulse  dwell 500 ms  probe 5 mm/s
+R1-reverse-P-V5-T1000      20000 -> 16000 -> 20000 pulse  dwell 1000 ms  probe 5 mm/s
+Actual field session ID: Z-C-20261127-S01
+Confirm current field authorization and safeguards. Type READY: READY
+Independent precheck and route clearance passed.
+Type START to execute the displayed C batch: START
+R1-reverse-P-V5-T200 none
+R1-reverse-P-V5-T500 none
+R1-reverse-P-V5-T1000 none
+24/126 C trials accepted
+24/126 accepted; next R1-same-N-V5-T200 in Z-C-20261127-S01
+24/126 C trials accepted
+3 C trials | 16000 pulse restart point | Watch 50 us
+R1-same-N-V5-T200          20000 -> 16000 -> 12000 pulse  dwell 200 ms  probe 5 mm/s
+R1-same-N-V5-T500          20000 -> 16000 -> 12000 pulse  dwell 500 ms  probe 5 mm/s
+R1-same-N-V5-T1000         20000 -> 16000 -> 12000 pulse  dwell 1000 ms  probe 5 mm/s
+Actual field session ID: Z-C-20261127-S01
+Confirm current field authorization and safeguards. Type READY: READY
+Independent precheck and route clearance passed.
+Type START to execute the displayed C batch: START
+R1-same-N-V5-T200 none
+R1-same-N-V5-T500 none
+R1-same-N-V5-T1000 none
+27/126 C trials accepted
+27/126 accepted; next R1-reverse-N-V5-T200 in Z-C-20261127-S01
+27/126 C trials accepted
+3 C trials | 16000 pulse restart point | Watch 50 us
+R1-reverse-N-V5-T200       12000 -> 16000 -> 12000 pulse  dwell 200 ms  probe 5 mm/s
+R1-reverse-N-V5-T500       12000 -> 16000 -> 12000 pulse  dwell 500 ms  probe 5 mm/s
+R1-reverse-N-V5-T1000      12000 -> 16000 -> 12000 pulse  dwell 1000 ms  probe 5 mm/s
+Actual field session ID: Z-C-20261127-S01
+Confirm current field authorization and safeguards. Type READY: READY
+Independent precheck and route clearance passed.
+Type START to execute the displayed C batch: START
+R1-reverse-N-V5-T200 none
+R1-reverse-N-V5-T500 none
+R1-reverse-N-V5-T1000 none
+30/126 C trials accepted
+30/126 accepted; next R1-direct-P-V10-T2000 in Z-C-20261127-S01
+30/126 C trials accepted
+3 C trials | 16000 pulse restart point | Watch 50 us
+R1-direct-P-V10-T2000      12000 -> 16000 -> 20000 pulse  dwell 2000 ms  probe 10 mm/s
+R1-same-P-V10-T200         12000 -> 16000 -> 20000 pulse  dwell 200 ms  probe 10 mm/s
+R1-same-P-V10-T500         12000 -> 16000 -> 20000 pulse  dwell 500 ms  probe 10 mm/s
+Actual field session ID: Z-C-20261127-S01
+Confirm current field authorization and safeguards. Type READY: READY
+Independent precheck and route clearance passed.
+Type START to execute the displayed C batch: START
+R1-direct-P-V10-T2000 none
+R1-same-P-V10-T200 none
+R1-same-P-V10-T500 none
+33/126 C trials accepted
+33/126 accepted; next R1-same-P-V10-T1000 in Z-C-20261127-S01
+33/126 C trials accepted
+3 C trials | 16000 pulse restart point | Watch 50 us
+R1-same-P-V10-T1000        12000 -> 16000 -> 20000 pulse  dwell 1000 ms  probe 10 mm/s
+R1-reverse-P-V10-T200      20000 -> 16000 -> 20000 pulse  dwell 200 ms  probe 10 mm/s
+R1-reverse-P-V10-T500      20000 -> 16000 -> 20000 pulse  dwell 500 ms  probe 10 mm/s
+Actual field session ID: Z-C-20261127-S01
+Confirm current field authorization and safeguards. Type READY: READY
+Independent precheck and route clearance passed.
+Type START to execute the displayed C batch: START
+R1-same-P-V10-T1000 none
+R1-reverse-P-V10-T200 none
+R1-reverse-P-V10-T500 none
+36/126 C trials accepted
+36/126 accepted; next R1-direct-N-V10-T2000 in Z-C-20261127-S01
+36/126 C trials accepted
+3 C trials | 16000 pulse restart point | Watch 50 us
+R1-direct-N-V10-T2000      20000 -> 16000 -> 12000 pulse  dwell 2000 ms  probe 10 mm/s
+R1-same-N-V10-T200         20000 -> 16000 -> 12000 pulse  dwell 200 ms  probe 10 mm/s
+R1-same-N-V10-T1000        20000 -> 16000 -> 12000 pulse  dwell 1000 ms  probe 10 mm/s
+Actual field session ID: Z-C-20261127-S01
+Confirm current field authorization and safeguards. Type READY: READY
+Independent precheck and route clearance passed.
+Type START to execute the displayed C batch: START
+R1-direct-N-V10-T2000 none
+R1-same-N-V10-T200 none
+R1-same-N-V10-T1000 none
+39/126 C trials accepted
+39/126 accepted; next R1-reverse-N-V10-T200 in Z-C-20261127-S01
+39/126 C trials accepted
+3 C trials | 16000 pulse restart point | Watch 50 us
+R1-reverse-N-V10-T200      12000 -> 16000 -> 12000 pulse  dwell 200 ms  probe 10 mm/s
+R1-reverse-N-V10-T500      12000 -> 16000 -> 12000 pulse  dwell 500 ms  probe 10 mm/s
+R1-reverse-N-V10-T1000     12000 -> 16000 -> 12000 pulse  dwell 1000 ms  probe 10 mm/s
+Actual field session ID: Z-C-20261127-S01
+Confirm current field authorization and safeguards. Type READY: READY
+Independent precheck and route clearance passed.
+Type START to execute the displayed C batch: START
+R1-reverse-N-V10-T200 none
+R1-reverse-N-V10-T500 none
+R1-reverse-N-V10-T1000 none
+42/126 C trials accepted
+42/126 accepted; next R2-reverse-N-V2-T1000 in Z-C-20261127-S01
+42/126 C trials accepted
+3 C trials | 16000 pulse restart point | Watch 50 us
+R2-reverse-N-V2-T1000      12000 -> 16000 -> 12000 pulse  dwell 1000 ms  probe 2 mm/s
+R2-direct-P-V5-T2000       12000 -> 16000 -> 20000 pulse  dwell 2000 ms  probe 5 mm/s
+R2-same-P-V5-T200          12000 -> 16000 -> 20000 pulse  dwell 200 ms  probe 5 mm/s
+Actual field session ID: Z-C-20261127-S01
+Confirm current field authorization and safeguards. Type READY: READY
+Independent precheck and route clearance passed.
+Type START to execute the displayed C batch: START
+R2-reverse-N-V2-T1000 none
+R2-direct-P-V5-T2000 none
+R2-same-P-V5-T200 none
+45/126 C trials accepted
+45/126 accepted; next R2-same-P-V5-T500 in Z-C-20261127-S01
+45/126 C trials accepted
+3 C trials | 16000 pulse restart point | Watch 50 us
+R2-same-P-V5-T500          12000 -> 16000 -> 20000 pulse  dwell 500 ms  probe 5 mm/s
+R2-same-P-V5-T1000         12000 -> 16000 -> 20000 pulse  dwell 1000 ms  probe 5 mm/s
+R2-reverse-P-V5-T200       20000 -> 16000 -> 20000 pulse  dwell 200 ms  probe 5 mm/s
+Actual field session ID: Z-C-20261127-S01
+Confirm current field authorization and safeguards. Type READY: READY
+Independent precheck and route clearance passed.
+Type START to execute the displayed C batch: START
+R2-same-P-V5-T500 none
+R2-same-P-V5-T1000 none
+R2-reverse-P-V5-T200 none
+48/126 C trials accepted
+48/126 accepted; next R2-reverse-P-V5-T500 in Z-C-20261127-S01
+48/126 C trials accepted
+3 C trials | 16000 pulse restart point | Watch 50 us
+R2-reverse-P-V5-T500       20000 -> 16000 -> 20000 pulse  dwell 500 ms  probe 5 mm/s
+R2-reverse-P-V5-T1000      20000 -> 16000 -> 20000 pulse  dwell 1000 ms  probe 5 mm/s
+R2-direct-N-V5-T2000       20000 -> 16000 -> 12000 pulse  dwell 2000 ms  probe 5 mm/s
+Actual field session ID: Z-C-20261127-S01
+Confirm current field authorization and safeguards. Type READY: READY
+Independent precheck and route clearance passed.
+Type START to execute the displayed C batch: START
+R2-reverse-P-V5-T500 none
+R2-reverse-P-V5-T1000 none
+R2-direct-N-V5-T2000 none
+C: C independent state check failed: E:\A_ZQY\ZR_Experiment\分项实验\03_摩擦与残差补偿\C\manifest\Z-C-HISTORY-01\attempts\85e2e41caf0a466787ffba689121ca57\post.txt
+48/126 accepted; next R2-reverse-P-V5-T500 in Z-C-20261127-S01
+85e2e41caf0a466787ffba689121ca57: B1 independent state differs from permitted configuration
+48/126 C trials accepted
+3 C trials | 16000 pulse restart point | Watch 50 us
+R2-reverse-P-V5-T500       20000 -> 16000 -> 20000 pulse  dwell 500 ms  probe 5 mm/s
+R2-reverse-P-V5-T1000      20000 -> 16000 -> 20000 pulse  dwell 1000 ms  probe 5 mm/s
+R2-direct-N-V5-T2000       20000 -> 16000 -> 12000 pulse  dwell 2000 ms  probe 5 mm/s
+Actual field session ID: Z-C-20261127-S01
+Confirm current field authorization and safeguards. Type READY: READY
+Independent precheck and route clearance passed.
+Type START to execute the displayed C batch: START
+R2-reverse-P-V5-T500 none
+R2-reverse-P-V5-T1000 none
+R2-direct-N-V5-T2000 none
+C: C independent state check failed: E:\A_ZQY\ZR_Experiment\分项实验\03_摩擦与残差补偿\C\manifest\Z-C-HISTORY-01\attempts\49df8bd88a8846d4903b20a2dac10009\post.txt
+51/126 accepted; next R2-same-N-V5-T200 in Z-C-20261127-S01
+85e2e41caf0a466787ffba689121ca57: B1 independent state differs from permitted configuration
+51/126 C trials accepted
+3 C trials | 16000 pulse restart point | Watch 50 us
+R2-same-N-V5-T200          20000 -> 16000 -> 12000 pulse  dwell 200 ms  probe 5 mm/s
+R2-same-N-V5-T500          20000 -> 16000 -> 12000 pulse  dwell 500 ms  probe 5 mm/s
+R2-same-N-V5-T1000         20000 -> 16000 -> 12000 pulse  dwell 1000 ms  probe 5 mm/s
+Actual field session ID: Z-C-20261127-S01
+Confirm current field authorization and safeguards. Type READY: READY
+Independent precheck and route clearance passed.
+Type START to execute the displayed C batch: START
+R2-same-N-V5-T200 none
+R2-same-N-V5-T500 none
+R2-same-N-V5-T1000 none
+85e2e41caf0a466787ffba689121ca57: B1 independent state differs from permitted configuration
+54/126 C trials accepted
+54/126 accepted; next R2-reverse-N-V5-T200 in Z-C-20261127-S01
+85e2e41caf0a466787ffba689121ca57: B1 independent state differs from permitted configuration
+54/126 C trials accepted
+3 C trials | 16000 pulse restart point | Watch 50 us
+R2-reverse-N-V5-T200       12000 -> 16000 -> 12000 pulse  dwell 200 ms  probe 5 mm/s
+R2-reverse-N-V5-T500       12000 -> 16000 -> 12000 pulse  dwell 500 ms  probe 5 mm/s
+R2-reverse-N-V5-T1000      12000 -> 16000 -> 12000 pulse  dwell 1000 ms  probe 5 mm/s
+Actual field session ID: Z-C-20261127-S01
+Confirm current field authorization and safeguards. Type READY: READY
+C: C independent state check failed: E:\A_ZQY\ZR_Experiment\分项实验\03_摩擦与残差补偿\C\manifest\Z-C-HISTORY-01\attempts\60aaedac0c5f421d98d113d633adc29a\pre.txt
+54/126 accepted; next R2-reverse-N-V5-T200 in Z-C-20261127-S01
+85e2e41caf0a466787ffba689121ca57: B1 independent state differs from permitted configuration
+54/126 C trials accepted
+3 C trials | 16000 pulse restart point | Watch 50 us
+R2-reverse-N-V5-T200       12000 -> 16000 -> 12000 pulse  dwell 200 ms  probe 5 mm/s
+R2-reverse-N-V5-T500       12000 -> 16000 -> 12000 pulse  dwell 500 ms  probe 5 mm/s
+R2-reverse-N-V5-T1000      12000 -> 16000 -> 12000 pulse  dwell 1000 ms  probe 5 mm/s
+Actual field session ID: Z-C-20261127-S01
+Confirm current field authorization and safeguards. Type READY: READY
+Independent precheck and route clearance passed.
+Type START to execute the displayed C batch: START
+R2-reverse-N-V5-T200 none
+R2-reverse-N-V5-T500 none
+R2-reverse-N-V5-T1000 none
+85e2e41caf0a466787ffba689121ca57: B1 independent state differs from permitted configuration
+57/126 C trials accepted
+57/126 accepted; next R2-direct-P-V10-T2000 in Z-C-20261127-S01
+85e2e41caf0a466787ffba689121ca57: B1 independent state differs from permitted configuration
+57/126 C trials accepted
+3 C trials | 16000 pulse restart point | Watch 50 us
+R2-direct-P-V10-T2000      12000 -> 16000 -> 20000 pulse  dwell 2000 ms  probe 10 mm/s
+R2-same-P-V10-T200         12000 -> 16000 -> 20000 pulse  dwell 200 ms  probe 10 mm/s
+R2-same-P-V10-T500         12000 -> 16000 -> 20000 pulse  dwell 500 ms  probe 10 mm/s
+Actual field session ID: Z-C-20261127-S01
+Confirm current field authorization and safeguards. Type READY: READY
+C: C independent state check failed: E:\A_ZQY\ZR_Experiment\分项实验\03_摩擦与残差补偿\C\manifest\Z-C-HISTORY-01\attempts\91daf3dd1678483a9ac93f374c51adac\pre.txt
+57/126 accepted; next R2-direct-P-V10-T2000 in Z-C-20261127-S01
+85e2e41caf0a466787ffba689121ca57: B1 independent state differs from permitted configuration
+57/126 C trials accepted
+3 C trials | 16000 pulse restart point | Watch 50 us
+R2-direct-P-V10-T2000      12000 -> 16000 -> 20000 pulse  dwell 2000 ms  probe 10 mm/s
+R2-same-P-V10-T200         12000 -> 16000 -> 20000 pulse  dwell 200 ms  probe 10 mm/s
+R2-same-P-V10-T500         12000 -> 16000 -> 20000 pulse  dwell 500 ms  probe 10 mm/s
+Actual field session ID: Z-C-20261127-S01
+Confirm current field authorization and safeguards. Type READY: READY
+Independent precheck and route clearance passed.
+Type START to execute the displayed C batch: START
+R2-direct-P-V10-T2000 none
+R2-same-P-V10-T200 none
+R2-same-P-V10-T500 none
+85e2e41caf0a466787ffba689121ca57: B1 independent state differs from permitted configuration
+60/126 C trials accepted
+60/126 accepted; next R2-same-P-V10-T1000 in Z-C-20261127-S01
+85e2e41caf0a466787ffba689121ca57: B1 independent state differs from permitted configuration
+60/126 C trials accepted
+3 C trials | 16000 pulse restart point | Watch 50 us
+R2-same-P-V10-T1000        12000 -> 16000 -> 20000 pulse  dwell 1000 ms  probe 10 mm/s
+R2-reverse-P-V10-T200      20000 -> 16000 -> 20000 pulse  dwell 200 ms  probe 10 mm/s
+R2-reverse-P-V10-T500      20000 -> 16000 -> 20000 pulse  dwell 500 ms  probe 10 mm/s
+Actual field session ID: Z-C-20261127-S01
+Confirm current field authorization and safeguards. Type READY: READY
+Independent precheck and route clearance passed.
+Type START to execute the displayed C batch: START
+R2-same-P-V10-T1000 none
+R2-reverse-P-V10-T200 none
+R2-reverse-P-V10-T500 none
+85e2e41caf0a466787ffba689121ca57: B1 independent state differs from permitted configuration
+63/126 C trials accepted
+63/126 accepted; next R2-reverse-P-V10-T1000 in Z-C-20261127-S01
+85e2e41caf0a466787ffba689121ca57: B1 independent state differs from permitted configuration
+63/126 C trials accepted
+3 C trials | 16000 pulse restart point | Watch 50 us
+R2-reverse-P-V10-T1000     20000 -> 16000 -> 20000 pulse  dwell 1000 ms  probe 10 mm/s
+R2-direct-N-V10-T2000      20000 -> 16000 -> 12000 pulse  dwell 2000 ms  probe 10 mm/s
+R2-same-N-V10-T200         20000 -> 16000 -> 12000 pulse  dwell 200 ms  probe 10 mm/s
+Actual field session ID: Z-C-20261127-S01
+Confirm current field authorization and safeguards. Type READY: READY
+C: C independent state check failed: E:\A_ZQY\ZR_Experiment\分项实验\03_摩擦与残差补偿\C\manifest\Z-C-HISTORY-01\attempts\e262ed86e06f4f119400fa481152e5fc\pre.txt
+63/126 accepted; next R2-reverse-P-V10-T1000 in Z-C-20261127-S01
+85e2e41caf0a466787ffba689121ca57: B1 independent state differs from permitted configuration
+63/126 C trials accepted
+3 C trials | 16000 pulse restart point | Watch 50 us
+R2-reverse-P-V10-T1000     20000 -> 16000 -> 20000 pulse  dwell 1000 ms  probe 10 mm/s
+R2-direct-N-V10-T2000      20000 -> 16000 -> 12000 pulse  dwell 2000 ms  probe 10 mm/s
+R2-same-N-V10-T200         20000 -> 16000 -> 12000 pulse  dwell 200 ms  probe 10 mm/s
+Actual field session ID: Z-C-20261127-S01
+Confirm current field authorization and safeguards. Type READY: READY
+Independent precheck and route clearance passed.
+Type START to execute the displayed C batch: START
+R2-reverse-P-V10-T1000 none
+R2-direct-N-V10-T2000 none
+R2-same-N-V10-T200 none
+85e2e41caf0a466787ffba689121ca57: B1 independent state differs from permitted configuration
+66/126 C trials accepted
+66/126 accepted; next R2-same-N-V10-T500 in Z-C-20261127-S01
+85e2e41caf0a466787ffba689121ca57: B1 independent state differs from permitted configuration
+66/126 C trials accepted
+3 C trials | 16000 pulse restart point | Watch 50 us
+R2-same-N-V10-T500         20000 -> 16000 -> 12000 pulse  dwell 500 ms  probe 10 mm/s
+R2-same-N-V10-T1000        20000 -> 16000 -> 12000 pulse  dwell 1000 ms  probe 10 mm/s
+R2-reverse-N-V10-T200      12000 -> 16000 -> 12000 pulse  dwell 200 ms  probe 10 mm/s
+Actual field session ID: Z-C-20261127-S01
+Confirm current field authorization and safeguards. Type READY: READY
+Independent precheck and route clearance passed.
+Type START to execute the displayed C batch: START
+R2-same-N-V10-T500 none
+R2-same-N-V10-T1000 none
+R2-reverse-N-V10-T200 none
+85e2e41caf0a466787ffba689121ca57: B1 independent state differs from permitted configuration
+69/126 C trials accepted
+69/126 accepted; next R2-reverse-N-V10-T500 in Z-C-20261127-S01
+85e2e41caf0a466787ffba689121ca57: B1 independent state differs from permitted configuration
+69/126 C trials accepted
+3 C trials | 16000 pulse restart point | Watch 50 us
+R2-reverse-N-V10-T500      12000 -> 16000 -> 12000 pulse  dwell 500 ms  probe 10 mm/s
+R2-reverse-N-V10-T1000     12000 -> 16000 -> 12000 pulse  dwell 1000 ms  probe 10 mm/s
+R2-direct-P-V2-T2000       12000 -> 16000 -> 20000 pulse  dwell 2000 ms  probe 2 mm/s
+Actual field session ID: Z-C-20261127-S01
+Confirm current field authorization and safeguards. Type READY: READY
+C: C independent state check failed: E:\A_ZQY\ZR_Experiment\分项实验\03_摩擦与残差补偿\C\manifest\Z-C-HISTORY-01\attempts\91e1278849ab4c418c0a65b2cddeff78\pre.txt
+69/126 accepted; next R2-reverse-N-V10-T500 in Z-C-20261127-S01
+85e2e41caf0a466787ffba689121ca57: B1 independent state differs from permitted configuration
+69/126 C trials accepted
+3 C trials | 16000 pulse restart point | Watch 50 us
+R2-reverse-N-V10-T500      12000 -> 16000 -> 12000 pulse  dwell 500 ms  probe 10 mm/s
+R2-reverse-N-V10-T1000     12000 -> 16000 -> 12000 pulse  dwell 1000 ms  probe 10 mm/s
+R2-direct-P-V2-T2000       12000 -> 16000 -> 20000 pulse  dwell 2000 ms  probe 2 mm/s
+Actual field session ID: Z-C-20261127-S01
+Confirm current field authorization and safeguards. Type READY: READY
+Independent precheck and route clearance passed.
+Type START to execute the displayed C batch: START
+R2-reverse-N-V10-T500 none
+R2-reverse-N-V10-T1000 none
+R2-direct-P-V2-T2000 none
+85e2e41caf0a466787ffba689121ca57: B1 independent state differs from permitted configuration
+72/126 C trials accepted
+72/126 accepted; next R2-same-P-V2-T200 in Z-C-20261127-S01
+85e2e41caf0a466787ffba689121ca57: B1 independent state differs from permitted configuration
+72/126 C trials accepted
+3 C trials | 16000 pulse restart point | Watch 50 us
+R2-same-P-V2-T200          12000 -> 16000 -> 20000 pulse  dwell 200 ms  probe 2 mm/s
+R2-same-P-V2-T500          12000 -> 16000 -> 20000 pulse  dwell 500 ms  probe 2 mm/s
+R2-same-P-V2-T1000         12000 -> 16000 -> 20000 pulse  dwell 1000 ms  probe 2 mm/s
+Actual field session ID: Z-C-20261127-S01
+Confirm current field authorization and safeguards. Type READY: READY
+Independent precheck and route clearance passed.
+Type START to execute the displayed C batch: START
+R2-same-P-V2-T200 none
+R2-same-P-V2-T500 none
+R2-same-P-V2-T1000 none
+85e2e41caf0a466787ffba689121ca57: B1 independent state differs from permitted configuration
+75/126 C trials accepted
+75/126 accepted; next R2-reverse-P-V2-T200 in Z-C-20261127-S01
+85e2e41caf0a466787ffba689121ca57: B1 independent state differs from permitted configuration
+75/126 C trials accepted
+3 C trials | 16000 pulse restart point | Watch 50 us
+R2-reverse-P-V2-T200       20000 -> 16000 -> 20000 pulse  dwell 200 ms  probe 2 mm/s
+R2-reverse-P-V2-T500       20000 -> 16000 -> 20000 pulse  dwell 500 ms  probe 2 mm/s
+R2-reverse-P-V2-T1000      20000 -> 16000 -> 20000 pulse  dwell 1000 ms  probe 2 mm/s
+Actual field session ID: Z-C-20261127-S01
+Confirm current field authorization and safeguards. Type READY: READY
+Independent precheck and route clearance passed.
+Type START to execute the displayed C batch: START
+R2-reverse-P-V2-T200 none
+R2-reverse-P-V2-T500 none
+R2-reverse-P-V2-T1000 none
+R2-reverse-P-V2-T200: C Watch position outside the scheduled path
+85e2e41caf0a466787ffba689121ca57: B1 independent state differs from permitted configuration
+77/126 C trials accepted
+77/126 accepted; next R2-reverse-P-V2-T200 in Z-C-20261127-S01
+85e2e41caf0a466787ffba689121ca57: B1 independent state differs from permitted configuration
+77/126 C trials accepted
+3 C trials | 16000 pulse restart point | Watch 50 us
+R2-reverse-P-V2-T200       20000 -> 16000 -> 20000 pulse  dwell 200 ms  probe 2 mm/s
+R2-direct-N-V2-T2000       20000 -> 16000 -> 12000 pulse  dwell 2000 ms  probe 2 mm/s
+R2-same-N-V2-T200          20000 -> 16000 -> 12000 pulse  dwell 200 ms  probe 2 mm/s
+Actual field session ID: Z-C-20261127-S01
+Confirm current field authorization and safeguards. Type READY: READY
+Independent precheck and route clearance passed.
+Type START to execute the displayed C batch: START
+R2-reverse-P-V2-T200 none
+R2-direct-N-V2-T2000 none
+R2-same-N-V2-T200 none
+85e2e41caf0a466787ffba689121ca57: B1 independent state differs from permitted configuration
+80/126 C trials accepted
+80/126 accepted; next R2-same-N-V2-T500 in Z-C-20261127-S01
+85e2e41caf0a466787ffba689121ca57: B1 independent state differs from permitted configuration
+80/126 C trials accepted
+3 C trials | 16000 pulse restart point | Watch 50 us
+R2-same-N-V2-T500          20000 -> 16000 -> 12000 pulse  dwell 500 ms  probe 2 mm/s
+R2-same-N-V2-T1000         20000 -> 16000 -> 12000 pulse  dwell 1000 ms  probe 2 mm/s
+R2-reverse-N-V2-T200       12000 -> 16000 -> 12000 pulse  dwell 200 ms  probe 2 mm/s
+Actual field session ID: Z-C-20261127-S01
+Confirm current field authorization and safeguards. Type READY: READY
+Independent precheck and route clearance passed.
+Type START to execute the displayed C batch: START
+R2-same-N-V2-T500 none
+R2-same-N-V2-T1000 none
+R2-reverse-N-V2-T200 none
+85e2e41caf0a466787ffba689121ca57: B1 independent state differs from permitted configuration
+83/126 C trials accepted
+83/126 accepted; next R2-reverse-N-V2-T500 in Z-C-20261127-S01
+85e2e41caf0a466787ffba689121ca57: B1 independent state differs from permitted configuration
+83/126 C trials accepted
+1 C trials | 16000 pulse restart point | Watch 50 us
+R2-reverse-N-V2-T500       12000 -> 16000 -> 12000 pulse  dwell 500 ms  probe 2 mm/s
+Actual field session ID: Z-C-20261127-S01
+Confirm current field authorization and safeguards. Type READY: READY
+Independent precheck and route clearance passed.
+Type START to execute the displayed C batch: START
+R2-reverse-N-V2-T500 none
+85e2e41caf0a466787ffba689121ca57: B1 independent state differs from permitted configuration
+84/126 C trials accepted
+84/126 accepted; next R3-reverse-N-V5-T500 in Z-C-20261127-S01
+85e2e41caf0a466787ffba689121ca57: B1 independent state differs from permitted configuration
+84/126 C trials accepted
+3 C trials | 16000 pulse restart point | Watch 50 us
+R3-reverse-N-V5-T500       12000 -> 16000 -> 12000 pulse  dwell 500 ms  probe 5 mm/s
+R3-reverse-N-V5-T1000      12000 -> 16000 -> 12000 pulse  dwell 1000 ms  probe 5 mm/s
+R3-direct-P-V10-T2000      12000 -> 16000 -> 20000 pulse  dwell 2000 ms  probe 10 mm/s
+Actual field session ID: Z-C-20261127-S01
+Confirm current field authorization and safeguards. Type READY: READY
+Independent precheck and route clearance passed.
+Type START to execute the displayed C batch: START
+R3-reverse-N-V5-T500 none
+R3-reverse-N-V5-T1000 none
+R3-direct-P-V10-T2000 none
+85e2e41caf0a466787ffba689121ca57: B1 independent state differs from permitted configuration
+87/126 C trials accepted
+87/126 accepted; next R3-same-P-V10-T200 in Z-C-20261127-S01
+85e2e41caf0a466787ffba689121ca57: B1 independent state differs from permitted configuration
+87/126 C trials accepted
+3 C trials | 16000 pulse restart point | Watch 50 us
+R3-same-P-V10-T200         12000 -> 16000 -> 20000 pulse  dwell 200 ms  probe 10 mm/s
+R3-same-P-V10-T500         12000 -> 16000 -> 20000 pulse  dwell 500 ms  probe 10 mm/s
+R3-same-P-V10-T1000        12000 -> 16000 -> 20000 pulse  dwell 1000 ms  probe 10 mm/s
+Actual field session ID: Z-C-20261127-S01
+Confirm current field authorization and safeguards. Type READY: READY
+Independent precheck and route clearance passed.
+Type START to execute the displayed C batch: START
+R3-same-P-V10-T200 none
+R3-same-P-V10-T500 none
+R3-same-P-V10-T1000 none
+85e2e41caf0a466787ffba689121ca57: B1 independent state differs from permitted configuration
+90/126 C trials accepted
+90/126 accepted; next R3-reverse-P-V10-T200 in Z-C-20261127-S01
+85e2e41caf0a466787ffba689121ca57: B1 independent state differs from permitted configuration
+90/126 C trials accepted
+3 C trials | 16000 pulse restart point | Watch 50 us
+R3-reverse-P-V10-T200      20000 -> 16000 -> 20000 pulse  dwell 200 ms  probe 10 mm/s
+R3-reverse-P-V10-T500      20000 -> 16000 -> 20000 pulse  dwell 500 ms  probe 10 mm/s
+R3-reverse-P-V10-T1000     20000 -> 16000 -> 20000 pulse  dwell 1000 ms  probe 10 mm/s
+Actual field session ID: Z-C-20261127-S01
+Confirm current field authorization and safeguards. Type READY: READY
+Independent precheck and route clearance passed.
+Type START to execute the displayed C batch: START
+R3-reverse-P-V10-T200 none
+R3-reverse-P-V10-T500 none
+R3-reverse-P-V10-T1000 none
+85e2e41caf0a466787ffba689121ca57: B1 independent state differs from permitted configuration
+93/126 C trials accepted
+93/126 accepted; next R3-direct-N-V10-T2000 in Z-C-20261127-S01
+85e2e41caf0a466787ffba689121ca57: B1 independent state differs from permitted configuration
+93/126 C trials accepted
+3 C trials | 16000 pulse restart point | Watch 50 us
+R3-direct-N-V10-T2000      20000 -> 16000 -> 12000 pulse  dwell 2000 ms  probe 10 mm/s
+R3-same-N-V10-T200         20000 -> 16000 -> 12000 pulse  dwell 200 ms  probe 10 mm/s
+R3-same-N-V10-T500         20000 -> 16000 -> 12000 pulse  dwell 500 ms  probe 10 mm/s
+Actual field session ID: Z-C-20261127-S01
+Confirm current field authorization and safeguards. Type READY: READY
+Independent precheck and route clearance passed.
+Type START to execute the displayed C batch: START
+R3-direct-N-V10-T2000 none
+R3-same-N-V10-T200 none
+R3-same-N-V10-T500 none
+85e2e41caf0a466787ffba689121ca57: B1 independent state differs from permitted configuration
+96/126 C trials accepted
+96/126 accepted; next R3-same-N-V10-T1000 in Z-C-20261127-S01
+85e2e41caf0a466787ffba689121ca57: B1 independent state differs from permitted configuration
+96/126 C trials accepted
+3 C trials | 16000 pulse restart point | Watch 50 us
+R3-same-N-V10-T1000        20000 -> 16000 -> 12000 pulse  dwell 1000 ms  probe 10 mm/s
+R3-reverse-N-V10-T200      12000 -> 16000 -> 12000 pulse  dwell 200 ms  probe 10 mm/s
+R3-reverse-N-V10-T500      12000 -> 16000 -> 12000 pulse  dwell 500 ms  probe 10 mm/s
+Actual field session ID: Z-C-20261127-S01
+Confirm current field authorization and safeguards. Type READY: READY
+Independent precheck and route clearance passed.
+Type START to execute the displayed C batch: START
+R3-same-N-V10-T1000 none
+R3-reverse-N-V10-T200 none
+R3-reverse-N-V10-T500 none
+85e2e41caf0a466787ffba689121ca57: B1 independent state differs from permitted configuration
+99/126 C trials accepted
+99/126 accepted; next R3-reverse-N-V10-T1000 in Z-C-20261127-S01
+85e2e41caf0a466787ffba689121ca57: B1 independent state differs from permitted configuration
+99/126 C trials accepted
+3 C trials | 16000 pulse restart point | Watch 50 us
+R3-reverse-N-V10-T1000     12000 -> 16000 -> 12000 pulse  dwell 1000 ms  probe 10 mm/s
+R3-direct-P-V2-T2000       12000 -> 16000 -> 20000 pulse  dwell 2000 ms  probe 2 mm/s
+R3-same-P-V2-T200          12000 -> 16000 -> 20000 pulse  dwell 200 ms  probe 2 mm/s
+Actual field session ID: Z-C-20261127-S01
+Confirm current field authorization and safeguards. Type READY: READY
+Independent precheck and route clearance passed.
+Type START to execute the displayed C batch: START
+R3-reverse-N-V10-T1000 none
+R3-direct-P-V2-T2000 none
+R3-same-P-V2-T200 none
+85e2e41caf0a466787ffba689121ca57: B1 independent state differs from permitted configuration
+102/126 C trials accepted
+102/126 accepted; next R3-same-P-V2-T500 in Z-C-20261127-S01
+85e2e41caf0a466787ffba689121ca57: B1 independent state differs from permitted configuration
+102/126 C trials accepted
+3 C trials | 16000 pulse restart point | Watch 50 us
+R3-same-P-V2-T500          12000 -> 16000 -> 20000 pulse  dwell 500 ms  probe 2 mm/s
+R3-same-P-V2-T1000         12000 -> 16000 -> 20000 pulse  dwell 1000 ms  probe 2 mm/s
+R3-reverse-P-V2-T200       20000 -> 16000 -> 20000 pulse  dwell 200 ms  probe 2 mm/s
+Actual field session ID: Z-C-20261127-S01
+Confirm current field authorization and safeguards. Type READY: READY
+Independent precheck and route clearance passed.
+Type START to execute the displayed C batch: START
+R3-same-P-V2-T500 none
+R3-same-P-V2-T1000 none
+R3-reverse-P-V2-T200 none
+85e2e41caf0a466787ffba689121ca57: B1 independent state differs from permitted configuration
+105/126 C trials accepted
+105/126 accepted; next R3-reverse-P-V2-T500 in Z-C-20261127-S01
+85e2e41caf0a466787ffba689121ca57: B1 independent state differs from permitted configuration
+105/126 C trials accepted
+3 C trials | 16000 pulse restart point | Watch 50 us
+R3-reverse-P-V2-T500       20000 -> 16000 -> 20000 pulse  dwell 500 ms  probe 2 mm/s
+R3-reverse-P-V2-T1000      20000 -> 16000 -> 20000 pulse  dwell 1000 ms  probe 2 mm/s
+R3-direct-N-V2-T2000       20000 -> 16000 -> 12000 pulse  dwell 2000 ms  probe 2 mm/s
+Actual field session ID: Z-C-20261127-S01
+Confirm current field authorization and safeguards. Type READY: READY
+Independent precheck and route clearance passed.
+Type START to execute the displayed C batch: START
+R3-reverse-P-V2-T500 none
+R3-reverse-P-V2-T1000 none
+R3-direct-N-V2-T2000 none
+85e2e41caf0a466787ffba689121ca57: B1 independent state differs from permitted configuration
+108/126 C trials accepted
+108/126 accepted; next R3-same-N-V2-T200 in Z-C-20261127-S01
+85e2e41caf0a466787ffba689121ca57: B1 independent state differs from permitted configuration
+108/126 C trials accepted
+3 C trials | 16000 pulse restart point | Watch 50 us
+R3-same-N-V2-T200          20000 -> 16000 -> 12000 pulse  dwell 200 ms  probe 2 mm/s
+R3-same-N-V2-T500          20000 -> 16000 -> 12000 pulse  dwell 500 ms  probe 2 mm/s
+R3-same-N-V2-T1000         20000 -> 16000 -> 12000 pulse  dwell 1000 ms  probe 2 mm/s
+Actual field session ID: Z-C-20261127-S01
+Confirm current field authorization and safeguards. Type READY: READY
+Independent precheck and route clearance passed.
+Type START to execute the displayed C batch: START
+R3-same-N-V2-T200 none
+R3-same-N-V2-T500 none
+R3-same-N-V2-T1000 none
+85e2e41caf0a466787ffba689121ca57: B1 independent state differs from permitted configuration
+111/126 C trials accepted
+111/126 accepted; next R3-reverse-N-V2-T200 in Z-C-20261127-S01
+85e2e41caf0a466787ffba689121ca57: B1 independent state differs from permitted configuration
+111/126 C trials accepted
+3 C trials | 16000 pulse restart point | Watch 50 us
+R3-reverse-N-V2-T200       12000 -> 16000 -> 12000 pulse  dwell 200 ms  probe 2 mm/s
+R3-reverse-N-V2-T500       12000 -> 16000 -> 12000 pulse  dwell 500 ms  probe 2 mm/s
+R3-reverse-N-V2-T1000      12000 -> 16000 -> 12000 pulse  dwell 1000 ms  probe 2 mm/s
+Actual field session ID: Z-C-20261127-S01
+Confirm current field authorization and safeguards. Type READY: READY
+Independent precheck and route clearance passed.
+Type START to execute the displayed C batch: START
+R3-reverse-N-V2-T200 none
+R3-reverse-N-V2-T500 none
+R3-reverse-N-V2-T1000 none
+85e2e41caf0a466787ffba689121ca57: B1 independent state differs from permitted configuration
+114/126 C trials accepted
+114/126 accepted; next R3-direct-P-V5-T2000 in Z-C-20261127-S01
+85e2e41caf0a466787ffba689121ca57: B1 independent state differs from permitted configuration
+114/126 C trials accepted
+3 C trials | 16000 pulse restart point | Watch 50 us
+R3-direct-P-V5-T2000       12000 -> 16000 -> 20000 pulse  dwell 2000 ms  probe 5 mm/s
+R3-same-P-V5-T200          12000 -> 16000 -> 20000 pulse  dwell 200 ms  probe 5 mm/s
+R3-same-P-V5-T500          12000 -> 16000 -> 20000 pulse  dwell 500 ms  probe 5 mm/s
+Actual field session ID: Z-C-20261127-S01
+Confirm current field authorization and safeguards. Type READY: READY
+Independent precheck and route clearance passed.
+Type START to execute the displayed C batch: START
+R3-direct-P-V5-T2000 none
+R3-same-P-V5-T200 none
+R3-same-P-V5-T500 none
+85e2e41caf0a466787ffba689121ca57: B1 independent state differs from permitted configuration
+117/126 C trials accepted
+117/126 accepted; next R3-same-P-V5-T1000 in Z-C-20261127-S01
+85e2e41caf0a466787ffba689121ca57: B1 independent state differs from permitted configuration
+117/126 C trials accepted
+3 C trials | 16000 pulse restart point | Watch 50 us
+R3-same-P-V5-T1000         12000 -> 16000 -> 20000 pulse  dwell 1000 ms  probe 5 mm/s
+R3-reverse-P-V5-T200       20000 -> 16000 -> 20000 pulse  dwell 200 ms  probe 5 mm/s
+R3-reverse-P-V5-T500       20000 -> 16000 -> 20000 pulse  dwell 500 ms  probe 5 mm/s
+Actual field session ID: Z-C-20261127-S01
+Confirm current field authorization and safeguards. Type READY: READY
+Independent precheck and route clearance passed.
+Type START to execute the displayed C batch: START
+R3-same-P-V5-T1000 none
+R3-reverse-P-V5-T200 none
+R3-reverse-P-V5-T500 none
+85e2e41caf0a466787ffba689121ca57: B1 independent state differs from permitted configuration
+120/126 C trials accepted
+120/126 accepted; next R3-reverse-P-V5-T1000 in Z-C-20261127-S01
+85e2e41caf0a466787ffba689121ca57: B1 independent state differs from permitted configuration
+120/126 C trials accepted
+3 C trials | 16000 pulse restart point | Watch 50 us
+R3-reverse-P-V5-T1000      20000 -> 16000 -> 20000 pulse  dwell 1000 ms  probe 5 mm/s
+R3-direct-N-V5-T2000       20000 -> 16000 -> 12000 pulse  dwell 2000 ms  probe 5 mm/s
+R3-same-N-V5-T200          20000 -> 16000 -> 12000 pulse  dwell 200 ms  probe 5 mm/s
+Actual field session ID: Z-C-20261127-S01
+Confirm current field authorization and safeguards. Type READY: READY
+Independent precheck and route clearance passed.
+Type START to execute the displayed C batch: START
+R3-reverse-P-V5-T1000 none
+R3-direct-N-V5-T2000 none
+R3-same-N-V5-T200 none
+85e2e41caf0a466787ffba689121ca57: B1 independent state differs from permitted configuration
+123/126 C trials accepted
+123/126 accepted; next R3-same-N-V5-T500 in Z-C-20261127-S01
+85e2e41caf0a466787ffba689121ca57: B1 independent state differs from permitted configuration
+123/126 C trials accepted
+3 C trials | 16000 pulse restart point | Watch 50 us
+R3-same-N-V5-T500          20000 -> 16000 -> 12000 pulse  dwell 500 ms  probe 5 mm/s
+R3-same-N-V5-T1000         20000 -> 16000 -> 12000 pulse  dwell 1000 ms  probe 5 mm/s
+R3-reverse-N-V5-T200       12000 -> 16000 -> 12000 pulse  dwell 200 ms  probe 5 mm/s
+Actual field session ID: Z-C-20261127-S01
+Confirm current field authorization and safeguards. Type READY: READY
+Independent precheck and route clearance passed.
+Type START to execute the displayed C batch: START
+R3-same-N-V5-T500 none
+R3-same-N-V5-T1000 none
+R3-reverse-N-V5-T200 none
+85e2e41caf0a466787ffba689121ca57: B1 independent state differs from permitted configuration
+126/126 C trials accepted

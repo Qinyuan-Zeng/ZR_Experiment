@@ -1,0 +1,4 @@
+0.0 37000.0 4000.0 500.0 0.99 3
+R2-same-P-V5-T500 same 1 5 500
+R2-same-P-V5-T1000 same 1 5 1000
+R2-reverse-P-V5-T200 reverse 1 5 200
