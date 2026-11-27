@@ -20,3 +20,4 @@ ipch/
 *.ipdb
 obj/
 ~$*
+/分项实验/03_摩擦与残差补偿/B0/mechanism_samples.csv.gz

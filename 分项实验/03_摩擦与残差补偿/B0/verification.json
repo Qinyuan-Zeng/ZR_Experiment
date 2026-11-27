@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "source_hashes_verified": 1868,
+  "inventory_rows": 2265,
+  "timestamp_model_and_mask_rows_verified": 2111793,
+  "figures_verified": 4,
+  "prefix_future_invariance": true,
+  "stage2_C_duplicate_source_legs": 160,
+  "eligible_E_rows": 0
+}

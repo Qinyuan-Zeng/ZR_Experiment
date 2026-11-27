@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="820" height="407" preserveAspectRatio="xMinYMin meet" viewBox="0 0 820 407" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="820" height="407"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-407)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="820" height="407" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="233.48999999999998" y="381" style="font-family: Times-Roman; font-size: 19px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,762) scale(1,-1)">Mechanism current errors on common support</text>
+			<path d="M 75,91 L 403,91 Z" style="stroke: rgb(89%,89%,89%); stroke-linecap: butt; stroke-width: 0.4;"/>
+			<path d="M 75,91 L 79,91 Z" style="stroke: rgb(8%,8%,8%); stroke-linecap: butt; stroke-width: 0.65;"/>
+			<text x="62.0" y="87.0" style="font-family: Times-Roman; font-size: 12px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,174) scale(1,-1)">0</text>
+			<path d="M 75,165.666667 L 403,165.666667 Z" style="stroke: rgb(89%,89%,89%); stroke-linecap: butt; stroke-width: 0.4;"/>
+			<path d="M 75,165.666667 L 79,165.666667 Z" style="stroke: rgb(8%,8%,8%); stroke-linecap: butt; stroke-width: 0.65;"/>
+			<text x="56.0" y="161.66666666666669" style="font-family: Times-Roman; font-size: 12px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,323) scale(1,-1)">50</text>
+			<path d="M 75,240.333333 L 403,240.333333 Z" style="stroke: rgb(89%,89%,89%); stroke-linecap: butt; stroke-width: 0.4;"/>
+			<path d="M 75,240.333333 L 79,240.333333 Z" style="stroke: rgb(8%,8%,8%); stroke-linecap: butt; stroke-width: 0.65;"/>
+			<text x="50.0" y="236.33333333333334" style="font-family: Times-Roman; font-size: 12px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,472) scale(1,-1)">100</text>
+			<path d="M 75,315 L 403,315 Z" style="stroke: rgb(89%,89%,89%); stroke-linecap: butt; stroke-width: 0.4;"/>
+			<path d="M 75,315 L 79,315 Z" style="stroke: rgb(8%,8%,8%); stroke-linecap: butt; stroke-width: 0.65;"/>
+			<text x="50.0" y="311.0" style="font-family: Times-Roman; font-size: 12px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,622) scale(1,-1)">150</text>
+			<rect x="75" y="91" width="328" height="224" style="stroke: rgb(8%,8%,8%); stroke-linecap: butt; stroke-width: 0.75; fill: none; fill-rule: evenodd;"/>
+			<text x="239.0" y="56" style="font-family: Times-Roman; font-size: 14px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,112) scale(1,-1)"></text>
+			<g transform=" matrix(0,1,-1,0,26,203)">
+				<text x="-76.594" y="0" style="font-family: Times-Roman; font-size: 14px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,0) scale(1,-1)">Run-balanced RMSE (raw)</text>
+			</g>
+			<text x="188.3825" y="330" style="font-family: Times-Roman; font-size: 15px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,660) scale(1,-1)">Stage 2 B Watch</text>
+			<text x="84.74665384615383" y="70" style="font-family: Times-Roman; font-size: 11px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,140) scale(1,-1)">Acceleration</text>
+			<rect x="89.71794871794872" y="91.0" width="19.343589743589746" height="119.19524019200003" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,44%,74%); fill-rule: evenodd;"/>
+			<rect x="116.63076923076922" y="91.0" width="19.34358974358973" height="29.47259421866667" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(85%,32%,9%); fill-rule: evenodd;"/>
+			<text x="181.97771794871792" y="70" style="font-family: Times-Roman; font-size: 11px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,140) scale(1,-1)">Steady</text>
+			<rect x="173.82051282051282" y="91.0" width="19.343589743589746" height="159.44950634666668" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,44%,74%); fill-rule: evenodd;"/>
+			<rect x="200.7333333333333" y="91.0" width="19.343589743589746" height="17.963242304000005" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(85%,32%,9%); fill-rule: evenodd;"/>
+			<text x="252.95178205128204" y="70" style="font-family: Times-Roman; font-size: 11px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,140) scale(1,-1)">Deceleration</text>
+			<rect x="257.9230769230769" y="91.0" width="19.343589743589746" height="122.87815351466668" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,44%,74%); fill-rule: evenodd;"/>
+			<rect x="284.83589743589744" y="91.0" width="19.343589743589746" height="23.548477866666673" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(85%,32%,9%); fill-rule: evenodd;"/>
+			<text x="354.1538461538462" y="70" style="font-family: Times-Roman; font-size: 11px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,140) scale(1,-1)">Hold</text>
+			<rect x="342.025641025641" y="91.0" width="19.343589743589746" height="99.70951259733334" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,44%,74%); fill-rule: evenodd;"/>
+			<rect x="368.9384615384615" y="91.0" width="19.343589743589746" height="99.70951259733334" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(85%,32%,9%); fill-rule: evenodd;"/>
+			<path d="M 473,91 L 801,91 Z" style="stroke: rgb(89%,89%,89%); stroke-linecap: butt; stroke-width: 0.4;"/>
+			<path d="M 473,91 L 477,91 Z" style="stroke: rgb(8%,8%,8%); stroke-linecap: butt; stroke-width: 0.65;"/>
+			<text x="460.0" y="87.0" style="font-family: Times-Roman; font-size: 12px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,174) scale(1,-1)">0</text>
+			<path d="M 473,165.666667 L 801,165.666667 Z" style="stroke: rgb(89%,89%,89%); stroke-linecap: butt; stroke-width: 0.4;"/>
+			<path d="M 473,165.666667 L 477,165.666667 Z" style="stroke: rgb(8%,8%,8%); stroke-linecap: butt; stroke-width: 0.65;"/>
+			<text x="454.0" y="161.66666666666669" style="font-family: Times-Roman; font-size: 12px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,323) scale(1,-1)">50</text>
+			<path d="M 473,240.333333 L 801,240.333333 Z" style="stroke: rgb(89%,89%,89%); stroke-linecap: butt; stroke-width: 0.4;"/>
+			<path d="M 473,240.333333 L 477,240.333333 Z" style="stroke: rgb(8%,8%,8%); stroke-linecap: butt; stroke-width: 0.65;"/>
+			<text x="448.0" y="236.33333333333334" style="font-family: Times-Roman; font-size: 12px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,472) scale(1,-1)">100</text>
+			<path d="M 473,315 L 801,315 Z" style="stroke: rgb(89%,89%,89%); stroke-linecap: butt; stroke-width: 0.4;"/>
+			<path d="M 473,315 L 477,315 Z" style="stroke: rgb(8%,8%,8%); stroke-linecap: butt; stroke-width: 0.65;"/>
+			<text x="448.0" y="311.0" style="font-family: Times-Roman; font-size: 12px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,622) scale(1,-1)">150</text>
+			<rect x="473" y="91" width="328" height="224" style="stroke: rgb(8%,8%,8%); stroke-linecap: butt; stroke-width: 0.75; fill: none; fill-rule: evenodd;"/>
+			<text x="637.0" y="56" style="font-family: Times-Roman; font-size: 14px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,112) scale(1,-1)"></text>
+			<g transform=" matrix(0,1,-1,0,424,203)">
+				<text x="-76.594" y="0" style="font-family: Times-Roman; font-size: 14px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,0) scale(1,-1)">Run-balanced RMSE (raw)</text>
+			</g>
+			<text x="593.0425" y="330" style="font-family: Times-Roman; font-size: 15px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,660) scale(1,-1)">Stage 3 A host</text>
+			<text x="482.74665384615383" y="70" style="font-family: Times-Roman; font-size: 11px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,140) scale(1,-1)">Acceleration</text>
+			<rect x="487.71794871794873" y="91.0" width="19.343589743589746" height="157.06031189333333" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,44%,74%); fill-rule: evenodd;"/>
+			<rect x="514.6307692307693" y="91.0" width="19.343589743589746" height="14.85759611093333" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(85%,32%,9%); fill-rule: evenodd;"/>
+			<text x="579.9777179487179" y="70" style="font-family: Times-Roman; font-size: 11px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,140) scale(1,-1)">Steady</text>
+			<rect x="571.8205128205128" y="91.0" width="19.343589743589746" height="145.79767716266667" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,44%,74%); fill-rule: evenodd;"/>
+			<rect x="598.7333333333333" y="91.0" width="19.343589743589746" height="12.120186429866664" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(85%,32%,9%); fill-rule: evenodd;"/>
+			<text x="650.951782051282" y="70" style="font-family: Times-Roman; font-size: 11px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,140) scale(1,-1)">Deceleration</text>
+			<rect x="655.9230769230769" y="91.0" width="19.343589743589746" height="148.31046719999998" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,44%,74%); fill-rule: evenodd;"/>
+			<rect x="682.8358974358974" y="91.0" width="19.343589743589746" height="13.461600738133342" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(85%,32%,9%); fill-rule: evenodd;"/>
+			<text x="752.1538461538462" y="70" style="font-family: Times-Roman; font-size: 11px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,140) scale(1,-1)">Hold</text>
+			<rect x="740.025641025641" y="91.0" width="19.343589743589746" height="120.88294220800003" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,44%,74%); fill-rule: evenodd;"/>
+			<rect x="766.9384615384615" y="91.0" width="19.343589743589746" height="120.88294220800003" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(85%,32%,9%); fill-rule: evenodd;"/>
+			<path d="M 314,359 L 339,359 Z" style="stroke: rgb(0%,44%,74%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<text x="344" y="355" style="font-family: Times-Roman; font-size: 13px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,710) scale(1,-1)">M0</text>
+			<path d="M 366,359 L 391,359 Z" style="stroke: rgb(85%,32%,9%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<text x="396" y="355" style="font-family: Times-Roman; font-size: 13px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,710) scale(1,-1)">M1</text>
+			<text x="168.81749999999997" y="26" style="font-family: Times-Roman; font-size: 13px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,52) scale(1,-1)">Training candidates only. Each leg has equal weight; blanks indicate no comparable support.</text>
+		</g>
+	</g>
+</svg>

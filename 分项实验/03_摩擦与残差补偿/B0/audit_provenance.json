@@ -1,0 +1,35 @@
+{
+  "plan_name": "ZR_Stage3_Experiment_B_Plan_V1.1.md",
+  "plan_sha256": "3121767d6394e26c2926d1e9ccb134a6e7254c7f89f702ee717e2073156d8aa1",
+  "analysis_period_s": 0.005,
+  "position_model_sha256": "e854bcf3816a68e2b3a3952936c7fb1ef970fb2979cdd947c788e3a75e49e195",
+  "alpha_source_sha256": "ec6ed3bc189df8a7c5493ad750d876ed2e3a58389615b6fbab840c495e3e1907",
+  "friction_model_sha256": "e13fab8c4f2cb1ff8d46a2fee3e731042138344fe1f1a81beeb645bdc7912030",
+  "alpha_raw_per_pulse_s2": 3.0306147541113107e-05,
+  "position_table_semantic_sha256": "21a8c53ef63cd84bc91f85aaad10bac79e87fbef3671c0e71bc9360c45658050",
+  "friction_coefficients": {
+    "1": [
+      84.18513816411043,
+      0.4121492171357224
+    ],
+    "-1": [
+      -98.28260774160067,
+      -0.3121997876527753
+    ]
+  },
+  "Ip_position_pulse": [
+    1000,
+    31000
+  ],
+  "F1_position_pulse": [
+    10000,
+    22000
+  ],
+  "F1_sliding_speed_pulse_s": [
+    2000,
+    40000
+  ],
+  "historical_runs": 2265,
+  "five_ms_samples": 2111793,
+  "E_historical_samples_eligible": 0
+}
