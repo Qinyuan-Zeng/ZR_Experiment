@@ -1,0 +1,27 @@
+{
+  "features": [
+    "x_pulse",
+    "v_pulse_s",
+    "a_pulse_s2",
+    "v_history",
+    "still_history",
+    "arrival_memory",
+    "time_since_stop"
+  ],
+  "models": {
+    "position_B_primary_v1.json": "e854bcf3816a68e2b3a3952936c7fb1ef970fb2979cdd947c788e3a75e49e195",
+    "Z-DP_20261126-095126_343_29884_summary.json": "ec6ed3bc189df8a7c5493ad750d876ed2e3a58389615b6fbab840c495e3e1907",
+    "models_frozen.json": "e13fab8c4f2cb1ff8d46a2fee3e731042138344fe1f1a81beeb645bdc7912030"
+  },
+  "alpha": 3.0306147541113107e-05,
+  "protocols": {
+    "B1": "2c47ad8cfe76096875ca7d3f6cf8f167181edc0a3007a0f38efb955ea32bbb08",
+    "C": "95c6a593c1d53ab84bcab5b624d415b16d50e5b98765c9580b30b3cc40426469",
+    "D": "9370509f00faef182025976ce4603b3beeb896dd0bbe9156b5a790cc01c22214"
+  },
+  "dt_s": 0.005,
+  "native_tick_s": 5e-05,
+  "accepted_frames": 31101563,
+  "rows": 311235,
+  "E_used": false
+}

@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="475" viewBox="0 0 1000 475">
+<rect width="1000" height="475" fill="white"/>
+<g font-family="Times New Roman, SimSun, serif" font-size="16" fill="#202020">
+<line x1="155.00" y1="45.00" x2="155.00" y2="375.00" stroke="#dddddd" stroke-width="1"/>
+<line x1="155.00" y1="375.00" x2="155.00" y2="370.00" stroke="#222" stroke-width="1"/>
+<text x="155.00" y="397.00" text-anchor="middle" >0</text>
+<line x1="234.00" y1="45.00" x2="234.00" y2="375.00" stroke="#dddddd" stroke-width="1"/>
+<line x1="234.00" y1="375.00" x2="234.00" y2="370.00" stroke="#222" stroke-width="1"/>
+<text x="234.00" y="397.00" text-anchor="middle" >25</text>
+<line x1="313.00" y1="45.00" x2="313.00" y2="375.00" stroke="#dddddd" stroke-width="1"/>
+<line x1="313.00" y1="375.00" x2="313.00" y2="370.00" stroke="#222" stroke-width="1"/>
+<text x="313.00" y="397.00" text-anchor="middle" >50</text>
+<line x1="392.00" y1="45.00" x2="392.00" y2="375.00" stroke="#dddddd" stroke-width="1"/>
+<line x1="392.00" y1="375.00" x2="392.00" y2="370.00" stroke="#222" stroke-width="1"/>
+<text x="392.00" y="397.00" text-anchor="middle" >75</text>
+<line x1="471.00" y1="45.00" x2="471.00" y2="375.00" stroke="#dddddd" stroke-width="1"/>
+<line x1="471.00" y1="375.00" x2="471.00" y2="370.00" stroke="#222" stroke-width="1"/>
+<text x="471.00" y="397.00" text-anchor="middle" >100</text>
+<text x="146.00" y="76.00" text-anchor="end" >Acceleration</text>
+<rect x="155" y="59.0" width="201.32" height="6.7" fill="#163d6a"/>
+<rect x="155" y="67.0" width="133.09" height="6.7" fill="#d86824"/>
+<rect x="155" y="75.0" width="40.77" height="6.7" fill="#208476"/>
+<rect x="155" y="83.0" width="39.85" height="6.7" fill="#79549e"/>
+<rect x="155" y="91.0" width="38.67" height="6.7" fill="#727c86"/>
+<text x="146.00" y="158.50" text-anchor="end" >Cruise</text>
+<rect x="155" y="141.5" width="287.97" height="6.7" fill="#163d6a"/>
+<rect x="155" y="149.5" width="46.76" height="6.7" fill="#d86824"/>
+<rect x="155" y="157.5" width="27.46" height="6.7" fill="#208476"/>
+<rect x="155" y="165.5" width="28.03" height="6.7" fill="#79549e"/>
+<rect x="155" y="173.5" width="27.68" height="6.7" fill="#727c86"/>
+<text x="146.00" y="241.00" text-anchor="end" >Deceleration</text>
+<rect x="155" y="224.0" width="297.99" height="6.7" fill="#163d6a"/>
+<rect x="155" y="232.0" width="32.59" height="6.7" fill="#d86824"/>
+<rect x="155" y="240.0" width="30.30" height="6.7" fill="#208476"/>
+<rect x="155" y="248.0" width="29.58" height="6.7" fill="#79549e"/>
+<rect x="155" y="256.0" width="27.86" height="6.7" fill="#727c86"/>
+<text x="146.00" y="323.50" text-anchor="end" >HOLD</text>
+<rect x="155" y="306.5" width="213.24" height="6.7" fill="#163d6a"/>
+<rect x="155" y="314.5" width="213.24" height="6.7" fill="#d86824"/>
+<rect x="155" y="322.5" width="29.81" height="6.7" fill="#208476"/>
+<rect x="155" y="330.5" width="64.50" height="6.7" fill="#79549e"/>
+<rect x="155" y="338.5" width="36.63" height="6.7" fill="#727c86"/>
+<rect x="155" y="45" width="316" height="330" fill="none" stroke="#222"/>
+<text x="313.00" y="421.00" text-anchor="middle" >RMSE (raw)</text>
+<text x="155.00" y="26.00" text-anchor="start" >(a)</text>
+<line x1="645.00" y1="45.00" x2="645.00" y2="375.00" stroke="#dddddd" stroke-width="1"/>
+<line x1="645.00" y1="375.00" x2="645.00" y2="370.00" stroke="#222" stroke-width="1"/>
+<text x="645.00" y="397.00" text-anchor="middle" >0</text>
+<line x1="724.00" y1="45.00" x2="724.00" y2="375.00" stroke="#dddddd" stroke-width="1"/>
+<line x1="724.00" y1="375.00" x2="724.00" y2="370.00" stroke="#222" stroke-width="1"/>
+<text x="724.00" y="397.00" text-anchor="middle" >31.25</text>
+<line x1="803.00" y1="45.00" x2="803.00" y2="375.00" stroke="#dddddd" stroke-width="1"/>
+<line x1="803.00" y1="375.00" x2="803.00" y2="370.00" stroke="#222" stroke-width="1"/>
+<text x="803.00" y="397.00" text-anchor="middle" >62.5</text>
+<line x1="882.00" y1="45.00" x2="882.00" y2="375.00" stroke="#dddddd" stroke-width="1"/>
+<line x1="882.00" y1="375.00" x2="882.00" y2="370.00" stroke="#222" stroke-width="1"/>
+<text x="882.00" y="397.00" text-anchor="middle" >93.75</text>
+<line x1="961.00" y1="45.00" x2="961.00" y2="375.00" stroke="#dddddd" stroke-width="1"/>
+<line x1="961.00" y1="375.00" x2="961.00" y2="370.00" stroke="#222" stroke-width="1"/>
+<text x="961.00" y="397.00" text-anchor="middle" >125</text>
+<text x="636.00" y="76.00" text-anchor="end" >Acceleration</text>
+<rect x="645" y="59.0" width="230.18" height="6.7" fill="#163d6a"/>
+<rect x="645" y="67.0" width="171.04" height="6.7" fill="#d86824"/>
+<rect x="645" y="75.0" width="71.02" height="6.7" fill="#208476"/>
+<rect x="645" y="83.0" width="62.42" height="6.7" fill="#79549e"/>
+<rect x="645" y="91.0" width="64.58" height="6.7" fill="#727c86"/>
+<text x="636.00" y="158.50" text-anchor="end" >Cruise</text>
+<rect x="645" y="141.5" width="293.81" height="6.7" fill="#163d6a"/>
+<rect x="645" y="149.5" width="80.48" height="6.7" fill="#d86824"/>
+<rect x="645" y="157.5" width="43.10" height="6.7" fill="#208476"/>
+<rect x="645" y="165.5" width="45.25" height="6.7" fill="#79549e"/>
+<rect x="645" y="173.5" width="44.25" height="6.7" fill="#727c86"/>
+<text x="636.00" y="241.00" text-anchor="end" >Deceleration</text>
+<rect x="645" y="224.0" width="279.08" height="6.7" fill="#163d6a"/>
+<rect x="645" y="232.0" width="37.15" height="6.7" fill="#d86824"/>
+<rect x="645" y="240.0" width="33.11" height="6.7" fill="#208476"/>
+<rect x="645" y="248.0" width="32.19" height="6.7" fill="#79549e"/>
+<rect x="645" y="256.0" width="31.63" height="6.7" fill="#727c86"/>
+<text x="636.00" y="323.50" text-anchor="end" >HOLD</text>
+<rect x="645" y="306.5" width="220.29" height="6.7" fill="#163d6a"/>
+<rect x="645" y="314.5" width="220.29" height="6.7" fill="#d86824"/>
+<rect x="645" y="322.5" width="48.15" height="6.7" fill="#208476"/>
+<rect x="645" y="330.5" width="123.37" height="6.7" fill="#79549e"/>
+<rect x="645" y="338.5" width="60.95" height="6.7" fill="#727c86"/>
+<rect x="645" y="45" width="316" height="330" fill="none" stroke="#222"/>
+<text x="803.00" y="421.00" text-anchor="middle" >Absolute error P95 (raw)</text>
+<text x="645.00" y="26.00" text-anchor="start" >(b)</text>
+<line x1="197.00" y1="449.00" x2="219.00" y2="449.00" stroke="#163d6a" stroke-width="5"/>
+<text x="224.00" y="454.00" text-anchor="start" >M0</text>
+<line x1="332.00" y1="449.00" x2="354.00" y2="449.00" stroke="#d86824" stroke-width="5"/>
+<text x="359.00" y="454.00" text-anchor="start" >M1</text>
+<line x1="467.00" y1="449.00" x2="489.00" y2="449.00" stroke="#208476" stroke-width="5"/>
+<text x="494.00" y="454.00" text-anchor="start" >M2</text>
+<line x1="602.00" y1="449.00" x2="624.00" y2="449.00" stroke="#79549e" stroke-width="5"/>
+<text x="629.00" y="454.00" text-anchor="start" >No direction</text>
+<line x1="737.00" y1="449.00" x2="759.00" y2="449.00" stroke="#727c86" stroke-width="5"/>
+<text x="764.00" y="454.00" text-anchor="start" >No stop time</text>
+</g>
+</svg>
