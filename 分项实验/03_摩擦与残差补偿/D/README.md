@@ -49,4 +49,4 @@ $id = 'Z-D-HOLD-01'
 
 试采通过后，去掉 `--pilot` 按批次续采。Ctrl+C 可请求程序平滑停机。中断原始记录保留，按完整独立到位补采。原始数据在 `D/data/raw`，协议及检查记录在 `D/manifest`。历史回放输出 `D/results/historical`，新协议输出 `D/results/<协议ID>`。其中 `hold_windows.csv` 记录逐次窗口和有效性，`hold_coverage.csv` 汇总覆盖，`hold_summary.csv` 汇总误差与重复性，`direction_pairs.csv` 给出新 D 正反向配对结果。
 
-实机协议需在新一轮现场确认后执行。当前入口已编译，实机补采尚待开展。
+2026-11-27，协议 Z-D-HOLD-01 完成实机采集。18 次全部验收，90 个分层窗口有效。未通过的采集和独立复查均留档，按原判据补采后入账。4～6 s 的正向减反向平均残差在 12、16、20 mm 分别为 58.28、59.00、74.99 raw。 [逐次验收](results/Z-D-HOLD-01/accepted_trials.csv) · [方向配对](results/Z-D-HOLD-01/direction_pairs.csv)
