@@ -1,6 +1,7 @@
 #pragma once
 
 #include "watch_capture.hpp"
+#include <functional>
 
 namespace matched_motion {
 using namespace watch_capture;
@@ -219,7 +220,9 @@ static_assert(verifyTailWindow(), "Tail requires stable position and contiguous 
 
 class Axis {
 public:
-    Axis(Recorder& connection, std::ostream& manifest) : card(connection), log(manifest) {}
+    using Monitor = std::function<void(const State&)>;
+    Axis(Recorder& connection, std::ostream& manifest, Monitor observe = {})
+        : card(connection), log(manifest), monitor(std::move(observe)) {}
     ~Axis() { abort(log); }
 
     State feedback(std::ostream* trace = nullptr, const char* phase = "") {
@@ -263,6 +266,7 @@ public:
     State read(std::ostream* trace = nullptr, const char* phase = "") {
         const State s = feedback(trace, phase);
         validate(s);
+        if (monitor) monitor(s);
         return s;
     }
 
@@ -366,6 +370,7 @@ public:
 private:
     Recorder& card;
     std::ostream& log;
+    Monitor monitor;
     double followLimit = 0;
     bool active = false;
 };

@@ -1,0 +1,547 @@
+0/160 accepted; next R1-P1-V10-A400 in Z-B1-20261127-S01
+0/160 B1 pairs accepted
+4 bidirectional pairs | 8 legs | selected slots
+P1 10000-22000 pulse | P2 12000-20000 pulse | pre/post settled hold 1 s each
+Existing TRAP clock readback 50 us required. Watch 1/core tick; no interpolation setter.
+R1-P1-V10-A400      S1  22000 -> 10000 -> 22000 pulse  10 mm/s  400 mm/s^2  cruise 11.75 mm
+R1-P2-V10-A400      S1  12000 -> 20000 -> 12000 pulse  10 mm/s  400 mm/s^2  cruise  7.75 mm
+R1-P1-V20-A400      S1  22000 -> 10000 -> 22000 pulse  20 mm/s  400 mm/s^2  cruise 11.00 mm
+R1-P2-V20-A400      S1  12000 -> 20000 -> 12000 pulse  20 mm/s  400 mm/s^2  cruise  7.00 mm
+Actual field session ID: Z-B1-20261127-S01
+Confirm field state, authorized scope and safeguards (including existing drive protection). Type READY: READY
+Independent precheck and route clearance passed.
+R1-P1-V10-A400 | 22000 -> 10000 -> 22000 pulse | 10 mm/s | 400 mm/s^2
+R1-P2-V10-A400 | 12000 -> 20000 -> 12000 pulse | 10 mm/s | 400 mm/s^2
+R1-P1-V20-A400 | 22000 -> 10000 -> 22000 pulse | 20 mm/s | 400 mm/s^2
+R1-P2-V20-A400 | 12000 -> 20000 -> 12000 pulse | 20 mm/s | 400 mm/s^2
+Type START to execute the displayed B1 batch: START
+R1-P1-V10-A400_leg1 complete
+R1-P1-V10-A400_leg2 complete
+R1-P2-V10-A400_leg1 complete
+R1-P2-V10-A400_leg2 complete
+R1-P1-V20-A400_leg1 complete
+R1-P1-V20-A400_leg2 complete
+R1-P2-V20-A400_leg1 B1 transfer initial state is not idle/aligned
+R1-P2-V20-A400 remains pending: Leg 1: incomplete acquisition or mismatched configuration
+3/160 B1 pairs accepted
+3/160 accepted; next R1-P2-V20-A400 in Z-B1-20261127-S01
+3/160 B1 pairs accepted
+4 bidirectional pairs | 8 legs | selected slots
+P1 10000-22000 pulse | P2 12000-20000 pulse | pre/post settled hold 1 s each
+Existing TRAP clock readback 50 us required. Watch 1/core tick; no interpolation setter.
+R1-P2-V20-A400      S1  12000 -> 20000 -> 12000 pulse  20 mm/s  400 mm/s^2  cruise  7.00 mm
+R1-P1-V20-A600      S1  22000 -> 10000 -> 22000 pulse  20 mm/s  600 mm/s^2  cruise 11.33 mm
+R1-P2-V20-A600      S1  12000 -> 20000 -> 12000 pulse  20 mm/s  600 mm/s^2  cruise  7.33 mm
+R1-P1-V40-A400      S1  22000 -> 10000 -> 22000 pulse  40 mm/s  400 mm/s^2  cruise  8.00 mm
+Actual field session ID: Z-B1-20261127-S01
+Confirm field state, authorized scope and safeguards (including existing drive protection). Type READY: READY
+Independent precheck and route clearance passed.
+R1-P2-V20-A400 | 12000 -> 20000 -> 12000 pulse | 20 mm/s | 400 mm/s^2
+R1-P1-V20-A600 | 22000 -> 10000 -> 22000 pulse | 20 mm/s | 600 mm/s^2
+R1-P2-V20-A600 | 12000 -> 20000 -> 12000 pulse | 20 mm/s | 600 mm/s^2
+R1-P1-V40-A400 | 22000 -> 10000 -> 22000 pulse | 40 mm/s | 400 mm/s^2
+Type START to execute the displayed B1 batch: START
+R1-P2-V20-A400_leg1 complete
+R1-P2-V20-A400_leg2 complete
+R1-P1-V20-A600_leg1 complete
+R1-P1-V20-A600_leg2 complete
+R1-P2-V20-A600_leg1 complete
+R1-P2-V20-A600_leg2 complete
+R1-P1-V40-A400_leg1 complete
+R1-P1-V40-A400_leg2 complete
+7/160 B1 pairs accepted
+7/160 accepted; next R1-P2-V40-A400 in Z-B1-20261127-S01
+7/160 B1 pairs accepted
+3 bidirectional pairs | 6 legs | selected slots
+P1 10000-22000 pulse | P2 12000-20000 pulse | pre/post settled hold 1 s each
+Existing TRAP clock readback 50 us required. Watch 1/core tick; no interpolation setter.
+R1-P2-V40-A400      S1  12000 -> 20000 -> 12000 pulse  40 mm/s  400 mm/s^2  cruise  4.00 mm
+R1-P1-V40-A600      S1  22000 -> 10000 -> 22000 pulse  40 mm/s  600 mm/s^2  cruise  9.33 mm
+R1-P2-V40-A600      S1  12000 -> 20000 -> 12000 pulse  40 mm/s  600 mm/s^2  cruise  5.33 mm
+Actual field session ID: Z-B1-20261127-S01
+Confirm field state, authorized scope and safeguards (including existing drive protection). Type READY: READY
+Independent precheck and route clearance passed.
+R1-P2-V40-A400 | 12000 -> 20000 -> 12000 pulse | 40 mm/s | 400 mm/s^2
+R1-P1-V40-A600 | 22000 -> 10000 -> 22000 pulse | 40 mm/s | 600 mm/s^2
+R1-P2-V40-A600 | 12000 -> 20000 -> 12000 pulse | 40 mm/s | 600 mm/s^2
+Type START to execute the displayed B1 batch: START
+R1-P2-V40-A400_leg1 complete
+R1-P2-V40-A400_leg2 complete
+R1-P1-V40-A600_leg1 complete
+R1-P1-V40-A600_leg2 complete
+R1-P2-V40-A600_leg1 complete
+R1-P2-V40-A600_leg2 complete
+10/160 B1 pairs accepted
+10/160 accepted; next R1-P1-V2-A400 in Z-B1-20261127-S01
+10/160 B1 pairs accepted
+4 bidirectional pairs | 8 legs | selected slots
+P1 10000-22000 pulse | P2 12000-20000 pulse | pre/post settled hold 1 s each
+Existing TRAP clock readback 50 us required. Watch 1/core tick; no interpolation setter.
+R1-P1-V2-A400       S1  22000 -> 10000 -> 22000 pulse   2 mm/s  400 mm/s^2  cruise 11.99 mm
+R1-P2-V2-A400       S1  12000 -> 20000 -> 12000 pulse   2 mm/s  400 mm/s^2  cruise  7.99 mm
+R1-P1-V5-A400       S1  22000 -> 10000 -> 22000 pulse   5 mm/s  400 mm/s^2  cruise 11.94 mm
+R1-P2-V5-A400       S1  12000 -> 20000 -> 12000 pulse   5 mm/s  400 mm/s^2  cruise  7.94 mm
+Actual field session ID: Z-B1-20261127-S01
+Confirm field state, authorized scope and safeguards (including existing drive protection). Type READY: READY
+Independent precheck and route clearance passed.
+R1-P1-V2-A400 | 22000 -> 10000 -> 22000 pulse | 2 mm/s | 400 mm/s^2
+R1-P2-V2-A400 | 12000 -> 20000 -> 12000 pulse | 2 mm/s | 400 mm/s^2
+R1-P1-V5-A400 | 22000 -> 10000 -> 22000 pulse | 5 mm/s | 400 mm/s^2
+R1-P2-V5-A400 | 12000 -> 20000 -> 12000 pulse | 5 mm/s | 400 mm/s^2
+Type START to execute the displayed B1 batch: START
+R1-P1-V2-A400_leg1 complete
+R1-P1-V2-A400_leg2 complete
+R1-P2-V2-A400_leg1 complete
+R1-P2-V2-A400_leg2 complete
+R1-P1-V5-A400_leg1 complete
+R1-P1-V5-A400_leg2 complete
+R1-P2-V5-A400_leg1 complete
+R1-P2-V5-A400_leg2 complete
+14/160 B1 pairs accepted
+14/160 accepted; next R1-P2-V30-A500 in Z-B1-20261127-S01
+14/160 B1 pairs accepted
+4 bidirectional pairs | 8 legs | selected slots
+P1 10000-22000 pulse | P2 12000-20000 pulse | pre/post settled hold 1 s each
+Existing TRAP clock readback 50 us required. Watch 1/core tick; no interpolation setter.
+R1-P2-V30-A500      S1  12000 -> 20000 -> 12000 pulse  30 mm/s  500 mm/s^2  cruise  6.20 mm
+R1-P1-V30-A500      S1  22000 -> 10000 -> 22000 pulse  30 mm/s  500 mm/s^2  cruise 10.20 mm
+R1-P1-V10-A600      S1  22000 -> 10000 -> 22000 pulse  10 mm/s  600 mm/s^2  cruise 11.83 mm
+R1-P2-V10-A600      S1  12000 -> 20000 -> 12000 pulse  10 mm/s  600 mm/s^2  cruise  7.83 mm
+Actual field session ID: Z-B1-20261127-S01
+Confirm field state, authorized scope and safeguards (including existing drive protection). Type READY: READY
+Independent precheck and route clearance passed.
+R1-P2-V30-A500 | 12000 -> 20000 -> 12000 pulse | 30 mm/s | 500 mm/s^2
+R1-P1-V30-A500 | 22000 -> 10000 -> 22000 pulse | 30 mm/s | 500 mm/s^2
+R1-P1-V10-A600 | 22000 -> 10000 -> 22000 pulse | 10 mm/s | 600 mm/s^2
+R1-P2-V10-A600 | 12000 -> 20000 -> 12000 pulse | 10 mm/s | 600 mm/s^2
+Type START to execute the displayed B1 batch: START
+R1-P2-V30-A500_leg1 complete
+R1-P2-V30-A500_leg2 complete
+R1-P1-V30-A500_leg1 complete
+R1-P1-V30-A500_leg2 complete
+R1-P1-V10-A600_leg1 complete
+R1-P1-V10-A600_leg2 complete
+R1-P2-V10-A600_leg1 complete
+R1-P2-V10-A600_leg2 complete
+18/160 B1 pairs accepted
+18/160 accepted; next R1-P1-V15-A400 in Z-B1-20261127-S01
+18/160 B1 pairs accepted
+4 bidirectional pairs | 8 legs | selected slots
+P1 10000-22000 pulse | P2 12000-20000 pulse | pre/post settled hold 1 s each
+Existing TRAP clock readback 50 us required. Watch 1/core tick; no interpolation setter.
+R1-P1-V15-A400      S1  22000 -> 10000 -> 22000 pulse  15 mm/s  400 mm/s^2  cruise 11.44 mm
+R1-P2-V15-A400      S1  12000 -> 20000 -> 12000 pulse  15 mm/s  400 mm/s^2  cruise  7.44 mm
+R1-P2-V30-A600      S1  12000 -> 20000 -> 12000 pulse  30 mm/s  600 mm/s^2  cruise  6.50 mm
+R1-P1-V30-A600      S1  22000 -> 10000 -> 22000 pulse  30 mm/s  600 mm/s^2  cruise 10.50 mm
+Actual field session ID: Z-B1-20261127-S01
+Confirm field state, authorized scope and safeguards (including existing drive protection). Type READY: READY
+Independent precheck and route clearance passed.
+R1-P1-V15-A400 | 22000 -> 10000 -> 22000 pulse | 15 mm/s | 400 mm/s^2
+R1-P2-V15-A400 | 12000 -> 20000 -> 12000 pulse | 15 mm/s | 400 mm/s^2
+R1-P2-V30-A600 | 12000 -> 20000 -> 12000 pulse | 30 mm/s | 600 mm/s^2
+R1-P1-V30-A600 | 22000 -> 10000 -> 22000 pulse | 30 mm/s | 600 mm/s^2
+Type START to execute the displayed B1 batch: START
+R1-P1-V15-A400_leg1 complete
+R1-P1-V15-A400_leg2 complete
+R1-P2-V15-A400_leg1 complete
+R1-P2-V15-A400_leg2 complete
+R1-P2-V30-A600_leg1 complete
+R1-P2-V30-A600_leg2 complete
+R1-P1-V30-A600_leg1 complete
+R1-P1-V30-A600_leg2 complete
+B1: B1 independent state check failed: E:\A_ZQY\ZR_Experiment\分项实验\03_摩擦与残差补偿\B1\manifest\Z-B1-20261127-01\attempts\df41a16263de4a3f83a41531b892e40f\post.txt
+22/160 accepted; next R1-P2-V40-A500 in Z-B1-20261127-S01
+22/160 B1 pairs accepted
+4 bidirectional pairs | 8 legs | selected slots
+P1 10000-22000 pulse | P2 12000-20000 pulse | pre/post settled hold 1 s each
+Existing TRAP clock readback 50 us required. Watch 1/core tick; no interpolation setter.
+R1-P2-V40-A500      S1  12000 -> 20000 -> 12000 pulse  40 mm/s  500 mm/s^2  cruise  4.80 mm
+R1-P1-V40-A500      S1  22000 -> 10000 -> 22000 pulse  40 mm/s  500 mm/s^2  cruise  8.80 mm
+R1-P1-V15-A500      S1  22000 -> 10000 -> 22000 pulse  15 mm/s  500 mm/s^2  cruise 11.55 mm
+R1-P2-V15-A500      S1  12000 -> 20000 -> 12000 pulse  15 mm/s  500 mm/s^2  cruise  7.55 mm
+Actual field session ID: Z-B1-20261127-S01
+Confirm field state, authorized scope and safeguards (including existing drive protection). Type READY: READY
+Independent precheck and route clearance passed.
+R1-P2-V40-A500 | 12000 -> 20000 -> 12000 pulse | 40 mm/s | 500 mm/s^2
+R1-P1-V40-A500 | 22000 -> 10000 -> 22000 pulse | 40 mm/s | 500 mm/s^2
+R1-P1-V15-A500 | 22000 -> 10000 -> 22000 pulse | 15 mm/s | 500 mm/s^2
+R1-P2-V15-A500 | 12000 -> 20000 -> 12000 pulse | 15 mm/s | 500 mm/s^2
+Type START to execute the displayed B1 batch: START
+R1-P2-V40-A500_leg1 complete
+R1-P2-V40-A500_leg2 complete
+R1-P1-V40-A500_leg1 complete
+R1-P1-V40-A500_leg2 complete
+R1-P1-V15-A500_leg1 complete
+R1-P1-V15-A500_leg2 complete
+R1-P2-V15-A500_leg1 complete
+R1-P2-V15-A500_leg2 complete
+26/160 B1 pairs accepted
+26/160 accepted; next R1-P2-V30-A400 in Z-B1-20261127-S01
+26/160 B1 pairs accepted
+4 bidirectional pairs | 8 legs | selected slots
+P1 10000-22000 pulse | P2 12000-20000 pulse | pre/post settled hold 1 s each
+Existing TRAP clock readback 50 us required. Watch 1/core tick; no interpolation setter.
+R1-P2-V30-A400      S1  12000 -> 20000 -> 12000 pulse  30 mm/s  400 mm/s^2  cruise  5.75 mm
+R1-P1-V30-A400      S1  22000 -> 10000 -> 22000 pulse  30 mm/s  400 mm/s^2  cruise  9.75 mm
+R1-P1-V15-A600      S1  22000 -> 10000 -> 22000 pulse  15 mm/s  600 mm/s^2  cruise 11.62 mm
+R1-P2-V15-A600      S1  12000 -> 20000 -> 12000 pulse  15 mm/s  600 mm/s^2  cruise  7.62 mm
+Actual field session ID: Z-B1-20261127-S01
+Confirm field state, authorized scope and safeguards (including existing drive protection). Type READY: READY
+Independent precheck and route clearance passed.
+R1-P2-V30-A400 | 12000 -> 20000 -> 12000 pulse | 30 mm/s | 400 mm/s^2
+R1-P1-V30-A400 | 22000 -> 10000 -> 22000 pulse | 30 mm/s | 400 mm/s^2
+R1-P1-V15-A600 | 22000 -> 10000 -> 22000 pulse | 15 mm/s | 600 mm/s^2
+R1-P2-V15-A600 | 12000 -> 20000 -> 12000 pulse | 15 mm/s | 600 mm/s^2
+Type START to execute the displayed B1 batch: START
+R1-P2-V30-A400_leg1 complete
+R1-P2-V30-A400_leg2 complete
+R1-P1-V30-A400_leg1 complete
+R1-P1-V30-A400_leg2 complete
+R1-P1-V15-A600_leg1 complete
+R1-P1-V15-A600_leg2 complete
+R1-P2-V15-A600_leg1 complete
+R1-P2-V15-A600_leg2 complete
+30/160 B1 pairs accepted
+30/160 accepted; next R1-P2-V20-A500 in Z-B1-20261127-S01
+30/160 B1 pairs accepted
+2 bidirectional pairs | 4 legs | selected slots
+P1 10000-22000 pulse | P2 12000-20000 pulse | pre/post settled hold 1 s each
+Existing TRAP clock readback 50 us required. Watch 1/core tick; no interpolation setter.
+R1-P2-V20-A500      S1  12000 -> 20000 -> 12000 pulse  20 mm/s  500 mm/s^2  cruise  7.20 mm
+R1-P1-V20-A500      S1  22000 -> 10000 -> 22000 pulse  20 mm/s  500 mm/s^2  cruise 11.20 mm
+Actual field session ID: Z-B1-20261127-S01
+Confirm field state, authorized scope and safeguards (including existing drive protection). Type READY: READY
+Independent precheck and route clearance passed.
+R1-P2-V20-A500 | 12000 -> 20000 -> 12000 pulse | 20 mm/s | 500 mm/s^2
+R1-P1-V20-A500 | 22000 -> 10000 -> 22000 pulse | 20 mm/s | 500 mm/s^2
+Type START to execute the displayed B1 batch: START
+R1-P2-V20-A500_leg1 complete
+R1-P2-V20-A500_leg2 complete
+R1-P1-V20-A500_leg1 complete
+R1-P1-V20-A500_leg2 complete
+B1: B1 independent state check failed: E:\A_ZQY\ZR_Experiment\分项实验\03_摩擦与残差补偿\B1\manifest\Z-B1-20261127-01\attempts\3f6924e883434754bad5da327f1fbde4\post.txt
+32/160 accepted; next R2-P1-V30-A500 in Z-B1-20261127-S01
+32/160 B1 pairs accepted
+4 bidirectional pairs | 8 legs | selected slots
+P1 10000-22000 pulse | P2 12000-20000 pulse | pre/post settled hold 1 s each
+Existing TRAP clock readback 50 us required. Watch 1/core tick; no interpolation setter.
+R2-P1-V30-A500      S1  10000 -> 22000 -> 10000 pulse  30 mm/s  500 mm/s^2  cruise 10.20 mm
+R2-P1-V10-A400      S1  10000 -> 22000 -> 10000 pulse  10 mm/s  400 mm/s^2  cruise 11.75 mm
+R2-P2-V10-A400      S1  20000 -> 12000 -> 20000 pulse  10 mm/s  400 mm/s^2  cruise  7.75 mm
+R2-P2-V20-A600      S1  20000 -> 12000 -> 20000 pulse  20 mm/s  600 mm/s^2  cruise  7.33 mm
+Actual field session ID: Z-B1-20261127-S01
+Confirm field state, authorized scope and safeguards (including existing drive protection). Type READY: READY
+Independent precheck and route clearance passed.
+R2-P1-V30-A500 | 10000 -> 22000 -> 10000 pulse | 30 mm/s | 500 mm/s^2
+R2-P1-V10-A400 | 10000 -> 22000 -> 10000 pulse | 10 mm/s | 400 mm/s^2
+R2-P2-V10-A400 | 20000 -> 12000 -> 20000 pulse | 10 mm/s | 400 mm/s^2
+R2-P2-V20-A600 | 20000 -> 12000 -> 20000 pulse | 20 mm/s | 600 mm/s^2
+Type START to execute the displayed B1 batch: START
+R2-P1-V30-A500_leg1 complete
+R2-P1-V30-A500_leg2 complete
+R2-P1-V10-A400_leg1 B1 transfer initial state is not idle/aligned
+R2-P1-V10-A400 remains pending: Leg 1: incomplete acquisition or mismatched configuration
+R2-P2-V10-A400 remains pending: [Errno 2] No such file or directory: 'E:\\A_ZQY\\ZR_Experiment\\分项实验\\03_摩擦与残差补偿\\B1\\data\\raw\\Z-B1-20261127-01\\80ee3a8660f2451783df3a961c2d4b60\\R2-P2-V10-A400_leg1.csv'
+R2-P2-V20-A600 remains pending: [Errno 2] No such file or directory: 'E:\\A_ZQY\\ZR_Experiment\\分项实验\\03_摩擦与残差补偿\\B1\\data\\raw\\Z-B1-20261127-01\\80ee3a8660f2451783df3a961c2d4b60\\R2-P2-V20-A600_leg1.csv'
+33/160 B1 pairs accepted
+33/160 accepted; next R2-P1-V10-A400 in Z-B1-20261127-S01
+33/160 B1 pairs accepted
+4 bidirectional pairs | 8 legs | selected slots
+P1 10000-22000 pulse | P2 12000-20000 pulse | pre/post settled hold 1 s each
+Existing TRAP clock readback 50 us required. Watch 1/core tick; no interpolation setter.
+R2-P1-V10-A400      S1  10000 -> 22000 -> 10000 pulse  10 mm/s  400 mm/s^2  cruise 11.75 mm
+R2-P2-V10-A400      S1  20000 -> 12000 -> 20000 pulse  10 mm/s  400 mm/s^2  cruise  7.75 mm
+R2-P2-V20-A600      S1  20000 -> 12000 -> 20000 pulse  20 mm/s  600 mm/s^2  cruise  7.33 mm
+R2-P1-V20-A600      S1  10000 -> 22000 -> 10000 pulse  20 mm/s  600 mm/s^2  cruise 11.33 mm
+Actual field session ID: Z-B1-20261127-S01
+Confirm field state, authorized scope and safeguards (including existing drive protection). Type READY: READY
+Independent precheck and route clearance passed.
+R2-P1-V10-A400 | 10000 -> 22000 -> 10000 pulse | 10 mm/s | 400 mm/s^2
+R2-P2-V10-A400 | 20000 -> 12000 -> 20000 pulse | 10 mm/s | 400 mm/s^2
+R2-P2-V20-A600 | 20000 -> 12000 -> 20000 pulse | 20 mm/s | 600 mm/s^2
+R2-P1-V20-A600 | 10000 -> 22000 -> 10000 pulse | 20 mm/s | 600 mm/s^2
+Type START to execute the displayed B1 batch: START
+R2-P1-V10-A400_leg1 complete
+R2-P1-V10-A400_leg2 complete
+R2-P2-V10-A400_leg1 complete
+R2-P2-V10-A400_leg2 complete
+R2-P2-V20-A600_leg1 complete
+R2-P2-V20-A600_leg2 complete
+R2-P1-V20-A600_leg1 complete
+R2-P1-V20-A600_leg2 complete
+37/160 B1 pairs accepted
+37/160 accepted; next R2-P1-V10-A600 in Z-B1-20261127-S01
+37/160 B1 pairs accepted
+4 bidirectional pairs | 8 legs | selected slots
+P1 10000-22000 pulse | P2 12000-20000 pulse | pre/post settled hold 1 s each
+Existing TRAP clock readback 50 us required. Watch 1/core tick; no interpolation setter.
+R2-P1-V10-A600      S1  10000 -> 22000 -> 10000 pulse  10 mm/s  600 mm/s^2  cruise 11.83 mm
+R2-P2-V10-A600      S1  20000 -> 12000 -> 20000 pulse  10 mm/s  600 mm/s^2  cruise  7.83 mm
+R2-P2-V40-A400      S1  20000 -> 12000 -> 20000 pulse  40 mm/s  400 mm/s^2  cruise  4.00 mm
+R2-P1-V40-A400      S1  10000 -> 22000 -> 10000 pulse  40 mm/s  400 mm/s^2  cruise  8.00 mm
+Actual field session ID: Z-B1-20261127-S01
+Confirm field state, authorized scope and safeguards (including existing drive protection). Type READY: READY
+Independent precheck and route clearance passed.
+R2-P1-V10-A600 | 10000 -> 22000 -> 10000 pulse | 10 mm/s | 600 mm/s^2
+R2-P2-V10-A600 | 20000 -> 12000 -> 20000 pulse | 10 mm/s | 600 mm/s^2
+R2-P2-V40-A400 | 20000 -> 12000 -> 20000 pulse | 40 mm/s | 400 mm/s^2
+R2-P1-V40-A400 | 10000 -> 22000 -> 10000 pulse | 40 mm/s | 400 mm/s^2
+Type START to execute the displayed B1 batch: START
+R2-P1-V10-A600_leg1 complete
+R2-P1-V10-A600_leg2 complete
+R2-P2-V10-A600_leg1 complete
+R2-P2-V10-A600_leg2 complete
+R2-P2-V40-A400_leg1 complete
+R2-P2-V40-A400_leg2 complete
+R2-P1-V40-A400_leg1 complete
+R2-P1-V40-A400_leg2 complete
+41/160 B1 pairs accepted
+41/160 accepted; next R2-P1-V15-A400 in Z-B1-20261127-S01
+41/160 B1 pairs accepted
+4 bidirectional pairs | 8 legs | selected slots
+P1 10000-22000 pulse | P2 12000-20000 pulse | pre/post settled hold 1 s each
+Existing TRAP clock readback 50 us required. Watch 1/core tick; no interpolation setter.
+R2-P1-V15-A400      S1  10000 -> 22000 -> 10000 pulse  15 mm/s  400 mm/s^2  cruise 11.44 mm
+R2-P2-V15-A400      S1  20000 -> 12000 -> 20000 pulse  15 mm/s  400 mm/s^2  cruise  7.44 mm
+R2-P2-V30-A600      S1  20000 -> 12000 -> 20000 pulse  30 mm/s  600 mm/s^2  cruise  6.50 mm
+R2-P1-V30-A600      S1  10000 -> 22000 -> 10000 pulse  30 mm/s  600 mm/s^2  cruise 10.50 mm
+Actual field session ID: Z-B1-20261127-S01
+Confirm field state, authorized scope and safeguards (including existing drive protection). Type READY: READY
+Independent precheck and route clearance passed.
+R2-P1-V15-A400 | 10000 -> 22000 -> 10000 pulse | 15 mm/s | 400 mm/s^2
+R2-P2-V15-A400 | 20000 -> 12000 -> 20000 pulse | 15 mm/s | 400 mm/s^2
+R2-P2-V30-A600 | 20000 -> 12000 -> 20000 pulse | 30 mm/s | 600 mm/s^2
+R2-P1-V30-A600 | 10000 -> 22000 -> 10000 pulse | 30 mm/s | 600 mm/s^2
+Type START to execute the displayed B1 batch: START
+R2-P1-V15-A400_leg1 complete
+R2-P1-V15-A400_leg2 complete
+R2-P2-V15-A400_leg1 complete
+R2-P2-V15-A400_leg2 complete
+R2-P2-V30-A600_leg1 complete
+R2-P2-V30-A600_leg2 complete
+R2-P1-V30-A600_leg1 complete
+R2-P1-V30-A600_leg2 complete
+45/160 B1 pairs accepted
+45/160 accepted; next R2-P1-V20-A400 in Z-B1-20261127-S01
+45/160 B1 pairs accepted
+4 bidirectional pairs | 8 legs | selected slots
+P1 10000-22000 pulse | P2 12000-20000 pulse | pre/post settled hold 1 s each
+Existing TRAP clock readback 50 us required. Watch 1/core tick; no interpolation setter.
+R2-P1-V20-A400      S1  10000 -> 22000 -> 10000 pulse  20 mm/s  400 mm/s^2  cruise 11.00 mm
+R2-P2-V20-A400      S1  20000 -> 12000 -> 20000 pulse  20 mm/s  400 mm/s^2  cruise  7.00 mm
+R2-P2-V40-A500      S1  20000 -> 12000 -> 20000 pulse  40 mm/s  500 mm/s^2  cruise  4.80 mm
+R2-P1-V40-A500      S1  10000 -> 22000 -> 10000 pulse  40 mm/s  500 mm/s^2  cruise  8.80 mm
+Actual field session ID: Z-B1-20261127-S01
+Confirm field state, authorized scope and safeguards (including existing drive protection). Type READY: READY
+Independent precheck and route clearance passed.
+R2-P1-V20-A400 | 10000 -> 22000 -> 10000 pulse | 20 mm/s | 400 mm/s^2
+R2-P2-V20-A400 | 20000 -> 12000 -> 20000 pulse | 20 mm/s | 400 mm/s^2
+R2-P2-V40-A500 | 20000 -> 12000 -> 20000 pulse | 40 mm/s | 500 mm/s^2
+R2-P1-V40-A500 | 10000 -> 22000 -> 10000 pulse | 40 mm/s | 500 mm/s^2
+Type START to execute the displayed B1 batch: START
+R2-P1-V20-A400_leg1 complete
+R2-P1-V20-A400_leg2 complete
+R2-P2-V20-A400_leg1 complete
+R2-P2-V20-A400_leg2 complete
+R2-P2-V40-A500_leg1 B1 transfer initial state is not idle/aligned
+R2-P2-V40-A500 remains pending: Leg 1: incomplete acquisition or mismatched configuration
+R2-P1-V40-A500 remains pending: [Errno 2] No such file or directory: 'E:\\A_ZQY\\ZR_Experiment\\分项实验\\03_摩擦与残差补偿\\B1\\data\\raw\\Z-B1-20261127-01\\007cf652e6104aa68da760b98b893453\\R2-P1-V40-A500_leg1.csv'
+47/160 B1 pairs accepted
+47/160 accepted; next R2-P2-V40-A500 in Z-B1-20261127-S01
+47/160 B1 pairs accepted
+4 bidirectional pairs | 8 legs | selected slots
+P1 10000-22000 pulse | P2 12000-20000 pulse | pre/post settled hold 1 s each
+Existing TRAP clock readback 50 us required. Watch 1/core tick; no interpolation setter.
+R2-P2-V40-A500      S1  20000 -> 12000 -> 20000 pulse  40 mm/s  500 mm/s^2  cruise  4.80 mm
+R2-P1-V40-A500      S1  10000 -> 22000 -> 10000 pulse  40 mm/s  500 mm/s^2  cruise  8.80 mm
+R2-P1-V15-A500      S1  10000 -> 22000 -> 10000 pulse  15 mm/s  500 mm/s^2  cruise 11.55 mm
+R2-P2-V15-A500      S1  20000 -> 12000 -> 20000 pulse  15 mm/s  500 mm/s^2  cruise  7.55 mm
+Actual field session ID: Z-B1-20261127-S01
+Confirm field state, authorized scope and safeguards (including existing drive protection). Type READY: READY
+Independent precheck and route clearance passed.
+R2-P2-V40-A500 | 20000 -> 12000 -> 20000 pulse | 40 mm/s | 500 mm/s^2
+R2-P1-V40-A500 | 10000 -> 22000 -> 10000 pulse | 40 mm/s | 500 mm/s^2
+R2-P1-V15-A500 | 10000 -> 22000 -> 10000 pulse | 15 mm/s | 500 mm/s^2
+R2-P2-V15-A500 | 20000 -> 12000 -> 20000 pulse | 15 mm/s | 500 mm/s^2
+Type START to execute the displayed B1 batch: START
+R2-P2-V40-A500_leg1 complete
+R2-P2-V40-A500_leg2 complete
+R2-P1-V40-A500_leg1 complete
+R2-P1-V40-A500_leg2 complete
+R2-P1-V15-A500_leg1 complete
+R2-P1-V15-A500_leg2 complete
+R2-P2-V15-A500_leg1 B1 did not establish continuous settled hold
+R2-P2-V15-A500 remains pending: Leg 1: incomplete acquisition or mismatched configuration
+50/160 B1 pairs accepted
+50/160 accepted; next R2-P2-V15-A500 in Z-B1-20261127-S01
+50/160 B1 pairs accepted
+4 bidirectional pairs | 8 legs | selected slots
+P1 10000-22000 pulse | P2 12000-20000 pulse | pre/post settled hold 1 s each
+Existing TRAP clock readback 50 us required. Watch 1/core tick; no interpolation setter.
+R2-P2-V15-A500      S1  20000 -> 12000 -> 20000 pulse  15 mm/s  500 mm/s^2  cruise  7.55 mm
+R2-P2-V30-A400      S1  20000 -> 12000 -> 20000 pulse  30 mm/s  400 mm/s^2  cruise  5.75 mm
+R2-P1-V30-A400      S1  10000 -> 22000 -> 10000 pulse  30 mm/s  400 mm/s^2  cruise  9.75 mm
+R2-P1-V15-A600      S1  10000 -> 22000 -> 10000 pulse  15 mm/s  600 mm/s^2  cruise 11.62 mm
+Actual field session ID: Z-B1-20261127-S01
+Confirm field state, authorized scope and safeguards (including existing drive protection). Type READY: READY
+Independent precheck and route clearance passed.
+R2-P2-V15-A500 | 20000 -> 12000 -> 20000 pulse | 15 mm/s | 500 mm/s^2
+R2-P2-V30-A400 | 20000 -> 12000 -> 20000 pulse | 30 mm/s | 400 mm/s^2
+R2-P1-V30-A400 | 10000 -> 22000 -> 10000 pulse | 30 mm/s | 400 mm/s^2
+R2-P1-V15-A600 | 10000 -> 22000 -> 10000 pulse | 15 mm/s | 600 mm/s^2
+Type START to execute the displayed B1 batch: START
+R2-P2-V15-A500_leg1 complete
+R2-P2-V15-A500_leg2 complete
+R2-P2-V30-A400_leg1 complete
+R2-P2-V30-A400_leg2 complete
+R2-P1-V30-A400_leg1 complete
+R2-P1-V30-A400_leg2 complete
+R2-P1-V15-A600_leg1 complete
+R2-P1-V15-A600_leg2 complete
+54/160 B1 pairs accepted
+54/160 accepted; next R2-P2-V15-A600 in Z-B1-20261127-S01
+54/160 B1 pairs accepted
+4 bidirectional pairs | 8 legs | selected slots
+P1 10000-22000 pulse | P2 12000-20000 pulse | pre/post settled hold 1 s each
+Existing TRAP clock readback 50 us required. Watch 1/core tick; no interpolation setter.
+R2-P2-V15-A600      S1  20000 -> 12000 -> 20000 pulse  15 mm/s  600 mm/s^2  cruise  7.62 mm
+R2-P2-V20-A500      S1  20000 -> 12000 -> 20000 pulse  20 mm/s  500 mm/s^2  cruise  7.20 mm
+R2-P1-V20-A500      S1  10000 -> 22000 -> 10000 pulse  20 mm/s  500 mm/s^2  cruise 11.20 mm
+R2-P1-V2-A400       S1  10000 -> 22000 -> 10000 pulse   2 mm/s  400 mm/s^2  cruise 11.99 mm
+Actual field session ID: Z-B1-20261127-S01
+Confirm field state, authorized scope and safeguards (including existing drive protection). Type READY: READY
+Independent precheck and route clearance passed.
+R2-P2-V15-A600 | 20000 -> 12000 -> 20000 pulse | 15 mm/s | 600 mm/s^2
+R2-P2-V20-A500 | 20000 -> 12000 -> 20000 pulse | 20 mm/s | 500 mm/s^2
+R2-P1-V20-A500 | 10000 -> 22000 -> 10000 pulse | 20 mm/s | 500 mm/s^2
+R2-P1-V2-A400 | 10000 -> 22000 -> 10000 pulse | 2 mm/s | 400 mm/s^2
+Type START to execute the displayed B1 batch: START
+R2-P2-V15-A600_leg1 complete
+R2-P2-V15-A600_leg2 complete
+R2-P2-V20-A500_leg1 complete
+R2-P2-V20-A500_leg2 complete
+R2-P1-V20-A500_leg1 complete
+R2-P1-V20-A500_leg2 complete
+R2-P1-V2-A400_leg1 complete
+R2-P1-V2-A400_leg2 complete
+58/160 B1 pairs accepted
+58/160 accepted; next R2-P2-V2-A400 in Z-B1-20261127-S01
+58/160 B1 pairs accepted
+4 bidirectional pairs | 8 legs | selected slots
+P1 10000-22000 pulse | P2 12000-20000 pulse | pre/post settled hold 1 s each
+Existing TRAP clock readback 50 us required. Watch 1/core tick; no interpolation setter.
+R2-P2-V2-A400       S1  20000 -> 12000 -> 20000 pulse   2 mm/s  400 mm/s^2  cruise  7.99 mm
+R2-P2-V40-A600      S1  20000 -> 12000 -> 20000 pulse  40 mm/s  600 mm/s^2  cruise  5.33 mm
+R2-P1-V40-A600      S1  10000 -> 22000 -> 10000 pulse  40 mm/s  600 mm/s^2  cruise  9.33 mm
+R2-P1-V5-A400       S1  10000 -> 22000 -> 10000 pulse   5 mm/s  400 mm/s^2  cruise 11.94 mm
+Actual field session ID: Z-B1-20261127-S01
+Confirm field state, authorized scope and safeguards (including existing drive protection). Type READY: READY
+Independent precheck and route clearance passed.
+R2-P2-V2-A400 | 20000 -> 12000 -> 20000 pulse | 2 mm/s | 400 mm/s^2
+R2-P2-V40-A600 | 20000 -> 12000 -> 20000 pulse | 40 mm/s | 600 mm/s^2
+R2-P1-V40-A600 | 10000 -> 22000 -> 10000 pulse | 40 mm/s | 600 mm/s^2
+R2-P1-V5-A400 | 10000 -> 22000 -> 10000 pulse | 5 mm/s | 400 mm/s^2
+Type START to execute the displayed B1 batch: START
+R2-P2-V2-A400_leg1 complete
+R2-P2-V2-A400_leg2 complete
+R2-P2-V40-A600_leg1 complete
+R2-P2-V40-A600_leg2 complete
+R2-P1-V40-A600_leg1 complete
+R2-P1-V40-A600_leg2 complete
+R2-P1-V5-A400_leg1 complete
+R2-P1-V5-A400_leg2 complete
+62/160 B1 pairs accepted
+62/160 accepted; next R2-P2-V5-A400 in Z-B1-20261127-S01
+62/160 B1 pairs accepted
+2 bidirectional pairs | 4 legs | selected slots
+P1 10000-22000 pulse | P2 12000-20000 pulse | pre/post settled hold 1 s each
+Existing TRAP clock readback 50 us required. Watch 1/core tick; no interpolation setter.
+R2-P2-V5-A400       S1  20000 -> 12000 -> 20000 pulse   5 mm/s  400 mm/s^2  cruise  7.94 mm
+R2-P2-V30-A500      S1  20000 -> 12000 -> 20000 pulse  30 mm/s  500 mm/s^2  cruise  6.20 mm
+Actual field session ID: Z-B1-20261127-S01
+Confirm field state, authorized scope and safeguards (including existing drive protection). Type READY: READY
+Independent precheck and route clearance passed.
+R2-P2-V5-A400 | 20000 -> 12000 -> 20000 pulse | 5 mm/s | 400 mm/s^2
+R2-P2-V30-A500 | 20000 -> 12000 -> 20000 pulse | 30 mm/s | 500 mm/s^2
+Type START to execute the displayed B1 batch: START
+R2-P2-V5-A400_leg1 complete
+R2-P2-V5-A400_leg2 complete
+R2-P2-V30-A500_leg1 complete
+R2-P2-V30-A500_leg2 complete
+B1: B1 independent state check failed: E:\A_ZQY\ZR_Experiment\分项实验\03_摩擦与残差补偿\B1\manifest\Z-B1-20261127-01\attempts\ec64ccee6f1143758c9c4b4f3edd9935\post.txt
+64/160 accepted; next R3-P2-V40-A400 in Z-B1-20261127-S01
+64/160 B1 pairs accepted
+4 bidirectional pairs | 8 legs | selected slots
+P1 10000-22000 pulse | P2 12000-20000 pulse | pre/post settled hold 1 s each
+Existing TRAP clock readback 50 us required. Watch 1/core tick; no interpolation setter.
+R3-P2-V40-A400      S1  12000 -> 20000 -> 12000 pulse  40 mm/s  400 mm/s^2  cruise  4.00 mm
+R3-P1-V40-A400      S1  22000 -> 10000 -> 22000 pulse  40 mm/s  400 mm/s^2  cruise  8.00 mm
+R3-P1-V15-A400      S1  22000 -> 10000 -> 22000 pulse  15 mm/s  400 mm/s^2  cruise 11.44 mm
+R3-P2-V15-A400      S1  12000 -> 20000 -> 12000 pulse  15 mm/s  400 mm/s^2  cruise  7.44 mm
+Actual field session ID: Z-B1-20261127-S01
+Confirm field state, authorized scope and safeguards (including existing drive protection). Type READY: READY
+Independent precheck and route clearance passed.
+R3-P2-V40-A400 | 12000 -> 20000 -> 12000 pulse | 40 mm/s | 400 mm/s^2
+R3-P1-V40-A400 | 22000 -> 10000 -> 22000 pulse | 40 mm/s | 400 mm/s^2
+R3-P1-V15-A400 | 22000 -> 10000 -> 22000 pulse | 15 mm/s | 400 mm/s^2
+R3-P2-V15-A400 | 12000 -> 20000 -> 12000 pulse | 15 mm/s | 400 mm/s^2
+Type START to execute the displayed B1 batch: START
+R3-P2-V40-A400_leg1 complete
+R3-P2-V40-A400_leg2 complete
+R3-P1-V40-A400_leg1 complete
+R3-P1-V40-A400_leg2 complete
+R3-P1-V15-A400_leg1 complete
+R3-P1-V15-A400_leg2 complete
+R3-P2-V15-A400_leg1 complete
+R3-P2-V15-A400_leg2 complete
+B1: B1 independent state check failed: E:\A_ZQY\ZR_Experiment\分项实验\03_摩擦与残差补偿\B1\manifest\Z-B1-20261127-01\attempts\4f4956c11c2143ccbc360cc94ea5d88d\post.txt
+68/160 accepted; next R3-P2-V30-A600 in Z-B1-20261127-S01
+68/160 B1 pairs accepted
+4 bidirectional pairs | 8 legs | selected slots
+P1 10000-22000 pulse | P2 12000-20000 pulse | pre/post settled hold 1 s each
+Existing TRAP clock readback 50 us required. Watch 1/core tick; no interpolation setter.
+R3-P2-V30-A600      S1  12000 -> 20000 -> 12000 pulse  30 mm/s  600 mm/s^2  cruise  6.50 mm
+R3-P1-V30-A600      S1  22000 -> 10000 -> 22000 pulse  30 mm/s  600 mm/s^2  cruise 10.50 mm
+R3-P1-V20-A400      S1  22000 -> 10000 -> 22000 pulse  20 mm/s  400 mm/s^2  cruise 11.00 mm
+R3-P2-V20-A400      S1  12000 -> 20000 -> 12000 pulse  20 mm/s  400 mm/s^2  cruise  7.00 mm
+Actual field session ID: Z-B1-20261127-S01
+Confirm field state, authorized scope and safeguards (including existing drive protection). Type READY: READY
+Independent precheck and route clearance passed.
+R3-P2-V30-A600 | 12000 -> 20000 -> 12000 pulse | 30 mm/s | 600 mm/s^2
+R3-P1-V30-A600 | 22000 -> 10000 -> 22000 pulse | 30 mm/s | 600 mm/s^2
+R3-P1-V20-A400 | 22000 -> 10000 -> 22000 pulse | 20 mm/s | 400 mm/s^2
+R3-P2-V20-A400 | 12000 -> 20000 -> 12000 pulse | 20 mm/s | 400 mm/s^2
+Type START to execute the displayed B1 batch: START
+R3-P2-V30-A600_leg1 complete
+R3-P2-V30-A600_leg2 complete
+R3-P1-V30-A600_leg1 complete
+R3-P1-V30-A600_leg2 complete
+R3-P1-V20-A400_leg1 complete
+R3-P1-V20-A400_leg2 complete
+R3-P2-V20-A400_leg1 complete
+R3-P2-V20-A400_leg2 complete
+72/160 B1 pairs accepted
+72/160 accepted; next R3-P2-V40-A500 in Z-B1-20261127-S01
+72/160 B1 pairs accepted
+4 bidirectional pairs | 8 legs | selected slots
+P1 10000-22000 pulse | P2 12000-20000 pulse | pre/post settled hold 1 s each
+Existing TRAP clock readback 50 us required. Watch 1/core tick; no interpolation setter.
+R3-P2-V40-A500      S1  12000 -> 20000 -> 12000 pulse  40 mm/s  500 mm/s^2  cruise  4.80 mm
+R3-P1-V40-A500      S1  22000 -> 10000 -> 22000 pulse  40 mm/s  500 mm/s^2  cruise  8.80 mm
+R3-P1-V15-A500      S1  22000 -> 10000 -> 22000 pulse  15 mm/s  500 mm/s^2  cruise 11.55 mm
+R3-P2-V15-A500      S1  12000 -> 20000 -> 12000 pulse  15 mm/s  500 mm/s^2  cruise  7.55 mm
+Actual field session ID: Z-B1-20261127-S01
+Confirm field state, authorized scope and safeguards (including existing drive protection). Type READY: READY
+Independent precheck and route clearance passed.
+R3-P2-V40-A500 | 12000 -> 20000 -> 12000 pulse | 40 mm/s | 500 mm/s^2
+R3-P1-V40-A500 | 22000 -> 10000 -> 22000 pulse | 40 mm/s | 500 mm/s^2
+R3-P1-V15-A500 | 22000 -> 10000 -> 22000 pulse | 15 mm/s | 500 mm/s^2
+R3-P2-V15-A500 | 12000 -> 20000 -> 12000 pulse | 15 mm/s | 500 mm/s^2
+Type START to execute the displayed B1 batch: START
+R3-P2-V40-A500_leg1 complete
+R3-P2-V40-A500_leg2 B1 velocity protection exceeded
+R3-P2-V40-A500 remains pending: Leg 2: incomplete acquisition or mismatched configuration
+R3-P1-V40-A500 remains pending: [Errno 2] No such file or directory: 'E:\\A_ZQY\\ZR_Experiment\\分项实验\\03_摩擦与残差补偿\\B1\\data\\raw\\Z-B1-20261127-01\\5305fc216ce0430e90dfe321bc7a95d7\\R3-P1-V40-A500_leg1.csv'
+R3-P1-V15-A500 remains pending: [Errno 2] No such file or directory: 'E:\\A_ZQY\\ZR_Experiment\\分项实验\\03_摩擦与残差补偿\\B1\\data\\raw\\Z-B1-20261127-01\\5305fc216ce0430e90dfe321bc7a95d7\\R3-P1-V15-A500_leg1.csv'
+R3-P2-V15-A500 remains pending: [Errno 2] No such file or directory: 'E:\\A_ZQY\\ZR_Experiment\\分项实验\\03_摩擦与残差补偿\\B1\\data\\raw\\Z-B1-20261127-01\\5305fc216ce0430e90dfe321bc7a95d7\\R3-P2-V15-A500_leg1.csv'
+72/160 B1 pairs accepted

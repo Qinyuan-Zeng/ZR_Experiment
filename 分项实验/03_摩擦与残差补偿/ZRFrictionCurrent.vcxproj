@@ -43,7 +43,7 @@
       <WarningLevel>Level4</WarningLevel>
       <ExceptionHandling>Sync</ExceptionHandling>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <AdditionalIncludeDirectories>$(ProjectDir)..\01_位置相关空载电流辨识\include;$(ProjectDir)..\00_平台配置与基础调试\sdk;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\01_位置相关空载电流辨识\include;$(ProjectDir)..\02_等效惯性电流辨识\include;$(ProjectDir)..\00_平台配置与基础调试\sdk;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
@@ -58,7 +58,12 @@
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\01_位置相关空载电流辨识\src\stage1.cpp" />
+    <ClCompile Include="..\01_位置相关空载电流辨识\src\stage1.cpp">
+      <ExcludedFromBuild Condition="'$(EntryPoint)'=='b1_scan'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\b1_scan.cpp">
+      <ExcludedFromBuild Condition="'$(EntryPoint)'!='b1_scan'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="src\a0_scan.cpp">
       <ExcludedFromBuild Condition="'$(EntryPoint)'!='a0_scan'">true</ExcludedFromBuild>
     </ClCompile>
@@ -70,7 +75,7 @@
   <ItemGroup>
     <None Include="README.md" />
   </ItemGroup>
-  <Target Name="ValidateEntryPoint" BeforeTargets="PrepareForBuild" Condition="'$(EntryPoint)' != 'a0_scan' And '$(EntryPoint)' != 'a_scan'">
+  <Target Name="ValidateEntryPoint" BeforeTargets="PrepareForBuild" Condition="'$(EntryPoint)' != 'a0_scan' And '$(EntryPoint)' != 'a_scan' And '$(EntryPoint)' != 'b1_scan'">
     <Error Text="Unknown EntryPoint: $(EntryPoint)" />
   </Target>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

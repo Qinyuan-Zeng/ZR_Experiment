@@ -1,0 +1,8 @@
+{
+  "reason": "complete_batch_use_independent_post_recheck",
+  "original": "E:\\A_ZQY\\ZR_Experiment\\分项实验\\03_摩擦与残差补偿\\B1\\manifest\\Z-B1-20261127-01\\attempts\\3f6924e883434754bad5da327f1fbde4\\post_initial_failed.txt",
+  "original_sha256": "9b5fb3107ce1e579d1423c8c37e1379ee65697486f12542c85c21fbf2f259aa6",
+  "independent_passed_state": "E:\\A_ZQY\\ZR_Experiment\\分项实验\\03_摩擦与残差补偿\\B1\\manifest\\Z-B1-20261127-01\\attempts\\3f6924e883434754bad5da327f1fbde4\\post_recheck.txt",
+  "independent_passed_state_sha256": "04752a62d76baf3462070885469a56c2ebd8968353bb402c5b6677e8fbc107bb",
+  "at_utc": "2026-11-27T02:48:08.848874+00:00"
+}

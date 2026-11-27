@@ -1,0 +1,33 @@
+{
+  "slots": [
+    {
+      "id": "R2-P2-V5-A400",
+      "round": 2,
+      "period": "S1",
+      "path": "P2",
+      "lo": 12000,
+      "hi": 20000,
+      "v": 5,
+      "a": 400,
+      "first": -1,
+      "pilot": false,
+      "ideal_ramp_ms": 12.5,
+      "ideal_cruise_mm": 7.9375
+    },
+    {
+      "id": "R2-P2-V30-A500",
+      "round": 2,
+      "period": "S1",
+      "path": "P2",
+      "lo": 12000,
+      "hi": 20000,
+      "v": 30,
+      "a": 500,
+      "first": -1,
+      "pilot": false,
+      "ideal_ramp_ms": 60.0,
+      "ideal_cruise_mm": 6.2
+    }
+  ],
+  "field_session": "Z-B1-20261127-S01"
+}

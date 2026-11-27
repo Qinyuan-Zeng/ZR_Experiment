@@ -1,0 +1,47 @@
+{
+  "slots": [
+    {
+      "id": "R1-P2-V40-A400",
+      "round": 1,
+      "period": "S1",
+      "path": "P2",
+      "lo": 12000,
+      "hi": 20000,
+      "v": 40,
+      "a": 400,
+      "first": 1,
+      "pilot": true,
+      "ideal_ramp_ms": 100.0,
+      "ideal_cruise_mm": 4.0
+    },
+    {
+      "id": "R1-P1-V40-A600",
+      "round": 1,
+      "period": "S1",
+      "path": "P1",
+      "lo": 10000,
+      "hi": 22000,
+      "v": 40,
+      "a": 600,
+      "first": -1,
+      "pilot": true,
+      "ideal_ramp_ms": 66.66666666666667,
+      "ideal_cruise_mm": 9.333333333333334
+    },
+    {
+      "id": "R1-P2-V40-A600",
+      "round": 1,
+      "period": "S1",
+      "path": "P2",
+      "lo": 12000,
+      "hi": 20000,
+      "v": 40,
+      "a": 600,
+      "first": 1,
+      "pilot": true,
+      "ideal_ramp_ms": 66.66666666666667,
+      "ideal_cruise_mm": 5.333333333333334
+    }
+  ],
+  "field_session": "Z-B1-20261127-S01"
+}

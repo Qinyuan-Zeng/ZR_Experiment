@@ -1,0 +1,8 @@
+{
+  "original": "post_initial_failed.txt",
+  "original_sha256": "9b5fb3107ce1e579d1423c8c37e1379ee65697486f12542c85c21fbf2f259aa6",
+  "recheck": "post_recheck.txt",
+  "recheck_sha256": "04752a62d76baf3462070885469a56c2ebd8968353bb402c5b6677e8fbc107bb",
+  "decision": "Completed batch; initially idle/aligned with one quantized velocity sample; independently verified normal state in the following read.",
+  "at_utc": "2026-11-27T02:44:50.454811+00:00"
+}
