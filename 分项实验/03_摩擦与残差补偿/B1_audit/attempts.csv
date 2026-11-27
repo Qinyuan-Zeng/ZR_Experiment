@@ -1,0 +1,166 @@
+﻿revision,attempt,requested,locally_accepted,recovery,rejected,exit
+Z-B1-20261127-01,007cf652e6104aa68da760b98b893453,4,2,velocity_spike_before_next_transfer,"{'R2-P2-V40-A500': 'Leg 1: incomplete acquisition or mismatched configuration', 'R2-P1-V40-A500': ""[Errno 2] No such file or directory: 'E:\\\\A_ZQY\\\\ZR_Experiment\\\\分项实验\\\\03_摩擦与残差补偿\\\\B1\\\\data\\\\raw\\\\Z-B1-20261127-01\\\\007cf652e6104aa68da760b98b893453\\\\R2-P1-V40-A500_leg1.csv'""}","{
+  ""returncode"": 1
+}"
+Z-B1-20261127-01,0d2849726cff41cabd8552539d1e9cce,4,4,,{},"{
+  ""returncode"": 0
+}"
+Z-B1-20261127-01,2b7d2cfe620a446792cf6d1d773cd7a0,4,3,,{'R1-P2-V20-A400': 'Leg 1: incomplete acquisition or mismatched configuration'},"{
+  ""returncode"": 1
+}"
+Z-B1-20261127-01,3a88a839c55e49c7b77df823c10ee5fc,4,4,,{},"{
+  ""returncode"": 0
+}"
+Z-B1-20261127-01,3f6924e883434754bad5da327f1fbde4,2,2,complete_batch_use_independent_post_recheck,{},"{
+  ""returncode"": 0
+}"
+Z-B1-20261127-01,4f4956c11c2143ccbc360cc94ea5d88d,4,4,complete_batch_use_independent_post_recheck,{},"{
+  ""returncode"": 0
+}"
+Z-B1-20261127-01,5305fc216ce0430e90dfe321bc7a95d7,4,0,,"{'R3-P2-V40-A500': 'Leg 2: incomplete acquisition or mismatched configuration', 'R3-P1-V40-A500': ""[Errno 2] No such file or directory: 'E:\\\\A_ZQY\\\\ZR_Experiment\\\\分项实验\\\\03_摩擦与残差补偿\\\\B1\\\\data\\\\raw\\\\Z-B1-20261127-01\\\\5305fc216ce0430e90dfe321bc7a95d7\\\\R3-P1-V40-A500_leg1.csv'"", 'R3-P1-V15-A500': ""[Errno 2] No such file or directory: 'E:\\\\A_ZQY\\\\ZR_Experiment\\\\分项实验\\\\03_摩擦与残差补偿\\\\B1\\\\data\\\\raw\\\\Z-B1-20261127-01\\\\5305fc216ce0430e90dfe321bc7a95d7\\\\R3-P1-V15-A500_leg1.csv'"", 'R3-P2-V15-A500': ""[Errno 2] No such file or directory: 'E:\\\\A_ZQY\\\\ZR_Experiment\\\\分项实验\\\\03_摩擦与残差补偿\\\\B1\\\\data\\\\raw\\\\Z-B1-20261127-01\\\\5305fc216ce0430e90dfe321bc7a95d7\\\\R3-P2-V15-A500_leg1.csv'""}","{
+  ""returncode"": 1
+}"
+Z-B1-20261127-01,5ad3c82ff7fd4e29831cf92fc81b66e9,4,4,,{},"{
+  ""returncode"": 0
+}"
+Z-B1-20261127-01,801e3997df3e4415b281eb2d0d8428ed,4,4,,{},"{
+  ""returncode"": 0
+}"
+Z-B1-20261127-01,80ee3a8660f2451783df3a961c2d4b60,4,1,velocity_spike_before_next_transfer,"{'R2-P1-V10-A400': 'Leg 1: incomplete acquisition or mismatched configuration', 'R2-P2-V10-A400': ""[Errno 2] No such file or directory: 'E:\\\\A_ZQY\\\\ZR_Experiment\\\\分项实验\\\\03_摩擦与残差补偿\\\\B1\\\\data\\\\raw\\\\Z-B1-20261127-01\\\\80ee3a8660f2451783df3a961c2d4b60\\\\R2-P2-V10-A400_leg1.csv'"", 'R2-P2-V20-A600': ""[Errno 2] No such file or directory: 'E:\\\\A_ZQY\\\\ZR_Experiment\\\\分项实验\\\\03_摩擦与残差补偿\\\\B1\\\\data\\\\raw\\\\Z-B1-20261127-01\\\\80ee3a8660f2451783df3a961c2d4b60\\\\R2-P2-V20-A600_leg1.csv'""}","{
+  ""returncode"": 1
+}"
+Z-B1-20261127-01,8612e510056241dc9043afba2b448308,4,4,,{},"{
+  ""returncode"": 0
+}"
+Z-B1-20261127-01,97107dcceb64491280d1989511e1db63,4,4,,{},"{
+  ""returncode"": 0
+}"
+Z-B1-20261127-01,aabfeab90bff4a098b3525f76b07524f,4,4,,{},"{
+  ""returncode"": 0
+}"
+Z-B1-20261127-01,b0b3215b25bf409db244db36be8292aa,4,3,,{'R2-P2-V15-A500': 'Leg 1: incomplete acquisition or mismatched configuration'},"{
+  ""returncode"": 1
+}"
+Z-B1-20261127-01,b2baffbc58a7402283f87a190b7e3033,4,4,,{},"{
+  ""returncode"": 0
+}"
+Z-B1-20261127-01,cd1ea5c236ad4d88ad67904356d0ae13,4,4,,{},"{
+  ""returncode"": 0
+}"
+Z-B1-20261127-01,cf76c5c7446d4719adb6d09641984a01,4,4,,{},"{
+  ""returncode"": 0
+}"
+Z-B1-20261127-01,d4471bc0d62d4d5197383f6575069a22,3,3,,{},"{
+  ""returncode"": 0
+}"
+Z-B1-20261127-01,df41a16263de4a3f83a41531b892e40f,4,4,,{},"{
+  ""returncode"": 0
+}"
+Z-B1-20261127-01,eb7d3b7f006d47138a8ae03a43d2928e,4,4,,{},"{
+  ""returncode"": 0
+}"
+Z-B1-20261127-01,ec64ccee6f1143758c9c4b4f3edd9935,2,2,complete_batch_use_independent_post_recheck,{},"{
+  ""returncode"": 0
+}"
+Z-B1-20261127-01,effecbfdfa184ec180626bb5e077b47b,4,4,,{},"{
+  ""returncode"": 0
+}"
+Z-B1-20261127-02,0eb13b32915047faab5d4f994418cf2e,4,4,,{},"{
+  ""returncode"": 0
+}"
+Z-B1-20261127-02,0fdf40f62b5648088f475a3c98662030,4,4,,{},"{
+  ""returncode"": 0
+}"
+Z-B1-20261127-02,13d1f0b35e204ef38ae350858b45ea7c,4,4,,{},"{
+  ""returncode"": 0
+}"
+Z-B1-20261127-02,285d4f70f28547cabdf0e8575ca18202,4,4,complete_batch_use_independent_post_recheck,{},"{
+  ""returncode"": 0
+}"
+Z-B1-20261127-02,2da34f8b91654843857c56713fdebaa9,3,3,,{},"{
+  ""returncode"": 0
+}"
+Z-B1-20261127-02,3559f9ec46b04fa0b5059e4886b61c9e,4,4,,{},"{
+  ""returncode"": 0
+}"
+Z-B1-20261127-02,3564b89480ec4cf8a4c4b29263016857,4,1,,"{'R3-P1-V40-A600': 'Leg 2: incomplete acquisition or mismatched configuration', 'R3-P1-V5-A400': ""[Errno 2] No such file or directory: 'E:\\\\A_ZQY\\\\ZR_Experiment\\\\分项实验\\\\03_摩擦与残差补偿\\\\B1\\\\data\\\\raw\\\\Z-B1-20261127-02\\\\3564b89480ec4cf8a4c4b29263016857\\\\R3-P1-V5-A400_leg1.csv'"", 'R3-P2-V5-A400': ""[Errno 2] No such file or directory: 'E:\\\\A_ZQY\\\\ZR_Experiment\\\\分项实验\\\\03_摩擦与残差补偿\\\\B1\\\\data\\\\raw\\\\Z-B1-20261127-02\\\\3564b89480ec4cf8a4c4b29263016857\\\\R3-P2-V5-A400_leg1.csv'""}","{
+  ""returncode"": 1
+}"
+Z-B1-20261127-02,387dd95209c94f018d100d4b0860b5cd,4,4,,{},"{
+  ""returncode"": 0
+}"
+Z-B1-20261127-02,3edc7b4ae5624c0f9a06e5ff07703d15,4,4,,{},"{
+  ""returncode"": 0
+}"
+Z-B1-20261127-02,4f9bf4e4528f48898813921a74214457,4,4,,{},"{
+  ""returncode"": 0
+}"
+Z-B1-20261127-02,5e4c5afad56547ee974767a5689242f2,4,3,,{'R5-P1-V30-A500': 'Leg 1: incomplete acquisition or mismatched configuration'},"{
+  ""returncode"": 1
+}"
+Z-B1-20261127-02,5f784fabf9ae461982dc9cd01d7e5433,4,4,,{},"{
+  ""returncode"": 0
+}"
+Z-B1-20261127-02,6d1b1a7c777444988a1b445a2f91f1d9,4,3,,{'R4-P1-V20-A400': 'Leg 1: incomplete acquisition or mismatched configuration'},"{
+  ""returncode"": 1
+}"
+Z-B1-20261127-02,72b9d00a997340b18c63a219677710ee,4,4,,{},"{
+  ""returncode"": 0
+}"
+Z-B1-20261127-02,753db15cbacb43abb1670fd726348677,4,4,,{},"{
+  ""returncode"": 0
+}"
+Z-B1-20261127-02,797495a261714336b6ba31bb53c2d45e,1,1,,{},"{
+  ""returncode"": 0
+}"
+Z-B1-20261127-02,80ed93f8e9744bc39b38c077e9e72a9b,4,2,,"{'R5-P2-V15-A500': 'Leg 1: incomplete acquisition or mismatched configuration', 'R5-P2-V30-A400': ""[Errno 2] No such file or directory: 'E:\\\\A_ZQY\\\\ZR_Experiment\\\\分项实验\\\\03_摩擦与残差补偿\\\\B1\\\\data\\\\raw\\\\Z-B1-20261127-02\\\\80ed93f8e9744bc39b38c077e9e72a9b\\\\R5-P2-V30-A400_leg1.csv'""}","{
+  ""returncode"": 1
+}"
+Z-B1-20261127-02,a253ef6f6ae742829142fd076578e502,4,4,,{},"{
+  ""returncode"": 0
+}"
+Z-B1-20261127-02,aaf232454bb24bba8046fe7ddbbee5a1,4,4,,{},"{
+  ""returncode"": 0
+}"
+Z-B1-20261127-02,b92548478c3e47e48c4fa1e5eab05af3,4,4,,{},"{
+  ""returncode"": 0
+}"
+Z-B1-20261127-02,c0cb746b5b964223a1334d1e001ecc02,4,0,,"{'R5-P1-V15-A600': 'Leg 1: incomplete acquisition or mismatched configuration', 'R5-P2-V15-A600': ""[Errno 2] No such file or directory: 'E:\\\\A_ZQY\\\\ZR_Experiment\\\\分项实验\\\\03_摩擦与残差补偿\\\\B1\\\\data\\\\raw\\\\Z-B1-20261127-02\\\\c0cb746b5b964223a1334d1e001ecc02\\\\R5-P2-V15-A600_leg1.csv'"", 'R5-P2-V20-A500': ""[Errno 2] No such file or directory: 'E:\\\\A_ZQY\\\\ZR_Experiment\\\\分项实验\\\\03_摩擦与残差补偿\\\\B1\\\\data\\\\raw\\\\Z-B1-20261127-02\\\\c0cb746b5b964223a1334d1e001ecc02\\\\R5-P2-V20-A500_leg1.csv'"", 'R5-P1-V20-A500': ""[Errno 2] No such file or directory: 'E:\\\\A_ZQY\\\\ZR_Experiment\\\\分项实验\\\\03_摩擦与残差补偿\\\\B1\\\\data\\\\raw\\\\Z-B1-20261127-02\\\\c0cb746b5b964223a1334d1e001ecc02\\\\R5-P1-V20-A500_leg1.csv'""}","{
+  ""returncode"": 1
+}"
+Z-B1-20261127-02,c809a6dd290d4e3c942031cf279435f5,4,4,,{},"{
+  ""returncode"": 0
+}"
+Z-B1-20261127-02,carry_007cf652e6104aa68da760b98b893453,4,2,,"{'R2-P2-V40-A500': 'Leg 1: incomplete acquisition or mismatched configuration', 'R2-P1-V40-A500': ""[Errno 2] No such file or directory: 'E:\\\\A_ZQY\\\\ZR_Experiment\\\\分项实验\\\\03_摩擦与残差补偿\\\\B1\\\\data\\\\raw\\\\Z-B1-20261127-01\\\\007cf652e6104aa68da760b98b893453\\\\R2-P1-V40-A500_leg1.csv'""}",
+Z-B1-20261127-02,carry_0d2849726cff41cabd8552539d1e9cce,4,4,,{},
+Z-B1-20261127-02,carry_2b7d2cfe620a446792cf6d1d773cd7a0,4,3,,{'R1-P2-V20-A400': 'Leg 1: incomplete acquisition or mismatched configuration'},
+Z-B1-20261127-02,carry_3a88a839c55e49c7b77df823c10ee5fc,4,4,,{},
+Z-B1-20261127-02,carry_3f6924e883434754bad5da327f1fbde4,2,2,,{},
+Z-B1-20261127-02,carry_4f4956c11c2143ccbc360cc94ea5d88d,4,4,,{},
+Z-B1-20261127-02,carry_5ad3c82ff7fd4e29831cf92fc81b66e9,4,4,,{},
+Z-B1-20261127-02,carry_801e3997df3e4415b281eb2d0d8428ed,4,4,,{},
+Z-B1-20261127-02,carry_80ee3a8660f2451783df3a961c2d4b60,4,1,,"{'R2-P1-V10-A400': 'Leg 1: incomplete acquisition or mismatched configuration', 'R2-P2-V10-A400': ""[Errno 2] No such file or directory: 'E:\\\\A_ZQY\\\\ZR_Experiment\\\\分项实验\\\\03_摩擦与残差补偿\\\\B1\\\\data\\\\raw\\\\Z-B1-20261127-01\\\\80ee3a8660f2451783df3a961c2d4b60\\\\R2-P2-V10-A400_leg1.csv'"", 'R2-P2-V20-A600': ""[Errno 2] No such file or directory: 'E:\\\\A_ZQY\\\\ZR_Experiment\\\\分项实验\\\\03_摩擦与残差补偿\\\\B1\\\\data\\\\raw\\\\Z-B1-20261127-01\\\\80ee3a8660f2451783df3a961c2d4b60\\\\R2-P2-V20-A600_leg1.csv'""}",
+Z-B1-20261127-02,carry_8612e510056241dc9043afba2b448308,4,4,,{},
+Z-B1-20261127-02,carry_97107dcceb64491280d1989511e1db63,4,4,,{},
+Z-B1-20261127-02,carry_aabfeab90bff4a098b3525f76b07524f,4,4,,{},
+Z-B1-20261127-02,carry_b0b3215b25bf409db244db36be8292aa,4,3,,{'R2-P2-V15-A500': 'Leg 1: incomplete acquisition or mismatched configuration'},
+Z-B1-20261127-02,carry_b2baffbc58a7402283f87a190b7e3033,4,4,,{},
+Z-B1-20261127-02,carry_cd1ea5c236ad4d88ad67904356d0ae13,4,4,,{},
+Z-B1-20261127-02,carry_cf76c5c7446d4719adb6d09641984a01,4,4,,{},
+Z-B1-20261127-02,carry_d4471bc0d62d4d5197383f6575069a22,3,3,,{},
+Z-B1-20261127-02,carry_df41a16263de4a3f83a41531b892e40f,4,4,,{},
+Z-B1-20261127-02,carry_eb7d3b7f006d47138a8ae03a43d2928e,4,4,,{},
+Z-B1-20261127-02,carry_ec64ccee6f1143758c9c4b4f3edd9935,2,2,,{},
+Z-B1-20261127-02,carry_effecbfdfa184ec180626bb5e077b47b,4,4,,{},
+Z-B1-20261127-02,d7d7c39f1f5143938f7f7db56bf96146,3,3,,{},"{
+  ""returncode"": 0
+}"
+Z-B1-20261127-02,dfc059895cfd4416886b38c7502a255c,4,4,,{},"{
+  ""returncode"": 0
+}"
+Z-B1-20261127-02,f61069941c7949a8a6663ba66c45f8c3,4,4,,{},"{
+  ""returncode"": 0
+}"
+Z-B1-20261127-02,f7bee3f44d3d489eae8361c59715182b,4,4,,{},"{
+  ""returncode"": 0
+}"
