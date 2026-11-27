@@ -1,0 +1,174 @@
+{
+  "id": "Z-D-HOLD-01",
+  "limits": {
+    "lo": 0.0,
+    "hi": 37000.0,
+    "reserve": 4000.0,
+    "follow": 500.0,
+    "min_stop": 0.99
+  },
+  "trials": [
+    {
+      "id": "R1-12000-P",
+      "repeat": 1,
+      "sign": 1,
+      "target": 12000,
+      "start": 8000,
+      "pilot": true
+    },
+    {
+      "id": "R1-12000-N",
+      "repeat": 1,
+      "sign": -1,
+      "target": 12000,
+      "start": 16000,
+      "pilot": true
+    },
+    {
+      "id": "R1-16000-P",
+      "repeat": 1,
+      "sign": 1,
+      "target": 16000,
+      "start": 12000,
+      "pilot": false
+    },
+    {
+      "id": "R1-16000-N",
+      "repeat": 1,
+      "sign": -1,
+      "target": 16000,
+      "start": 20000,
+      "pilot": false
+    },
+    {
+      "id": "R1-20000-P",
+      "repeat": 1,
+      "sign": 1,
+      "target": 20000,
+      "start": 16000,
+      "pilot": false
+    },
+    {
+      "id": "R1-20000-N",
+      "repeat": 1,
+      "sign": -1,
+      "target": 20000,
+      "start": 24000,
+      "pilot": false
+    },
+    {
+      "id": "R2-20000-N",
+      "repeat": 2,
+      "sign": -1,
+      "target": 20000,
+      "start": 24000,
+      "pilot": false
+    },
+    {
+      "id": "R2-20000-P",
+      "repeat": 2,
+      "sign": 1,
+      "target": 20000,
+      "start": 16000,
+      "pilot": false
+    },
+    {
+      "id": "R2-16000-N",
+      "repeat": 2,
+      "sign": -1,
+      "target": 16000,
+      "start": 20000,
+      "pilot": false
+    },
+    {
+      "id": "R2-16000-P",
+      "repeat": 2,
+      "sign": 1,
+      "target": 16000,
+      "start": 12000,
+      "pilot": false
+    },
+    {
+      "id": "R2-12000-N",
+      "repeat": 2,
+      "sign": -1,
+      "target": 12000,
+      "start": 16000,
+      "pilot": false
+    },
+    {
+      "id": "R2-12000-P",
+      "repeat": 2,
+      "sign": 1,
+      "target": 12000,
+      "start": 8000,
+      "pilot": false
+    },
+    {
+      "id": "R3-12000-P",
+      "repeat": 3,
+      "sign": 1,
+      "target": 12000,
+      "start": 8000,
+      "pilot": false
+    },
+    {
+      "id": "R3-12000-N",
+      "repeat": 3,
+      "sign": -1,
+      "target": 12000,
+      "start": 16000,
+      "pilot": false
+    },
+    {
+      "id": "R3-16000-P",
+      "repeat": 3,
+      "sign": 1,
+      "target": 16000,
+      "start": 12000,
+      "pilot": false
+    },
+    {
+      "id": "R3-16000-N",
+      "repeat": 3,
+      "sign": -1,
+      "target": 16000,
+      "start": 20000,
+      "pilot": false
+    },
+    {
+      "id": "R3-20000-P",
+      "repeat": 3,
+      "sign": 1,
+      "target": 20000,
+      "start": 16000,
+      "pilot": false
+    },
+    {
+      "id": "R3-20000-N",
+      "repeat": 3,
+      "sign": -1,
+      "target": 20000,
+      "start": 24000,
+      "pilot": false
+    }
+  ],
+  "hashes": {
+    "03_摩擦与残差补偿/scripts/d_run.py": "9b846964ccf1beeeb07276c4b5bb794fe0cdd57e93f9c4790f8c28e575da4b49",
+    "03_摩擦与残差补偿/bin/x64/Release/d_hold/ZRFrictionCurrent.exe": "3d45100213b9fed88e5c86bd47c799dc4dff108f14aa993ef42a4d4e0b0be695",
+    "03_摩擦与残差补偿/bin/x64/Release/d_hold/gts.dll": "e06871528fbcb9c94495745adce75cc28e1a200cd2c20dee36f38f04ceb144ed",
+    "03_摩擦与残差补偿/src/d_hold.cpp": "efed379b3e5115522117da7435c790ae9ebc01ec96e4425faab1ea32d32fcae3",
+    "03_摩擦与残差补偿/scripts/b1_run.py": "44fb6b2007b90cd84f5a79c131833105ee2bd5b2b4768ce84097e629e600a2fb",
+    "03_摩擦与残差补偿/scripts/a_formal.py": "0ca7b5942bb2009c1db33128dc6cb27a244f61ad5bf10eb01e6129c5c4e64579",
+    "03_摩擦与残差补偿/scripts/a0_replay.py": "602c9b7c7d545dd06b0386d54cb8632f5cd5de9cf4c82c847d5d12e7fe6c17b2",
+    "01_位置相关空载电流辨识/models/position_B_primary_v1.json": "e854bcf3816a68e2b3a3952936c7fb1ef970fb2979cdd947c788e3a75e49e195",
+    "02_等效惯性电流辨识/include/matched_batch.hpp": "9789bdcae5609cca26128058d1727977a629d43c10ea292d5a27de9ef505d338",
+    "02_等效惯性电流辨识/include/matched_motion.hpp": "e05c523652744ceeb39c03681cd2924f0b936848cf41d501bacb1b21f522af08",
+    "02_等效惯性电流辨识/include/watch_capture.hpp": "961303492a05e57ad9c022203f91cc3046f8c847f2103eb87a64d7d834a4dff5"
+  },
+  "plan_sha256": "6969ef32a7932c7ea15b15185665fbc60c1aefa3820008ec864f0278519a3c76",
+  "core_period_ns": 50000,
+  "hold_ms": 6000,
+  "measurement_cap": 15,
+  "transfer_cap": 5
+}

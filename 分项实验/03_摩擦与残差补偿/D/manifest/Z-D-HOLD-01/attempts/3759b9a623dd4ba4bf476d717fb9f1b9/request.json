@@ -1,0 +1,29 @@
+{
+  "field_session": "Z-D-20261127-S01",
+  "trials": [
+    {
+      "id": "R2-20000-N",
+      "repeat": 2,
+      "sign": -1,
+      "target": 20000,
+      "start": 24000,
+      "pilot": false
+    },
+    {
+      "id": "R2-20000-P",
+      "repeat": 2,
+      "sign": 1,
+      "target": 20000,
+      "start": 16000,
+      "pilot": false
+    },
+    {
+      "id": "R2-16000-N",
+      "repeat": 2,
+      "sign": -1,
+      "target": 16000,
+      "start": 20000,
+      "pilot": false
+    }
+  ]
+}

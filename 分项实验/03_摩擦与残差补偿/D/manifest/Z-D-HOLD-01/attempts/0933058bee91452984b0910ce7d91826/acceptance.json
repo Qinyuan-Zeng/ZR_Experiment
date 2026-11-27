@@ -1,0 +1,73 @@
+{
+  "accepted": [
+    {
+      "id": "R1-16000-P",
+      "repeat": 1,
+      "sign": 1,
+      "target": 16000,
+      "start": 12000,
+      "pilot": false,
+      "frames": 135106,
+      "watch_period_us": 50.0,
+      "arrival_to_hold_end_ms": 6008.55,
+      "guaranteed_hold_ms": 6007.9,
+      "inputs": {
+        "E:\\A_ZQY\\ZR_Experiment\\分项实验\\03_摩擦与残差补偿\\D\\data\\raw\\Z-D-HOLD-01\\0933058bee91452984b0910ce7d91826\\R1-16000-P.txt": "a61272b26498937d9c3b8950e0e453d26e66643d2f3d08cea5e92b29b6abde75",
+        "E:\\A_ZQY\\ZR_Experiment\\分项实验\\03_摩擦与残差补偿\\D\\data\\raw\\Z-D-HOLD-01\\0933058bee91452984b0910ce7d91826\\R1-16000-P.csv": "9a34fe2b7280b9674216709fc095b97acbe4fdc9ff3f0c8d3de0e43b74641dec",
+        "E:\\A_ZQY\\ZR_Experiment\\分项实验\\03_摩擦与残差补偿\\D\\data\\raw\\Z-D-HOLD-01\\0933058bee91452984b0910ce7d91826\\R1-16000-P.sdk.csv": "a7a2416ff6c9f86621714809297928df01814e1ae42818fb1c29bf831874ecc2",
+        "E:\\A_ZQY\\ZR_Experiment\\分项实验\\03_摩擦与残差补偿\\D\\data\\raw\\Z-D-HOLD-01\\0933058bee91452984b0910ce7d91826\\R1-16000-P.batches.csv": "70157aafe7b5bb04c91572748464794cb6fecd22eca04c5b1f679c9be6c5cfd9"
+      },
+      "field_session": "Z-D-20261127-S01",
+      "attempt": "0933058bee91452984b0910ce7d91826"
+    },
+    {
+      "id": "R1-16000-N",
+      "repeat": 1,
+      "sign": -1,
+      "target": 16000,
+      "start": 20000,
+      "pilot": false,
+      "frames": 135063,
+      "watch_period_us": 50.0,
+      "arrival_to_hold_end_ms": 6006.9,
+      "guaranteed_hold_ms": 6006.25,
+      "inputs": {
+        "E:\\A_ZQY\\ZR_Experiment\\分项实验\\03_摩擦与残差补偿\\D\\data\\raw\\Z-D-HOLD-01\\0933058bee91452984b0910ce7d91826\\R1-16000-N.txt": "c2f40dc946010985b1f08206ce9302eaf5aaa06f811ba2f94c83ad243c35272b",
+        "E:\\A_ZQY\\ZR_Experiment\\分项实验\\03_摩擦与残差补偿\\D\\data\\raw\\Z-D-HOLD-01\\0933058bee91452984b0910ce7d91826\\R1-16000-N.csv": "41ea5c513651201233e470205bf65794aa79bd5352141f77101eca71fc708c2d",
+        "E:\\A_ZQY\\ZR_Experiment\\分项实验\\03_摩擦与残差补偿\\D\\data\\raw\\Z-D-HOLD-01\\0933058bee91452984b0910ce7d91826\\R1-16000-N.sdk.csv": "1a2c158651b267796eb368311b9a704959bc4e4d0ff1c75acea8d1f2a3257839",
+        "E:\\A_ZQY\\ZR_Experiment\\分项实验\\03_摩擦与残差补偿\\D\\data\\raw\\Z-D-HOLD-01\\0933058bee91452984b0910ce7d91826\\R1-16000-N.batches.csv": "549478fd8c403a6b0bb7554bd8c4327b5d2a360527aeecd926d07fd7f4c952db"
+      },
+      "field_session": "Z-D-20261127-S01",
+      "attempt": "0933058bee91452984b0910ce7d91826"
+    },
+    {
+      "id": "R1-20000-P",
+      "repeat": 1,
+      "sign": 1,
+      "target": 20000,
+      "start": 16000,
+      "pilot": false,
+      "frames": 134934,
+      "watch_period_us": 50.0,
+      "arrival_to_hold_end_ms": 6002.75,
+      "guaranteed_hold_ms": 6002.15,
+      "inputs": {
+        "E:\\A_ZQY\\ZR_Experiment\\分项实验\\03_摩擦与残差补偿\\D\\data\\raw\\Z-D-HOLD-01\\0933058bee91452984b0910ce7d91826\\R1-20000-P.txt": "995b8ff033688e6bce5fa085fdb8191a0e2d92ea3912258ece464964f9878663",
+        "E:\\A_ZQY\\ZR_Experiment\\分项实验\\03_摩擦与残差补偿\\D\\data\\raw\\Z-D-HOLD-01\\0933058bee91452984b0910ce7d91826\\R1-20000-P.csv": "73d86e1fca4be9e1fe45917e66339fe4fe04848956908cf7d67c9df82d985faa",
+        "E:\\A_ZQY\\ZR_Experiment\\分项实验\\03_摩擦与残差补偿\\D\\data\\raw\\Z-D-HOLD-01\\0933058bee91452984b0910ce7d91826\\R1-20000-P.sdk.csv": "2289158ad8d382d8e1477a69efd07efbc237bbf3e9d0a320a903999965da1ce2",
+        "E:\\A_ZQY\\ZR_Experiment\\分项实验\\03_摩擦与残差补偿\\D\\data\\raw\\Z-D-HOLD-01\\0933058bee91452984b0910ce7d91826\\R1-20000-P.batches.csv": "ba885615b4b4b969a6629ba3f9fa05ac8785ed3411572b047aaf7bd138b4c0b7"
+      },
+      "field_session": "Z-D-20261127-S01",
+      "attempt": "0933058bee91452984b0910ce7d91826"
+    }
+  ],
+  "rejected": {},
+  "batch": {
+    "pre.txt": "837a275637a99cad270bcbe4a884faf3dd437df6fbac3f0edc0e87d6a1a39522",
+    "post.txt": "5608efbb6c88622a8717990a0f0b83bd7bd0cebee6b346a824d5fdc449b86a39",
+    "request.json": "84f30d02fa466af9082f87114defba59daa47cfc122593a2bd8398a6a35ee6e4",
+    "request.txt": "81e42ca586f130226343a1011a8973cd68daf722cd6fa4510e2deff13b36b1a5",
+    "exit.json": "c206f757d056a424eb5e8ac4cb61cf6279b4a6478034cab2a750801b9cc323f4",
+    "native.txt": "db5a15b88af13d8b84a5468bcfaf39544420d9ac2b653354547eef2d42e7116c"
+  }
+}

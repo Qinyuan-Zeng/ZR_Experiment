@@ -1,0 +1,9 @@
+0/18 accepted; next R1-12000-P in Z-D-20261127-S01
+0/18 D trials accepted
+2 D holds | hold 6000 ms | approach 10 mm/s, 400 mm/s^2 | Watch 50 us
+R1-12000-P         8000 -> 12000 pulse
+R1-12000-N         16000 -> 12000 pulse
+Actual field session ID: Z-D-20261127-S01
+Confirm current field authorization and safeguards. Type READY: READY
+Independent precheck and route clearance passed.
+Type START to execute the displayed D batch: START
