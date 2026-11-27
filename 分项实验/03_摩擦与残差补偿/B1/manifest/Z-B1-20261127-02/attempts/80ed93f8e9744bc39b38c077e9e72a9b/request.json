@@ -1,0 +1,61 @@
+{
+  "slots": [
+    {
+      "id": "R5-P1-V40-A500",
+      "round": 5,
+      "period": "S2",
+      "path": "P1",
+      "lo": 10000,
+      "hi": 22000,
+      "v": 40,
+      "a": 500,
+      "first": -1,
+      "pilot": false,
+      "ideal_ramp_ms": 80.0,
+      "ideal_cruise_mm": 8.8
+    },
+    {
+      "id": "R5-P1-V15-A500",
+      "round": 5,
+      "period": "S2",
+      "path": "P1",
+      "lo": 10000,
+      "hi": 22000,
+      "v": 15,
+      "a": 500,
+      "first": -1,
+      "pilot": false,
+      "ideal_ramp_ms": 30.0,
+      "ideal_cruise_mm": 11.55
+    },
+    {
+      "id": "R5-P2-V15-A500",
+      "round": 5,
+      "period": "S2",
+      "path": "P2",
+      "lo": 12000,
+      "hi": 20000,
+      "v": 15,
+      "a": 500,
+      "first": 1,
+      "pilot": false,
+      "ideal_ramp_ms": 30.0,
+      "ideal_cruise_mm": 7.55
+    },
+    {
+      "id": "R5-P2-V30-A400",
+      "round": 5,
+      "period": "S2",
+      "path": "P2",
+      "lo": 12000,
+      "hi": 20000,
+      "v": 30,
+      "a": 400,
+      "first": 1,
+      "pilot": false,
+      "ideal_ramp_ms": 75.0,
+      "ideal_cruise_mm": 5.75
+    }
+  ],
+  "field_session": "Z-B1-20261127-S02"
+}

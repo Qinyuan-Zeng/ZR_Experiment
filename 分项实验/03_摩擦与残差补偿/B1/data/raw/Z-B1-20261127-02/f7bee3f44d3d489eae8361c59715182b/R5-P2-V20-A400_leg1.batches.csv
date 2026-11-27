@@ -1,0 +1,4 @@
+column,type,host_begin_us,host_end_us,rc,capacity,count
+1,1201,2646386,2866794,52920,0,unavailable
+2,30000,2867267,3088634,52920,0,unavailable
+3,61201,3088944,3305935,52920,0,unavailable
