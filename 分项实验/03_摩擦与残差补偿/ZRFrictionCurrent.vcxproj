@@ -59,7 +59,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\01_位置相关空载电流辨识\src\stage1.cpp">
-      <ExcludedFromBuild Condition="'$(EntryPoint)'=='b1_scan' Or '$(EntryPoint)'=='c_scan'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(EntryPoint)'=='b1_scan' Or '$(EntryPoint)'=='c_scan' Or '$(EntryPoint)'=='d_hold'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\d_hold.cpp">
+      <ExcludedFromBuild Condition="'$(EntryPoint)'!='d_hold'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="src\c_scan.cpp">
       <ExcludedFromBuild Condition="'$(EntryPoint)'!='c_scan'">true</ExcludedFromBuild>
@@ -78,7 +81,7 @@
   <ItemGroup>
     <None Include="README.md" />
   </ItemGroup>
-  <Target Name="ValidateEntryPoint" BeforeTargets="PrepareForBuild" Condition="'$(EntryPoint)' != 'a0_scan' And '$(EntryPoint)' != 'a_scan' And '$(EntryPoint)' != 'b1_scan' And '$(EntryPoint)' != 'c_scan'">
+  <Target Name="ValidateEntryPoint" BeforeTargets="PrepareForBuild" Condition="'$(EntryPoint)' != 'a0_scan' And '$(EntryPoint)' != 'a_scan' And '$(EntryPoint)' != 'b1_scan' And '$(EntryPoint)' != 'c_scan' And '$(EntryPoint)' != 'd_hold'">
     <Error Text="Unknown EntryPoint: $(EntryPoint)" />
   </Target>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
