@@ -50,6 +50,20 @@ void clearance(const Limits& l, double start, long end, double stop, double maxS
             "B1 path or transfer fails stopping clearance");
 }
 
+constexpr unsigned long elapsedCardMs(unsigned long now, unsigned long then)
+{
+    return now - then;
+}
+
+constexpr double encoderSpeedMmS(double displacementPulse, unsigned long durationMs)
+{
+    return displacementPulse * 1000 / (pulsePerMm * durationMs);
+}
+
+static_assert(elapsedCardMs(10, 0xfffffff6UL) == 20);
+static_assert(encoderSpeedMmS(1548, 46) < 40);
+static_assert(encoderSpeedMmS(1760, 32) > 50);
+
 class Monitor {
 public:
     Monitor(const Limits& limits, std::ostream& trace) : settings(limits), log(trace) {}
@@ -66,20 +80,27 @@ public:
             temperatureRc = GTN_GetTemperature(core, &temperature);
             temperatureTime = now;
         }
-        positionHistory.emplace_back(now, s.x);
-        while (positionHistory.size() > 2 && now - positionHistory[1].first >= 20ms)
-            positionHistory.pop_front();
-        double measuredSpeed = 0;
-        if (now - positionHistory.front().first >= 20ms) {
-            const double span = std::chrono::duration<double>(now - positionHistory.front().first).count();
-            measuredSpeed = std::abs(mm(s.x - positionHistory.front().second)) / span;
+        // The encoder value and its card timestamp are one SDK observation.
+        // Host scheduling after that read does not change its observation time.
+        if (!positionHistory.empty()) {
+            const auto age = elapsedCardMs(s.encoderClock, positionHistory.back().first);
+            require(age < 0x80000000UL, "B1 encoder card clock went backwards");
+            require(age != 0 || s.x == positionHistory.back().second,
+                    "B1 encoder position changed without a new card timestamp");
         }
+        if (positionHistory.empty() || s.encoderClock != positionHistory.back().first)
+            positionHistory.emplace_back(s.encoderClock, s.x);
+        while (positionHistory.size() > 2 && elapsedCardMs(s.encoderClock, positionHistory[1].first) >= 20)
+            positionHistory.pop_front();
+        const auto span = elapsedCardMs(s.encoderClock, positionHistory.front().first);
+        const double measuredSpeed = span >= 20
+            ? encoderSpeedMmS(std::abs(s.x - positionHistory.front().second), span) : 0;
         log << Axis::hostUs(now) << ',';
         if (!currentRc) log << current;
         log << ',';
         if (!temperatureRc && std::isfinite(temperature)) log << temperature;
         log << ',' << measuredSpeed << ',' << mm(s.planV * 1000) << ',' << s.x << ',' << s.error
-            << ',' << s.status << ',' << currentRc << ',' << temperatureRc << '\n';
+            << ',' << s.status << ',' << currentRc << ',' << temperatureRc << ',' << s.encoderClock << '\n';
         require(s.x >= settings.lo && s.x <= settings.hi, "B1 feedback outside approved protection range");
         require(measuredSpeed <= maximumSpeed && std::abs(s.planV * 1000 / pulsePerMm) <= maximumSpeed,
                 "B1 velocity protection exceeded");
@@ -89,7 +110,7 @@ private:
     const Limits& settings;
     std::ostream& log;
     Clock::time_point temperatureTime{};
-    std::deque<std::pair<Clock::time_point, double>> positionHistory;
+    std::deque<std::pair<unsigned long, double>> positionHistory;
     double temperature = 0;
     short temperatureRc = -1;
     double maximumSpeed = transferLimitMmS;
@@ -254,7 +275,7 @@ int runBatch(const fs::path& root, const std::string& protocol, const std::strin
     fs::create_directories(rawDir);
     auto log = createFile(dir / "native.txt");
     auto trace = createFile(rawDir / "guards.csv");
-    trace << "host_us,current_raw,card_temp_c,estimated_abs_speed_mm_s,planner_mm_s,encoder_pulse,following_error_pulse,status,rc_current,rc_card_temp\n";
+    trace << "host_us,current_raw,card_temp_c,estimated_abs_speed_mm_s,planner_mm_s,encoder_pulse,following_error_pulse,status,rc_current,rc_card_temp,encoder_card_ms\n";
     Recorder card(log);
     Monitor guard(l, trace);
     Axis motor(card, log, [&](const State& s) { guard.check(s); });
@@ -269,7 +290,13 @@ int runBatch(const fs::path& root, const std::string& protocol, const std::strin
         log << "smooth_stop_dec_pulse_ms2=" << smooth << "\nabrupt_stop_dec_pulse_ms2=" << abrupt << std::endl;
         require(std::isfinite(smooth) && smooth >= l.minStop && std::isfinite(abrupt) && abrupt > 0,
                 "B1 stop protection readback failed");
-        auto state = motor.read();
+        const auto state = motor.read();
+        unsigned long now = 0;
+        card.check("GTN_GetClock", GTN_GetClock(core, &now));
+        const auto age = elapsedCardMs(now, state.encoderClock);
+        log << "initial_encoder_card_ms=" << state.encoderClock << "\ninitial_card_ms=" << now
+            << "\nvelocity_guard_timebase=encoder_card_ms" << std::endl;
+        require(age <= 50, "B1 encoder timestamp does not match the card millisecond clock");
         require(state.idle() && std::abs(state.x - state.planX) <= positionTol * pulsePerMm &&
                 std::abs(state.planV) <= velocityTol, "B1 initial position is not idle/aligned");
         double position = state.x;

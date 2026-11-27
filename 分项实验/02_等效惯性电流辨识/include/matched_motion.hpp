@@ -170,7 +170,7 @@ inline bool printPlan(std::ostream& out, const Plan& plan, double initial, doubl
 
 struct State {
     double x = 0, v = 0, planX = 0, planV = 0, error = 0;
-    unsigned long planXClock = 0, planVClock = 0, errorClock = 0;
+    unsigned long planXClock = 0, planVClock = 0, errorClock = 0, encoderClock = 0;
     long status = 0, planner = 0;
     short mode = 0, plus = 0, minus = 0;
     bool idle() const { return !(status & movingMask) && std::abs(v) <= velocityTol; }
@@ -228,7 +228,7 @@ public:
     State feedback(std::ostream* trace = nullptr, const char* phase = "") {
         State s;
         const auto begin = Clock::now();
-        const short rx = GTN_GetAxisEncPos(core, axis, &s.x);
+        const short rx = GTN_GetAxisEncPos(core, axis, &s.x, 1, monitor ? &s.encoderClock : nullptr);
         const short rv = GTN_GetAxisEncVel(core, axis, &s.v);
         const short rs = GTN_GetSts(core, axis, &s.status);
         const short rm = GTN_GetControlLoopMode(core, axis, 1, &s.mode);

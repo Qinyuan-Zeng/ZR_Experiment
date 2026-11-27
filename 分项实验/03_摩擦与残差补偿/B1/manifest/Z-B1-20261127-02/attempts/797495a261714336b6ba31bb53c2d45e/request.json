@@ -1,0 +1,19 @@
+{
+  "slots": [
+    {
+      "id": "R4-P1-V20-A400",
+      "round": 4,
+      "period": "S2",
+      "path": "P1",
+      "lo": 10000,
+      "hi": 22000,
+      "v": 20,
+      "a": 400,
+      "first": 1,
+      "pilot": false,
+      "ideal_ramp_ms": 50.0,
+      "ideal_cruise_mm": 11.0
+    }
+  ],
+  "field_session": "Z-B1-20261127-S02"
+}

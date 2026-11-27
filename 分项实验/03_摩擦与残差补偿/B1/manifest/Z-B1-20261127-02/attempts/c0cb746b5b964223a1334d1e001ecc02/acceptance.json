@@ -1,0 +1,15 @@
+{
+  "accepted": [],
+  "rejected": {
+    "R5-P1-V15-A600": "Leg 1: incomplete acquisition or mismatched configuration",
+    "R5-P2-V15-A600": "[Errno 2] No such file or directory: 'E:\\\\A_ZQY\\\\ZR_Experiment\\\\分项实验\\\\03_摩擦与残差补偿\\\\B1\\\\data\\\\raw\\\\Z-B1-20261127-02\\\\c0cb746b5b964223a1334d1e001ecc02\\\\R5-P2-V15-A600_leg1.csv'",
+    "R5-P2-V20-A500": "[Errno 2] No such file or directory: 'E:\\\\A_ZQY\\\\ZR_Experiment\\\\分项实验\\\\03_摩擦与残差补偿\\\\B1\\\\data\\\\raw\\\\Z-B1-20261127-02\\\\c0cb746b5b964223a1334d1e001ecc02\\\\R5-P2-V20-A500_leg1.csv'",
+    "R5-P1-V20-A500": "[Errno 2] No such file or directory: 'E:\\\\A_ZQY\\\\ZR_Experiment\\\\分项实验\\\\03_摩擦与残差补偿\\\\B1\\\\data\\\\raw\\\\Z-B1-20261127-02\\\\c0cb746b5b964223a1334d1e001ecc02\\\\R5-P1-V20-A500_leg1.csv'"
+  },
+  "pre_sha256": "7f375578b65a2880b0d38141907cbc7609ee1cada3b777906628f2581fc16ea6",
+  "post_sha256": "7f375578b65a2880b0d38141907cbc7609ee1cada3b777906628f2581fc16ea6",
+  "native_sha256": "9607808031515b241165d14c2031e3a95a2374060f6e28c4d5155da78e4aca98",
+  "request_sha256": "f0f6461767c238aa0265e267fbdfa5e270d088722e7c3e9d15152c3a2ffee280",
+  "field_session": "Z-B1-20261127-S02",
+  "attempt_id": "c0cb746b5b964223a1334d1e001ecc02"
+}
