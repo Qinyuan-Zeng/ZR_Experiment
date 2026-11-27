@@ -1,0 +1,36 @@
+{
+  "accepted": [
+    {
+      "id": "R3-12000-P",
+      "repeat": 3,
+      "sign": 1,
+      "target": 12000,
+      "start": 8000,
+      "pilot": false,
+      "frames": 134960,
+      "watch_period_us": 50.0,
+      "arrival_to_hold_end_ms": 6006.55,
+      "guaranteed_hold_ms": 6005.9,
+      "inputs": {
+        "E:\\A_ZQY\\ZR_Experiment\\分项实验\\03_摩擦与残差补偿\\D\\data\\raw\\Z-D-HOLD-01\\10dc807a3f5c477aa871651d23cd5f3f\\R3-12000-P.txt": "d2db97f3fe27a16c50d915eac4a954002ed77ae856f3c1873d92d63edba15800",
+        "E:\\A_ZQY\\ZR_Experiment\\分项实验\\03_摩擦与残差补偿\\D\\data\\raw\\Z-D-HOLD-01\\10dc807a3f5c477aa871651d23cd5f3f\\R3-12000-P.csv": "2a8e15a4ecb052c30bfcab3c507b0177d7302e6e2dd3c2d0b396ff3eed2a82ed",
+        "E:\\A_ZQY\\ZR_Experiment\\分项实验\\03_摩擦与残差补偿\\D\\data\\raw\\Z-D-HOLD-01\\10dc807a3f5c477aa871651d23cd5f3f\\R3-12000-P.sdk.csv": "f962219d299b044c5af31fc146b606c7b463955f8ba6dd79d88fe3327f588bc0",
+        "E:\\A_ZQY\\ZR_Experiment\\分项实验\\03_摩擦与残差补偿\\D\\data\\raw\\Z-D-HOLD-01\\10dc807a3f5c477aa871651d23cd5f3f\\R3-12000-P.batches.csv": "8accae066f089ae8b04470191e6e41fba12578212de0fd79c8d26aa54a10255d"
+      },
+      "field_session": "Z-D-20261127-S01",
+      "attempt": "10dc807a3f5c477aa871651d23cd5f3f"
+    }
+  ],
+  "rejected": {
+    "R3-12000-N": "Incomplete D capture or mismatched configuration",
+    "R3-16000-P": "[Errno 2] No such file or directory: 'E:\\\\A_ZQY\\\\ZR_Experiment\\\\分项实验\\\\03_摩擦与残差补偿\\\\D\\\\data\\\\raw\\\\Z-D-HOLD-01\\\\10dc807a3f5c477aa871651d23cd5f3f\\\\R3-16000-P.txt'"
+  },
+  "batch": {
+    "pre.txt": "edc9c028a96debe1088a6a07ce3d34b08accbf8faba1abc6ac57bf8ff75349c4",
+    "post.txt": "837a275637a99cad270bcbe4a884faf3dd437df6fbac3f0edc0e87d6a1a39522",
+    "request.json": "20daceaac0cc1ebf9fa68f3a7d3d9442fa5ef5565f701d6d3d69ffa061805152",
+    "request.txt": "b9470dc4362abb1089953cd2a363121bf6eb899e35fdd1f2ed78d0bbe847523c",
+    "exit.json": "6d2376caf28c353f7eb1616f6e809204bbeadb5035a238f589641aa5dcbacc11",
+    "native.txt": "bbc29687308e16a7a518d5fb854c543628e5a4c3405833d3a6477747a29a486f"
+  }
+}

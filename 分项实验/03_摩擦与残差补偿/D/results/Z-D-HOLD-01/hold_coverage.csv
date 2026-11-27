@@ -1,0 +1,6 @@
+﻿cohort,clock,hold_phase,begin_s,end_s,run_windows,valid_windows
+stage3_D,watch_arrival_confirmation,arrival,0.0,0.2,18,18
+stage3_D,watch_arrival_confirmation,arrival,0.2,1.0,18,18
+stage3_D,watch_arrival_confirmation,arrival,1.0,3.0,18,18
+stage3_D,watch_arrival_confirmation,arrival,3.0,4.0,18,18
+stage3_D,watch_arrival_confirmation,arrival,4.0,6.0,18,18

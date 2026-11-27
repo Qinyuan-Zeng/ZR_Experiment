@@ -7,3 +7,113 @@ Actual field session ID: Z-D-20261127-S01
 Confirm current field authorization and safeguards. Type READY: READY
 Independent precheck and route clearance passed.
 Type START to execute the displayed D batch: START
+R1-12000-P none
+R1-12000-N none
+2/18 D trials accepted
+2/18 accepted; next R1-16000-P in Z-D-20261127-S01
+2/18 D trials accepted
+3 D holds | hold 6000 ms | approach 10 mm/s, 400 mm/s^2 | Watch 50 us
+R1-16000-P         12000 -> 16000 pulse
+R1-16000-N         20000 -> 16000 pulse
+R1-20000-P         16000 -> 20000 pulse
+Actual field session ID: Z-D-20261127-S01
+Confirm current field authorization and safeguards. Type READY: READY
+Independent precheck and route clearance passed.
+Type START to execute the displayed D batch: START
+R1-16000-P none
+R1-16000-N none
+R1-20000-P none
+5/18 D trials accepted
+5/18 accepted; next R1-20000-N in Z-D-20261127-S01
+5/18 D trials accepted
+1 D holds | hold 6000 ms | approach 10 mm/s, 400 mm/s^2 | Watch 50 us
+R1-20000-N         24000 -> 20000 pulse
+Actual field session ID: Z-D-20261127-S01
+Confirm current field authorization and safeguards. Type READY: READY
+Independent precheck and route clearance passed.
+Type START to execute the displayed D batch: START
+R1-20000-N none
+6/18 D trials accepted
+6/18 accepted; next R2-20000-N in Z-D-20261127-S01
+6/18 D trials accepted
+3 D holds | hold 6000 ms | approach 10 mm/s, 400 mm/s^2 | Watch 50 us
+R2-20000-N         24000 -> 20000 pulse
+R2-20000-P         16000 -> 20000 pulse
+R2-16000-N         20000 -> 16000 pulse
+Actual field session ID: Z-D-20261127-S01
+Confirm current field authorization and safeguards. Type READY: READY
+Independent precheck and route clearance passed.
+Type START to execute the displayed D batch: START
+R2-20000-N none
+R2-20000-P none
+R2-16000-N none
+9/18 D trials accepted
+9/18 accepted; next R2-16000-P in Z-D-20261127-S01
+9/18 D trials accepted
+3 D holds | hold 6000 ms | approach 10 mm/s, 400 mm/s^2 | Watch 50 us
+R2-16000-P         12000 -> 16000 pulse
+R2-12000-N         16000 -> 12000 pulse
+R2-12000-P         8000 -> 12000 pulse
+Actual field session ID: Z-D-20261127-S01
+Confirm current field authorization and safeguards. Type READY: READY
+Independent precheck and route clearance passed.
+Type START to execute the displayed D batch: START
+R2-16000-P none
+R2-12000-N none
+R2-12000-P none
+R2-16000-P: D hold_begin failed duration or position stability
+11/18 D trials accepted
+11/18 accepted; next R2-16000-P in Z-D-20261127-S01
+11/18 D trials accepted
+1 D holds | hold 6000 ms | approach 10 mm/s, 400 mm/s^2 | Watch 50 us
+R2-16000-P         12000 -> 16000 pulse
+Actual field session ID: Z-D-20261127-S01
+Confirm current field authorization and safeguards. Type READY: READY
+Independent precheck and route clearance passed.
+Type START to execute the displayed D batch: START
+R2-16000-P none
+12/18 D trials accepted
+12/18 accepted; next R3-12000-P in Z-D-20261127-S01
+12/18 D trials accepted
+3 D holds | hold 6000 ms | approach 10 mm/s, 400 mm/s^2 | Watch 50 us
+R3-12000-P         8000 -> 12000 pulse
+R3-12000-N         16000 -> 12000 pulse
+R3-16000-P         12000 -> 16000 pulse
+Actual field session ID: Z-D-20261127-S01
+Confirm current field authorization and safeguards. Type READY: READY
+Independent precheck and route clearance passed.
+Type START to execute the displayed D batch: START
+R3-12000-P none
+R3-12000-N D_continuous_hold_not_established
+R3-12000-N: Incomplete D capture or mismatched configuration
+R3-16000-P: [Errno 2] No such file or directory: 'E:\\A_ZQY\\ZR_Experiment\\分项实验\\03_摩擦与残差补偿\\D\\data\\raw\\Z-D-HOLD-01\\10dc807a3f5c477aa871651d23cd5f3f\\R3-16000-P.txt'
+13/18 D trials accepted
+13/18 accepted; next R3-12000-N in Z-D-20261127-S01
+13/18 D trials accepted
+3 D holds | hold 6000 ms | approach 10 mm/s, 400 mm/s^2 | Watch 50 us
+R3-12000-N         16000 -> 12000 pulse
+R3-16000-P         12000 -> 16000 pulse
+R3-16000-N         20000 -> 16000 pulse
+Actual field session ID: Z-D-20261127-S01
+Confirm current field authorization and safeguards. Type READY: READY
+Independent precheck and route clearance passed.
+Type START to execute the displayed D batch: START
+R3-12000-N none
+R3-16000-P none
+R3-16000-N none
+R3-16000-P: D hold_begin failed duration or position stability
+15/18 D trials accepted
+15/18 accepted; next R3-16000-P in Z-D-20261127-S01
+15/18 D trials accepted
+3 D holds | hold 6000 ms | approach 10 mm/s, 400 mm/s^2 | Watch 50 us
+R3-16000-P         12000 -> 16000 pulse
+R3-20000-P         16000 -> 20000 pulse
+R3-20000-N         24000 -> 20000 pulse
+Actual field session ID: Z-D-20261127-S01
+Confirm current field authorization and safeguards. Type READY: READY
+Independent precheck and route clearance passed.
+Type START to execute the displayed D batch: START
+R3-16000-P none
+R3-20000-P none
+R3-20000-N none
+18/18 D trials accepted
