@@ -1,0 +1,43 @@
+stage=before
+state_exit=0
+core=2
+axis=1
+position_pulse=15670
+planned_pulse=15670
+velocity_pulse_s=0
+planned_velocity_pulse_s=0
+following_error_pulse=0
+status_word=1073742336
+enabled=1
+moving=0
+fault=0
+limit_plus=0
+limit_minus=0
+mode=2
+planner=0
+ready=1
+capture_exit=1
+第四阶段 A0，核 2 / ADC AI1 / Z 轴 a33。
+1 普通 ADC，2 同组 Watch 候选 + 普通 ADC，回车选 1，Q 退出 > 时长，整数 1～10 秒，回车采用 5 秒 > AI1，普通 ADC 请求间隔 10 ms，采集 3 秒。
+Watch 会清除并替换空闲 Timer 组的现有配置和数据，请先保存需保留的记录。
+确认当前接线与会话条件后输入 START，其他输入退出 > 会话 Z-FA0_20261128-110559_194_38984
+采集中。Q / Ctrl+C 结束。
+incomplete
+stage=after
+state_exit=0
+core=2
+axis=1
+position_pulse=15670
+planned_pulse=15670
+velocity_pulse_s=0
+planned_velocity_pulse_s=0
+following_error_pulse=0
+status_word=1073742336
+enabled=1
+moving=0
+fault=0
+limit_plus=0
+limit_minus=0
+mode=2
+planner=0
+ready=1

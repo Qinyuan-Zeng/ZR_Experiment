@@ -127,7 +127,10 @@ public:
         return value;
     }
 
-    void configure() {
+    void configure() { configure(channels); }
+
+    template<std::size_t N>
+    void configure(const std::array<TWatchVar, N>& watchChannels) {
         if (!restoreGroup) {
             check("GTN_GetWatchGroup", GTN_GetWatchGroup(core, &previousGroup));
             log << "previous_group=" << previousGroup << '\n';
@@ -144,7 +147,7 @@ public:
         require(selected == group, "Watch group readback mismatch");
         check("GTN_ClearWatch", GTN_ClearWatch(core, 0));
         short index = 0;
-        for (const auto& channel : channels) {
+        for (const auto& channel : watchChannels) {
             const auto name = "channel" + std::to_string(++index);
             check(name + ".GTN_AddWatchVar", GTN_AddWatchVar(core, &channel));
             TWatchVar actual{};
@@ -158,7 +161,7 @@ public:
                     channel.id == actual.id, "Watch channel readback mismatch");
         }
         const auto configured = info("configured");
-        require(configured.varCount == channels.size() && configured.eventCount == 0,
+        require(configured.varCount == watchChannels.size() && configured.eventCount == 0,
                 "Unexpected Watch variable or event count");
     }
 
@@ -230,16 +233,21 @@ inline Ns verifyCorePeriod(Recorder& recorder, std::ostream& log) {
     throw std::runtime_error("Core period unit unresolved by millisecond and interrupt clocks");
 }
 
-struct WatchData {
-    std::array<std::vector<double>, channels.size()> columns;
+template<std::size_t N>
+struct WatchColumns {
+    std::array<std::vector<double>, N> columns;
     bool aligned = false;
 };
 
-inline WatchData readColumns(std::ostream& log, std::ostream& batches, Clock::time_point origin,
-                      unsigned long capacity) {
-    WatchData data;
+using WatchData = WatchColumns<channels.size()>;
+
+template<std::size_t N>
+WatchColumns<N> readColumns(std::ostream& log, std::ostream& batches, Clock::time_point origin,
+                            unsigned long capacity, const std::array<TWatchVar, N>& watchChannels) {
+    static_assert(N > 0);
+    WatchColumns<N> data;
     auto& columns = data.columns;
-    std::array<unsigned long, channels.size()> counts{};
+    std::array<unsigned long, N> counts{};
     bool allOk = true;
     for (std::size_t i = 0; i < columns.size(); ++i) {
         columns[i].resize(capacity, std::numeric_limits<double>::quiet_NaN());
@@ -250,23 +258,30 @@ inline WatchData readColumns(std::ostream& log, std::ostream& batches, Clock::ti
         const auto us = [origin](auto time) {
             return std::chrono::duration_cast<std::chrono::microseconds>(time - origin).count();
         };
-        batches << i + 1 << ',' << channels[i].type << ',' << us(begin) << ',' << us(end)
+        batches << i + 1 << ',' << watchChannels[i].type << ',' << us(begin) << ',' << us(end)
                 << ',' << counts[i] << ',' << rc << ",unavailable\n" << std::flush;
         log << "column" << i + 1 << ".GTN_ReadWatch.rc=" << rc << '\n' << std::flush;
         columns[i].resize(std::min(counts[i], capacity));
         allOk = allOk && rc == 0 && counts[i] < capacity;
     }
-    data.aligned = allOk && counts[0] != 0 && counts[0] == counts[1] && counts[0] == counts[2];
+    data.aligned = allOk && counts.front() != 0 &&
+        std::all_of(counts.begin(), counts.end(),
+                    [&counts](unsigned long count) { return count == counts.front(); });
     return data;
 }
 
-inline fs::path projectRoot() {
+inline WatchData readColumns(std::ostream& log, std::ostream& batches, Clock::time_point origin,
+                             unsigned long capacity) {
+    return readColumns(log, batches, origin, capacity, channels);
+}
+
+inline fs::path projectRoot(const wchar_t* projectName = L"ZRInertiaCurrent.vcxproj") {
     std::wstring buffer(32768, L'\0');
     const auto length = GetModuleFileNameW(nullptr, buffer.data(), static_cast<DWORD>(buffer.size()));
     require(length != 0 && length < buffer.size(), "Cannot locate executable");
     buffer.resize(length);
     for (auto path = fs::path(buffer).parent_path(); path != path.root_path(); path = path.parent_path()) {
-        if (fs::exists(path / L"ZRInertiaCurrent.vcxproj")) return path;
+        if (fs::exists(path / projectName)) return path;
     }
     throw std::runtime_error("Run the executable in the project build tree");
 }

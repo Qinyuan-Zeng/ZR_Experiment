@@ -342,8 +342,8 @@ public:
         throw std::runtime_error("arrival_timeout");
     }
 
-    void abort(std::ostream& record) noexcept {
-        if (!active) return;
+    bool abort(std::ostream& record, const std::function<void()>& observeBraking = {}) noexcept {
+        if (!active) return false;
         active = false;
         const short rc = GTN_Stop(core, axisMask, 0);
         bool stopped = false;
@@ -354,6 +354,9 @@ public:
             const short rs = GTN_GetSts(core, axis, &status);
             const short rv = GTN_GetAxisEncVel(core, axis, &velocity);
             stopped = rs == 0 && rv == 0 && !(status & movingMask) && std::abs(velocity) <= velocityTol;
+            if (observeBraking) {
+                try { observeBraking(); } catch (...) {}
+            }
             if (!stopped) std::this_thread::sleep_for(10ms);
         } while (!stopped && Clock::now() < until);
         try {
@@ -361,6 +364,7 @@ public:
                    << (stopped ? "stationary" : "unconfirmed") << '\n' << std::flush;
             if (rc || !stopped) std::cerr << "Smooth stop unconfirmed. Check axis on site.\n";
         } catch (...) {}
+        return rc == 0 && stopped;
     }
 
     static long long hostUs(Clock::time_point time) {

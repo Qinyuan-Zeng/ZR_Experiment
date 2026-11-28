@@ -1,0 +1,6 @@
+column,channel_code,host_read_begin_us,host_read_end_us,frames,rc,overflow
+1,1201,4286303,4596671,70000,0,unavailable
+2,30000,4597098,4907573,70000,0,unavailable
+3,30001,4908174,5212119,70000,0,unavailable
+4,61201,5212450,5516322,70000,0,unavailable
+5,33000,5928751,6232438,70000,0,unavailable

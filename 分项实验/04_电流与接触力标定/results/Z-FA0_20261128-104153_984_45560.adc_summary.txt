@@ -1,0 +1,9 @@
+session=Z-FA0_20261128-104153_984_45560
+raw_file=E:\A_ZQY\ZR_Experiment\分项实验\04_电流与接触力标定\data\raw\Z-FA0_20261128-104153_984_45560.adc.csv
+samples=964
+bad_rows=0
+voltage_v_min_avg_max_sd=-0.0030517578125,-0.000774652631450985,0.0030517578125,0.00092741737153202
+adc_raw_min_avg_max=-10,-2.59439834024896,8
+force_legacy_mean_n=-0.00759934231453417
+poll_ms_median_p95_max=15.87,16.094,26.456
+status_manifest=E:\A_ZQY\ZR_Experiment\分项实验\04_电流与接触力标定\manifest\Z-FA0-SPRING-01_20261128-104153-756_adc.txt

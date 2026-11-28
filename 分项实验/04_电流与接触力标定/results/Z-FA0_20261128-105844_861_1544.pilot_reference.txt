@@ -1,0 +1,12 @@
+session=Z-FA0_20261128-105844_861_1544
+samples=319
+meter_g=19.1
+zero_session=Z-FA0_20261128-105410_981_32700
+zero_v=-0.000517555165066614
+reference_v=0.192470251579643
+sd_v=0.00123769723319824
+min_v=0.189208984375
+max_v=0.19622802734375
+delta_v=0.19298780674471
+scale_display_g_per_v=98.9699832449314
+state_log=E:\A_ZQY\ZR_Experiment\分项实验\04_电流与接触力标定\manifest\Z-FA0-SPRING-01-PILOT_20261128-105844-344_reference.txt
