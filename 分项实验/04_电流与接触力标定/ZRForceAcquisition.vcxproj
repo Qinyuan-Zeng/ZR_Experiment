@@ -37,6 +37,8 @@
     <TargetName>ZRForceAcquisition</TargetName>
     <OutDir Condition="'$(EntryPoint)'=='a0_force_guard'">$(OutDir)$(EntryPoint)\</OutDir>
     <TargetName Condition="'$(EntryPoint)'=='a0_force_guard'">ZRForceGuardPilot</TargetName>
+    <OutDir Condition="'$(EntryPoint)'=='a0_open_loop_observer'">$(OutDir)$(EntryPoint)\</OutDir>
+    <TargetName Condition="'$(EntryPoint)'=='a0_open_loop_observer'">ZRForceOpenLoopObserver</TargetName>
     <LocalDebuggerWorkingDirectory>$(OutDir)</LocalDebuggerWorkingDirectory>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
@@ -60,6 +62,9 @@
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\a0_open_loop_observer.cpp">
+      <ExcludedFromBuild Condition="'$(EntryPoint)'!='a0_open_loop_observer'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="src\a0_force_capture.cpp">
       <ExcludedFromBuild Condition="'$(EntryPoint)'!='a0_force_capture'">true</ExcludedFromBuild>
     </ClCompile>
@@ -71,7 +76,7 @@
     <None Include="README.md" />
   </ItemGroup>
   <Target Name="ValidateEntryPoint" BeforeTargets="PrepareForBuild"
-          Condition="'$(EntryPoint)'!='a0_force_capture' And '$(EntryPoint)'!='a0_force_guard'">
+          Condition="'$(EntryPoint)'!='a0_force_capture' And '$(EntryPoint)'!='a0_force_guard' And '$(EntryPoint)'!='a0_open_loop_observer'">
     <Error Text="Unknown EntryPoint: $(EntryPoint)" />
   </Target>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

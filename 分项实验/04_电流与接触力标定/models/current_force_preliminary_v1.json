@@ -1,0 +1,72 @@
+{
+  "calibration_id": "ZR_A0_CURRENT_FORCE_PRELIMINARY_V1",
+  "status": "preliminary",
+  "protocol_id": "Z-FA0-SPRING-01-MAP-200",
+  "calibration_date": "2026-11-28",
+  "source_result": "results/MAP-200_20261128_last2_loaded_current_force_fit.json",
+  "source_result_sha256": "bbae8c1064ab7f2c0ee1a0ae1b3fcce50b7e02ab8c88ffd7f1ee999e1ac44135",
+  "source_sessions": [
+    "Z-FA0-MAP_20261128-113544_023_47816",
+    "Z-FA0-MAP_20261128-113634_366_13572",
+    "Z-FA0-MAP_20261128-114207_238_29220",
+    "Z-FA0-MAP_20261128-114311_675_20708"
+  ],
+  "excluded_loaded_sessions": [
+    "Z-FA0-MAP_20261128-113457_917_11544"
+  ],
+  "model": "F_display_g = slope * (I_feedback_raw - I_unloaded_raw_at_same_position) + intercept",
+  "input_channel": "GTN_GetAtlTorque",
+  "input_units": "driver feedback raw",
+  "output_units": "indicator-equivalent g",
+  "slope_display_g_per_current_raw": 0.5955797092680811,
+  "intercept_display_g": -5.54971497476221,
+  "unloaded_reference_by_position_pulse": [
+    {
+      "position_pulse": 16670,
+      "unloaded_current_raw": 499.0
+    },
+    {
+      "position_pulse": 17670,
+      "unloaded_current_raw": 513.5
+    },
+    {
+      "position_pulse": 18670,
+      "unloaded_current_raw": 544.0
+    }
+  ],
+  "conditions": {
+    "platform": "ZR a33",
+    "core": 2,
+    "axis": 1,
+    "protocol_approach": "positive TRAP, then stationary hold",
+    "use_same_fixture_and_spring_configuration": true,
+    "approach_speed_mm_s": 0.5,
+    "requested_acceleration_mm_s2": 20,
+    "hold_s": 3,
+    "tail_summary_s": 1,
+    "hold_statistic": "median per trial",
+    "valid_nominal_position_pulse": [
+      16670,
+      17670,
+      18670
+    ],
+    "measured_force_span_display_g": [
+      19.91706141869808,
+      67.730153373219
+    ],
+    "fitted_current_residual_span_raw": [
+      41.5,
+      121.5
+    ],
+    "interpolation_or_extrapolation_validated": false,
+    "force_safety_threshold_g": 200
+  },
+  "evaluation": {
+    "fitted_position_count": 3,
+    "loaded_trials": 2,
+    "unloaded_trials": 2,
+    "in_sample_rmse_display_g": 1.180817699972208,
+    "leave_trial_pair_out_rmse_display_g": 3.8796565364245663,
+    "independent_session_validation_status": "pending"
+  }
+}
