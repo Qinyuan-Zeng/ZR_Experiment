@@ -1,0 +1,2 @@
+﻿unit,trace,phase,direction,frame,card_tick_raw,x_pulse,v_pulse_s,a_pulse_s2,current_raw,m1_raw,M2_frozen,shared_arrival,backward_5ms_delta_pulse,next_5ms_delta_pulse_diagnostic,past_20ms_min,past_20ms_max
+B1:R5-P2-V40-A600,B1:R5-P2-V40-A600_leg1,brake,1,26200,1272006376,19978,-2022.857143,-434285.7143,623,443.1296114,455.4790025724855,452.0247702921836,0,0,19929,19978

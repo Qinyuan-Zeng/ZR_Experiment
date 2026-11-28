@@ -1,0 +1,11 @@
+﻿model,selection,rows,units,rmse
+m1_raw,original,431,44,10.312419765488755
+m1_raw,exclude_sign_disagreement_diagnostic,430,44,7.062922106738721
+M2_frozen,original,431,44,9.589851325041229
+M2_frozen,exclude_sign_disagreement_diagnostic,430,44,6.55221160194854
+shared_v1,original,431,44,9.589851325041234
+shared_v1,exclude_sign_disagreement_diagnostic,430,44,6.5522116019485415
+shared_arrival,original,431,44,10.147973820700345
+shared_arrival,exclude_sign_disagreement_diagnostic,430,44,7.204254324903951
+semi_hold,original,431,44,9.558062148541028
+semi_hold,exclude_sign_disagreement_diagnostic,430,44,6.644631465693782

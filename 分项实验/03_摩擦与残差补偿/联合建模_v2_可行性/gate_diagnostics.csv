@@ -1,0 +1,17 @@
+﻿cohort,split,phase,eligible,mean_soft_gate,hard_hold_share
+B1,dev,accelerate,647,0.0,0.0
+B1,dev,brake,649,0.0,0.0
+B1,dev,cruise,21719,0.0,0.0
+B1,dev,hold,38715,0.9540600465618992,0.9895389383959705
+B1,internal,accelerate,421,0.0,0.0
+B1,internal,brake,431,0.0,0.0
+B1,internal,cruise,14500,0.0,0.0
+B1,internal,hold,25812,0.9539556725190712,0.989268557260189
+C,dev,accelerate,98,0.0,0.0
+C,dev,cruise,15327,0.0,0.0
+C,dev,hold,21644,0.9482935126578876,0.9959342080946221
+C,internal,accelerate,49,0.0,0.0
+C,internal,cruise,7593,0.0,0.0
+C,internal,hold,10811,0.946787974316992,0.9944500971233003
+D,dev,hold,14412,0.9871304274999783,0.99909797391063
+D,internal,hold,7205,0.9870077984929683,0.9987508674531576
