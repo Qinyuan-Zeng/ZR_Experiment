@@ -1,0 +1,82 @@
+{
+  "repository": "https://github.com/Qinyuan-Zeng/ZR_Experiment",
+  "default_branch": "main",
+  "commit": "676b7fef50e5b11f81cff363f57d0d22b256fd2d",
+  "tracked_inputs": 1965,
+  "source_trace_counts": {
+    "B1": 320,
+    "C": 126,
+    "D": 18
+  },
+  "comparison": {
+    "joint_samples.csv.gz": {
+      "sha256": "18b25fe0a45bec723655eb887ccc42a40201a30b7f05615a04ee79f04f291503",
+      "reference_sha256": "18b25fe0a45bec723655eb887ccc42a40201a30b7f05615a04ee79f04f291503",
+      "byte_exact": true
+    },
+    "internal_predictions.csv.gz": {
+      "sha256": "8d09255aef508fd2177d39e3cdfc87582f34b8bbda458418278359082a36c472",
+      "reference_sha256": "8d09255aef508fd2177d39e3cdfc87582f34b8bbda458418278359082a36c472",
+      "byte_exact": true
+    },
+    "evaluation.csv": {
+      "sha256": "d0f478bfcea94128d0bbede0619d4091d05c56469cbb37d33ca4fe80420c3042",
+      "reference_sha256": "d0f478bfcea94128d0bbede0619d4091d05c56469cbb37d33ca4fe80420c3042",
+      "byte_exact": true
+    },
+    "seed_sensitivity.csv": {
+      "sha256": "0ca5be523842c03043eb15950e7530a1939551f98d46013106e25515c83b74d6",
+      "reference_sha256": "0ca5be523842c03043eb15950e7530a1939551f98d46013106e25515c83b74d6",
+      "byte_exact": true
+    },
+    "coverage.csv": {
+      "sha256": "a6c0fa8ade37a420d1e7577c4f7ca728c07cd76561946dbb16939d3e4c87fa28",
+      "reference_sha256": "a6c0fa8ade37a420d1e7577c4f7ca728c07cd76561946dbb16939d3e4c87fa28",
+      "byte_exact": true
+    },
+    "splits.csv": {
+      "sha256": "8685b767df359e093f5006d1f103cfc98776c12913f75fda28be0bf7e7cc5e98",
+      "reference_sha256": "8685b767df359e093f5006d1f103cfc98776c12913f75fda28be0bf7e7cc5e98",
+      "byte_exact": true
+    },
+    "C_matched_summary.csv": {
+      "sha256": "cd21013ab41a2bccbed443d912bd514b6a5a229a6d13ef0a4098fd5b46d63049",
+      "reference_sha256": "cd21013ab41a2bccbed443d912bd514b6a5a229a6d13ef0a4098fd5b46d63049",
+      "byte_exact": true
+    },
+    "D_hold_summary.csv": {
+      "sha256": "9d8c81f59a1dd52fbab4eb37821457a4a1660f03597c6b9370fb4151c185474e",
+      "reference_sha256": "9d8c81f59a1dd52fbab4eb37821457a4a1660f03597c6b9370fb4151c185474e",
+      "byte_exact": true
+    },
+    "D_hold_ablation_by_age.csv": {
+      "sha256": "bc78836e1450331d999f3fe4def7e2bedc3949927369a9d280bf29a4f9bc3945",
+      "reference_sha256": "bc78836e1450331d999f3fe4def7e2bedc3949927369a9d280bf29a4f9bc3945",
+      "byte_exact": true
+    },
+    "paired_regression_check.csv": {
+      "sha256": "bb78cdf62318ead6970510f23fb48aac2195fc17f673936f7b223d625c17c111",
+      "reference_sha256": "bb78cdf62318ead6970510f23fb48aac2195fc17f673936f7b223d625c17c111",
+      "byte_exact": true
+    }
+  },
+  "models": {
+    "M2.npz": {
+      "arrays_exact": true,
+      "sha256": "e6a7f7c060b6c63f1ff88487f15e7ff659e9f8ca8efe2cee3559728be8a7fe6c"
+    },
+    "M2_no_both.npz": {
+      "arrays_exact": true,
+      "sha256": "ff997ff11fcee86f6fd7abebdd500b0cc5656aa87f1905328160bb638c91560d"
+    },
+    "M2_no_direction.npz": {
+      "arrays_exact": true,
+      "sha256": "4d89892b1c51cf1424f192b1ea1b65c01c44a555f0efbede235c319085cb9c8c"
+    },
+    "M2_no_time.npz": {
+      "arrays_exact": true,
+      "sha256": "6d4aa6f6b0c8c5a55a7039508d45dc03e9e977cf5fa451744cd50f58157f42d1"
+    }
+  },
+  "E_used": false
+}

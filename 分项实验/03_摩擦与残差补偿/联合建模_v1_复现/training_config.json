@@ -1,0 +1,68 @@
+{
+  "widths": [
+    24,
+    16
+  ],
+  "activation": "tanh",
+  "epochs": 100,
+  "steps_per_epoch": 24,
+  "batch_size": 256,
+  "optimizer": "Adam",
+  "learning_rate": 0.002,
+  "l2": 0.0001,
+  "huber_delta_raw": 25,
+  "seeds": [
+    426,
+    427,
+    428
+  ],
+  "saved_seed": 426,
+  "dtype": "float64",
+  "E_used": false,
+  "schedule": "fixed before internal scoring; score all seeds; no selection on internal",
+  "weight": "equal populated cohort-phase strata, equal complete units within each, equal rows within unit",
+  "dataset_sha256": "18b25fe0a45bec723655eb887ccc42a40201a30b7f05615a04ee79f04f291503",
+  "features": {
+    "M2": [
+      "x_pulse",
+      "v_pulse_s",
+      "a_pulse_s2",
+      "v_history",
+      "still_history",
+      "arrival_memory",
+      "time_since_stop"
+    ],
+    "M2_no_direction": [
+      "x_pulse",
+      "v_pulse_s",
+      "a_pulse_s2",
+      "v_history",
+      "still_history",
+      "time_since_stop"
+    ],
+    "M2_no_time": [
+      "x_pulse",
+      "v_pulse_s",
+      "a_pulse_s2",
+      "v_history",
+      "still_history",
+      "arrival_memory"
+    ],
+    "M2_no_both": [
+      "x_pulse",
+      "v_pulse_s",
+      "a_pulse_s2",
+      "v_history",
+      "still_history"
+    ]
+  },
+  "normalization": "weighted training-only statistics",
+  "dev_rows": 113211,
+  "dev_units": 192,
+  "internal_rows": 66822,
+  "internal_units": 112,
+  "hold_protocol": "zero inertia and sliding friction on static HOLD",
+  "model_version": "internal research v1",
+  "numpy": "2.3.5",
+  "pandas": "3.0.1"
+}
