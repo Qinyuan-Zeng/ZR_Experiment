@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "protected_files": 18,
+  "internal_rows": 66822,
+  "internal_units": 112,
+  "models": 12,
+  "original_anomaly_retained": true,
+  "figures_checked": 4
+}

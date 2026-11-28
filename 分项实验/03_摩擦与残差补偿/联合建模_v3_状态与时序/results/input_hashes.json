@@ -1,0 +1,20 @@
+{
+  "03_摩擦与残差补偿\\联合建模_v1\\joint_samples.csv.gz": "18b25fe0a45bec723655eb887ccc42a40201a30b7f05615a04ee79f04f291503",
+  "03_摩擦与残差补偿\\联合建模_v1\\models\\M2.npz": "e6a7f7c060b6c63f1ff88487f15e7ff659e9f8ca8efe2cee3559728be8a7fe6c",
+  "03_摩擦与残差补偿\\联合建模_v1\\internal_predictions.csv.gz": "8d09255aef508fd2177d39e3cdfc87582f34b8bbda458418278359082a36c472",
+  "03_摩擦与残差补偿\\联合建模_v1\\evaluation.csv": "d0f478bfcea94128d0bbede0619d4091d05c56469cbb37d33ca4fe80420c3042",
+  "03_摩擦与残差补偿\\联合建模_v1\\sources.csv": "7758d1d00953dd002a643118bd4284f32b0a6bad7457e6dfdce835d90f5daf40",
+  "03_摩擦与残差补偿\\联合建模_v1\\splits.csv": "8685b767df359e093f5006d1f103cfc98776c12913f75fda28be0bf7e7cc5e98",
+  "03_摩擦与残差补偿\\联合建模_v1\\training_config.json": "ee7e55d15ae8652218c021da1b5d558abfb2e9396397dc0e92a4d8431e135443",
+  "03_摩擦与残差补偿\\联合建模_v2_可行性\\internal_predictions.csv.gz": "c4b9339df7a2d74472a0c8deeff11d146707a2eeadcf74528328aae124003023",
+  "03_摩擦与残差补偿\\联合建模_v2_可行性\\internal_metrics.csv": "4c74fc38c121c871fd8e988535f130f441a675b3856766b99a0a38ab3895b9f3",
+  "03_摩擦与残差补偿\\联合建模_v2_可行性\\development_metrics.csv": "3c22a45318e824fd8ac32cb67249ba33f3514b020f7252547ec752cc660ebe58",
+  "03_摩擦与残差补偿\\联合建模_v2_可行性\\candidate_config.json": "89c5532d8f8006d2411043003a8d4a770263bb9103fabec954d1b388e2e8e62b",
+  "03_摩擦与残差补偿\\联合建模_v2_可行性\\selection_seal.json": "c41b5525610f813bc6d4a0ee678a3707599156fc57b30dd540b3a99d7b962244",
+  "01_位置相关空载电流辨识\\models\\position_B_primary_v1.json": "e854bcf3816a68e2b3a3952936c7fb1ef970fb2979cdd947c788e3a75e49e195",
+  "02_等效惯性电流辨识\\results\\d\\Z-DP_20261126-095126_343_29884_summary.json": "ec6ed3bc189df8a7c5493ad750d876ed2e3a58389615b6fbab840c495e3e1907",
+  "03_摩擦与残差补偿\\manifest\\formal_a\\Z-AF-20261126-03\\models_frozen.json": "e13fab8c4f2cb1ff8d46a2fee3e731042138344fe1f1a81beeb645bdc7912030",
+  "03_摩擦与残差补偿\\联合建模_v1\\prepare_joint.py": "ef95d70172c2f1a6d08058fe0b183d18e77230dde7fa69cb4a2b056c9db15ee3",
+  "03_摩擦与残差补偿\\联合建模_v1\\train_joint.py": "c2ba7ec5b1d927999c10ddce5bb24e9b4655537fcd61ce4d6108061e289c7557",
+  "03_摩擦与残差补偿\\联合建模_v2_可行性\\compare.py": "5e8a6401e4b3a5a51063d67ce499a4644392ecd90974251d0493beebe56bd740"
+}
