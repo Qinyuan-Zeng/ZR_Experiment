@@ -1,0 +1,21 @@
+{
+  "parameters": 1489,
+  "train_s": 60.79509559995495,
+  "online_us_per_grid": 364.4257812993601,
+  "updates": 2400,
+  "sequence": "window",
+  "precision": "float32",
+  "identity": {
+    "code": {
+      "protocol.json": "165e002c30754f13eef49be785de5b5d1bfb889f9b8e320a486b86d135b4dce0",
+      "state.py": "6398733a04c90ea60734e1cfe4caf9d3ef0d8f98ed605f57f71d8d3b8ec10586",
+      "common.py": "9a03324b62592e69be56eefe832a46dd0eefe15720490c4e6a952ee2bd22af61",
+      "residual.py": "2b23865f87e808a0b75f0affd467870ccf365b58d5893766948d9d5cf27fc4d8",
+      "sequence.py": "8eb705fcf64496d8a6ff192506ee262a9e13b9dd9a533d45d2a557c9c78c3faa",
+      "study.py": "90470cf318024613e1af626404c18bd128c216837f9412bf723fd700e406fb6e"
+    },
+    "data": "18b25fe0a45bec723655eb887ccc42a40201a30b7f05615a04ee79f04f291503",
+    "train": 66877,
+    "predict": 76998
+  }
+}
