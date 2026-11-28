@@ -1,0 +1,82 @@
+{
+  "id": "ZR-R3-OFFLINE-01",
+  "ts_s": 0.005,
+  "folds": [
+    1,
+    2
+  ],
+  "seeds": [
+    426,
+    427,
+    428
+  ],
+  "state": {
+    "r_quantization_floor": 0.08333333333333333,
+    "r_static_percentile": 0.9,
+    "r_multipliers": [
+      1,
+      4
+    ],
+    "qj": [
+      3000000000,
+      30000000000,
+      300000000000,
+      3000000000000
+    ],
+    "s2_window_grids": 4,
+    "s2_stationary_5ms_pulse": 1,
+    "s2_stationary_20ms_pulse": 3,
+    "s2_direction_10ms_pulse": 3,
+    "s2_enter_quiet_samples": 2,
+    "s2_exit_displacement_pulse": 3
+  },
+  "selection": {
+    "min_loading_improvement": 0.02,
+    "fold_loading_ratio_max": 1,
+    "phase_ratio_max": 1.05,
+    "fold_phase_ratio_max": 1.1,
+    "hold_ratio_state_max": 1.02,
+    "hold_ratio_network_max": 0.99,
+    "fold_hold_ratio_network_max": 1,
+    "low_hold_ratio_max": 1.05,
+    "extra_delay_ms_max": 10,
+    "new_false_reversal_ratio_max": 1.05,
+    "min_true_reversal_recall": 0.95
+  },
+  "lstm": {
+    "families": [
+      "L1",
+      "L2"
+    ],
+    "modes": [
+      "window",
+      "stream"
+    ],
+    "default_hidden": 16,
+    "extension_hidden": [
+      8,
+      32
+    ],
+    "window_grids": 80,
+    "extension_window_grids": [
+      20,
+      200
+    ],
+    "expand_only_after_screen_pass": true,
+    "stream_epochs": 100,
+    "gradient_block_grids": 200,
+    "stream_traces_per_batch": 8
+  },
+  "hold_windows_s": [
+    0,
+    0.1,
+    0.5,
+    1,
+    2,
+    3,
+    6,
+    10
+  ],
+  "main_grid": "Original V1 label mask for engineering comparison. Additional intersection of calibrated mechanism scopes, all losses/gains reported. No new supervised labels. No prediction shift.",
+  "internal_policy": "Baseline replay, anomaly forensics and one diagnostic evaluation after development selection seal. E excluded."
+}
