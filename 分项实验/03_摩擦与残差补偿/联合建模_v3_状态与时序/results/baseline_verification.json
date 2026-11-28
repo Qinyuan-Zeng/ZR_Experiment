@@ -1,0 +1,20 @@
+{
+  "rows": 66822,
+  "units": 112,
+  "M2_max_abs_point_delta": 4.9999925977317616e-08,
+  "shared_arrival": [
+    {
+      "seed": 426,
+      "max_abs_metric_rmse_delta": 0.0,
+      "max_abs_point_delta": 5.684341886080802e-14
+    },
+    {
+      "seed": 427,
+      "max_abs_metric_rmse_delta": 1.7763568394002505e-15
+    },
+    {
+      "seed": 428,
+      "max_abs_metric_rmse_delta": 8.881784197001252e-16
+    }
+  ]
+}
