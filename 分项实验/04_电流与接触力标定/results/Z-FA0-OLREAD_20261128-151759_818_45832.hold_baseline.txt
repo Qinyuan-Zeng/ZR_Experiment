@@ -1,0 +1,10 @@
+session=Z-FA0-OLREAD_20261128-151759_818_45832
+samples=323
+position_min_max_pulse=15670,15670
+feedback_current_min_median_max_raw=488,488,488
+ai1_v_min_mean_max=-0.0030517578125,-0.000573503712751548,0.0018310546875
+force_command_register_unique=0
+ao1_candidate_dac_unique=0
+ao1_candidate_rc=0
+state_check=E:\A_ZQY\ZR_Experiment\分项实验\04_电流与接触力标定\manifest\Z-FA0-OPEN-15670_20261128-151759-531_hold_check.txt
+raw=E:\A_ZQY\ZR_Experiment\分项实验\04_电流与接触力标定\data\raw\Z-FA0-OLREAD_20261128-151759_818_45832.open_loop_observe.csv

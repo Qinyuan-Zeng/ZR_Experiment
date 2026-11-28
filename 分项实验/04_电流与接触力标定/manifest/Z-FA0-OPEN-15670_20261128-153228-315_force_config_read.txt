@@ -1,0 +1,10 @@
+GTN_OpenCard.rc=0
+GTN_GetForceControlParameter.rc=0
+control_type=0
+feedback_type=24
+feedback_source=0
+control_gain_sdk=1
+control_offset_sdk=0
+output_limit_sdk=32767
+output_reverse=0
+GTN_Close.rc=0

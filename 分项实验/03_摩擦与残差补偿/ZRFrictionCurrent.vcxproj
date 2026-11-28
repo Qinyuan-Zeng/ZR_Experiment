@@ -59,7 +59,19 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\01_位置相关空载电流辨识\src\stage1.cpp">
-      <ExcludedFromBuild Condition="'$(EntryPoint)'=='b1_scan' Or '$(EntryPoint)'=='c_scan' Or '$(EntryPoint)'=='d_hold'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(EntryPoint)'=='b1_scan' Or '$(EntryPoint)'=='c_scan' Or '$(EntryPoint)'=='d_hold' Or '$(EntryPoint)'=='supplement_scan' Or '$(EntryPoint)'=='e_scan' Or '$(EntryPoint)'=='turn_probe'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\turn_probe.cpp">
+      <ExcludedFromBuild Condition="'$(EntryPoint)'!='turn_probe'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\closeout_capture.cpp">
+      <ExcludedFromBuild Condition="'$(EntryPoint)'!='supplement_scan' And '$(EntryPoint)'!='e_scan'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\supplement_scan.cpp">
+      <ExcludedFromBuild Condition="'$(EntryPoint)'!='supplement_scan'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\e_scan.cpp">
+      <ExcludedFromBuild Condition="'$(EntryPoint)'!='e_scan'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="src\d_hold.cpp">
       <ExcludedFromBuild Condition="'$(EntryPoint)'!='d_hold'">true</ExcludedFromBuild>
@@ -81,7 +93,7 @@
   <ItemGroup>
     <None Include="README.md" />
   </ItemGroup>
-  <Target Name="ValidateEntryPoint" BeforeTargets="PrepareForBuild" Condition="'$(EntryPoint)' != 'a0_scan' And '$(EntryPoint)' != 'a_scan' And '$(EntryPoint)' != 'b1_scan' And '$(EntryPoint)' != 'c_scan' And '$(EntryPoint)' != 'd_hold'">
+  <Target Name="ValidateEntryPoint" BeforeTargets="PrepareForBuild" Condition="'$(EntryPoint)' != 'a0_scan' And '$(EntryPoint)' != 'a_scan' And '$(EntryPoint)' != 'b1_scan' And '$(EntryPoint)' != 'c_scan' And '$(EntryPoint)' != 'd_hold' And '$(EntryPoint)' != 'supplement_scan' And '$(EntryPoint)' != 'e_scan' And '$(EntryPoint)' != 'turn_probe'">
     <Error Text="Unknown EntryPoint: $(EntryPoint)" />
   </Target>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

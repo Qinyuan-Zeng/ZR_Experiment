@@ -1,0 +1,116 @@
+{
+  "session": "Z-FA0-DACMAP_20261128-161344_015_41944",
+  "protocol": "Z-FA0-OPEN-ZERO-DAC-01",
+  "step_plan_dac": [
+    0,
+    20,
+    40,
+    60,
+    80,
+    100,
+    80,
+    60,
+    40,
+    20,
+    0
+  ],
+  "points": [
+    {
+      "dac": 0,
+      "current_raw": 0.0,
+      "hold_medians_raw": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "dac": 20,
+      "current_raw": 1.0,
+      "hold_medians_raw": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "dac": 40,
+      "current_raw": 3.0,
+      "hold_medians_raw": [
+        3.0,
+        3.0
+      ]
+    },
+    {
+      "dac": 60,
+      "current_raw": 4.0,
+      "hold_medians_raw": [
+        4.0,
+        4.0
+      ]
+    },
+    {
+      "dac": 80,
+      "current_raw": 6.0,
+      "hold_medians_raw": [
+        6.0,
+        6.0
+      ]
+    },
+    {
+      "dac": 100,
+      "current_raw": 7.0,
+      "hold_medians_raw": [
+        7.0
+      ]
+    }
+  ],
+  "linear_fit": {
+    "slope_raw_per_dac": 0.07285714285714286,
+    "intercept_raw": -0.1428571428571428,
+    "rmse_raw": 0.2390457218668787,
+    "measured_dac_span": [
+      0,
+      100
+    ],
+    "measured_current_span_raw": [
+      0.0,
+      7.0
+    ],
+    "max_repeat_current_span_raw": 0.0
+  },
+  "r_squared": 0.9908571428571429,
+  "through_origin_slope_raw_per_dac": 0.07090909090909091,
+  "through_origin_fit_rmse_raw": 0.2522624895547565,
+  "hold_488raw_status": "target_outside_measured_current_range",
+  "raw_samples": 771,
+  "sweep_samples": 737,
+  "position_min_max_pulse": [
+    -1.0,
+    0.0
+  ],
+  "sweep_current_min_max_raw": [
+    0,
+    7
+  ],
+  "sweep_peak_abs_ai1_v": 0.00274658203125,
+  "sweep_max_sample_gap_ms": 17.324,
+  "mode_order": [
+    "2",
+    "3",
+    "2"
+  ],
+  "stationary_after_return": true,
+  "evidence_files": {
+    "manifest": {
+      "file": "manifest\\Z-FA0-DACMAP_20261128-161344_015_41944.txt",
+      "sha256": "b1a643c2435ca274c4063702a19b529587472c4deae96b81f7f24c57db9d9022"
+    },
+    "raw": {
+      "file": "data\\raw\\Z-FA0-DACMAP_20261128-161344_015_41944.dac_current.csv",
+      "sha256": "f9afd17142b49146ba5c95e2665765c1fe188bc4b5e25ab14e545309f16c7cc0"
+    },
+    "points": {
+      "file": "results\\Z-FA0-DACMAP_20261128-161344_015_41944.dac_current_points.csv",
+      "sha256": "f7cf169b1bd287c8a9536f1a6f5d7d9f8a6d1118f3b57f39818cdc1e58f93471"
+    }
+  }
+}

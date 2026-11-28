@@ -4,15 +4,15 @@ namespace {
 using namespace watch_capture;
 constexpr short controlIndex = 1;
 constexpr short adcChannel = 1;
-constexpr long referencePulse = 15760;
+constexpr long referencePulse = 15670;
 constexpr double referenceTolerancePulse = 10.0;
 constexpr auto pollWait = 10ms;
 
 struct Reading {
     double position = 0, velocity = 0, command = 0, voltage = 0;
     long status = 0;
-    short mode = 0, current = 0;
-    unsigned long positionClock = 0, adcClock = 0;
+    short mode = 0, current = 0, dacChannel1 = 0, dacRc = -1;
+    unsigned long positionClock = 0, adcClock = 0, dacClock = 0;
     TSwitchLoopParameter task{};
     std::array<short, 8> rc{};
 };
@@ -27,6 +27,8 @@ Reading read() {
     sample.rc[5] = GTN_GetAtlTorque(core, axis, &sample.current);
     sample.rc[6] = GTN_GetAdc(core, adcChannel, &sample.voltage, 1, &sample.adcClock);
     sample.rc[7] = GTN_GetSwitchLoopParameter(core, axis, &sample.task);
+    // Physical AO readback is a diagnostic candidate. Axis-to-output mapping is unverified.
+    sample.dacRc = GTN_GetDac(core, 1, &sample.dacChannel1, 1, &sample.dacClock);
     return sample;
 }
 
@@ -49,16 +51,39 @@ void snapshot(std::ostream& log, const Reading& s, const char* stage) {
         << '\n' << stage << ".current_feedback_raw=" << s.current
         << '\n' << stage << ".ai1_voltage_v=" << s.voltage
         << '\n' << stage << ".switch_task_enable=" << s.task.enable
-        << '\n' << stage << ".switch_task_mode=" << s.task.mode << '\n';
+        << '\n' << stage << ".switch_task_mode=" << s.task.mode
+        << '\n' << stage << ".switch_task_open_loop_dac=" << s.task.openLoopDac
+        << '\n' << stage << ".ao1_candidate_rc=" << s.dacRc << '\n';
+    if (s.dacRc == 0) log << stage << ".ao1_candidate_dac_bit=" << s.dacChannel1 << '\n';
     log << stage << ".sample_valid=" << sampleValid(s)
-        << '\n' << stage << ".position_in_15760_band=" << atReference(s.position) << '\n' << std::flush;
+        << '\n' << stage << ".position_in_15670_band=" << atReference(s.position) << '\n' << std::flush;
 }
 
-int run(int seconds) {
+void readDrivePdo(std::ostream& log, std::ostream& console) {
+    // GVN programming manual, instruction 184. Keep these diagnostic bytes
+    // separate from the feedback current and the GVN open-loop DAC register.
+    for (const auto object : std::array<unsigned short, 2>{0x6061, 0x6071}) {
+        std::array<unsigned char, 256> bytes{};
+        const short rc = GTN_GetEcatAxisPdoData(core, axis, object, bytes.data());
+        std::ostringstream record;
+        record << "pdo_" << std::hex << object << std::dec << ".rc=" << rc << '\n';
+        if (rc == 0) {
+            record << "pdo_" << std::hex << object << ".bytes_le=" << std::setfill('0')
+                   << std::setw(2) << static_cast<unsigned>(bytes[0]);
+            if (object == 0x6071) record << ',' << std::setw(2) << static_cast<unsigned>(bytes[1]);
+            record << '\n';
+        }
+        log << record.str() << std::flush;
+        console << record.str() << std::flush;
+    }
+}
+
+int run(int seconds, bool transfer = false) {
     const auto root = projectRoot(L"ZRForceAcquisition.vcxproj");
     const auto id = sessionId("Z-FA0-OLREAD_");
     auto log = createFile(root / L"manifest" / (id + ".txt"));
-    log << "session=" << id << "\nprotocol=Z-FA0-OPEN-15760-OBSERVE"
+    log << "session=" << id << "\nprotocol=Z-FA0-OPEN-15670-OBSERVE"
+        << "\nobservation_type=" << (transfer ? "transfer" : "reference")
         << "\nbuild=" << __DATE__ << ' ' << __TIME__
         << "\ncore=" << core << "\naxis=" << axis << "\ncontrol_index=" << controlIndex
         << "\nadc_channel=" << adcChannel << "\nrequested_seconds=" << seconds
@@ -85,6 +110,7 @@ int run(int seconds) {
         log << "GTN_GetLimitStatus.rc=" << limitRc;
         if (!limitRc) log << "\npositive_limit=" << positive << "\nnegative_limit=" << negative;
         log << '\n';
+        readDrivePdo(log, std::cout);
         const auto initial = read();
         snapshot(log, initial, "initial");
         snapshot(std::cout, initial, "initial");
@@ -98,11 +124,12 @@ int run(int seconds) {
         if (!seconds) {
             outcome = "state_read_ok";
         } else {
-            require(atReference(initial.position), "Observer must start within 15760 +/- 10 pulse");
+            require(atReference(initial.position), "Observer must start within 15670 +/- 10 pulse");
             auto csv = createFile(root / L"data/raw" / (id + ".open_loop_observe.csv"));
             csv << "host_begin_us,host_end_us,position_pulse,position_clock,velocity_sdk,axis_status,loop_mode,"
                    "force_command_register_sdk,current_feedback_raw,ai1_voltage_v,adc_clock,switch_enable,switch_mode,"
-                   "position_in_reference_band,position_rc,velocity_rc,status_rc,mode_rc,command_rc,current_rc,adc_rc,switch_rc\n";
+                   "position_in_reference_band,position_rc,velocity_rc,status_rc,mode_rc,command_rc,current_rc,adc_rc,switch_rc,"
+                   "switch_open_loop_dac,ao1_candidate_dac_bit,ao1_candidate_clock,ao1_candidate_rc\n";
             const auto origin = Clock::now();
             const auto deadline = origin + std::chrono::seconds(seconds);
             const auto us = [origin](auto time) {
@@ -122,7 +149,10 @@ int run(int seconds) {
                     << ',' << s.voltage << ',' << s.adcClock << ',' << s.task.enable << ',' << s.task.mode
                     << ',' << inBand;
                 for (const short value : s.rc) csv << ',' << value;
-                csv << '\n';
+                csv << ',' << s.task.openLoopDac << ',';
+                if (s.dacRc == 0) csv << s.dacChannel1 << ',' << s.dacClock;
+                else csv << ',';
+                csv << ',' << s.dacRc << '\n';
                 if (!sampleValid(s)) break;
                 std::this_thread::sleep_until(std::min(deadline, begin + pollWait));
             }
@@ -130,7 +160,8 @@ int run(int seconds) {
             log << "samples=" << rows << "\ninvalid_samples=" << invalid
                 << "\noutside_reference_band=" << outside << '\n';
             if (rows > 0 && !invalid && !cancelled.load())
-                outcome = outside ? "recorded_with_position_drift" : "observed_at_reference";
+                outcome = transfer ? "recorded_open_loop_transfer_trace" :
+                    (outside ? "recorded_with_position_drift" : "observed_at_reference");
         }
     } catch (const std::exception& error) {
         log << "error=" << error.what() << '\n';
@@ -140,14 +171,15 @@ int run(int seconds) {
     if (!card.cleanupOk) outcome = "cleanup_failed";
     log << "outcome=" << outcome << '\n' << std::flush;
     std::cout << id << ' ' << outcome << '\n';
-    return outcome == "state_read_ok" || outcome == "observed_at_reference" ? 0 : 1;
+    return outcome == "state_read_ok" || outcome == "observed_at_reference" ||
+           outcome == "recorded_open_loop_transfer_trace" ? 0 : 1;
 }
 }  // namespace
 
 int main(int argc, char** argv) {
     try {
         if (argc == 2 && std::string(argv[1]) == "--self-test") {
-            require(atReference(15750) && atReference(15770) && !atReference(15771) &&
+            require(atReference(15660) && atReference(15680) && !atReference(15681) &&
                     !atReference(std::numeric_limits<double>::quiet_NaN()), "Reference band test failed");
             Reading sample{};
             require(sampleValid(sample), "Valid mock sample rejected");
@@ -157,14 +189,18 @@ int main(int argc, char** argv) {
             return 0;
         }
         if (argc == 2 && std::string(argv[1]) == "--state") return run(0);
-        if (argc == 3 && std::string(argv[1]) == "--observe") {
+        const std::string option = argc > 1 ? argv[1] : "";
+        if (argc == 3 && (option == "--observe" || option == "--transfer")) {
+            const bool transfer = option == "--transfer";
             const auto seconds = parseNumber(argv[2]);
-            require(seconds == std::trunc(seconds) && seconds >= 1 && seconds <= 20,
-                    "Observation duration must be an integer from 1 to 20 seconds");
+            require(seconds == std::trunc(seconds) && seconds >= 1 && seconds <= (transfer ? 60 : 20),
+                    transfer ? "Transfer duration must be an integer from 1 to 60 seconds" :
+                               "Observation duration must be an integer from 1 to 20 seconds");
             require(SetConsoleCtrlHandler(onCtrl, TRUE), "Cannot install console cancellation handler");
-            return run(static_cast<int>(seconds));
+            return run(static_cast<int>(seconds), transfer);
         }
-        std::cout << "Usage: ZRForceOpenLoopObserver.exe --state | --observe <seconds> | --self-test\n";
+        std::cout << "Usage: ZRForceOpenLoopObserver.exe --state | --observe <seconds> | "
+                     "--transfer <seconds> | --self-test\n";
         return argc == 1 ? 0 : 2;
     } catch (const std::exception& error) {
         std::cerr << error.what() << '\n';
