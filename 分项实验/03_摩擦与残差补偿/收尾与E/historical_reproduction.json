@@ -1,0 +1,16 @@
+{
+  "T0": {
+    "points": 117066,
+    "finite": 74075,
+    "original_valid": 66822,
+    "common_valid": 66822,
+    "max_abs_raw": 0.0
+  },
+  "T1": {
+    "points": 117066,
+    "finite": 116362,
+    "original_valid": 66822,
+    "common_valid": 66821,
+    "max_abs_raw": 0.0
+  }
+}

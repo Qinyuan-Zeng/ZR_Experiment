@@ -1,0 +1,36 @@
+{
+  "supplement": {
+    "slots": 18,
+    "legs": 28,
+    "min_nominal_cruise_mm": 1.75,
+    "min_margin_pulse": 6227.373737373738,
+    "blocked": [
+      "SB-1",
+      "SB-2"
+    ]
+  },
+  "E": {
+    "slots": 24,
+    "legs": 42,
+    "min_nominal_cruise_mm": 2.44,
+    "min_margin_pulse": 4727.373737373738,
+    "blocked": [
+      "E2-S1-R1",
+      "E2-S1-R2",
+      "E2-S1-R3",
+      "E2-S2-R1",
+      "E2-S2-R2",
+      "E2-S2-R3"
+    ]
+  },
+  "checks": [
+    "mirror schedule",
+    "grade boundary",
+    "50 us tick wrap",
+    "drop frame rejected",
+    "T0/T1 numeric scoring",
+    "reversal signed delay",
+    "release fail closed",
+    "engineering selection boundaries"
+  ]
+}

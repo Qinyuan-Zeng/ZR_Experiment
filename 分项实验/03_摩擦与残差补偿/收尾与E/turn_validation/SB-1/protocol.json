@@ -1,0 +1,19 @@
+{
+  "id": "Z-TURN-PROBE-SB-1",
+  "route": "SB-1",
+  "table": 1,
+  "limits": {
+    "lo": 0.0,
+    "hi": 37000.0,
+    "reserve": 4000.0,
+    "follow": 500.0,
+    "stop": 0.99,
+    "response": 50.0
+  },
+  "code": {
+    "ZRFrictionCurrent.exe": "17c9e1de1012f5581b98766d7f85b2e075851e807bf50e303ccc3ba7124d5e92",
+    "gts.dll": "e06871528fbcb9c94495745adce75cc28e1a200cd2c20dee36f38f04ceb144ed",
+    "turn_probe.cpp": "0597eec8a86016e6b6d8b4d944438549ce64ff0010fad3fea74b5256a03b347e",
+    "turn_probe.py": "fd62bbf16e35aca3a37f8081bffe3f131fddb8edd17e770e20628fbdd92941b7"
+  }
+}
